@@ -8,15 +8,15 @@ layout: default
   
   {{ content }}
   <ul>
-    {% for cat in site.pages %}
-      {% if cat.layout == "categories" %}
+    {% assign cats = (site.pages  | where: "layout","categories"| sort: 'title' %}
+    {% for cat in cats %}
+      <!-- {% if cat.layout == "categories" %} -->
         <li>
-          <a href="{{site.baseurl}}/categories/{{cat.category}}"><b>{{ cat.title }}</b>
-          ({{ site.categories[cat.category] | second | size }})
-          </a>: {{ cat.description }}
+          <a href="{{site.baseurl}}/categories/{{cat.category}}"><b>{{ cat.title }}</b></a> 
+          ({{ site.categories[cat.category] | second | size }}): {{ cat.description }}
 
         </li>
-      {% endif %}
+      <!-- {% endif %} -->
     {% endfor %}
   </ul>
 </div>

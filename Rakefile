@@ -42,22 +42,22 @@ end
 #Create new a category
 desc "Creates a new category"
 task "category" do
-  title = ask('Title: ')
-  filename = "index.html"
-  path = File.join(title, filename)
+  title = ask('Category title (i.e. Args): ')
+  category = ask('Category name (i.e. args): ')
+  description = ask('Category description (i.e. Esercizi sugli argomenti da linea di comando.): ')
+  filename = "index.markdown"
+  path = File.join(category, filename)
   path = File.join("categories", path)
   mkdir_p path.pathmap("%d")
   if File.exist? path; raise RuntimeError.new("File exists #{path}"); end
   File.open(path, 'w') do |file|
     file.write <<-EOS
-
 ---
 layout: categories
 title: \"#{title}\"
-category: #{title}
+category: #{category}
+description: #{description}
 ---
-
-
 EOS
 end
 
