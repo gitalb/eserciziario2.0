@@ -21,10 +21,8 @@ layout: default
       {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
 
       {% if page.level %} • <span itemprop="level"><span itemprop="level">Livello: {{ page.level }}</span></span>{% endif %}
+      <a href="{{site.github.repository_url}}/blob/gh-pages/{{page.path}}">Edit this page</a>
     </p>
-    <a href="{{ site.github.repository_url }}/edit/{{ site.branch }}/{{ page.path }}">
-  Edit this page on GitHub
-</a>
   </header>
 
   <div class="post-content" itemprop="articleBody">
