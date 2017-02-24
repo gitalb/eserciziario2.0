@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Esercizi per categoria</h1>
+  
+  {{ content }}
+  <ul>
+    {% for cat in site.pages %}
+      {% if cat.layout == "categories" %}
+        <li>
+          <a href="{{site.baseurl}}/categories/{{cat.category}}"><b>{{ cat.title }}</b>
+          ({{ site.categories[cat.category] | second | size }})
+          </a>: {{ cat.description }}
+
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+</div>
+
+<!-- 
+https://blog.webjeda.com/jekyll-categories/ 
+http://www.layouts-the.me/rake/2011/04/23/rake_tasks_for_jekyll/
+https://www.leveluplunch.com/blog/2014/04/03/sort-pages-by-title-filter-array-by-layout-jekyllrb/
+http://www.virtuouscode.com/2014/04/25/rake-part-5-file-operations/
+-->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-24T14:21:05+01:00</updated><id>http://localhost:4000/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">Prova</title><link href="http://localhost:4000/2017/02/24/prova.html" rel="alternate" type="text/html" title="Prova" /><published>2017-02-24T00:00:00+01:00</published><updated>2017-02-24T00:00:00+01:00</updated><id>http://localhost:4000/2017/02/24/prova</id><content type="html" xml:base="http://localhost:4000/2017/02/24/prova.html">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: “Prova”
+date: 2017-02-24 13:56:31 +0100
+categories: [string,args]
+level: 1
+—&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Prova” date: 2017-02-24 13:56:31 +0100 categories: [string,args] level: 1 —</summary></entry><entry><title type="html">HelloNames</title><link href="http://localhost:4000/args/2017/02/23/hellonames.html" rel="alternate" type="text/html" title="HelloNames" /><published>2017-02-23T23:25:34+01:00</published><updated>2017-02-23T23:25:34+01:00</updated><id>http://localhost:4000/args/2017/02/23/hellonames</id><content type="html" xml:base="http://localhost:4000/args/2017/02/23/hellonames.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloNames&lt;/code&gt; che stampa a terminale &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;!!&quot;&lt;/code&gt;. Il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt; deve essere inserito come &lt;strong&gt;primo argomento da linea di comando&lt;/strong&gt;, il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cognome&amp;gt;&lt;/code&gt;deve essere inserito come &lt;strong&gt;secondo argomento da linea di comando&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloNames Michele Brambilla
+Buongiorno Brambilla Michele!!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloNames che stampa a terminale &quot;Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;!!&quot;. Il &amp;lt;nome&amp;gt; deve essere inserito come primo argomento da linea di comando, il &amp;lt;cognome&amp;gt;deve essere inserito come secondo argomento da linea di comando:</summary></entry><entry><title type="html">HelloName</title><link href="http://localhost:4000/primipassi/args/2017/02/23/helloname.html" rel="alternate" type="text/html" title="HelloName" /><published>2017-02-23T11:14:15+01:00</published><updated>2017-02-23T11:14:15+01:00</updated><id>http://localhost:4000/primipassi/args/2017/02/23/helloname</id><content type="html" xml:base="http://localhost:4000/primipassi/args/2017/02/23/helloname.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloName&lt;/code&gt; che stampa a terminale “Ciao &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt;!!”. Il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt; deve essere inserito come &lt;strong&gt;primo argomento da linea di comando&lt;/strong&gt; :&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloName Michele
+Ciao Michele!!
+
+&amp;gt;java HelloName Pippo
+Ciao pippo!!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloName che stampa a terminale “Ciao &amp;lt;nome&amp;gt;!!”. Il &amp;lt;nome&amp;gt; deve essere inserito come primo argomento da linea di comando :</summary></entry><entry><title type="html">Helloworld</title><link href="http://localhost:4000/primipassi/2017/02/23/test-HelloWorld.html" rel="alternate" type="text/html" title="Helloworld" /><published>2017-02-23T10:47:01+01:00</published><updated>2017-02-23T10:47:01+01:00</updated><id>http://localhost:4000/primipassi/2017/02/23/test-HelloWorld</id><content type="html" xml:base="http://localhost:4000/primipassi/2017/02/23/test-HelloWorld.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloWorld&lt;/code&gt; che stampa a terminale la stringa “Hello World”:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java HelloWorld
+Hello World!!!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloWorld che stampa a terminale la stringa “Hello World”:</summary></entry><entry><title type="html">CiaoATutti</title><link href="http://localhost:4000/primipassi/2017/02/23/test-CiaoATutti.html" rel="alternate" type="text/html" title="CiaoATutti" /><published>2017-02-23T10:47:01+01:00</published><updated>2017-02-23T10:47:01+01:00</updated><id>http://localhost:4000/primipassi/2017/02/23/test-CiaoATutti</id><content type="html" xml:base="http://localhost:4000/primipassi/2017/02/23/test-CiaoATutti.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;CiaoATutti&lt;/code&gt; che stampa a terminale la stringa “Ciao a tutti” suddivisa su tre righe:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java CiaoATutti
+Ciao
+a
+tutti!!!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma CiaoATutti che stampa a terminale la stringa “Ciao a tutti” suddivisa su tre righe:</summary></entry><entry><title type="html">Triangolo</title><link href="http://localhost:4000/primipassi/2017/02/23/Triangolo.html" rel="alternate" type="text/html" title="Triangolo" /><published>2017-02-23T10:47:01+01:00</published><updated>2017-02-23T10:47:01+01:00</updated><id>http://localhost:4000/primipassi/2017/02/23/Triangolo</id><content type="html" xml:base="http://localhost:4000/primipassi/2017/02/23/Triangolo.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Triangolo&lt;/code&gt; che stampa a terminale un quadrato (3x3) composto di &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Triangolo
+  * 
+ * *
+* * * 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Triangolo che stampa a terminale un quadrato (3x3) composto di *:</summary></entry><entry><title type="html">Quadrato</title><link href="http://localhost:4000/primipassi/2017/02/23/Quadrato.html" rel="alternate" type="text/html" title="Quadrato" /><published>2017-02-23T10:47:01+01:00</published><updated>2017-02-23T10:47:01+01:00</updated><id>http://localhost:4000/primipassi/2017/02/23/Quadrato</id><content type="html" xml:base="http://localhost:4000/primipassi/2017/02/23/Quadrato.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Quadrato&lt;/code&gt; che stampa a terminale un quadrato (3x3) composto di &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Quadrato
+* * *
+*   *
+* * * 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Quadrato che stampa a terminale un quadrato (3x3) composto di *:</summary></entry></feed>
