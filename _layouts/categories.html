@@ -12,11 +12,11 @@ layout: default
    {{ post.content }}
 {% endfor %} -->
 {% if site.categories[page.category] %}
-  {% assign tutorials = (site.categories[page.category]  | sort: 'level' %}
-  {% for post in tutorials %}
+  {% assign posts = (site.categories[page.category]  | sort: 'level' %}
+  {% for post in posts %}
     <article itemscope itemtype="http://schema.org/BlogPosting">
 
-        <h2><a href="{{ post.url }}">{{ post.title | escape }}</a></h2>
+        <h2><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title | escape }}</a></h2>
         {{ post.content }}
 
       {% if site.disqus.shortname %}
