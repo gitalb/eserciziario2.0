@@ -1,16 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-02-24T17:44:58+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">Prova</title><link href="http://localhost:4000/eserciziario2.0/2017/02/24/prova.html" rel="alternate" type="text/html" title="Prova" /><published>2017-02-24T00:00:00+01:00</published><updated>2017-02-24T00:00:00+01:00</updated><id>http://localhost:4000/eserciziario2.0/2017/02/24/prova</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/2017/02/24/prova.html">&lt;hr /&gt;
-&lt;p&gt;layout: post
-title: “Prova”
-date: 2017-02-24 13:56:31 +0100
-categories: [string,args]
-level: 1
-—&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Prova” date: 2017-02-24 13:56:31 +0100 categories: [string,args] level: 1 —</summary></entry><entry><title type="html">HelloNames</title><link href="http://localhost:4000/eserciziario2.0/args/test2/2017/02/23/hellonames.html" rel="alternate" type="text/html" title="HelloNames" /><published>2017-02-23T23:25:34+01:00</published><updated>2017-02-23T23:25:34+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/test2/2017/02/23/hellonames</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/test2/2017/02/23/hellonames.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloNames&lt;/code&gt; che stampa a terminale &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;!!&quot;&lt;/code&gt;. Il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt; deve essere inserito come &lt;strong&gt;primo argomento da linea di comando&lt;/strong&gt;, il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cognome&amp;gt;&lt;/code&gt;deve essere inserito come &lt;strong&gt;secondo argomento da linea di comando&lt;/strong&gt;:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-02-24T18:53:47+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">Cornice</title><link href="http://localhost:4000/eserciziario2.0/var/unicode/2017/02/24/cornice.html" rel="alternate" type="text/html" title="Cornice" /><published>2017-02-24T18:41:56+01:00</published><updated>2017-02-24T18:41:56+01:00</updated><id>http://localhost:4000/eserciziario2.0/var/unicode/2017/02/24/cornice</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/var/unicode/2017/02/24/cornice.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Cornice&lt;/code&gt; che scriva a terminale il tuo nome utilizzando i caratteri Unicode della pagina &lt;a href=&quot;http://www.unicode.org/charts/PDF/U2500.pdf&quot;&gt;U2500&lt;/a&gt;. Esempio:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/eserciziario2.0/assets/posts/cornice.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nota: Su alcune shell i caratteri unicode potrebbero essere rappresentati in modo errato.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Cornice che scriva a terminale il tuo nome utilizzando i caratteri Unicode della pagina U2500. Esempio:</summary></entry><entry><title type="html">Multipli5</title><link href="http://localhost:4000/eserciziario2.0/args/switch/operators/var/2017/02/24/multipli5.html" rel="alternate" type="text/html" title="Multipli5" /><published>2017-02-24T18:32:13+01:00</published><updated>2017-02-24T18:32:13+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/switch/operators/var/2017/02/24/multipli5</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/switch/operators/var/2017/02/24/multipli5.html">&lt;p&gt;Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.&lt;/p&gt;
+
+&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Multipli5&lt;/code&gt; che, dato il numero di argomenti da linea di comando (N), stampa a terminale: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&amp;lt;N&amp;gt; è multiplo di 5&quot;&lt;/code&gt; oppure &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&amp;lt;N&amp;gt; non è multiplo di 5&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java Multipli5 a b c
+3 non è multiplo di 5
+
+&amp;gt;java PariDispari a d v e t f s t u t 
+10 è multiplo di 5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.</summary></entry><entry><title type="html">PariDispari</title><link href="http://localhost:4000/eserciziario2.0/var/operators/switch/args/2017/02/24/paridispari.html" rel="alternate" type="text/html" title="PariDispari" /><published>2017-02-24T18:26:32+01:00</published><updated>2017-02-24T18:26:32+01:00</updated><id>http://localhost:4000/eserciziario2.0/var/operators/switch/args/2017/02/24/paridispari</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/var/operators/switch/args/2017/02/24/paridispari.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;PariDispari&lt;/code&gt; che, dato il numero di argomenti da linea di comando (N), stampa a terminale: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&amp;lt;N&amp;gt; è pari&quot;&lt;/code&gt; oppure &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&amp;lt;N&amp;gt; è dispari&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java PariDispari a b c
+3 è dispari
+
+&amp;gt;java PariDispari a d v f
+4 è pari
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma PariDispari che, dato il numero di argomenti da linea di comando (N), stampa a terminale: &quot;&amp;lt;N&amp;gt; è pari&quot; oppure &quot;&amp;lt;N&amp;gt; è dispari&quot;.</summary></entry><entry><title type="html">DichiaraEAssegna</title><link href="http://localhost:4000/eserciziario2.0/var/2017/02/24/dichiaraeassegna.html" rel="alternate" type="text/html" title="DichiaraEAssegna" /><published>2017-02-24T18:18:42+01:00</published><updated>2017-02-24T18:18:42+01:00</updated><id>http://localhost:4000/eserciziario2.0/var/2017/02/24/dichiaraeassegna</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/var/2017/02/24/dichiaraeassegna.html">&lt;p&gt;Scrivi un programma contenente:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;la dichiarazione della variabile intera (32 bit) &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, e assegnategli il valore esadecimale AB&lt;/li&gt;
+  &lt;li&gt;la dichiarazione della variabile intera (16 bit) &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;, e assegnategli il valore ottale 445&lt;/li&gt;
+  &lt;li&gt;la dichiarazione della variabile intera (32 bit) &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt;, e assegnategli il valore decimale 111&lt;/li&gt;
+  &lt;li&gt;la dichiarazione della variabile intera (64 bit) &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;, e assegnategli il valore decimale 222&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Poi stampa a terminale il nome e il valore di ognuna delle variabili dichiarate.&lt;/p&gt;
+
+&lt;p&gt;Considera il codice che hai scritto. Quanta memoria verrà occupata per le variabili che hai dichiarato?&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi un programma contenente: la dichiarazione della variabile intera (32 bit) a, e assegnategli il valore esadecimale AB la dichiarazione della variabile intera (16 bit) b, e assegnategli il valore ottale 445 la dichiarazione della variabile intera (32 bit) c, e assegnategli il valore decimale 111 la dichiarazione della variabile intera (64 bit) d, e assegnategli il valore decimale 222</summary></entry><entry><title type="html">HelloDrawing</title><link href="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/hellodrawing.html" rel="alternate" type="text/html" title="HelloDrawing" /><published>2017-02-24T18:16:03+01:00</published><updated>2017-02-24T18:16:03+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/hellodrawing</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/hellodrawing.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloDrawing&lt;/code&gt; che funziona nel modo seguente:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Se non vengono inseriti argomenti, disegna a terminale un quadrato,&lt;/li&gt;
+  &lt;li&gt;Se viene inserito 1 argomento stampa un triangolo,&lt;/li&gt;
+  &lt;li&gt;Se vengono inseriti 2 (o più) argomenti stampa un omino.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ad esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloDrawing
+* * *
+*   *
+* * * 
+
+
+&amp;gt;java HelloDrawing a
+  *
+ * *
+* * *
+
+&amp;gt;java HelloDrawing a a
+ o
+/|\
+/ \
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloDrawing che funziona nel modo seguente:</summary></entry><entry><title type="html">ContaArgs</title><link href="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/contaargs.html" rel="alternate" type="text/html" title="ContaArgs" /><published>2017-02-24T18:13:32+01:00</published><updated>2017-02-24T18:13:32+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/contaargs</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/contaargs.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;ContaArgs&lt;/code&gt; che stampa a terminale il numero di argomenti inseriti da linea di comando:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java ContaArgs
+Hai inserito 0 argomenti
+
+
+&amp;gt;java ContaArgs a
+Hai inserito 1 argomento
+
+
+&amp;gt;java ContaArgs a b c b f d 
+Hai inserito 6 argomenti
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma ContaArgs che stampa a terminale il numero di argomenti inseriti da linea di comando:</summary></entry><entry><title type="html">HelloAll</title><link href="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/helloall.html" rel="alternate" type="text/html" title="HelloAll" /><published>2017-02-24T18:09:28+01:00</published><updated>2017-02-24T18:09:28+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/helloall</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/helloall.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloAll&lt;/code&gt; che si comporta nel modo seguente:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Se non vengono inseriti argomenti, stampa a terminale “Ciao a tutti!”,&lt;/li&gt;
+  &lt;li&gt;Se viene inserito 1 argomento (&amp;lt;nome&amp;gt;), stampa “Ciao &amp;lt;nome&amp;gt;!!”,&lt;/li&gt;
+  &lt;li&gt;Se vengono inseriti 2 argomenti (&amp;lt;nome&amp;gt; &amp;lt;cognome&amp;gt;), stampa “Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloAll Michele Brambilla
+Buongiorno Brambilla Michele
+
+
+&amp;gt;java HelloAll Michele
+Ciao Michele!!
+
+
+&amp;gt;java HelloAll 
+Ciao a tutti!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloAll che si comporta nel modo seguente:</summary></entry><entry><title type="html">HelloNames</title><link href="http://localhost:4000/eserciziario2.0/args/2017/02/23/hellonames.html" rel="alternate" type="text/html" title="HelloNames" /><published>2017-02-23T23:25:34+01:00</published><updated>2017-02-23T23:25:34+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/2017/02/23/hellonames</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/2017/02/23/hellonames.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloNames&lt;/code&gt; che stampa a terminale &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;!!&quot;&lt;/code&gt;. Il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt; deve essere inserito come &lt;strong&gt;primo argomento da linea di comando&lt;/strong&gt;, il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cognome&amp;gt;&lt;/code&gt;deve essere inserito come &lt;strong&gt;secondo argomento da linea di comando&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloNames Michele Brambilla
 Buongiorno Brambilla Michele!!
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloNames che stampa a terminale &quot;Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;!!&quot;. Il &amp;lt;nome&amp;gt; deve essere inserito come primo argomento da linea di comando, il &amp;lt;cognome&amp;gt;deve essere inserito come secondo argomento da linea di comando:</summary></entry><entry><title type="html">HelloName</title><link href="http://localhost:4000/eserciziario2.0/array/test/cucu/2017/02/23/helloname.html" rel="alternate" type="text/html" title="HelloName" /><published>2017-02-23T11:14:15+01:00</published><updated>2017-02-23T11:14:15+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/test/cucu/2017/02/23/helloname</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/test/cucu/2017/02/23/helloname.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloName&lt;/code&gt; che stampa a terminale “Ciao &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt;!!”. Il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt; deve essere inserito come &lt;strong&gt;primo argomento da linea di comando&lt;/strong&gt; :&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloNames che stampa a terminale &quot;Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;!!&quot;. Il &amp;lt;nome&amp;gt; deve essere inserito come primo argomento da linea di comando, il &amp;lt;cognome&amp;gt;deve essere inserito come secondo argomento da linea di comando:</summary></entry><entry><title type="html">HelloName</title><link href="http://localhost:4000/eserciziario2.0/args/2017/02/23/helloname.html" rel="alternate" type="text/html" title="HelloName" /><published>2017-02-23T11:14:15+01:00</published><updated>2017-02-23T11:14:15+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/2017/02/23/helloname</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/2017/02/23/helloname.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloName&lt;/code&gt; che stampa a terminale “Ciao &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt;!!”. Il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt; deve essere inserito come &lt;strong&gt;primo argomento da linea di comando&lt;/strong&gt; :&lt;/p&gt;
 
 &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloName Michele
 Ciao Michele!!
@@ -23,25 +115,4 @@ Ciao pippo!!
 &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java HelloWorld
 Hello World!!!
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloWorld che stampa a terminale la stringa “Hello World”:</summary></entry><entry><title type="html">CiaoATutti</title><link href="http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/test-CiaoATutti.html" rel="alternate" type="text/html" title="CiaoATutti" /><published>2017-02-23T10:47:01+01:00</published><updated>2017-02-23T10:47:01+01:00</updated><id>http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/test-CiaoATutti</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/test-CiaoATutti.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;CiaoATutti&lt;/code&gt; che stampa a terminale la stringa “Ciao a tutti” suddivisa su tre righe:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java CiaoATutti
-Ciao
-a
-tutti!!!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma CiaoATutti che stampa a terminale la stringa “Ciao a tutti” suddivisa su tre righe:</summary></entry><entry><title type="html">Triangolo</title><link href="http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/Triangolo.html" rel="alternate" type="text/html" title="Triangolo" /><published>2017-02-23T10:47:01+01:00</published><updated>2017-02-23T10:47:01+01:00</updated><id>http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/Triangolo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/Triangolo.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Triangolo&lt;/code&gt; che stampa a terminale un quadrato (3x3) composto di &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Triangolo
-  * 
- * *
-* * * 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Triangolo che stampa a terminale un quadrato (3x3) composto di *:</summary></entry><entry><title type="html">Quadrato</title><link href="http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/Quadrato.html" rel="alternate" type="text/html" title="Quadrato" /><published>2017-02-23T10:47:01+01:00</published><updated>2017-02-23T10:47:01+01:00</updated><id>http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/Quadrato</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/Quadrato.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Quadrato&lt;/code&gt; che stampa a terminale un quadrato (3x3) composto di &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Quadrato
-* * *
-*   *
-* * * 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Quadrato che stampa a terminale un quadrato (3x3) composto di *:</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloWorld che stampa a terminale la stringa “Hello World”:</summary></entry></feed>

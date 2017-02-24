@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Multipli5"
+date: 2017-02-24 18:32:13 +0100
+categories: [args,switch,operators,var]
+level: 4
+---
+
+Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: "N è multiplo di 5" oppure "N non è multiplo di 5".
+
+Scrivi il programma `Multipli5` che, dato il numero di argomenti da linea di comando (N), stampa a terminale: `"<N> è multiplo di 5"` oppure `"<N> non è multiplo di 5"`.
+
+Esempio:
+
+~~~text
+>java Multipli5 a b c
+3 non è multiplo di 5
+
+>java PariDispari a d v e t f s t u t 
+10 è multiplo di 5
+~~~

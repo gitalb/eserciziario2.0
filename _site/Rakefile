@@ -21,7 +21,6 @@ task "post" do
   if File.exist? path; raise RuntimeError.new("File exists #{path}"); end
   File.open(path, 'w') do |file|
     file.write <<-EOS
-
 ---
 layout: post
 title: \"#{title}\"
@@ -29,8 +28,6 @@ date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')} +0100
 categories: [#{categories}]
 level: #{level}
 ---
-
-
 EOS
 end
 

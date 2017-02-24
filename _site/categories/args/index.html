@@ -51,6 +51,10 @@
           
         
           
+        
+          
+        
+          
           <a class="page-link" href="/eserciziario2.0/"></a>
           
         
@@ -77,12 +81,139 @@
 
 <!-- 
   <h2>
-    <a href="/args/test2/2017/02/23/hellonames.html">HelloNames</a>
+    <a href="/args/switch/operators/var/2017/02/24/multipli5.html">Multipli5</a>
+  </h2>
+   <p>Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.</p>
+
+<p>Scrivi il programma <code class="highlighter-rouge">Multipli5</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è multiplo di 5"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; non è multiplo di 5"</code>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Multipli5 a b c
+3 non è multiplo di 5
+
+&gt;java PariDispari a d v e t f s t u t 
+10 è multiplo di 5
+</code></pre>
+</div>
+
+
+  <h2>
+    <a href="/var/operators/switch/args/2017/02/24/paridispari.html">PariDispari</a>
+  </h2>
+   <p>Scrivi il programma <code class="highlighter-rouge">PariDispari</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è pari"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; è dispari"</code>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java PariDispari a b c
+3 è dispari
+
+&gt;java PariDispari a d v f
+4 è pari
+</code></pre>
+</div>
+
+
+  <h2>
+    <a href="/args/switch/2017/02/24/hellodrawing.html">HelloDrawing</a>
+  </h2>
+   <p>Scrivi il programma <code class="highlighter-rouge">HelloDrawing</code> che funziona nel modo seguente:</p>
+
+<ul>
+  <li>Se non vengono inseriti argomenti, disegna a terminale un quadrato,</li>
+  <li>Se viene inserito 1 argomento stampa un triangolo,</li>
+  <li>Se vengono inseriti 2 (o più) argomenti stampa un omino.</li>
+</ul>
+
+<p>Ad esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloDrawing
+* * *
+*   *
+* * * 
+
+
+&gt;java HelloDrawing a
+  *
+ * *
+* * *
+
+&gt;java HelloDrawing a a
+ o
+/|\
+/ \
+
+</code></pre>
+</div>
+
+
+  <h2>
+    <a href="/args/switch/2017/02/24/contaargs.html">ContaArgs</a>
+  </h2>
+   <p>Scrivi il programma <code class="highlighter-rouge">ContaArgs</code> che stampa a terminale il numero di argomenti inseriti da linea di comando:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java ContaArgs
+Hai inserito 0 argomenti
+
+
+&gt;java ContaArgs a
+Hai inserito 1 argomento
+
+
+&gt;java ContaArgs a b c b f d 
+Hai inserito 6 argomenti
+</code></pre>
+</div>
+
+
+  <h2>
+    <a href="/args/switch/2017/02/24/helloall.html">HelloAll</a>
+  </h2>
+   <p>Scrivi il programma <code class="highlighter-rouge">HelloAll</code> che si comporta nel modo seguente:</p>
+
+<ul>
+  <li>Se non vengono inseriti argomenti, stampa a terminale “Ciao a tutti!”,</li>
+  <li>Se viene inserito 1 argomento (&lt;nome&gt;), stampa “Ciao &lt;nome&gt;!!”,</li>
+  <li>Se vengono inseriti 2 argomenti (&lt;nome&gt; &lt;cognome&gt;), stampa “Buongiorno &lt;cognome&gt; &lt;nome&gt;.</li>
+</ul>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloAll Michele Brambilla
+Buongiorno Brambilla Michele
+
+
+&gt;java HelloAll Michele
+Ciao Michele!!
+
+
+&gt;java HelloAll 
+Ciao a tutti!
+</code></pre>
+</div>
+
+
+  <h2>
+    <a href="/args/2017/02/23/hellonames.html">HelloNames</a>
   </h2>
    <p>Scrivi il programma <code class="highlighter-rouge">HelloNames</code> che stampa a terminale <code class="highlighter-rouge">"Buongiorno &lt;cognome&gt; &lt;nome&gt;!!"</code>. Il <code class="highlighter-rouge">&lt;nome&gt;</code> deve essere inserito come <strong>primo argomento da linea di comando</strong>, il <code class="highlighter-rouge">&lt;cognome&gt;</code>deve essere inserito come <strong>secondo argomento da linea di comando</strong>:</p>
 
 <div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloNames Michele Brambilla
 Buongiorno Brambilla Michele!!
+</code></pre>
+</div>
+
+
+  <h2>
+    <a href="/args/2017/02/23/helloname.html">HelloName</a>
+  </h2>
+   <p>Scrivi il programma <code class="highlighter-rouge">HelloName</code> che stampa a terminale “Ciao <code class="highlighter-rouge">&lt;nome&gt;</code>!!”. Il <code class="highlighter-rouge">&lt;nome&gt;</code> deve essere inserito come <strong>primo argomento da linea di comando</strong> :</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloName Michele
+Ciao Michele!!
+
+&gt;java HelloName Pippo
+Ciao pippo!!
 </code></pre>
 </div>
 
@@ -93,11 +224,156 @@ Buongiorno Brambilla Michele!!
   
     <li>
 
-        <h2><a href="/eserciziario2.0/args/test2/2017/02/23/hellonames.html">HelloNames</a></h2>
+        <h2><a href="/eserciziario2.0/args/2017/02/23/helloname.html">HelloName</a></h2>
+        <p>Scrivi il programma <code class="highlighter-rouge">HelloName</code> che stampa a terminale “Ciao <code class="highlighter-rouge">&lt;nome&gt;</code>!!”. Il <code class="highlighter-rouge">&lt;nome&gt;</code> deve essere inserito come <strong>primo argomento da linea di comando</strong> :</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloName Michele
+Ciao Michele!!
+
+&gt;java HelloName Pippo
+Ciao pippo!!
+</code></pre>
+</div>
+
+
+      
+    </li>
+  
+    <li>
+
+        <h2><a href="/eserciziario2.0/args/2017/02/23/hellonames.html">HelloNames</a></h2>
         <p>Scrivi il programma <code class="highlighter-rouge">HelloNames</code> che stampa a terminale <code class="highlighter-rouge">"Buongiorno &lt;cognome&gt; &lt;nome&gt;!!"</code>. Il <code class="highlighter-rouge">&lt;nome&gt;</code> deve essere inserito come <strong>primo argomento da linea di comando</strong>, il <code class="highlighter-rouge">&lt;cognome&gt;</code>deve essere inserito come <strong>secondo argomento da linea di comando</strong>:</p>
 
 <div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloNames Michele Brambilla
 Buongiorno Brambilla Michele!!
+</code></pre>
+</div>
+
+
+      
+    </li>
+  
+    <li>
+
+        <h2><a href="/eserciziario2.0/args/switch/2017/02/24/contaargs.html">ContaArgs</a></h2>
+        <p>Scrivi il programma <code class="highlighter-rouge">ContaArgs</code> che stampa a terminale il numero di argomenti inseriti da linea di comando:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java ContaArgs
+Hai inserito 0 argomenti
+
+
+&gt;java ContaArgs a
+Hai inserito 1 argomento
+
+
+&gt;java ContaArgs a b c b f d 
+Hai inserito 6 argomenti
+</code></pre>
+</div>
+
+
+      
+    </li>
+  
+    <li>
+
+        <h2><a href="/eserciziario2.0/args/switch/2017/02/24/helloall.html">HelloAll</a></h2>
+        <p>Scrivi il programma <code class="highlighter-rouge">HelloAll</code> che si comporta nel modo seguente:</p>
+
+<ul>
+  <li>Se non vengono inseriti argomenti, stampa a terminale “Ciao a tutti!”,</li>
+  <li>Se viene inserito 1 argomento (&lt;nome&gt;), stampa “Ciao &lt;nome&gt;!!”,</li>
+  <li>Se vengono inseriti 2 argomenti (&lt;nome&gt; &lt;cognome&gt;), stampa “Buongiorno &lt;cognome&gt; &lt;nome&gt;.</li>
+</ul>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloAll Michele Brambilla
+Buongiorno Brambilla Michele
+
+
+&gt;java HelloAll Michele
+Ciao Michele!!
+
+
+&gt;java HelloAll 
+Ciao a tutti!
+</code></pre>
+</div>
+
+
+      
+    </li>
+  
+    <li>
+
+        <h2><a href="/eserciziario2.0/var/operators/switch/args/2017/02/24/paridispari.html">PariDispari</a></h2>
+        <p>Scrivi il programma <code class="highlighter-rouge">PariDispari</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è pari"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; è dispari"</code>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java PariDispari a b c
+3 è dispari
+
+&gt;java PariDispari a d v f
+4 è pari
+</code></pre>
+</div>
+
+
+      
+    </li>
+  
+    <li>
+
+        <h2><a href="/eserciziario2.0/args/switch/2017/02/24/hellodrawing.html">HelloDrawing</a></h2>
+        <p>Scrivi il programma <code class="highlighter-rouge">HelloDrawing</code> che funziona nel modo seguente:</p>
+
+<ul>
+  <li>Se non vengono inseriti argomenti, disegna a terminale un quadrato,</li>
+  <li>Se viene inserito 1 argomento stampa un triangolo,</li>
+  <li>Se vengono inseriti 2 (o più) argomenti stampa un omino.</li>
+</ul>
+
+<p>Ad esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloDrawing
+* * *
+*   *
+* * * 
+
+
+&gt;java HelloDrawing a
+  *
+ * *
+* * *
+
+&gt;java HelloDrawing a a
+ o
+/|\
+/ \
+
+</code></pre>
+</div>
+
+
+      
+    </li>
+  
+    <li>
+
+        <h2><a href="/eserciziario2.0/args/switch/operators/var/2017/02/24/multipli5.html">Multipli5</a></h2>
+        <p>Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.</p>
+
+<p>Scrivi il programma <code class="highlighter-rouge">Multipli5</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è multiplo di 5"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; non è multiplo di 5"</code>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Multipli5 a b c
+3 non è multiplo di 5
+
+&gt;java PariDispari a d v e t f s t u t 
+10 è multiplo di 5
 </code></pre>
 </div>
 
@@ -111,11 +387,162 @@ Buongiorno Brambilla Michele!!
 <!-- 
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
-    <h2><a href="/args/test2/2017/02/23/hellonames.html">HelloNames</a></h2>
+    <h2><a href="/args/switch/operators/var/2017/02/24/multipli5.html">Multipli5</a></h2>
+    <p>Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.</p>
+
+<p>Scrivi il programma <code class="highlighter-rouge">Multipli5</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è multiplo di 5"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; non è multiplo di 5"</code>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Multipli5 a b c
+3 non è multiplo di 5
+
+&gt;java PariDispari a d v e t f s t u t 
+10 è multiplo di 5
+</code></pre>
+</div>
+
+
+  
+</article>
+<hr>
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+    <h2><a href="/var/operators/switch/args/2017/02/24/paridispari.html">PariDispari</a></h2>
+    <p>Scrivi il programma <code class="highlighter-rouge">PariDispari</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è pari"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; è dispari"</code>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java PariDispari a b c
+3 è dispari
+
+&gt;java PariDispari a d v f
+4 è pari
+</code></pre>
+</div>
+
+
+  
+</article>
+<hr>
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+    <h2><a href="/args/switch/2017/02/24/hellodrawing.html">HelloDrawing</a></h2>
+    <p>Scrivi il programma <code class="highlighter-rouge">HelloDrawing</code> che funziona nel modo seguente:</p>
+
+<ul>
+  <li>Se non vengono inseriti argomenti, disegna a terminale un quadrato,</li>
+  <li>Se viene inserito 1 argomento stampa un triangolo,</li>
+  <li>Se vengono inseriti 2 (o più) argomenti stampa un omino.</li>
+</ul>
+
+<p>Ad esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloDrawing
+* * *
+*   *
+* * * 
+
+
+&gt;java HelloDrawing a
+  *
+ * *
+* * *
+
+&gt;java HelloDrawing a a
+ o
+/|\
+/ \
+
+</code></pre>
+</div>
+
+
+  
+</article>
+<hr>
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+    <h2><a href="/args/switch/2017/02/24/contaargs.html">ContaArgs</a></h2>
+    <p>Scrivi il programma <code class="highlighter-rouge">ContaArgs</code> che stampa a terminale il numero di argomenti inseriti da linea di comando:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java ContaArgs
+Hai inserito 0 argomenti
+
+
+&gt;java ContaArgs a
+Hai inserito 1 argomento
+
+
+&gt;java ContaArgs a b c b f d 
+Hai inserito 6 argomenti
+</code></pre>
+</div>
+
+
+  
+</article>
+<hr>
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+    <h2><a href="/args/switch/2017/02/24/helloall.html">HelloAll</a></h2>
+    <p>Scrivi il programma <code class="highlighter-rouge">HelloAll</code> che si comporta nel modo seguente:</p>
+
+<ul>
+  <li>Se non vengono inseriti argomenti, stampa a terminale “Ciao a tutti!”,</li>
+  <li>Se viene inserito 1 argomento (&lt;nome&gt;), stampa “Ciao &lt;nome&gt;!!”,</li>
+  <li>Se vengono inseriti 2 argomenti (&lt;nome&gt; &lt;cognome&gt;), stampa “Buongiorno &lt;cognome&gt; &lt;nome&gt;.</li>
+</ul>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloAll Michele Brambilla
+Buongiorno Brambilla Michele
+
+
+&gt;java HelloAll Michele
+Ciao Michele!!
+
+
+&gt;java HelloAll 
+Ciao a tutti!
+</code></pre>
+</div>
+
+
+  
+</article>
+<hr>
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+    <h2><a href="/args/2017/02/23/hellonames.html">HelloNames</a></h2>
     <p>Scrivi il programma <code class="highlighter-rouge">HelloNames</code> che stampa a terminale <code class="highlighter-rouge">"Buongiorno &lt;cognome&gt; &lt;nome&gt;!!"</code>. Il <code class="highlighter-rouge">&lt;nome&gt;</code> deve essere inserito come <strong>primo argomento da linea di comando</strong>, il <code class="highlighter-rouge">&lt;cognome&gt;</code>deve essere inserito come <strong>secondo argomento da linea di comando</strong>:</p>
 
 <div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloNames Michele Brambilla
 Buongiorno Brambilla Michele!!
+</code></pre>
+</div>
+
+
+  
+</article>
+<hr>
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+    <h2><a href="/args/2017/02/23/helloname.html">HelloName</a></h2>
+    <p>Scrivi il programma <code class="highlighter-rouge">HelloName</code> che stampa a terminale “Ciao <code class="highlighter-rouge">&lt;nome&gt;</code>!!”. Il <code class="highlighter-rouge">&lt;nome&gt;</code> deve essere inserito come <strong>primo argomento da linea di comando</strong> :</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloName Michele
+Ciao Michele!!
+
+&gt;java HelloName Pippo
+Ciao pippo!!
 </code></pre>
 </div>
 

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Cornice"
+date: 2017-02-24 18:41:56 +0100
+categories: [var,unicode]
+level: 3
+---
+
+
+Scrivi il programma `Cornice` che scriva a terminale il tuo nome utilizzando i caratteri Unicode della pagina [U2500](http://www.unicode.org/charts/PDF/U2500.pdf). Esempio:
+
+![]({{ site.baseurl }}/assets/posts/cornice.png){:class="img-responsive"}
+
+Nota: Su alcune shell i caratteri unicode potrebbero essere rappresentati in modo errato.
