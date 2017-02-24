@@ -8,7 +8,7 @@ level: 0
 
 Scrivi il programma `HelloWorld` che stampa a terminale la stringa "Hello World":
 
-~~~text
+```text
 java HelloWorld
 Hello World!!!
-~~~
+```
