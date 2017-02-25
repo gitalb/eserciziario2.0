@@ -27,7 +27,7 @@ layout: default
   {% for post in posts %}
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h4><a href="{{ post.url | prepend:site.baseurl }}">
+          <h2><a href="{{ post.url | prepend:site.baseurl }}">
             {{ post.title | escape }}
           </a>
           <small class="pull-right">
@@ -41,10 +41,10 @@ layout: default
           {% endfor %}
            <span class="label label-success">Livello {{post.level}}</span>
           </small>
-          </h4>
+          </h2>
         </div>
       <div class="panel-body">
-        {{ post.content }}
+          {{ post.content }}
       </div>
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}

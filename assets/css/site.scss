@@ -1,15 +1,13 @@
 ---
 ---
+$code-color: #000000;
+$code-bg: #eeeeee;
+$pre-color: #000000;
+$pre-bg: #eeeeee;
 
-// sample style.scss
-// btw how good is using // to comment stuff out, SASS is worth it for this alone
-
-
-// import bootstrap
 @import "bootstrap";
+
 
 .page-template {
     padding: 40px 15px;
 }
-
-

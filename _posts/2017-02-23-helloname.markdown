@@ -6,12 +6,14 @@ categories: [args]
 level: 1
 ---
 
-Scrivi il programma `HelloName` che stampa a terminale "Ciao `<nome>`!!". Il `<nome>` deve essere inserito come **primo argomento da linea di comando**:
+Scrivi il programma `HelloName` che stampa a terminale "Ciao `nome`!!". Il `nome` deve essere inserito come **primo argomento da linea di comando**:
+
+Prova:
 
 ```text
->java HelloName Michele
+java HelloName Michele
 Ciao Michele!!
 
->java HelloName Pippo
+java HelloName Pippo
 Ciao Pippo!!
 ```

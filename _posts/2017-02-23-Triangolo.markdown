@@ -9,6 +9,7 @@ level: 1
 
 Scrivi il programma `Triangolo` che stampa a terminale un quadrato (3x3) composto di `*`:
 
+
 ~~~text
 java Triangolo
   * 

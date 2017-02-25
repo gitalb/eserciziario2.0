@@ -8,6 +8,8 @@ level: 9
 
 Scrivi la classe `Triangolo` contenente il metodo:
 
-`public static double calcolaAreaTriangolo(double base, double altezza)`
+```java
+public static double calcolaAreaTriangolo(double base, double altezza)
+```
 
 Tale metodo ritorna un numero che rappresenta l' area di un triangolo di base `base` e di altezza `altezza`.
