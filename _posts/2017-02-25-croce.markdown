@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Croce"
+date: 2017-02-25 14:22:07 +0100
+categories: [draw,loop]
+level: 12
+---
+
+Scrivi il programma Java `Croce`. Il programma chiede all'utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (*N*) e poi disegna a terminale una croce composta di asterischi ('\*'). La dimensione della croce è definita dal valore immesso.
+
+
+Il programma accetta esclusivamente valori **numerici interi positivi pari**.
+
+Se l’utente fornisce un dato non accettabile (non numerico, dispari o negativo) il programma produce il messaggio “inserire solo numeri positivi pari”.
+
+Per *N* pari a 4 il programma stampa:
+
+~~~text
+ **
+****
+****
+ **
+~~~
+
+Per *N* pari a 10 il programma stampa:
+
+~~~text
+     **
+     **
+     **
+     **
+ **********
+ **********
+     **
+     **
+     **
+     **
+~~~
+E via dicendo...

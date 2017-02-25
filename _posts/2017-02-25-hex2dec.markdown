@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Hex2Dec"
+date: 2017-02-25 11:39:25 +0100
+categories: [wrapper]
+level: 6
+---
+
+Scrivi la classe `Hex2Dec` che converte in decimale il valore passato come argomento da linea di comando in formato esadecimale. Nel caso che il valore passato non sia adeguato **è necessario** gestire l'eventuale errore in maniera appropriata. Esempio:
+
+~~~text
+$ java Hex2Dec A
+10
+~~~
+
+~~~text
+$ java Hex2Dec FF
+255
+~~~
+
+~~~text
+$ java Hex2Dec 10
+16
+~~~
+
+Se non vengono passati argomenti il programma termina:
+
+~~~text
+$ java Hex2Dec
+$
+~~~
+
+Se vengono passati argomenti non appropriati:
+
+~~~text
+$ java Hex2Dec "EffeEffe"
+ERRORE: il valore EffeEffe non è accettabile
+~~~
+
+~~~text
+$ java Hex2Dec 5.3
+ERRORE: il valore 5.3 non è accettabile
+~~~

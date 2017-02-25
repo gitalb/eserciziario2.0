@@ -1,0 +1,17 @@
+---
+layout: post
+title: "PoTre"
+date: 2017-02-25 12:20:30 +0100
+categories: [math,methods]
+level: 11
+---
+
+Scrivi la classe `PoTre` contenente il metodo:
+
+~~~java 
+public static int pow3(int n)
+~~~ 
+
+Il metodo riceve un valore intero `n` e ritorna il valore di 3 elevato `n`. Ad esempio `pow3(2)` ritorna `8`.
+
+La classe dovrà anche contenere un metodo `main` in cui verificare se il metodo `pow3` funziona correttamente.

@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Hex2Float"
+date: 2017-02-25 11:53:10 +0100
+categories: [interactive,wrapper]
+level: 9
+---
+
+Scrivi il programma `Hex2Float` che chiede all'utente di introdurre un valore esadecimale e lo converte in un numero a virgola mobile a precisione singola (`float`). 
+
+Il programma stampa i 32 bit del valore inserito e il corrispondente valore secondo il formato IEEE754. Qualche esempio:
+
+~~~text
+>java Hex2Float
+Introdurre un valore esadecimale (32bit): 3fc00000
+00111111110000000000000000000000 -> 1,50000
+~~~
+
+~~~text
+>java Hex2Float
+Introdurre un valore esadecimale (32bit): -7F000001
+10000000111111111111111111111111 -> -2,35099e-38
+~~~
+
+~~~text
+>java Hex2Float
+Introdurre un valore esadecimale (32bit): bf800000
+10111111100000000000000000000000 -> -1,00000
+~~~
+
+~~~text
+>java Hex2Float
+Introdurre un valore esadecimale (32bit): FFFFFFFF
+11111111111111111111111111111111 -> NaN
+~~~
+
+Puoi verificare la bontà dei risultati ottenuti confrontandoli con quelli prodotti da [un convertitore IEEE754](http://www.h-schmidt.net/FloatConverter/IEEE754.html).

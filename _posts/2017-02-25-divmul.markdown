@@ -1,0 +1,13 @@
+---
+layout: post
+title: "DivMul"
+date: 2017-02-25 12:24:54 +0100
+categories: [methods,math]
+level: 10
+---
+
+
+Scrivi la classe `DivMul` contenente i metodo:
+
+- `public static int calcolaMCD(int a, int b)`: calcola il massimo comun divisore di 2 numeri ([Wiki: MCD](https://it.wikipedia.org/wiki/Massimo_comun_divisore)).
+- `public static int calcolaMcm(int a, int b)`: calcola il minimo comune multiplo di 2 numeri ([Wiki: mcm](https://it.wikipedia.org/wiki/Minimo_comune_multiplo)).

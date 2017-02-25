@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Dec2Hex"
+date: 2017-02-25 11:41:22 +0100
+categories: [wrapper]
+level: 6
+---
+
+Scrivi la classe `Dec2Hex` che converte in esadecimale il valore passato come argomento da linea di comando. Nel caso che il valore passato non sia un valore decimale **è necessario** gestire l'eventuale errore in maniera appropriata. Esempio:
+
+~~~text
+$ java Dec2Hex 10
+a
+~~~
+
+~~~text                                                                                                               
+$ java Dec2Hex 255
+ff
+~~~
+
+Se non vengono passati argomenti il programma termina:
+
+~~~text
+$ java Dec2Hex
+$
+~~~
+
+Se vengono passati argomenti non appropriati:
+
+~~~text
+$ java Dec2Hex "Cento"
+ERRORE: il valore Cento non è un valore decimale
+~~~
+
+~~~text
+$ java Dec2Hex 5.3
+ERRORE: il valore 5.3 non è un valore decimale
+~~~

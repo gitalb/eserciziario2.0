@@ -1,118 +1,238 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-02-24T21:45:14+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">Cornice</title><link href="http://localhost:4000/eserciziario2.0/var/unicode/2017/02/24/cornice.html" rel="alternate" type="text/html" title="Cornice" /><published>2017-02-24T18:41:56+01:00</published><updated>2017-02-24T18:41:56+01:00</updated><id>http://localhost:4000/eserciziario2.0/var/unicode/2017/02/24/cornice</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/var/unicode/2017/02/24/cornice.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Cornice&lt;/code&gt; che scriva a terminale il tuo nome utilizzando i caratteri Unicode della pagina &lt;a href=&quot;http://www.unicode.org/charts/PDF/U2500.pdf&quot;&gt;U2500&lt;/a&gt;. Esempio:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-02-25T14:40:41+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">Merlo</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo.html" rel="alternate" type="text/html" title="Merlo" /><published>2017-02-25T14:31:53+01:00</published><updated>2017-02-25T14:31:53+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Merlo&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un &lt;em&gt;merlo&lt;/em&gt; (elemento tipico dell’architettura militare medievale) composto di asterischi (‘*’) con l’altezza pari ad &lt;em&gt;N&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/eserciziario2.0/assets/posts/cornice.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Nota: Su alcune shell i caratteri unicode potrebbero essere rappresentati in modo errato.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Cornice che scriva a terminale il tuo nome utilizzando i caratteri Unicode della pagina U2500. Esempio:</summary></entry><entry><title type="html">Multipli5</title><link href="http://localhost:4000/eserciziario2.0/args/switch/operators/var/2017/02/24/multipli5.html" rel="alternate" type="text/html" title="Multipli5" /><published>2017-02-24T18:32:13+01:00</published><updated>2017-02-24T18:32:13+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/switch/operators/var/2017/02/24/multipli5</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/switch/operators/var/2017/02/24/multipli5.html">&lt;p&gt;Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.&lt;/p&gt;
+&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico o negativo) il programma produce il messaggio “inserire solo numeri positivi”.&lt;/p&gt;
 
-&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Multipli5&lt;/code&gt; che, dato il numero di argomenti da linea di comando (N), stampa a terminale: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&amp;lt;N&amp;gt; è multiplo di 5&quot;&lt;/code&gt; oppure &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&amp;lt;N&amp;gt; non è multiplo di 5&quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
 
-&lt;p&gt;Esempio:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java Multipli5 a b c
-3 non è multiplo di 5
-
-&amp;gt;java PariDispari a d v e t f s t u t 
-10 è multiplo di 5
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*   *
+** **
+*****
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.</summary></entry><entry><title type="html">PariDispari</title><link href="http://localhost:4000/eserciziario2.0/var/operators/switch/args/2017/02/24/paridispari.html" rel="alternate" type="text/html" title="PariDispari" /><published>2017-02-24T18:26:32+01:00</published><updated>2017-02-24T18:26:32+01:00</updated><id>http://localhost:4000/eserciziario2.0/var/operators/switch/args/2017/02/24/paridispari</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/var/operators/switch/args/2017/02/24/paridispari.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;PariDispari&lt;/code&gt; che, dato il numero di argomenti da linea di comando (N), stampa a terminale: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&amp;lt;N&amp;gt; è pari&quot;&lt;/code&gt; oppure &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&amp;lt;N&amp;gt; è dispari&quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Esempio:&lt;/p&gt;
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 4 il programma stampa:&lt;/p&gt;
 
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java PariDispari a b c
-3 è dispari
-
-&amp;gt;java PariDispari a d v f
-4 è pari
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*     *
+**   **
+*** ***
+*******
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma PariDispari che, dato il numero di argomenti da linea di comando (N), stampa a terminale: &quot;&amp;lt;N&amp;gt; è pari&quot; oppure &quot;&amp;lt;N&amp;gt; è dispari&quot;.</summary></entry><entry><title type="html">DichiaraEAssegna</title><link href="http://localhost:4000/eserciziario2.0/var/2017/02/24/dichiaraeassegna.html" rel="alternate" type="text/html" title="DichiaraEAssegna" /><published>2017-02-24T18:18:42+01:00</published><updated>2017-02-24T18:18:42+01:00</updated><id>http://localhost:4000/eserciziario2.0/var/2017/02/24/dichiaraeassegna</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/var/2017/02/24/dichiaraeassegna.html">&lt;p&gt;Scrivi un programma contenente:&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;la dichiarazione della variabile intera (32 bit) &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, e assegnategli il valore esadecimale AB&lt;/li&gt;
-  &lt;li&gt;la dichiarazione della variabile intera (16 bit) &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;, e assegnategli il valore ottale 445&lt;/li&gt;
-  &lt;li&gt;la dichiarazione della variabile intera (32 bit) &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt;, e assegnategli il valore decimale 111&lt;/li&gt;
-  &lt;li&gt;la dichiarazione della variabile intera (64 bit) &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;, e assegnategli il valore decimale 222&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Merlo. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un merlo (elemento tipico dell’architettura militare medievale) composto di asterischi (‘*’) con l’altezza pari ad N.</summary></entry><entry><title type="html">Ics</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ics.html" rel="alternate" type="text/html" title="Ics" /><published>2017-02-25T14:29:18+01:00</published><updated>2017-02-25T14:29:18+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ics</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ics.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Ics&lt;/code&gt; che disegna a terminale una X composta di asterischi. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (&lt;em&gt;N&lt;/em&gt;).&lt;/p&gt;
 
-&lt;p&gt;Poi stampa a terminale il nome e il valore di ognuna delle variabili dichiarate.&lt;/p&gt;
+&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi dispari&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Considera il codice che hai scritto. Quanta memoria verrà occupata per le variabili che hai dichiarato?&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi un programma contenente: la dichiarazione della variabile intera (32 bit) a, e assegnategli il valore esadecimale AB la dichiarazione della variabile intera (16 bit) b, e assegnategli il valore ottale 445 la dichiarazione della variabile intera (32 bit) c, e assegnategli il valore decimale 111 la dichiarazione della variabile intera (64 bit) d, e assegnategli il valore decimale 222</summary></entry><entry><title type="html">HelloDrawing</title><link href="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/hellodrawing.html" rel="alternate" type="text/html" title="HelloDrawing" /><published>2017-02-24T18:16:03+01:00</published><updated>2017-02-24T18:16:03+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/hellodrawing</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/hellodrawing.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloDrawing&lt;/code&gt; che funziona nel modo seguente:&lt;/p&gt;
+&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico, pari o negativo) il programma produce il messaggio “inserire solo numeri positivi dispari”.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Se non vengono inseriti argomenti, disegna a terminale un quadrato,&lt;/li&gt;
-  &lt;li&gt;Se viene inserito 1 argomento stampa un triangolo,&lt;/li&gt;
-  &lt;li&gt;Se vengono inseriti 2 (o più) argomenti stampa un omino.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
 
-&lt;p&gt;Ad esempio:&lt;/p&gt;
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* *
+ *
+* * 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloDrawing
-* * *
-*   *
-* * * 
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
 
-
-&amp;gt;java HelloDrawing a
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*   *
+ * *
   *
  * *
-* * *
-
-&amp;gt;java HelloDrawing a a
- o
-/|\
-/ \
-
+*   *
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloDrawing che funziona nel modo seguente:</summary></entry><entry><title type="html">ContaArgs</title><link href="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/contaargs.html" rel="alternate" type="text/html" title="ContaArgs" /><published>2017-02-24T18:13:32+01:00</published><updated>2017-02-24T18:13:32+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/contaargs</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/contaargs.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;ContaArgs&lt;/code&gt; che stampa a terminale il numero di argomenti inseriti da linea di comando:&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java ContaArgs
-Hai inserito 0 argomenti
+&lt;p&gt;E via dicendo..&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Ics che disegna a terminale una X composta di asterischi. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (N).</summary></entry><entry><title type="html">Ecorc</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ecorc.html" rel="alternate" type="text/html" title="Ecorc" /><published>2017-02-25T14:25:03+01:00</published><updated>2017-02-25T14:25:03+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ecorc</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ecorc.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Ecorc&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale una croce &lt;em&gt;in negativo&lt;/em&gt;.&lt;/p&gt;
 
+&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi dispari&lt;/strong&gt;.&lt;/p&gt;
 
-&amp;gt;java ContaArgs a
-Hai inserito 1 argomento
+&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico, pari o negativo) il programma produce il messaggio “inserire solo numeri positivi dispari”.&lt;/p&gt;
 
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
 
-&amp;gt;java ContaArgs a b c b f d 
-Hai inserito 6 argomenti
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* *
+
+* * 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma ContaArgs che stampa a terminale il numero di argomenti inseriti da linea di comando:</summary></entry><entry><title type="html">HelloAll</title><link href="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/helloall.html" rel="alternate" type="text/html" title="HelloAll" /><published>2017-02-24T18:09:28+01:00</published><updated>2017-02-24T18:09:28+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/helloall</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/switch/2017/02/24/helloall.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloAll&lt;/code&gt; che si comporta nel modo seguente:&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Se non vengono inseriti argomenti, stampa a terminale “Ciao a tutti!”,&lt;/li&gt;
-  &lt;li&gt;Se viene inserito 1 argomento (&amp;lt;nome&amp;gt;), stampa “Ciao &amp;lt;nome&amp;gt;!!”,&lt;/li&gt;
-  &lt;li&gt;Se vengono inseriti 2 argomenti (&amp;lt;nome&amp;gt; &amp;lt;cognome&amp;gt;), stampa “Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
 
-&lt;p&gt;Esempio:&lt;/p&gt;
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;** **
+** **
 
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloAll Michele Brambilla
-Buongiorno Brambilla Michele
-
-
-&amp;gt;java HelloAll Michele
-Ciao Michele!!
-
-
-&amp;gt;java HelloAll 
-Ciao a tutti!
+** **
+** **
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloAll che si comporta nel modo seguente:</summary></entry><entry><title type="html">HelloNames</title><link href="http://localhost:4000/eserciziario2.0/args/2017/02/23/hellonames.html" rel="alternate" type="text/html" title="HelloNames" /><published>2017-02-23T23:25:34+01:00</published><updated>2017-02-23T23:25:34+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/2017/02/23/hellonames</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/2017/02/23/hellonames.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloNames&lt;/code&gt; che stampa a terminale &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;!!&quot;&lt;/code&gt;. Il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt; deve essere inserito come &lt;strong&gt;primo argomento da linea di comando&lt;/strong&gt;, il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cognome&amp;gt;&lt;/code&gt;deve essere inserito come &lt;strong&gt;secondo argomento da linea di comando&lt;/strong&gt;:&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloNames Michele Brambilla
-Buongiorno Brambilla Michele!!
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 7 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*** ***
+*** ***
+*** ***
+
+*** ***
+*** ***
+*** ***
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloNames che stampa a terminale &quot;Buongiorno &amp;lt;cognome&amp;gt; &amp;lt;nome&amp;gt;!!&quot;. Il &amp;lt;nome&amp;gt; deve essere inserito come primo argomento da linea di comando, il &amp;lt;cognome&amp;gt;deve essere inserito come secondo argomento da linea di comando:</summary></entry><entry><title type="html">HelloName</title><link href="http://localhost:4000/eserciziario2.0/args/2017/02/23/helloname.html" rel="alternate" type="text/html" title="HelloName" /><published>2017-02-23T11:14:15+01:00</published><updated>2017-02-23T11:14:15+01:00</updated><id>http://localhost:4000/eserciziario2.0/args/2017/02/23/helloname</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/args/2017/02/23/helloname.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloName&lt;/code&gt; che stampa a terminale “Ciao &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt;!!”. Il &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nome&amp;gt;&lt;/code&gt; deve essere inserito come &lt;strong&gt;primo argomento da linea di comando&lt;/strong&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;E via dicendo..&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Ecorc. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (N) e poi disegna a terminale una croce in negativo.</summary></entry><entry><title type="html">Croce</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/croce.html" rel="alternate" type="text/html" title="Croce" /><published>2017-02-25T14:22:07+01:00</published><updated>2017-02-25T14:22:07+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/croce</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/croce.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Croce&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale una croce composta di asterischi (‘*’). La dimensione della croce è definita dal valore immesso.&lt;/p&gt;
 
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java HelloName Michele
-Ciao Michele!!
+&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi pari&lt;/strong&gt;.&lt;/p&gt;
 
-&amp;gt;java HelloName Pippo
-Ciao Pippo!!
+&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico, dispari o negativo) il programma produce il messaggio “inserire solo numeri positivi pari”.&lt;/p&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 4 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; **
+****
+****
+ **
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloName che stampa a terminale “Ciao &amp;lt;nome&amp;gt;!!”. Il &amp;lt;nome&amp;gt; deve essere inserito come primo argomento da linea di comando:</summary></entry><entry><title type="html">Helloworld</title><link href="http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/test-HelloWorld.html" rel="alternate" type="text/html" title="Helloworld" /><published>2017-02-23T10:47:01+01:00</published><updated>2017-02-23T10:47:01+01:00</updated><id>http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/test-HelloWorld</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/primipassi/2017/02/23/test-HelloWorld.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloWorld&lt;/code&gt; che stampa a terminale la stringa “Hello World”:&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java HelloWorld
-Hello World!!!
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 10 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     **
+     **
+     **
+     **
+ **********
+ **********
+     **
+     **
+     **
+     **
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HelloWorld che stampa a terminale la stringa “Hello World”:</summary></entry></feed>
+&lt;/div&gt;
+&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Croce. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale una croce composta di asterischi (‘*’). La dimensione della croce è definita dal valore immesso.</summary></entry><entry><title type="html">TriangoloIsoscele</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangoloisoscele.html" rel="alternate" type="text/html" title="TriangoloIsoscele" /><published>2017-02-25T13:03:02+01:00</published><updated>2017-02-25T13:03:02+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangoloisoscele</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangoloisoscele.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;TriangoloIsoscele &lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo dispari (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un triangolo &lt;em&gt;vuoto&lt;/em&gt; composto di asterischi (‘*’) avente la base di lunghezza pari ad &lt;em&gt;N&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi dispari&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico, pari o negativo) il programma produce il messaggio “inserire solo numeri positivi dispari”.&lt;/p&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; *
+***
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  *
+ * * 
+*****
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java TriangoloIsoscele . Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo dispari (N) e poi disegna a terminale un triangolo vuoto composto di asterischi (‘*’) avente la base di lunghezza pari ad N.</summary></entry><entry><title type="html">TriangoloRettangoloVuoto</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolovuoto.html" rel="alternate" type="text/html" title="TriangoloRettangoloVuoto" /><published>2017-02-25T12:59:35+01:00</published><updated>2017-02-25T12:59:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolovuoto</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolovuoto.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;TriangoloRettangoloVuoto&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un triangolo rettangolo &lt;em&gt;vuoto&lt;/em&gt; composto di asterischi (‘*’) con il lato lungo &lt;em&gt;N&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*
+** 
+***
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*
+**
+* *
+*  *
+*****
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java TriangoloRettangoloVuoto. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un triangolo rettangolo vuoto composto di asterischi (‘*’) con il lato lungo N:</summary></entry><entry><title type="html">TriangoloRettangolo</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolo.html" rel="alternate" type="text/html" title="TriangoloRettangolo" /><published>2017-02-25T12:57:11+01:00</published><updated>2017-02-25T12:57:11+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolo.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;TriangoloRettangolo&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un triangolo rettangolo &lt;em&gt;pieno&lt;/em&gt; composto di asterischi (‘*’) con il lato lungo &lt;em&gt;N&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*
+** 
+***
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*
+**
+***
+****
+*****
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java TriangoloRettangolo. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un triangolo rettangolo pieno composto di asterischi (‘*’) con il lato lungo N:</summary></entry><entry><title type="html">QuadratoVuoto</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadratovuoto.html" rel="alternate" type="text/html" title="QuadratoVuoto" /><published>2017-02-25T12:53:35+01:00</published><updated>2017-02-25T12:53:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadratovuoto</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadratovuoto.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;QuadratoVuoto&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un quadrato &lt;em&gt;vuoto&lt;/em&gt; composto di asterischi (‘*’) con il lato lungo &lt;em&gt;N&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;***
+* *
+***
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*****
+*   *
+*   *
+*   *
+*****
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java QuadratoVuoto. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un quadrato vuoto composto di asterischi (‘*’) con il lato lungo N:</summary></entry><entry><title type="html">Quadrato</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadrato.html" rel="alternate" type="text/html" title="Quadrato" /><published>2017-02-25T12:51:38+01:00</published><updated>2017-02-25T12:51:38+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadrato</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadrato.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Quadrato&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un quadrato &lt;em&gt;pieno&lt;/em&gt; composto di asterischi (‘*’) con il lato lungo &lt;em&gt;N&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;***
+***
+***
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*****
+*****
+*****
+*****
+*****
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Quadrato. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un quadrato pieno composto di asterischi (‘*’) con il lato lungo N:</summary></entry><entry><title type="html">ZigZag</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/zigzag.html" rel="alternate" type="text/html" title="ZigZag" /><published>2017-02-25T12:49:30+01:00</published><updated>2017-02-25T12:49:30+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/zigzag</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/zigzag.html">&lt;p&gt;Scrivi la classe Java &lt;code class=&quot;highlighter-rouge&quot;&gt;ZigZag&lt;/code&gt;. Tale classe deve utilizzare il carattere ‘/’ (&lt;em&gt;slash&lt;/em&gt;) e il carattere ‘' (&lt;em&gt;back-slash&lt;/em&gt;) per disegnare un tratteggio verticale infinito. Il disegno deve essere realizzato esattamente come illustrato nell’esempio seguente:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java ZigZag
+\
+ \
+  \
+   \
+   /
+  /
+ /
+/
+\
+ \
+  \
+   \
+   /
+  /
+ /
+/
+\
+ \
+  \
+   \
+   /
+  /
+ /
+/
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Java ZigZag. Tale classe deve utilizzare il carattere ‘/’ (slash) e il carattere ‘' (back-slash) per disegnare un tratteggio verticale infinito. Il disegno deve essere realizzato esattamente come illustrato nell’esempio seguente:</summary></entry></feed>

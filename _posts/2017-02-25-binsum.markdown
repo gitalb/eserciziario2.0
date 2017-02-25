@@ -1,0 +1,36 @@
+---
+layout: post
+title: "BinSum"
+date: 2017-02-25 11:50:29 +0100
+categories: [interactive,wrapper]
+level: 8
+---
+
+
+Scrivi il programma `BinSum` che chiede all'utente di inserire due valori interi espressi in notazione **esadecimale** e poi ne stampa la somma **in base 2**. I valori binari devono essere stampati *a 32 bit*. 
+
+Esempio:
+
+~~~text
+>java BinSum
+Inserire primo addendo (in esadecimale): AA
+Inserire secondo addendo (in esadecimale): 5
+
+00000000000000000000000010101010
+00000000000000000000000000000101 +
+--------------------------------
+00000000000000000000000010101111
+~~~
+
+Oppure:
+
+~~~text
+>java BinSum
+Inserire primo addendo (in esadecimale): 1
+Inserire secondo addendo (in esadecimale): -1
+
+00000000000000000000000000000001
+11111111111111111111111111111111 +
+--------------------------------
+00000000000000000000000000000000
+~~~

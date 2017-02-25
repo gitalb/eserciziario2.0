@@ -1,0 +1,38 @@
+---
+layout: post
+title: "ZigZag"
+date: 2017-02-25 12:49:30 +0100
+categories: [draw,loop]
+level: 8
+---
+
+Scrivi la classe Java `ZigZag`. Tale classe deve utilizzare il carattere '/' (*slash*) e il carattere '\' (*back-slash*) per disegnare un tratteggio verticale infinito. Il disegno deve essere realizzato esattamente come illustrato nell’esempio seguente:
+
+~~~text
+>java ZigZag
+\
+ \
+  \
+   \
+   /
+  /
+ /
+/
+\
+ \
+  \
+   \
+   /
+  /
+ /
+/
+\
+ \
+  \
+   \
+   /
+  /
+ /
+/
+...
+~~~

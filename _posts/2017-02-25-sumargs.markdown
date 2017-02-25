@@ -1,0 +1,41 @@
+---
+layout: post
+title: "SumArgs"
+date: 2017-02-25 11:42:58 +0100
+categories: [wrapper]
+level: 6
+---
+
+Scrivi la classe `SumArgs` che stampa a terminale la somma dei due valori interi passati come argomenti da linea di comando. Se i valori passati non sono interi, **è necessario** gestire l'eventuale errore in maniera appropriata. Esempio:
+
+~~~text
+$ java SumArgs 1 5
+1 + 5 = 6
+~~~
+
+Se l'utente non inserisce uno o entrambi gli argomenti, i valori omessi vengono considerati come 0 nel calcolo della somma. Ad esempio:
+
+~~~text
+$ java SumArgs 2
+2 + 0 = 2
+~~~
+
+Oppure:
+
+~~~text
+$ java SumArgs
+0 + 0 = 0
+~~~
+
+Se vengono passati argomenti non appropriati:
+
+~~~text
+$ java SumArgs 3 Cinque
+ERRORE: uno o più valori passati non sono accettabili
+~~~
+
+~~~text
+$ java SumArgs Due 5.4
+ERRORE: uno o più valori passati non sono accettabili
+~~~
+

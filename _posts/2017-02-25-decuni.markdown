@@ -1,0 +1,19 @@
+---
+layout: post
+title: "DecUni"
+date: 2017-02-25 11:27:35 +0100
+categories: [var,operators]
+level: 5
+---
+
+
+Scrivi il programma `DecUni` che, dato il numero di argomenti da linea di comando (N), stampa a terminale quante *decine* e quante *unità* compongono N.
+
+Ad esempio per 12 argomenti:
+
+~~~text
+>java DecUni a a a a a a a a a a a a
+numero: 12 
+decine: 1
+unità: 2
+~~~

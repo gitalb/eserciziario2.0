@@ -1,0 +1,33 @@
+---
+layout: post
+title: "HexSum"
+date: 2017-02-25 11:47:42 +0100
+categories: [interactive,wrapper]
+level: 8
+---
+
+Scrivi il programma `HexSum` che chiede all'utente di inserire due valori interi espressi in notazione **esadecimale** e poi ne stampa (sempre in base 16) il risultato della somma. 
+
+Qualche esempio:
+
+~~~text
+>java HexSum
+Inserire primo addendo (in esadecimale): 9
+Inserire secondo addendo (in esadecimale): 1
+
+       9
+       1 +
+--------
+       A
+~~~
+
+~~~text
+>java HexSum
+Inserire primo addendo (in esadecimale): AA55
+Inserire secondo addendo (in esadecimale): 55AA
+
+    AA55
+    55AA +
+--------
+    FFFF
+~~~
