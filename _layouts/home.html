@@ -13,35 +13,6 @@ layout: default
     {% endfor %}
 </div>
 
-<div class="home">
-
-  <h1 class="page-heading">Esercizi per categoria</h1>
-  
-  {{ content }}
-  <ul class="list-group">
-    {% assign cats = (site.pages  | where: "layout","categories"| sort: 'title' %}
-    {% for cat in cats %}
-      <!-- {% if cat.layout == "categories" %} -->
-        <a href="{{site.baseurl}}/categories/{{cat.category}}">
-        <li class="list-group-item">
-          <b>{{ cat.title }}</b> 
-          <span class="badge">{{ site.categories[cat.category] | second | size }}</span>: {{ cat.description }}
-
-        </li>
-        </a>
-      <!-- {% endif %} -->
-    {% endfor %}
-  </ul>
-</div>
-
 
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-</div>
-
-<!-- 
-https://blog.webjeda.com/jekyll-categories/ 
-http://www.layouts-the.me/rake/2011/04/23/rake_tasks_for_jekyll/
-https://www.leveluplunch.com/blog/2014/04/03/sort-pages-by-title-filter-array-by-layout-jekyllrb/
-http://www.virtuouscode.com/2014/04/25/rake-part-5-file-operations/
--->

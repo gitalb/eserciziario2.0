@@ -178,125 +178,7 @@
         <h1>String</h1>
 <p></p>
 
-<!-- 
-  <h2>
-    <a href="/methods/loop/string/draw/2017/02/25/nameframer.html">NameFramer</a>
-  </h2>
-   <p>Scrivi la classe <code class="highlighter-rouge">NameFramer</code> contenente il metodo:</p>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="n">pubic</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">frameName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="kt">char</span> <span class="n">c</span><span class="o">,</span> <span class="kt">int</span> <span class="n">width</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>che ritorna una stringa contenente la stringa <code class="highlighter-rouge">name</code> incorniciata nel carattere <code class="highlighter-rouge">c</code> utilizzato con uno spessore <code class="highlighter-rouge">width</code>.</p>
-
-<p>Ad esempio <code class="highlighter-rouge">frameName("Piero",'*',2)</code> ritorna la stringa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>*********
-*********
-**Piero**
-*********
-*********
-</code></pre>
-</div>
-
-<p>mentre <code class="highlighter-rouge">frameName("Andrea",'$',1)</code> ritorna la stringa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$$$$$$$$
-$Andrea$
-$$$$$$$$
-</code></pre>
-</div>
-
-
-  <h2>
-    <a href="/methods/switch/string/2017/02/25/stringtool.html">StringTool</a>
-  </h2>
-   <p>Scrivi la classe <code class="highlighter-rouge">StringTool</code> contenente i metodo seguenti:</p>
-
-<h3 id="longest">longest</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">longest</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">)</span>
-</code></pre>
-</div>
-<p>Ritorna la stringa più lunga tra <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code>. Ad esempio <code class="highlighter-rouge">longest("cane","gatto")</code> ritorna la stringa <code class="highlighter-rouge">gatto</code>, mentre <code class="highlighter-rouge">longest("abcdef","gatto")</code> ritorna <code class="highlighter-rouge">abcdef</code>.</p>
-
-<h3 id="alternate">alternate</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">alternate</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">times</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Ritorna una stringa di testo contenente le stringhe <code class="highlighter-rouge">a</code> e <code class="highlighter-rouge">b</code> alternate <code class="highlighter-rouge">times</code> volte. Ad esempio <code class="highlighter-rouge">alternate("*","-",5)</code> ritorna la stringa <code class="highlighter-rouge">*-*-*-*-*-</code>, mentre <code class="highlighter-rouge">alternate("va","Ja",2)</code> ritorna la stringa <code class="highlighter-rouge">vaJavaJa</code>.</p>
-
-<h3 id="concatenate">concatenate</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">concatenate</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">c</span><span class="o">,</span> <span class="kt">char</span> <span class="n">separator</span><span class="o">,</span> <span class="kt">char</span> <span class="n">terminator</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Ritorna una stringa contenente l’elenco dei valori dei parametri <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code> e <code class="highlighter-rouge">c</code>. I valori sono separati dal carattere <code class="highlighter-rouge">separator</code> e la lista è terminata dal carattere <code class="highlighter-rouge">terminator</code>. Ad esempio <code class="highlighter-rouge">concatenate(1,2,3,';','.')</code> ritorna la stringa <code class="highlighter-rouge">1;2;3.</code>, mentre <code class="highlighter-rouge">concatenate(10,20,30,'_','!')</code> ritorna la stringa <code class="highlighter-rouge">10_20_30!</code>.</p>
-
-
-  <h2>
-    <a href="/string/loop/interactive/2017/02/25/defarfallinatore.html">DeFarfallinatore</a>
-  </h2>
-   <p>Scrivi un decodificatore capace decifrare una stringa in <em>alfabeto farfallino</em>.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java DeFarfallinatore
-Inserire il testo da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
-Le fragole sono mature
-</code></pre>
-</div>
-
-
-  <h2>
-    <a href="/string/loop/interactive/2017/02/25/farfallinatore.html">Farfallinatore</a>
-  </h2>
-   <p>Scrivi il programma <code class="highlighter-rouge">Farfallinatore</code> che codifichi una stringa introdotta dall’utente in <em>alfabeto farfallino</em> (se non conosci l’<em>alfabeto farfallino</em> vedi <a href="https://it.wikipedia.org/wiki/Alfabeto_farfallino">wikipedia</a>).</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Farfallinatore
-Inserire il testo da codificare: Tanto va la gatta al lardo
-Tafantofo vafa lafa gafattafa afal lafardofo
-</code></pre>
-</div>
-
-
-  <h2>
-    <a href="/interactive/unicode/string/loop/2017/02/25/asciigator.html">Asciigator</a>
-  </h2>
-   <p>Scrivere la classe <code class="highlighter-rouge">Asciigator</code> che chiede all’utente di digitare un stringa di testo e poi stampa ogni carattere contenuto nella stringa introdotta e il relativo codice Unicode (in decimale e in esadecimale).</p>
-
-<p>Ad esempio per <code class="highlighter-rouge">ABCDEF1234567890</code> il programma produce l’output seguente:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>Introdurre un testo:
-ABCDEF1234567890
-
-char:	'A'	'B'	'C'	'D'	'E'	'F'	'1'	'2'	'3'	'4'	'5'	'6'	'7'	'8'	'9'	'0'	
-dec:	65	66	67	68	69	70	49	50	51	52	53	54	55	56	57	48	
-hex:	41	42	43	44	45	46	31	32	33	34	35	36	37	38	39	30	
-
-</code></pre>
-</div>
-
-<p>Mentre per <code class="highlighter-rouge">Hello world!</code>:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>Introdurre un testo:
-Hello world!
-
-char:	'H'	'e'	'l'	'l'	'o'	' '	'w'	'o'	'r'	'l'	'd'	'!'	
-dec:	72	101	108	108	111	32	119	111	114	108	100	33	
-hex:	48	65	6c	6c	6f	20	77	6f	72	6c	64	21
-
-</code></pre>
-</div>
-
- -->
-<ul class="post-list">
+<!-- <ul class="post-list">
 
   
   
@@ -433,116 +315,33 @@ $$$$$$$$
     </li>
   
 
-</div>
-
-<!-- 
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/methods/loop/string/draw/2017/02/25/nameframer.html">NameFramer</a></h2>
-    <p>Scrivi la classe <code class="highlighter-rouge">NameFramer</code> contenente il metodo:</p>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="n">pubic</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">frameName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="kt">char</span> <span class="n">c</span><span class="o">,</span> <span class="kt">int</span> <span class="n">width</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>che ritorna una stringa contenente la stringa <code class="highlighter-rouge">name</code> incorniciata nel carattere <code class="highlighter-rouge">c</code> utilizzato con uno spessore <code class="highlighter-rouge">width</code>.</p>
-
-<p>Ad esempio <code class="highlighter-rouge">frameName("Piero",'*',2)</code> ritorna la stringa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>*********
-*********
-**Piero**
-*********
-*********
-</code></pre>
-</div>
-
-<p>mentre <code class="highlighter-rouge">frameName("Andrea",'$',1)</code> ritorna la stringa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$$$$$$$$
-$Andrea$
-$$$$$$$$
-</code></pre>
-</div>
+</ul> -->
 
 
   
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/methods/switch/string/2017/02/25/stringtool.html">StringTool</a></h2>
-    <p>Scrivi la classe <code class="highlighter-rouge">StringTool</code> contenente i metodo seguenti:</p>
-
-<h3 id="longest">longest</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">longest</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">)</span>
-</code></pre>
-</div>
-<p>Ritorna la stringa più lunga tra <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code>. Ad esempio <code class="highlighter-rouge">longest("cane","gatto")</code> ritorna la stringa <code class="highlighter-rouge">gatto</code>, mentre <code class="highlighter-rouge">longest("abcdef","gatto")</code> ritorna <code class="highlighter-rouge">abcdef</code>.</p>
-
-<h3 id="alternate">alternate</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">alternate</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">times</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Ritorna una stringa di testo contenente le stringhe <code class="highlighter-rouge">a</code> e <code class="highlighter-rouge">b</code> alternate <code class="highlighter-rouge">times</code> volte. Ad esempio <code class="highlighter-rouge">alternate("*","-",5)</code> ritorna la stringa <code class="highlighter-rouge">*-*-*-*-*-</code>, mentre <code class="highlighter-rouge">alternate("va","Ja",2)</code> ritorna la stringa <code class="highlighter-rouge">vaJavaJa</code>.</p>
-
-<h3 id="concatenate">concatenate</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">concatenate</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">c</span><span class="o">,</span> <span class="kt">char</span> <span class="n">separator</span><span class="o">,</span> <span class="kt">char</span> <span class="n">terminator</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Ritorna una stringa contenente l’elenco dei valori dei parametri <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code> e <code class="highlighter-rouge">c</code>. I valori sono separati dal carattere <code class="highlighter-rouge">separator</code> e la lista è terminata dal carattere <code class="highlighter-rouge">terminator</code>. Ad esempio <code class="highlighter-rouge">concatenate(1,2,3,';','.')</code> ritorna la stringa <code class="highlighter-rouge">1;2;3.</code>, mentre <code class="highlighter-rouge">concatenate(10,20,30,'_','!')</code> ritorna la stringa <code class="highlighter-rouge">10_20_30!</code>.</p>
-
-
   
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/string/loop/interactive/2017/02/25/defarfallinatore.html">DeFarfallinatore</a></h2>
-    <p>Scrivi un decodificatore capace decifrare una stringa in <em>alfabeto farfallino</em>.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java DeFarfallinatore
-Inserire il testo da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
-Le fragole sono mature
-</code></pre>
-</div>
-
-
-  
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/string/loop/interactive/2017/02/25/farfallinatore.html">Farfallinatore</a></h2>
-    <p>Scrivi il programma <code class="highlighter-rouge">Farfallinatore</code> che codifichi una stringa introdotta dall’utente in <em>alfabeto farfallino</em> (se non conosci l’<em>alfabeto farfallino</em> vedi <a href="https://it.wikipedia.org/wiki/Alfabeto_farfallino">wikipedia</a>).</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Farfallinatore
-Inserire il testo da codificare: Tanto va la gatta al lardo
-Tafantofo vafa lafa gafattafa afal lafardofo
-</code></pre>
-</div>
-
-
-  
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/interactive/unicode/string/loop/2017/02/25/asciigator.html">Asciigator</a></h2>
-    <p>Scrivere la classe <code class="highlighter-rouge">Asciigator</code> che chiede all’utente di digitare un stringa di testo e poi stampa ogni carattere contenuto nella stringa introdotta e il relativo codice Unicode (in decimale e in esadecimale).</p>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/interactive/unicode/string/loop/2017/02/25/asciigator.html">
+            Asciigator
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+            <a href="/eserciziario2.0/categories/unicode"><span class="label label-warning">unicode</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+           <span class="label label-success">Livello 9</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivere la classe <code class="highlighter-rouge">Asciigator</code> che chiede all’utente di digitare un stringa di testo e poi stampa ogni carattere contenuto nella stringa introdotta e il relativo codice Unicode (in decimale e in esadecimale).</p>
 
 <p>Ad esempio per <code class="highlighter-rouge">ABCDEF1234567890</code> il programma produce l’output seguente:</p>
 
@@ -568,11 +367,177 @@ hex:	48	65	6c	6c	6f	20	77	6f	72	6c	64	21
 </code></pre>
 </div>
 
-
+      </div>
+      
+    </div>
   
-</article>
-<hr>
- -->
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/string/loop/interactive/2017/02/25/defarfallinatore.html">
+            DeFarfallinatore
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 10</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi un decodificatore capace decifrare una stringa in <em>alfabeto farfallino</em>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java DeFarfallinatore
+Inserire il testo da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
+Le fragole sono mature
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/string/loop/interactive/2017/02/25/farfallinatore.html">
+            Farfallinatore
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 10</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi il programma <code class="highlighter-rouge">Farfallinatore</code> che codifichi una stringa introdotta dall’utente in <em>alfabeto farfallino</em> (se non conosci l’<em>alfabeto farfallino</em> vedi <a href="https://it.wikipedia.org/wiki/Alfabeto_farfallino">wikipedia</a>).</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Farfallinatore
+Inserire il testo da codificare: Tanto va la gatta al lardo
+Tafantofo vafa lafa gafattafa afal lafardofo
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/methods/switch/string/2017/02/25/stringtool.html">
+            StringTool
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+           <span class="label label-success">Livello 12</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi la classe <code class="highlighter-rouge">StringTool</code> contenente i metodo seguenti:</p>
+
+<h3 id="longest">longest</h3>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">longest</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">)</span>
+</code></pre>
+</div>
+<p>Ritorna la stringa più lunga tra <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code>. Ad esempio <code class="highlighter-rouge">longest("cane","gatto")</code> ritorna la stringa <code class="highlighter-rouge">gatto</code>, mentre <code class="highlighter-rouge">longest("abcdef","gatto")</code> ritorna <code class="highlighter-rouge">abcdef</code>.</p>
+
+<h3 id="alternate">alternate</h3>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">alternate</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">times</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>Ritorna una stringa di testo contenente le stringhe <code class="highlighter-rouge">a</code> e <code class="highlighter-rouge">b</code> alternate <code class="highlighter-rouge">times</code> volte. Ad esempio <code class="highlighter-rouge">alternate("*","-",5)</code> ritorna la stringa <code class="highlighter-rouge">*-*-*-*-*-</code>, mentre <code class="highlighter-rouge">alternate("va","Ja",2)</code> ritorna la stringa <code class="highlighter-rouge">vaJavaJa</code>.</p>
+
+<h3 id="concatenate">concatenate</h3>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">concatenate</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">c</span><span class="o">,</span> <span class="kt">char</span> <span class="n">separator</span><span class="o">,</span> <span class="kt">char</span> <span class="n">terminator</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>Ritorna una stringa contenente l’elenco dei valori dei parametri <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code> e <code class="highlighter-rouge">c</code>. I valori sono separati dal carattere <code class="highlighter-rouge">separator</code> e la lista è terminata dal carattere <code class="highlighter-rouge">terminator</code>. Ad esempio <code class="highlighter-rouge">concatenate(1,2,3,';','.')</code> ritorna la stringa <code class="highlighter-rouge">1;2;3.</code>, mentre <code class="highlighter-rouge">concatenate(10,20,30,'_','!')</code> ritorna la stringa <code class="highlighter-rouge">10_20_30!</code>.</p>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/methods/loop/string/draw/2017/02/25/nameframer.html">
+            NameFramer
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi la classe <code class="highlighter-rouge">NameFramer</code> contenente il metodo:</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="n">pubic</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">frameName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="kt">char</span> <span class="n">c</span><span class="o">,</span> <span class="kt">int</span> <span class="n">width</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>che ritorna una stringa contenente la stringa <code class="highlighter-rouge">name</code> incorniciata nel carattere <code class="highlighter-rouge">c</code> utilizzato con uno spessore <code class="highlighter-rouge">width</code>.</p>
+
+<p>Ad esempio <code class="highlighter-rouge">frameName("Piero",'*',2)</code> ritorna la stringa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>*********
+*********
+**Piero**
+*********
+*********
+</code></pre>
+</div>
+
+<p>mentre <code class="highlighter-rouge">frameName("Andrea",'$',1)</code> ritorna la stringa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$$$$$$$$
+$Andrea$
+$$$$$$$$
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+
+
       </div>
     </div>
 <!--     </main> -->

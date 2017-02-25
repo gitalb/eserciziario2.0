@@ -5,13 +5,7 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p>{{ content }}</p>
 
-<!-- {% for post in site.categories[page.category] %}
-  <h2>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </h2>
-   {{ post.content }}
-{% endfor %} -->
-<ul class="post-list">
+<!-- <ul class="post-list">
 {% if site.categories[page.category] %}
   {% assign posts = (site.categories[page.category]  | sort: 'level' %}
   {% for post in posts %}
@@ -26,17 +20,35 @@ layout: default
     </li>
   {% endfor %}
 {% endif %}
-</div>
+</ul> -->
 
-<!-- {% for post in site.categories[page.category]   %}
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="{{ post.url }}">{{ post.title | escape }}</a></h2>
-    {{ post.content }}
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
-</article>
-<hr>
-{% endfor %} -->
+{% if site.categories[page.category] %}
+  {% assign posts = (site.categories[page.category]  | sort: 'level' %}
+  {% for post in posts %}
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="{{ post.url | prepend:site.baseurl }}">
+            {{ post.title | escape }}
+          </a>
+          <small class="pull-right">
+          {% if post %}
+            {% assign categories = post.categories %}
+          {% else %}
+            {% assign categories = page.categories %}
+          {% endif %}
+          {% for category in categories %}
+            <a href="{{site.baseurl}}/categories/{{category|slugize}}"><span class="label label-warning">{{category}}</span></a>
+          {% endfor %}
+           <span class="label label-success">Livello {{post.level}}</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        {{ post.content }}
+      </div>
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+      {% endif %}
+    </div>
+  {% endfor %}
+{% endif %}

@@ -179,165 +179,7 @@
 <p>
 </p>
 
-<!-- 
-  <h2>
-    <a href="/methods/switch/string/2017/02/25/stringtool.html">StringTool</a>
-  </h2>
-   <p>Scrivi la classe <code class="highlighter-rouge">StringTool</code> contenente i metodo seguenti:</p>
-
-<h3 id="longest">longest</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">longest</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">)</span>
-</code></pre>
-</div>
-<p>Ritorna la stringa più lunga tra <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code>. Ad esempio <code class="highlighter-rouge">longest("cane","gatto")</code> ritorna la stringa <code class="highlighter-rouge">gatto</code>, mentre <code class="highlighter-rouge">longest("abcdef","gatto")</code> ritorna <code class="highlighter-rouge">abcdef</code>.</p>
-
-<h3 id="alternate">alternate</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">alternate</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">times</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Ritorna una stringa di testo contenente le stringhe <code class="highlighter-rouge">a</code> e <code class="highlighter-rouge">b</code> alternate <code class="highlighter-rouge">times</code> volte. Ad esempio <code class="highlighter-rouge">alternate("*","-",5)</code> ritorna la stringa <code class="highlighter-rouge">*-*-*-*-*-</code>, mentre <code class="highlighter-rouge">alternate("va","Ja",2)</code> ritorna la stringa <code class="highlighter-rouge">vaJavaJa</code>.</p>
-
-<h3 id="concatenate">concatenate</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">concatenate</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">c</span><span class="o">,</span> <span class="kt">char</span> <span class="n">separator</span><span class="o">,</span> <span class="kt">char</span> <span class="n">terminator</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Ritorna una stringa contenente l’elenco dei valori dei parametri <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code> e <code class="highlighter-rouge">c</code>. I valori sono separati dal carattere <code class="highlighter-rouge">separator</code> e la lista è terminata dal carattere <code class="highlighter-rouge">terminator</code>. Ad esempio <code class="highlighter-rouge">concatenate(1,2,3,';','.')</code> ritorna la stringa <code class="highlighter-rouge">1;2;3.</code>, mentre <code class="highlighter-rouge">concatenate(10,20,30,'_','!')</code> ritorna la stringa <code class="highlighter-rouge">10_20_30!</code>.</p>
-
-
-  <h2>
-    <a href="/switch/wrapper/2017/02/25/convertitorenota.html">ConvertitoreNota</a>
-  </h2>
-   <p>Scrivi il programma Java <code class="highlighter-rouge">ConvertitoreNota</code> che converte la nota ([1.0;6.0]) passata come primo argomento, in un voto espresso tramite una lettera (A, B, C, …). La deve avvenire conversione secondo i criteri seguenti:</p>
-
-<ul>
-  <li>per note maggiori o uguali a 1 il voto è E</li>
-  <li>se la nota è maggiore o uguale a 2.5 il voto è D</li>
-  <li>se la nota è maggiore o uguale a 3.5 il voto è C</li>
-  <li>se la nota è maggiore o uguale a 4.5 il voto è B</li>
-  <li>se la nota è maggiore o uguale a 5.5 il voto è A</li>
-</ul>
-
-
-
-  <h2>
-    <a href="/args/switch/operators/var/2017/02/24/multipli5.html">Multipli5</a>
-  </h2>
-   <p>Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.</p>
-
-<p>Scrivi il programma <code class="highlighter-rouge">Multipli5</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è multiplo di 5"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; non è multiplo di 5"</code>.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Multipli5 a b c
-3 non è multiplo di 5
-
-&gt;java PariDispari a d v e t f s t u t 
-10 è multiplo di 5
-</code></pre>
-</div>
-
-
-  <h2>
-    <a href="/var/operators/switch/args/2017/02/24/paridispari.html">PariDispari</a>
-  </h2>
-   <p>Scrivi il programma <code class="highlighter-rouge">PariDispari</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è pari"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; è dispari"</code>.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java PariDispari a b c
-3 è dispari
-
-&gt;java PariDispari a d v f
-4 è pari
-</code></pre>
-</div>
-
-
-  <h2>
-    <a href="/args/switch/2017/02/24/hellodrawing.html">HelloDrawing</a>
-  </h2>
-   <p>Scrivi il programma <code class="highlighter-rouge">HelloDrawing</code> che funziona nel modo seguente:</p>
-
-<ul>
-  <li>Se non vengono inseriti argomenti, disegna a terminale un quadrato,</li>
-  <li>Se viene inserito 1 argomento stampa un triangolo,</li>
-  <li>Se vengono inseriti 2 (o più) argomenti stampa un omino.</li>
-</ul>
-
-<p>Ad esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloDrawing
-* * *
-*   *
-* * * 
-
-
-&gt;java HelloDrawing a
-  *
- * *
-* * *
-
-&gt;java HelloDrawing a a
- o
-/|\
-/ \
-
-</code></pre>
-</div>
-
-
-  <h2>
-    <a href="/args/switch/2017/02/24/contaargs.html">ContaArgs</a>
-  </h2>
-   <p>Scrivi il programma <code class="highlighter-rouge">ContaArgs</code> che stampa a terminale il numero di argomenti inseriti da linea di comando:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java ContaArgs
-Hai inserito 0 argomenti
-
-
-&gt;java ContaArgs a
-Hai inserito 1 argomento
-
-
-&gt;java ContaArgs a b c b f d 
-Hai inserito 6 argomenti
-</code></pre>
-</div>
-
-
-  <h2>
-    <a href="/args/switch/2017/02/24/helloall.html">HelloAll</a>
-  </h2>
-   <p>Scrivi il programma <code class="highlighter-rouge">HelloAll</code> che si comporta nel modo seguente:</p>
-
-<ul>
-  <li>Se non vengono inseriti argomenti, stampa a terminale “Ciao a tutti!”,</li>
-  <li>Se viene inserito 1 argomento (&lt;nome&gt;), stampa “Ciao &lt;nome&gt;!!”,</li>
-  <li>Se vengono inseriti 2 argomenti (&lt;nome&gt; &lt;cognome&gt;), stampa “Buongiorno &lt;cognome&gt; &lt;nome&gt;.</li>
-</ul>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloAll Michele Brambilla
-Buongiorno Brambilla Michele
-
-
-&gt;java HelloAll Michele
-Ciao Michele!!
-
-
-&gt;java HelloAll 
-Ciao a tutti!
-</code></pre>
-</div>
-
- -->
-<ul class="post-list">
+<!-- <ul class="post-list">
 
   
   
@@ -520,107 +362,109 @@ Ciao a tutti!
     </li>
   
 
-</div>
-
-<!-- 
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/methods/switch/string/2017/02/25/stringtool.html">StringTool</a></h2>
-    <p>Scrivi la classe <code class="highlighter-rouge">StringTool</code> contenente i metodo seguenti:</p>
-
-<h3 id="longest">longest</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">longest</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">)</span>
-</code></pre>
-</div>
-<p>Ritorna la stringa più lunga tra <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code>. Ad esempio <code class="highlighter-rouge">longest("cane","gatto")</code> ritorna la stringa <code class="highlighter-rouge">gatto</code>, mentre <code class="highlighter-rouge">longest("abcdef","gatto")</code> ritorna <code class="highlighter-rouge">abcdef</code>.</p>
-
-<h3 id="alternate">alternate</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">alternate</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">times</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Ritorna una stringa di testo contenente le stringhe <code class="highlighter-rouge">a</code> e <code class="highlighter-rouge">b</code> alternate <code class="highlighter-rouge">times</code> volte. Ad esempio <code class="highlighter-rouge">alternate("*","-",5)</code> ritorna la stringa <code class="highlighter-rouge">*-*-*-*-*-</code>, mentre <code class="highlighter-rouge">alternate("va","Ja",2)</code> ritorna la stringa <code class="highlighter-rouge">vaJavaJa</code>.</p>
-
-<h3 id="concatenate">concatenate</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">concatenate</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">c</span><span class="o">,</span> <span class="kt">char</span> <span class="n">separator</span><span class="o">,</span> <span class="kt">char</span> <span class="n">terminator</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Ritorna una stringa contenente l’elenco dei valori dei parametri <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code> e <code class="highlighter-rouge">c</code>. I valori sono separati dal carattere <code class="highlighter-rouge">separator</code> e la lista è terminata dal carattere <code class="highlighter-rouge">terminator</code>. Ad esempio <code class="highlighter-rouge">concatenate(1,2,3,';','.')</code> ritorna la stringa <code class="highlighter-rouge">1;2;3.</code>, mentre <code class="highlighter-rouge">concatenate(10,20,30,'_','!')</code> ritorna la stringa <code class="highlighter-rouge">10_20_30!</code>.</p>
+</ul> -->
 
 
   
-</article>
-<hr>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/args/switch/2017/02/24/contaargs.html">
+            ContaArgs
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/args"><span class="label label-warning">args</span></a>
+          
+            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+          
+           <span class="label label-success">Livello 3</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi il programma <code class="highlighter-rouge">ContaArgs</code> che stampa a terminale il numero di argomenti inseriti da linea di comando:</p>
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java ContaArgs
+Hai inserito 0 argomenti
 
-    <h2><a href="/switch/wrapper/2017/02/25/convertitorenota.html">ConvertitoreNota</a></h2>
-    <p>Scrivi il programma Java <code class="highlighter-rouge">ConvertitoreNota</code> che converte la nota ([1.0;6.0]) passata come primo argomento, in un voto espresso tramite una lettera (A, B, C, …). La deve avvenire conversione secondo i criteri seguenti:</p>
+
+&gt;java ContaArgs a
+Hai inserito 1 argomento
+
+
+&gt;java ContaArgs a b c b f d 
+Hai inserito 6 argomenti
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/args/switch/2017/02/24/helloall.html">
+            HelloAll
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/args"><span class="label label-warning">args</span></a>
+          
+            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+          
+           <span class="label label-success">Livello 3</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi il programma <code class="highlighter-rouge">HelloAll</code> che si comporta nel modo seguente:</p>
 
 <ul>
-  <li>per note maggiori o uguali a 1 il voto è E</li>
-  <li>se la nota è maggiore o uguale a 2.5 il voto è D</li>
-  <li>se la nota è maggiore o uguale a 3.5 il voto è C</li>
-  <li>se la nota è maggiore o uguale a 4.5 il voto è B</li>
-  <li>se la nota è maggiore o uguale a 5.5 il voto è A</li>
+  <li>Se non vengono inseriti argomenti, stampa a terminale “Ciao a tutti!”,</li>
+  <li>Se viene inserito 1 argomento (&lt;nome&gt;), stampa “Ciao &lt;nome&gt;!!”,</li>
+  <li>Se vengono inseriti 2 argomenti (&lt;nome&gt; &lt;cognome&gt;), stampa “Buongiorno &lt;cognome&gt; &lt;nome&gt;.</li>
 </ul>
 
-
-
-  
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/args/switch/operators/var/2017/02/24/multipli5.html">Multipli5</a></h2>
-    <p>Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.</p>
-
-<p>Scrivi il programma <code class="highlighter-rouge">Multipli5</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è multiplo di 5"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; non è multiplo di 5"</code>.</p>
-
 <p>Esempio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Multipli5 a b c
-3 non è multiplo di 5
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloAll Michele Brambilla
+Buongiorno Brambilla Michele
 
-&gt;java PariDispari a d v e t f s t u t 
-10 è multiplo di 5
+
+&gt;java HelloAll Michele
+Ciao Michele!!
+
+
+&gt;java HelloAll 
+Ciao a tutti!
 </code></pre>
 </div>
 
-
+      </div>
+      
+    </div>
   
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/var/operators/switch/args/2017/02/24/paridispari.html">PariDispari</a></h2>
-    <p>Scrivi il programma <code class="highlighter-rouge">PariDispari</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è pari"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; è dispari"</code>.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java PariDispari a b c
-3 è dispari
-
-&gt;java PariDispari a d v f
-4 è pari
-</code></pre>
-</div>
-
-
-  
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/args/switch/2017/02/24/hellodrawing.html">HelloDrawing</a></h2>
-    <p>Scrivi il programma <code class="highlighter-rouge">HelloDrawing</code> che funziona nel modo seguente:</p>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/args/switch/2017/02/24/hellodrawing.html">
+            HelloDrawing
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/args"><span class="label label-warning">args</span></a>
+          
+            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+          
+           <span class="label label-success">Livello 4</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi il programma <code class="highlighter-rouge">HelloDrawing</code> che funziona nel modo seguente:</p>
 
 <ul>
   <li>Se non vengono inseriti argomenti, disegna a terminale un quadrato,</li>
@@ -649,65 +493,168 @@ Ciao a tutti!
 </code></pre>
 </div>
 
-
+      </div>
+      
+    </div>
   
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/args/switch/2017/02/24/contaargs.html">ContaArgs</a></h2>
-    <p>Scrivi il programma <code class="highlighter-rouge">ContaArgs</code> che stampa a terminale il numero di argomenti inseriti da linea di comando:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java ContaArgs
-Hai inserito 0 argomenti
-
-
-&gt;java ContaArgs a
-Hai inserito 1 argomento
-
-
-&gt;java ContaArgs a b c b f d 
-Hai inserito 6 argomenti
-</code></pre>
-</div>
-
-
-  
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/args/switch/2017/02/24/helloall.html">HelloAll</a></h2>
-    <p>Scrivi il programma <code class="highlighter-rouge">HelloAll</code> che si comporta nel modo seguente:</p>
-
-<ul>
-  <li>Se non vengono inseriti argomenti, stampa a terminale “Ciao a tutti!”,</li>
-  <li>Se viene inserito 1 argomento (&lt;nome&gt;), stampa “Ciao &lt;nome&gt;!!”,</li>
-  <li>Se vengono inseriti 2 argomenti (&lt;nome&gt; &lt;cognome&gt;), stampa “Buongiorno &lt;cognome&gt; &lt;nome&gt;.</li>
-</ul>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/var/operators/switch/args/2017/02/24/paridispari.html">
+            PariDispari
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/var"><span class="label label-warning">var</span></a>
+          
+            <a href="/eserciziario2.0/categories/operators"><span class="label label-warning">operators</span></a>
+          
+            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+          
+            <a href="/eserciziario2.0/categories/args"><span class="label label-warning">args</span></a>
+          
+           <span class="label label-success">Livello 4</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi il programma <code class="highlighter-rouge">PariDispari</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è pari"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; è dispari"</code>.</p>
 
 <p>Esempio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HelloAll Michele Brambilla
-Buongiorno Brambilla Michele
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java PariDispari a b c
+3 è dispari
 
-
-&gt;java HelloAll Michele
-Ciao Michele!!
-
-
-&gt;java HelloAll 
-Ciao a tutti!
+&gt;java PariDispari a d v f
+4 è pari
 </code></pre>
 </div>
 
-
+      </div>
+      
+    </div>
   
-</article>
-<hr>
- -->
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/args/switch/operators/var/2017/02/24/multipli5.html">
+            Multipli5
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/args"><span class="label label-warning">args</span></a>
+          
+            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+          
+            <a href="/eserciziario2.0/categories/operators"><span class="label label-warning">operators</span></a>
+          
+            <a href="/eserciziario2.0/categories/var"><span class="label label-warning">var</span></a>
+          
+           <span class="label label-success">Livello 4</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.</p>
+
+<p>Scrivi il programma <code class="highlighter-rouge">Multipli5</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è multiplo di 5"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; non è multiplo di 5"</code>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Multipli5 a b c
+3 non è multiplo di 5
+
+&gt;java PariDispari a d v e t f s t u t 
+10 è multiplo di 5
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/switch/wrapper/2017/02/25/convertitorenota.html">
+            ConvertitoreNota
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+          
+            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
+          
+           <span class="label label-success">Livello 8</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi il programma Java <code class="highlighter-rouge">ConvertitoreNota</code> che converte la nota ([1.0;6.0]) passata come primo argomento, in un voto espresso tramite una lettera (A, B, C, …). La deve avvenire conversione secondo i criteri seguenti:</p>
+
+<ul>
+  <li>per note maggiori o uguali a 1 il voto è E</li>
+  <li>se la nota è maggiore o uguale a 2.5 il voto è D</li>
+  <li>se la nota è maggiore o uguale a 3.5 il voto è C</li>
+  <li>se la nota è maggiore o uguale a 4.5 il voto è B</li>
+  <li>se la nota è maggiore o uguale a 5.5 il voto è A</li>
+</ul>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/methods/switch/string/2017/02/25/stringtool.html">
+            StringTool
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+           <span class="label label-success">Livello 12</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi la classe <code class="highlighter-rouge">StringTool</code> contenente i metodo seguenti:</p>
+
+<h3 id="longest">longest</h3>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">longest</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">)</span>
+</code></pre>
+</div>
+<p>Ritorna la stringa più lunga tra <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code>. Ad esempio <code class="highlighter-rouge">longest("cane","gatto")</code> ritorna la stringa <code class="highlighter-rouge">gatto</code>, mentre <code class="highlighter-rouge">longest("abcdef","gatto")</code> ritorna <code class="highlighter-rouge">abcdef</code>.</p>
+
+<h3 id="alternate">alternate</h3>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">alternate</span><span class="o">(</span><span class="n">String</span> <span class="n">a</span><span class="o">,</span> <span class="n">String</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">times</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>Ritorna una stringa di testo contenente le stringhe <code class="highlighter-rouge">a</code> e <code class="highlighter-rouge">b</code> alternate <code class="highlighter-rouge">times</code> volte. Ad esempio <code class="highlighter-rouge">alternate("*","-",5)</code> ritorna la stringa <code class="highlighter-rouge">*-*-*-*-*-</code>, mentre <code class="highlighter-rouge">alternate("va","Ja",2)</code> ritorna la stringa <code class="highlighter-rouge">vaJavaJa</code>.</p>
+
+<h3 id="concatenate">concatenate</h3>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">concatenate</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="n">c</span><span class="o">,</span> <span class="kt">char</span> <span class="n">separator</span><span class="o">,</span> <span class="kt">char</span> <span class="n">terminator</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>Ritorna una stringa contenente l’elenco dei valori dei parametri <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code> e <code class="highlighter-rouge">c</code>. I valori sono separati dal carattere <code class="highlighter-rouge">separator</code> e la lista è terminata dal carattere <code class="highlighter-rouge">terminator</code>. Ad esempio <code class="highlighter-rouge">concatenate(1,2,3,';','.')</code> ritorna la stringa <code class="highlighter-rouge">1;2;3.</code>, mentre <code class="highlighter-rouge">concatenate(10,20,30,'_','!')</code> ritorna la stringa <code class="highlighter-rouge">10_20_30!</code>.</p>
+
+      </div>
+      
+    </div>
+  
+
+
       </div>
     </div>
 <!--     </main> -->

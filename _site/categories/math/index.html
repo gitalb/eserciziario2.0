@@ -179,88 +179,7 @@
 <p>
 </p>
 
-<!-- 
-  <h2>
-    <a href="/loop/math/2017/02/25/fibonacci.html">Fibonacci</a>
-  </h2>
-   <p>La classe <code class="highlighter-rouge">Fibonacci</code> deve generare i primi mille numeri della celeberrima <em>successione di Fibonacci</em> (<a href="https://it.wikipedia.org/wiki/Successione_di_Fibonacci">wiki</a>).</p>
-
-<p>Tale successione inizia con i due valori 0 e 1 (detti <em>F0</em> e <em>F1</em>). Il valore seguente (<em>F2</em>) si ottiene sommando i due precedenti (0 + 1 = 1), il quarto valore (<em>F3</em>) si ottiene sommado tra loro il <em>F1</em> e <em>F2</em> (1 + 1 = 2) e via dicendo. I primi valori della serie sono 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 (F10),…</p>
-
-
-  <h2>
-    <a href="/methods/math/2017/02/25/triangolo.html">Triangolo</a>
-  </h2>
-   <p>Scrivi la classe <code class="highlighter-rouge">Triangolo</code> contenente il metodo:</p>
-
-<p><code class="highlighter-rouge">public static double calcolaAreaTriangolo(double base, double altezza)</code></p>
-
-<p>Tale metodo ritorna un numero che rappresenta l’ area di un triangolo di base <code class="highlighter-rouge">base</code> e di altezza <code class="highlighter-rouge">altezza</code>.</p>
-
-
-  <h2>
-    <a href="/methods/math/2017/02/25/cerchio.html">Cerchio</a>
-  </h2>
-   <p>Scrivi la classe <code class="highlighter-rouge">Cerchio</code> contenente il metodo:</p>
-
-<p><code class="highlighter-rouge">public static double calcolaCirconferenza(double raggio)</code></p>
-
-<p>Tale metodo ritorna un numero che rappresenta la circonferenza di un cerchio di raggio <code class="highlighter-rouge">raggio</code>.</p>
-
-
-  <h2>
-    <a href="/methods/math/2017/02/25/calcolatrice.html">Calcolatrice</a>
-  </h2>
-   <p>Scrivi la classe <code class="highlighter-rouge">Calcolatrice</code> contenente il metodo:</p>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">calcola</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">,</span> <span class="kt">char</span> <span class="n">operatore</span><span class="o">)</span><span class="err">`</span>
-</code></pre>
-</div>
-
-<p>Tale metodo esegue un’operazione matematica di base sui due numeri <code class="highlighter-rouge">a</code> e <code class="highlighter-rouge">b</code>. Il valore <code class="highlighter-rouge">operatore</code> (<code class="highlighter-rouge">'+'</code>, <code class="highlighter-rouge">'-'</code>, <code class="highlighter-rouge">'*'</code>, <code class="highlighter-rouge">'/'</code>) definisce l’operazione da eseguire.</p>
-
-<p>Ad esempio l’invocazione <code class="highlighter-rouge">calcola(5,2,'+')</code> ritornerà <code class="highlighter-rouge">7</code> (<code class="highlighter-rouge">5+2</code>) mentre l’invocazione <code class="highlighter-rouge">calcola(5,2,'*')</code> ritornerà <code class="highlighter-rouge">10</code> (<code class="highlighter-rouge">5*2</code>). Se il parametro <code class="highlighter-rouge">operatore</code> contiene un carattere non valido, il metodo ritorna 0.</p>
-
-
-  <h2>
-    <a href="/methods/math/2017/02/25/divmul.html">DivMul</a>
-  </h2>
-   <p>Scrivi la classe <code class="highlighter-rouge">DivMul</code> contenente i metodo:</p>
-
-<ul>
-  <li><code class="highlighter-rouge">public static int calcolaMCD(int a, int b)</code>: calcola il massimo comun divisore di 2 numeri (<a href="https://it.wikipedia.org/wiki/Massimo_comun_divisore">Wiki: MCD</a>).</li>
-  <li><code class="highlighter-rouge">public static int calcolaMcm(int a, int b)</code>: calcola il minimo comune multiplo di 2 numeri (<a href="https://it.wikipedia.org/wiki/Minimo_comune_multiplo">Wiki: mcm</a>).</li>
-</ul>
-
-
-  <h2>
-    <a href="/math/methods/2017/02/25/potre.html">PoTre</a>
-  </h2>
-   <p>Scrivi la classe <code class="highlighter-rouge">PoTre</code> contenente il metodo:</p>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">pow3</span><span class="o">(</span><span class="kt">int</span> <span class="n">n</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Il metodo riceve un valore intero <code class="highlighter-rouge">n</code> e ritorna il valore di 3 elevato <code class="highlighter-rouge">n</code>. Ad esempio <code class="highlighter-rouge">pow3(2)</code> ritorna <code class="highlighter-rouge">8</code>.</p>
-
-<p>La classe dovrà anche contenere un metodo <code class="highlighter-rouge">main</code> in cui verificare se il metodo <code class="highlighter-rouge">pow3</code> funziona correttamente.</p>
-
-
-  <h2>
-    <a href="/math/loop/wrapper/2017/02/25/elevazioneapotenza.html">ElevazioneAPotenza</a>
-  </h2>
-   <p>Scrivi il programma Java <code class="highlighter-rouge">ElevazioneAPotenza</code> che calcola l’elevazione a potenza del valore intero passato come primo argomento per il secondo argomento intero.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt; java ElevazioneAPotenza 2 3 
-2 ^ 3 = 8
-</code></pre>
-</div>
-
- -->
-<ul class="post-list">
+<!-- <ul class="post-list">
 
   
   
@@ -366,53 +285,168 @@
     </li>
   
 
-</div>
-
-<!-- 
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/loop/math/2017/02/25/fibonacci.html">Fibonacci</a></h2>
-    <p>La classe <code class="highlighter-rouge">Fibonacci</code> deve generare i primi mille numeri della celeberrima <em>successione di Fibonacci</em> (<a href="https://it.wikipedia.org/wiki/Successione_di_Fibonacci">wiki</a>).</p>
-
-<p>Tale successione inizia con i due valori 0 e 1 (detti <em>F0</em> e <em>F1</em>). Il valore seguente (<em>F2</em>) si ottiene sommando i due precedenti (0 + 1 = 1), il quarto valore (<em>F3</em>) si ottiene sommado tra loro il <em>F1</em> e <em>F2</em> (1 + 1 = 2) e via dicendo. I primi valori della serie sono 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 (F10),…</p>
+</ul> -->
 
 
   
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/methods/math/2017/02/25/triangolo.html">Triangolo</a></h2>
-    <p>Scrivi la classe <code class="highlighter-rouge">Triangolo</code> contenente il metodo:</p>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/methods/math/2017/02/25/triangolo.html">
+            Triangolo
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+           <span class="label label-success">Livello 9</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi la classe <code class="highlighter-rouge">Triangolo</code> contenente il metodo:</p>
 
 <p><code class="highlighter-rouge">public static double calcolaAreaTriangolo(double base, double altezza)</code></p>
 
 <p>Tale metodo ritorna un numero che rappresenta l’ area di un triangolo di base <code class="highlighter-rouge">base</code> e di altezza <code class="highlighter-rouge">altezza</code>.</p>
 
-
+      </div>
+      
+    </div>
   
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/methods/math/2017/02/25/cerchio.html">Cerchio</a></h2>
-    <p>Scrivi la classe <code class="highlighter-rouge">Cerchio</code> contenente il metodo:</p>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/methods/math/2017/02/25/cerchio.html">
+            Cerchio
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+           <span class="label label-success">Livello 9</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi la classe <code class="highlighter-rouge">Cerchio</code> contenente il metodo:</p>
 
 <p><code class="highlighter-rouge">public static double calcolaCirconferenza(double raggio)</code></p>
 
 <p>Tale metodo ritorna un numero che rappresenta la circonferenza di un cerchio di raggio <code class="highlighter-rouge">raggio</code>.</p>
 
-
+      </div>
+      
+    </div>
   
-</article>
-<hr>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/loop/math/2017/02/25/fibonacci.html">
+            Fibonacci
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+           <span class="label label-success">Livello 9</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>La classe <code class="highlighter-rouge">Fibonacci</code> deve generare i primi mille numeri della celeberrima <em>successione di Fibonacci</em> (<a href="https://it.wikipedia.org/wiki/Successione_di_Fibonacci">wiki</a>).</p>
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<p>Tale successione inizia con i due valori 0 e 1 (detti <em>F0</em> e <em>F1</em>). Il valore seguente (<em>F2</em>) si ottiene sommando i due precedenti (0 + 1 = 1), il quarto valore (<em>F3</em>) si ottiene sommado tra loro il <em>F1</em> e <em>F2</em> (1 + 1 = 2) e via dicendo. I primi valori della serie sono 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 (F10),…</p>
 
-    <h2><a href="/methods/math/2017/02/25/calcolatrice.html">Calcolatrice</a></h2>
-    <p>Scrivi la classe <code class="highlighter-rouge">Calcolatrice</code> contenente il metodo:</p>
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/math/loop/wrapper/2017/02/25/elevazioneapotenza.html">
+            ElevazioneAPotenza
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
+          
+           <span class="label label-success">Livello 10</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi il programma Java <code class="highlighter-rouge">ElevazioneAPotenza</code> che calcola l’elevazione a potenza del valore intero passato come primo argomento per il secondo argomento intero.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt; java ElevazioneAPotenza 2 3 
+2 ^ 3 = 8
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/methods/math/2017/02/25/divmul.html">
+            DivMul
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+           <span class="label label-success">Livello 10</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi la classe <code class="highlighter-rouge">DivMul</code> contenente i metodo:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">public static int calcolaMCD(int a, int b)</code>: calcola il massimo comun divisore di 2 numeri (<a href="https://it.wikipedia.org/wiki/Massimo_comun_divisore">Wiki: MCD</a>).</li>
+  <li><code class="highlighter-rouge">public static int calcolaMcm(int a, int b)</code>: calcola il minimo comune multiplo di 2 numeri (<a href="https://it.wikipedia.org/wiki/Minimo_comune_multiplo">Wiki: mcm</a>).</li>
+</ul>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/methods/math/2017/02/25/calcolatrice.html">
+            Calcolatrice
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+           <span class="label label-success">Livello 11</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi la classe <code class="highlighter-rouge">Calcolatrice</code> contenente il metodo:</p>
 
 <div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">calcola</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">,</span> <span class="kt">char</span> <span class="n">operatore</span><span class="o">)</span><span class="err">`</span>
 </code></pre>
@@ -422,30 +456,28 @@
 
 <p>Ad esempio l’invocazione <code class="highlighter-rouge">calcola(5,2,'+')</code> ritornerà <code class="highlighter-rouge">7</code> (<code class="highlighter-rouge">5+2</code>) mentre l’invocazione <code class="highlighter-rouge">calcola(5,2,'*')</code> ritornerà <code class="highlighter-rouge">10</code> (<code class="highlighter-rouge">5*2</code>). Se il parametro <code class="highlighter-rouge">operatore</code> contiene un carattere non valido, il metodo ritorna 0.</p>
 
-
+      </div>
+      
+    </div>
   
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/methods/math/2017/02/25/divmul.html">DivMul</a></h2>
-    <p>Scrivi la classe <code class="highlighter-rouge">DivMul</code> contenente i metodo:</p>
-
-<ul>
-  <li><code class="highlighter-rouge">public static int calcolaMCD(int a, int b)</code>: calcola il massimo comun divisore di 2 numeri (<a href="https://it.wikipedia.org/wiki/Massimo_comun_divisore">Wiki: MCD</a>).</li>
-  <li><code class="highlighter-rouge">public static int calcolaMcm(int a, int b)</code>: calcola il minimo comune multiplo di 2 numeri (<a href="https://it.wikipedia.org/wiki/Minimo_comune_multiplo">Wiki: mcm</a>).</li>
-</ul>
-
-
-  
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/math/methods/2017/02/25/potre.html">PoTre</a></h2>
-    <p>Scrivi la classe <code class="highlighter-rouge">PoTre</code> contenente il metodo:</p>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4><a href="/eserciziario2.0/math/methods/2017/02/25/potre.html">
+            PoTre
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+           <span class="label label-success">Livello 11</span>
+          </small>
+          </h4>
+        </div>
+      <div class="panel-body">
+        <p>Scrivi la classe <code class="highlighter-rouge">PoTre</code> contenente il metodo:</p>
 
 <div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">pow3</span><span class="o">(</span><span class="kt">int</span> <span class="n">n</span><span class="o">)</span>
 </code></pre>
@@ -455,28 +487,12 @@
 
 <p>La classe dovrà anche contenere un metodo <code class="highlighter-rouge">main</code> in cui verificare se il metodo <code class="highlighter-rouge">pow3</code> funziona correttamente.</p>
 
-
+      </div>
+      
+    </div>
   
-</article>
-<hr>
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h2><a href="/math/loop/wrapper/2017/02/25/elevazioneapotenza.html">ElevazioneAPotenza</a></h2>
-    <p>Scrivi il programma Java <code class="highlighter-rouge">ElevazioneAPotenza</code> che calcola l’elevazione a potenza del valore intero passato come primo argomento per il secondo argomento intero.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt; java ElevazioneAPotenza 2 3 
-2 ^ 3 = 8
-</code></pre>
-</div>
 
 
-  
-</article>
-<hr>
- -->
       </div>
     </div>
 <!--     </main> -->
