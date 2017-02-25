@@ -13,7 +13,7 @@ layout: default
       <!-- {% if cat.layout == "categories" %} -->
         <li>
           <a href="{{site.baseurl}}/categories/{{cat.category}}"><b>{{ cat.title }}</b></a> 
-          ({{ site.categories[cat.category] | second | size }}): {{ cat.description }}
+          <span class="badge">{{ site.categories[cat.category] | second | size }}</span>: {{ cat.description }}
 
         </li>
       <!-- {% endif %} -->
