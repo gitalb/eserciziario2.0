@@ -11,9 +11,9 @@ Scrivi il programma `HelloName` che stampa a terminale "Ciao `nome`!!". Il `nome
 Prova:
 
 ```text
-java HelloName Michele
+>java HelloName Michele
 Ciao Michele!!
 
-java HelloName Pippo
+>java HelloName Pippo
 Ciao Pippo!!
 ```
