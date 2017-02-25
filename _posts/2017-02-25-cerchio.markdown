@@ -8,6 +8,7 @@ level: 9
 
 Scrivi la classe `Cerchio` contenente il metodo:
 
+
 ```java
 public static double calcolaCirconferenza(double raggio)
 ```
