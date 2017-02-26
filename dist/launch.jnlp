@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="https://gitalb.github.io/eserciziario2.0/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>WebStartDemo1</title>
+        <vendor>andreaalbertini</vendor>
+        <homepage href=""/>
+        <description>WebStartDemo1</description>
+        <description kind="short">WebStartDemo1</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="WebStartDemo1.jar" main="true"/>
+    </resources>
+    <application-desc main-class="Hello">
+    </application-desc>
+</jnlp>
