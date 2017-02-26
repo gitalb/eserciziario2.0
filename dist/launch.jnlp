@@ -15,6 +15,6 @@
         <j2se version="1.7+"/>
         <jar href="WebStartDemo1.jar" main="true"/>
     </resources>
-    <application-desc main-class="Hello">
+    <application-desc main-class="TesterFrame">
     </application-desc>
 </jnlp>
