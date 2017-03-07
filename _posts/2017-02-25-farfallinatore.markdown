@@ -11,7 +11,6 @@ Scrivi il programma `Farfallinatore` che codifichi una stringa introdotta dall'u
 Esempio:
 
 ~~~text
->java Farfallinatore
-Inserire il testo da codificare: Tanto va la gatta al lardo
+>java Farfallinatore Tanto va la gatta al lardo
 Tafantofo vafa lafa gafattafa afal lafardofo
 ~~~

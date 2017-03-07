@@ -11,7 +11,6 @@ Scrivi un decodificatore capace decifrare una stringa in *alfabeto farfallino*.
 Esempio:
 
 ~~~text
->java DeFarfallinatore
-Inserire il testo da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
+>java DeFarfallinatore Lefe frafagofolefe sofonofo mafatufurefe
 Le fragole sono mature
 ~~~

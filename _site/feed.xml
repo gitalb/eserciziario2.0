@@ -1,5 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-02-26T12:47:23+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">Merlo</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo.html" rel="alternate" type="text/html" title="Merlo" /><published>2017-02-25T14:31:53+01:00</published><updated>2017-02-25T14:31:53+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Merlo&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un &lt;em&gt;merlo&lt;/em&gt; (elemento tipico dell’architettura militare medievale) composto di asterischi (‘*’) con l’altezza pari ad &lt;em&gt;N&lt;/em&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-03-07T08:12:23+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">AdvancedStringTool</title><link href="http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html" rel="alternate" type="text/html" title="AdvancedStringTool" /><published>2017-03-07T08:01:14+01:00</published><updated>2017-03-07T08:01:14+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html">&lt;h2 id=&quot;advancedstringtool&quot;&gt;AdvancedStringTool&lt;/h2&gt;
+
+&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;AdvancedStringTool&lt;/code&gt; contenente i metodi desctitti in seguito:&lt;/p&gt;
+
+&lt;h3 id=&quot;isletter&quot;&gt;isLetter&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isLetter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se il carattere &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è una lettera, mentre ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; In caso contrario.&lt;/p&gt;
+
+&lt;h3 id=&quot;isconsonant&quot;&gt;isConsonant&lt;/h3&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isConsonant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se il carattere &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è una consonante, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/p&gt;
+
+&lt;h3 id=&quot;isvowel&quot;&gt;isVowel&lt;/h3&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isVowel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è una vocale, mentre ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; in tutti gli altri casi.&lt;/p&gt;
+
+&lt;h3 id=&quot;countvowels&quot;&gt;countVowels&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;countVowels&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ritorna il numero di vocali presenti nella stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;countVowels(&quot;NOOOOOO&quot;)&lt;/code&gt; ritorna 6.&lt;/p&gt;
+
+&lt;h3 id=&quot;countconsonants&quot;&gt;countConsonants&lt;/h3&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;countConsonants&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tale metodo ritorna il numero di consonanti presenti nella stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;countConsonants(&quot;NOOOOOO&quot;)&lt;/code&gt; ritorna 1.&lt;/p&gt;
+
+&lt;h3 id=&quot;vowelize&quot;&gt;vowelize&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;vowelize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ritorna una stringa contenente solamente le vocali della stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;vowelize(&quot;casa&quot;)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;aa&quot;&lt;/code&gt;, mentre &lt;code class=&quot;highlighter-rouge&quot;&gt;vowelize(&quot;lunotto&quot;)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;uoo&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;isalternative&quot;&gt;isAlternative&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isAlternative&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tale metodo ritorna true se la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt; contiene consonanti e vocali alternate (es. &lt;code class=&quot;highlighter-rouge&quot;&gt;isAlternative(&quot;patata&quot;)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;isanagram&quot;&gt;isAnagram&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isAnagram&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;firstWord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondWord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;firstWord&lt;/code&gt; è un anagramma di &lt;code class=&quot;highlighter-rouge&quot;&gt;secondWord&lt;/code&gt;, altrimenti ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;. Esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;isAnagram(&quot;calendario&quot;,&quot;locandiera&quot;)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;countinstring&quot;&gt;countInString&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;countInString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tale metodo conta quante volte il carattere &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è presente nella stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">AdvancedStringTool</summary></entry><entry><title type="html">Merlo</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo.html" rel="alternate" type="text/html" title="Merlo" /><published>2017-02-25T14:31:53+01:00</published><updated>2017-02-25T14:31:53+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Merlo&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un &lt;em&gt;merlo&lt;/em&gt; (elemento tipico dell’architettura militare medievale) composto di asterischi (‘*’) con l’altezza pari ad &lt;em&gt;N&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi&lt;/strong&gt;.&lt;/p&gt;
 
@@ -206,33 +277,4 @@
 *****
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Quadrato. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un quadrato pieno composto di asterischi (‘*’) con il lato lungo N:</summary></entry><entry><title type="html">ZigZag</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/zigzag.html" rel="alternate" type="text/html" title="ZigZag" /><published>2017-02-25T12:49:30+01:00</published><updated>2017-02-25T12:49:30+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/zigzag</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/zigzag.html">&lt;p&gt;Scrivi la classe Java &lt;code class=&quot;highlighter-rouge&quot;&gt;ZigZag&lt;/code&gt;. Tale classe deve utilizzare il carattere ‘/’ (&lt;em&gt;slash&lt;/em&gt;) e il carattere ‘' (&lt;em&gt;back-slash&lt;/em&gt;) per disegnare un tratteggio verticale infinito. Il disegno deve essere realizzato esattamente come illustrato nell’esempio seguente:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;java ZigZag
-\
- \
-  \
-   \
-   /
-  /
- /
-/
-\
- \
-  \
-   \
-   /
-  /
- /
-/
-\
- \
-  \
-   \
-   /
-  /
- /
-/
-...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Java ZigZag. Tale classe deve utilizzare il carattere ‘/’ (slash) e il carattere ‘' (back-slash) per disegnare un tratteggio verticale infinito. Il disegno deve essere realizzato esattamente come illustrato nell’esempio seguente:</summary></entry></feed>
+&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Quadrato. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un quadrato pieno composto di asterischi (‘*’) con il lato lungo N:</summary></entry></feed>
