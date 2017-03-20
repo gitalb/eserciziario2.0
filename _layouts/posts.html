@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<h1>{{page.description | escape }}</h1>
+
+{% assign ordBy = page.orderby %}
+{% assign posts = (site.posts  | sort: ordBy %}
+<!-- <ul>
+{% for post in posts %}
+  <li>
+    
+    <a href="{{ post.url | prepend:site.baseurl }}">
+      {{ post.title | escape }}
+    </a>
+    <small>
+      {% if post %}
+      {% assign categories = post.categories %}
+      {% else %}
+      {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/{{category|slugize}}"><span class="label label-warning">{{category}}</span></a>
+      {% endfor %}
+      <span class="label label-success">Livello {{post.level}}</span>
+      {{post.exerpt}}
+    </small>
+  </li>
+{% endfor %}
+</ul> -->
+
+<table class="table">
+<tr><th>Titolo</th><th>Categorie</th><th>Livello</th></tr>
+{% for post in posts %}
+  <tr>
+
+    <td>
+      <a href="{{ post.url | prepend:site.baseurl }}">
+        {{ post.title | escape }}
+      </a>
+    </td>
+    <td>
+      {% if post %}
+      {% assign categories = post.categories %}
+      {% else %}
+      {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/{{category|slugize}}"><span class="label label-warning">{{category}}</span></a>
+      {% endfor %}
+    </td>
+    <td>
+      <span class="label label-success">Livello {{post.level}}</span>
+      {{post.exerpt}}
+    </td>
+  </tr>
+{% endfor %}
+</table>

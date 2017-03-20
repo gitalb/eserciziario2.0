@@ -36,54 +36,13 @@
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         
+        
           
-          <li><a class="page-link" href="/eserciziario2.0/about/">About</a></li>
+          <li><a class="page-link" href="/eserciziario2.0/postsbylevel/">Per livello</a></li>
           
         
           
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-          <li><a class="page-link" href="/eserciziario2.0/"></a></li>
-          
-        
-          
-          <li><a class="page-link" href="/eserciziario2.0/assets/css/site.css"></a></li>
-          
-        
-          
-          <li><a class="page-link" href="/eserciziario2.0/assets/main.css"></a></li>
-          
-        
-          
-          <li><a class="page-link" href="/eserciziario2.0/feed.xml"></a></li>
+          <li><a class="page-link" href="/eserciziario2.0/postsbytitle/">Per titolo</a></li>
           
         
       </ul>
@@ -147,6 +106,14 @@
           
         
           
+          <a class="page-link" href="/eserciziario2.0/postsbylevel/">Per livello</a>
+          
+        
+          
+          <a class="page-link" href="/eserciziario2.0/postsbytitle/">Per titolo</a>
+          
+        
+          
           <a class="page-link" href="/eserciziario2.0/assets/css/site.css"></a>
           
         
@@ -171,130 +138,6 @@
         <h1>Unicode</h1>
 <p>
 </p>
-
-<!-- <ul class="post-list">
-
-  
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/unicode/2017/02/24/cornice.html">Cornice</a></h2>
-        <p>Scrivi il programma <code class="highlighter-rouge">Cornice</code> che scriva a terminale il tuo nome utilizzando i caratteri Unicode della pagina <a href="http://www.unicode.org/charts/PDF/U2500.pdf">U2500</a>. Esempio:</p>
-
-<p><img src="/eserciziario2.0/assets/posts/cornice.png" alt="" width="300" /></p>
-
-<p>Nota: Su alcune shell i caratteri unicode potrebbero essere rappresentati in modo errato.</p>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/unicode/2017/02/25/unicodeportrait.html">UnicodePortrait</a></h2>
-        <p>Usa i caratteri unicode che preferisci per disegnare il tuo autoritratto. Vedi <a href="http://www.unicode.org/charts/">unicode.org</a>.</p>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/interactive/unicode/string/loop/2017/02/25/asciigator.html">Asciigator</a></h2>
-        <p>Scrivere la classe <code class="highlighter-rouge">Asciigator</code> che chiede all’utente di digitare un stringa di testo e poi stampa ogni carattere contenuto nella stringa introdotta e il relativo codice Unicode (in decimale e in esadecimale).</p>
-
-<p>Ad esempio per <code class="highlighter-rouge">ABCDEF1234567890</code> il programma produce l’output seguente:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>Introdurre un testo:
-ABCDEF1234567890
-
-char:	'A'	'B'	'C'	'D'	'E'	'F'	'1'	'2'	'3'	'4'	'5'	'6'	'7'	'8'	'9'	'0'	
-dec:	65	66	67	68	69	70	49	50	51	52	53	54	55	56	57	48	
-hex:	41	42	43	44	45	46	31	32	33	34	35	36	37	38	39	30	
-
-</code></pre>
-</div>
-
-<p>Mentre per <code class="highlighter-rouge">Hello world!</code>:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>Introdurre un testo:
-Hello world!
-
-char:	'H'	'e'	'l'	'l'	'o'	' '	'w'	'o'	'r'	'l'	'd'	'!'	
-dec:	72	101	108	108	111	32	119	111	114	108	100	33	
-hex:	48	65	6c	6c	6f	20	77	6f	72	6c	64	21
-
-</code></pre>
-</div>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/loop/var/unicode/2017/02/25/unicodetest.html">UnicodeTest</a></h2>
-        <p>Scrivi il programma <code class="highlighter-rouge">UnicodeTest</code> che stampa a terminale i primi 1000 caratteri unicode partendo dal primo carattere <em>stampabile</em> che è il carattere <em>blank</em> (‘ ‘). Il programma stampa il codice esadecimale e il relativo carattere:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>Char: 20 ==&gt; ' '
-Char: 21 ==&gt; '!'
-Char: 22 ==&gt; '"'
-Char: 23 ==&gt; '#'
-Char: 24 ==&gt; '$'
-Char: 25 ==&gt; '%'
-Char: 26 ==&gt; '&amp;'
-Char: 27 ==&gt; '''
-Char: 28 ==&gt; '('
-Char: 29 ==&gt; ')'
-Char: 2a ==&gt; '*'
-Char: 2b ==&gt; '+'
-Char: 2c ==&gt; ','
-Char: 2d ==&gt; '-'
-Char: 2e ==&gt; '.'
-Char: 2f ==&gt; '/'
-Char: 30 ==&gt; '0'
-Char: 31 ==&gt; '1'
-Char: 32 ==&gt; '2'
-Char: 33 ==&gt; '3'
-Char: 34 ==&gt; '4'
-Char: 35 ==&gt; '5'
-Char: 36 ==&gt; '6'
-Char: 37 ==&gt; '7'
-Char: 38 ==&gt; '8'
-Char: 39 ==&gt; '9'
-Char: 3a ==&gt; ':'
-Char: 3b ==&gt; ';'
-Char: 3c ==&gt; '&lt;'
-Char: 3d ==&gt; '='
-Char: 3e ==&gt; '&gt;'
-Char: 3f ==&gt; '?'
-Char: 40 ==&gt; '@'
-Char: 41 ==&gt; 'A'
-Char: 42 ==&gt; 'B'
-Char: 43 ==&gt; 'C'
-Char: 44 ==&gt; 'D'
-Char: 45 ==&gt; 'E'
-Char: 46 ==&gt; 'F'
-Char: 47 ==&gt; 'G'
-...
-Char: 37b ==&gt; 'ͻ'
-Char: 37c ==&gt; 'ͼ'
-Char: 37d ==&gt; 'ͽ'
-...
-Char: 3e4 ==&gt; 'Ϥ'
-Char: 3e5 ==&gt; 'ϥ'
-Char: 3e6 ==&gt; 'Ϧ'
-Char: 3e7 ==&gt; 'ϧ'
-
-</code></pre>
-</div>
-
-
-      
-    </li>
-  
-
-</ul> -->
 
 
   

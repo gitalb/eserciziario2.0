@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>Esercizi per categoria</h1>
-<div class="list-group">
+<!-- <div class="list-group">
     {% assign cats = (site.pages  | where: "layout","categories"| sort: 'title' %}
     {% for cat in cats %}
       <a href="{{site.baseurl}}/categories/{{cat.category}}" class="list-group-item">
@@ -11,8 +11,49 @@ layout: default
         <p class="list-group-item-text">{{ cat.description }}</p>
       </a> 
     {% endfor %}
-</div>
+</div> -->
 
+{% assign cats = (site.pages  | where: "layout","categories"| sort: 'title' %}
+		<table class="table">
+{% for cat in cats %}
+	{% if site.categories[cat.category] %}
+		{% assign posts = (site.categories[cat.category]  | sort: 'level' %}
+		<tr><td colspan="3"><h2>
+			{{ cat.title }}
+			<a href="{{site.baseurl}}/categories/{{cat.category}}">
+				<span class="badge">{{ site.categories[cat.category] | second | size }}</span>
+			</a>
+		</h2>
 
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+		<p>{{ cat.description }}</p>
+		</td>
+		</tr>
+			<tr>
+				<th>Titolo</th><th>Categorie</th><th>Livello</th>
+			</tr>
+			{% for post in posts %}
+				<tr>
+					<td>
+						<a href="{{ post.url | prepend:site.baseurl }}">
+							{{ post.title | escape }}
+						</a>
+					</td>
+					<td>
+						{% if post %}
+						{% assign categories = post.categories %}
+						{% else %}
+						{% assign categories = page.categories %}
+						{% endif %}
+						{% for category in categories %}
+						<a href="{{site.baseurl}}/categories/{{category|slugize}}"><span class="label label-warning">{{category}}</span></a>
+						{% endfor %}
+					</td>
+					<td>
+						<span class="label label-success">Livello {{post.level}}</span>
+						{{post.exerpt}}
+					</td>
+				</tr>
+			{% endfor %}
+	{% endif %}
+{% endfor %}
+		</table>

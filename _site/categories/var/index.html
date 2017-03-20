@@ -36,54 +36,13 @@
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         
+        
           
-          <li><a class="page-link" href="/eserciziario2.0/about/">About</a></li>
+          <li><a class="page-link" href="/eserciziario2.0/postsbylevel/">Per livello</a></li>
           
         
           
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-          <li><a class="page-link" href="/eserciziario2.0/"></a></li>
-          
-        
-          
-          <li><a class="page-link" href="/eserciziario2.0/assets/css/site.css"></a></li>
-          
-        
-          
-          <li><a class="page-link" href="/eserciziario2.0/assets/main.css"></a></li>
-          
-        
-          
-          <li><a class="page-link" href="/eserciziario2.0/feed.xml"></a></li>
+          <li><a class="page-link" href="/eserciziario2.0/postsbytitle/">Per titolo</a></li>
           
         
       </ul>
@@ -147,6 +106,14 @@
           
         
           
+          <a class="page-link" href="/eserciziario2.0/postsbylevel/">Per livello</a>
+          
+        
+          
+          <a class="page-link" href="/eserciziario2.0/postsbytitle/">Per titolo</a>
+          
+        
+          
           <a class="page-link" href="/eserciziario2.0/assets/css/site.css"></a>
           
         
@@ -171,260 +138,6 @@
         <h1>Variabili e tipi di dati</h1>
 <p>
 </p>
-
-<!-- <ul class="post-list">
-
-  
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/2017/02/24/dichiaraeassegna.html">DichiaraEAssegna</a></h2>
-        <p>Scrivi un programma contenente:</p>
-
-<ul>
-  <li>la dichiarazione della variabile intera (32 bit) <code class="highlighter-rouge">a</code>, e assegnategli il valore esadecimale AB</li>
-  <li>la dichiarazione della variabile intera (16 bit) <code class="highlighter-rouge">b</code>, e assegnategli il valore ottale 445</li>
-  <li>la dichiarazione della variabile intera (32 bit) <code class="highlighter-rouge">c</code>, e assegnategli il valore decimale 111</li>
-  <li>la dichiarazione della variabile intera (64 bit) <code class="highlighter-rouge">d</code>, e assegnategli il valore decimale 222</li>
-</ul>
-
-<p>Poi stampa a terminale il nome e il valore di ognuna delle variabili dichiarate.</p>
-
-<p>Considera il codice che hai scritto. Quanta memoria verrà occupata per le variabili che hai dichiarato?</p>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/2017/02/25/scootercpu.html">ScooterCPU</a></h2>
-        <p>Scrivi il programma <code class="highlighter-rouge">ScooterCPU</code> nel quale devono essere dichiarate delle variabili utili per memorizzare i seguenti valori:</p>
-
-<ul>
-  <li>velocità (Range: [0; 80])</li>
-  <li>livello carburante (Range: [0; 1023])</li>
-  <li>spiaGuastoMotore (Range: [ON; OFF])</li>
-  <li>giriMotore (Range: [0.0; 0.99])</li>
-</ul>
-
-<p>Dichiara le variabili scegliendo il <strong>tipo di dato più appropriato</strong> per ognuna e poi il calcola quanto spazio occupano in memoria.</p>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/unicode/2017/02/24/cornice.html">Cornice</a></h2>
-        <p>Scrivi il programma <code class="highlighter-rouge">Cornice</code> che scriva a terminale il tuo nome utilizzando i caratteri Unicode della pagina <a href="http://www.unicode.org/charts/PDF/U2500.pdf">U2500</a>. Esempio:</p>
-
-<p><img src="/eserciziario2.0/assets/posts/cornice.png" alt="" width="300" /></p>
-
-<p>Nota: Su alcune shell i caratteri unicode potrebbero essere rappresentati in modo errato.</p>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/operators/switch/args/2017/02/24/paridispari.html">PariDispari</a></h2>
-        <p>Scrivi il programma <code class="highlighter-rouge">PariDispari</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è pari"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; è dispari"</code>.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java PariDispari a b c
-3 è dispari
-
-&gt;java PariDispari a d v f
-4 è pari
-</code></pre>
-</div>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/unicode/2017/02/25/unicodeportrait.html">UnicodePortrait</a></h2>
-        <p>Usa i caratteri unicode che preferisci per disegnare il tuo autoritratto. Vedi <a href="http://www.unicode.org/charts/">unicode.org</a>.</p>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/2017/02/25/medianote.html">MediaNote</a></h2>
-        <p>Scrivere il programma <code class="highlighter-rouge">MediaNote</code> che, date 3 variabili <code class="highlighter-rouge">double nota1</code>, <code class="highlighter-rouge">nota2</code> e <code class="highlighter-rouge">nota3</code> (contenenti 3 note scolastiche [1.0;6.0]) ne calcola la media e la stampa a terminale. L’output del programma deve essere formattato nel modo seguente:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>Nota1:  1,99
-Nota2:  4,69
-Nota3:  4,08
-------------
-Media:  3,59
-</code></pre>
-</div>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/args/switch/operators/var/2017/02/24/multipli5.html">Multipli5</a></h2>
-        <p>Scrivi un programma che, dato il numero di argomenti da linea di comando (N), stampa a terminale: “N è multiplo di 5” oppure “N non è multiplo di 5”.</p>
-
-<p>Scrivi il programma <code class="highlighter-rouge">Multipli5</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale: <code class="highlighter-rouge">"&lt;N&gt; è multiplo di 5"</code> oppure <code class="highlighter-rouge">"&lt;N&gt; non è multiplo di 5"</code>.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Multipli5 a b c
-3 non è multiplo di 5
-
-&gt;java PariDispari a d v e t f s t u t 
-10 è multiplo di 5
-</code></pre>
-</div>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/2017/02/25/fract2anglo.html">Fract2Anglo</a></h2>
-        <p>Scrivi il programma <code class="highlighter-rouge">Fract2Anglo</code> nel quale vengono dichiarate due variabili <code class="highlighter-rouge">int divisore</code> e <code class="highlighter-rouge">int dividendo</code>. Il programma deve poi stampare a terminale il valore della frazione in formato anglosassone.</p>
-
-<p>Ad esempio per <code class="highlighter-rouge">divisore = 2</code> e <code class="highlighter-rouge">dividendo = 1</code> il programma stampa <code class="highlighter-rouge">0.5</code>.</p>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/2017/02/25/calcolanotaint.html">CalcolaNotaInt</a></h2>
-        <p>Scrivere un programma chiamato <code class="highlighter-rouge">CalcolaNotaInt</code> nel quale viene dichiarata la variabile <code class="highlighter-rouge">double media</code> contenente la media dei 3 test calcolata da <a href="/eserciziario2.0/var/2017/02/25/medianote.html"><code class="highlighter-rouge">MediaNote</code></a> e viene <em>arrotondata all’intero più vicino</em>.</p>
-
-<p>Ad esempio 5.4 viene arrotondato a 5, mentre 5.6 viene arrotondato a 6.</p>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/operators/2017/02/25/troncadouble.html">TroncaDouble</a></h2>
-        <p>Scrivi il programma <code class="highlighter-rouge">TroncaDouble</code> che, data la variabile <code class="highlighter-rouge">double n</code>, ne stampa a terminale il valore <em>troncato</em> a 3 cifre decimali.</p>
-
-<p>Ad esempio per <code class="highlighter-rouge">n =  1.23456789</code>:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt; java TroncaDouble
-1.234
-</code></pre>
-</div>
-
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/operators/2017/02/25/decuni.html">DecUni</a></h2>
-        <p>Scrivi il programma <code class="highlighter-rouge">DecUni</code> che, dato il numero di argomenti da linea di comando (N), stampa a terminale quante <em>decine</em> e quante <em>unità</em> compongono N.</p>
-
-<p>Ad esempio per 12 argomenti:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java DecUni a a a a a a a a a a a a
-numero: 12 
-decine: 1
-unità: 2
-</code></pre>
-</div>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/var/2017/02/25/calcolanotadecimo.html">CalcolaNotaDecimo</a></h2>
-        <p>Scrivere un secondo programma chiamato <code class="highlighter-rouge">CalcolaNotaDecimo</code> nel quale viene dichiarata la variabile <code class="highlighter-rouge">double media</code> contenente la media dei 3 test calcolata da <a href="/eserciziario2.0/var/2017/02/25/medianote.html"><code class="highlighter-rouge">MediaNote</code></a> e viene <em>arrotondata mezzo punto più vicino</em>.</p>
-
-<p>Ad esempio 5.4 viene approssimato a 5.5, mentre 5.77 viene approssimato a 6.</p>
-
-
-      
-    </li>
-  
-    <li>
-
-        <h2><a href="/eserciziario2.0/loop/var/unicode/2017/02/25/unicodetest.html">UnicodeTest</a></h2>
-        <p>Scrivi il programma <code class="highlighter-rouge">UnicodeTest</code> che stampa a terminale i primi 1000 caratteri unicode partendo dal primo carattere <em>stampabile</em> che è il carattere <em>blank</em> (‘ ‘). Il programma stampa il codice esadecimale e il relativo carattere:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>Char: 20 ==&gt; ' '
-Char: 21 ==&gt; '!'
-Char: 22 ==&gt; '"'
-Char: 23 ==&gt; '#'
-Char: 24 ==&gt; '$'
-Char: 25 ==&gt; '%'
-Char: 26 ==&gt; '&amp;'
-Char: 27 ==&gt; '''
-Char: 28 ==&gt; '('
-Char: 29 ==&gt; ')'
-Char: 2a ==&gt; '*'
-Char: 2b ==&gt; '+'
-Char: 2c ==&gt; ','
-Char: 2d ==&gt; '-'
-Char: 2e ==&gt; '.'
-Char: 2f ==&gt; '/'
-Char: 30 ==&gt; '0'
-Char: 31 ==&gt; '1'
-Char: 32 ==&gt; '2'
-Char: 33 ==&gt; '3'
-Char: 34 ==&gt; '4'
-Char: 35 ==&gt; '5'
-Char: 36 ==&gt; '6'
-Char: 37 ==&gt; '7'
-Char: 38 ==&gt; '8'
-Char: 39 ==&gt; '9'
-Char: 3a ==&gt; ':'
-Char: 3b ==&gt; ';'
-Char: 3c ==&gt; '&lt;'
-Char: 3d ==&gt; '='
-Char: 3e ==&gt; '&gt;'
-Char: 3f ==&gt; '?'
-Char: 40 ==&gt; '@'
-Char: 41 ==&gt; 'A'
-Char: 42 ==&gt; 'B'
-Char: 43 ==&gt; 'C'
-Char: 44 ==&gt; 'D'
-Char: 45 ==&gt; 'E'
-Char: 46 ==&gt; 'F'
-Char: 47 ==&gt; 'G'
-...
-Char: 37b ==&gt; 'ͻ'
-Char: 37c ==&gt; 'ͼ'
-Char: 37d ==&gt; 'ͽ'
-...
-Char: 3e4 ==&gt; 'Ϥ'
-Char: 3e5 ==&gt; 'ϥ'
-Char: 3e6 ==&gt; 'Ϧ'
-Char: 3e7 ==&gt; 'ϧ'
-
-</code></pre>
-</div>
-
-
-      
-    </li>
-  
-
-</ul> -->
 
 
   
