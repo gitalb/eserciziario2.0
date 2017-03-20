@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<h1>Esercizi Java</h1>
+<p>Ecco una raccolta di esercizi utili per i programmatori Java alle prime armi. La maggior parte degli esercizi possono funzionare nella console di Netbeans o altri IDE, fanno eccezione le *animazioni 1D* che devono essere eseguite in una shell che interpreti correttamente il carattere *carriage return* (Prompt dei comandi, Terminale) per funzionare correttamente.</p>
+
 <h1>Esercizi per categoria</h1>
 <!-- <div class="list-group">
     {% assign cats = (site.pages  | where: "layout","categories"| sort: 'title' %}
@@ -18,9 +21,10 @@ layout: default
 {% for cat in cats %}
 	{% if site.categories[cat.category] %}
 		{% assign posts = (site.categories[cat.category]  | sort: 'level' %}
+
 		<tr><td colspan="3"><h2>
 			{{ cat.title }}
-			<a href="{{site.baseurl}}/categories/{{cat.category}}">
+			<a name="{{ cat.category }}" href="{{site.baseurl}}/categories/{{cat.category}}">
 				<span class="badge">{{ site.categories[cat.category] | second | size }}</span>
 			</a>
 		</h2>
@@ -45,7 +49,7 @@ layout: default
 						{% assign categories = page.categories %}
 						{% endif %}
 						{% for category in categories %}
-						<a href="{{site.baseurl}}/categories/{{category|slugize}}"><span class="label label-warning">{{category}}</span></a>
+						<a href="{{site.baseurl}}/#{{category|slugize}}"><span class="label label-warning">{{category}}</span></a>
 						{% endfor %}
 					</td>
 					<td>
