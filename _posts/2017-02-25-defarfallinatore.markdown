@@ -6,6 +6,7 @@ categories: [string,loop,interactive]
 level: 10
 ---
 
+
 Scrivi un decodificatore capace decifrare una stringa in *alfabeto farfallino*. 
 
 Esempio:

@@ -6,7 +6,6 @@ categories: [string,methods,switch,loop]
 level: 13
 ---
 
-## AdvancedStringTool
 
 Scrivi la classe `AdvancedStringTool` contenente i metodi desctitti in seguito:
 
