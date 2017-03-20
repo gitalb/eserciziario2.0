@@ -1,0 +1,11 @@
+---
+layout: post
+title: "ZeroDiv"
+date: 2017-03-20 17:10:26 +0100
+categories: [exceptions]
+level: 8
+---
+
+Scrivere un programma che, dati due argomenti da linea di comando, stampi il risultato della divisione del primo argomento per il secondo (utilizza numeri interi). 
+
+Scrivi due varianti dello stesso programma utilizzando rispettivamente un blocco *try catch* e una selezione per gestire la possibile divisione per zero.

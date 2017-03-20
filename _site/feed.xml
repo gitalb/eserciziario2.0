@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-03-17T17:51:54+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">AdvancedStringTool</title><link href="http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html" rel="alternate" type="text/html" title="AdvancedStringTool" /><published>2017-03-07T08:01:14+01:00</published><updated>2017-03-07T08:01:14+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;AdvancedStringTool&lt;/code&gt; contenente i metodi desctitti in seguito:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-03-20T17:17:20+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">Calcolatrice2</title><link href="http://localhost:4000/eserciziario2.0/exceptions/math/2017/03/20/calcolatrice2.html" rel="alternate" type="text/html" title="Calcolatrice2" /><published>2017-03-20T17:15:35+01:00</published><updated>2017-03-20T17:15:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/math/2017/03/20/calcolatrice2</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/math/2017/03/20/calcolatrice2.html">&lt;p&gt;Riprendi il tuo codice della classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Calcolatrice&lt;/code&gt; e modificalo secondo le specifiche seguenti:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aggiungere la gestione delle eccezioni.&lt;/li&gt;
+  &lt;li&gt;Permettere il calcolo di espressioni contenenti più operatori (es. &lt;code class=&quot;highlighter-rouge&quot;&gt;1 + 3 + 5&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Riprendi il tuo codice della classe Calcolatrice e modificalo secondo le specifiche seguenti:</summary></entry><entry><title type="html">MediaMista</title><link href="http://localhost:4000/eserciziario2.0/exceptions/wrapper/2017/03/20/mediamista.html" rel="alternate" type="text/html" title="MediaMista" /><published>2017-03-20T17:13:02+01:00</published><updated>2017-03-20T17:13:02+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/wrapper/2017/03/20/mediamista</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/wrapper/2017/03/20/mediamista.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;MediaMista&lt;/code&gt; che accetta delle note scolastiche e/o dei giudizi e poi ne calcola la media. Il programma deve:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;accettare note scolastiche [1.0;6.0].&lt;/li&gt;
+  &lt;li&gt;accettare valutazioni MI (2), I (3), S (4), B (5), MB (6).&lt;/li&gt;
+  &lt;li&gt;scartare le note/valutazioni non accettabili.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrivi la classe MediaMista che accetta delle note scolastiche e/o dei giudizi e poi ne calcola la media. Il programma deve:</summary></entry><entry><title type="html">ZeroDiv</title><link href="http://localhost:4000/eserciziario2.0/exceptions/2017/03/20/zerodiv.html" rel="alternate" type="text/html" title="ZeroDiv" /><published>2017-03-20T17:10:26+01:00</published><updated>2017-03-20T17:10:26+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/2017/03/20/zerodiv</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/2017/03/20/zerodiv.html">&lt;p&gt;Scrivere un programma che, dati due argomenti da linea di comando, stampi il risultato della divisione del primo argomento per il secondo (utilizza numeri interi).&lt;/p&gt;
+
+&lt;p&gt;Scrivi due varianti dello stesso programma utilizzando rispettivamente un blocco &lt;em&gt;try catch&lt;/em&gt; e una selezione per gestire la possibile divisione per zero.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivere un programma che, dati due argomenti da linea di comando, stampi il risultato della divisione del primo argomento per il secondo (utilizza numeri interi).</summary></entry><entry><title type="html">AdvancedStringTool</title><link href="http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html" rel="alternate" type="text/html" title="AdvancedStringTool" /><published>2017-03-07T08:01:14+01:00</published><updated>2017-03-07T08:01:14+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;AdvancedStringTool&lt;/code&gt; contenente i metodi desctitti in seguito:&lt;/p&gt;
 
 &lt;h3 id=&quot;isletter&quot;&gt;isLetter&lt;/h3&gt;
 
@@ -218,61 +231,4 @@
 *****
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java TriangoloRettangoloVuoto. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un triangolo rettangolo vuoto composto di asterischi (‘*’) con il lato lungo N:</summary></entry><entry><title type="html">TriangoloRettangolo</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolo.html" rel="alternate" type="text/html" title="TriangoloRettangolo" /><published>2017-02-25T12:57:11+01:00</published><updated>2017-02-25T12:57:11+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolo.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;TriangoloRettangolo&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un triangolo rettangolo &lt;em&gt;pieno&lt;/em&gt; composto di asterischi (‘*’) con il lato lungo &lt;em&gt;N&lt;/em&gt;:&lt;/p&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*
-** 
-***
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*
-**
-***
-****
-*****
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java TriangoloRettangolo. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un triangolo rettangolo pieno composto di asterischi (‘*’) con il lato lungo N:</summary></entry><entry><title type="html">QuadratoVuoto</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadratovuoto.html" rel="alternate" type="text/html" title="QuadratoVuoto" /><published>2017-02-25T12:53:35+01:00</published><updated>2017-02-25T12:53:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadratovuoto</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadratovuoto.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;QuadratoVuoto&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un quadrato &lt;em&gt;vuoto&lt;/em&gt; composto di asterischi (‘*’) con il lato lungo &lt;em&gt;N&lt;/em&gt;:&lt;/p&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;***
-* *
-***
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*****
-*   *
-*   *
-*   *
-*****
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java QuadratoVuoto. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un quadrato vuoto composto di asterischi (‘*’) con il lato lungo N:</summary></entry><entry><title type="html">Quadrato</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadrato.html" rel="alternate" type="text/html" title="Quadrato" /><published>2017-02-25T12:51:38+01:00</published><updated>2017-02-25T12:51:38+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadrato</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/quadrato.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Quadrato&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un quadrato &lt;em&gt;pieno&lt;/em&gt; composto di asterischi (‘*’) con il lato lungo &lt;em&gt;N&lt;/em&gt;:&lt;/p&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;***
-***
-***
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*****
-*****
-*****
-*****
-*****
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Quadrato. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un quadrato pieno composto di asterischi (‘*’) con il lato lungo N:</summary></entry></feed>
+&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java TriangoloRettangoloVuoto. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un triangolo rettangolo vuoto composto di asterischi (‘*’) con il lato lungo N:</summary></entry></feed>

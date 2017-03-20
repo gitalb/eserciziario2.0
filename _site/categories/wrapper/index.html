@@ -221,6 +221,44 @@ ERRORE: il valore 5.3 non è accettabile
   
     <li>
 
+        <h2><a href="/eserciziario2.0/wrapper/2017/02/25/dec2hex.html">Dec2Hex</a></h2>
+        <p>Scrivi la classe <code class="highlighter-rouge">Dec2Hex</code> che converte in esadecimale il valore passato come argomento da linea di comando. Nel caso che il valore passato non sia un valore decimale <strong>è necessario</strong> gestire l’eventuale errore in maniera appropriata. Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 10
+a
+</code></pre>
+</div>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 255
+ff
+</code></pre>
+</div>
+
+<p>Se non vengono passati argomenti il programma termina:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex
+$
+</code></pre>
+</div>
+
+<p>Se vengono passati argomenti non appropriati:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex "Cento"
+ERRORE: il valore Cento non è un valore decimale
+</code></pre>
+</div>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 5.3
+ERRORE: il valore 5.3 non è un valore decimale
+</code></pre>
+</div>
+
+
+      
+    </li>
+  
+    <li>
+
         <h2><a href="/eserciziario2.0/wrapper/2017/02/25/sumargs.html">SumArgs</a></h2>
         <p>Scrivi la classe <code class="highlighter-rouge">SumArgs</code> che stampa a terminale la somma dei due valori interi passati come argomenti da linea di comando. Se i valori passati non sono interi, <strong>è necessario</strong> gestire l’eventuale errore in maniera appropriata. Esempio:</p>
 
@@ -305,44 +343,6 @@ ERRORE: il valore 5.3 non è accettabile
   
     <li>
 
-        <h2><a href="/eserciziario2.0/wrapper/2017/02/25/dec2hex.html">Dec2Hex</a></h2>
-        <p>Scrivi la classe <code class="highlighter-rouge">Dec2Hex</code> che converte in esadecimale il valore passato come argomento da linea di comando. Nel caso che il valore passato non sia un valore decimale <strong>è necessario</strong> gestire l’eventuale errore in maniera appropriata. Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 10
-a
-</code></pre>
-</div>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 255
-ff
-</code></pre>
-</div>
-
-<p>Se non vengono passati argomenti il programma termina:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex
-$
-</code></pre>
-</div>
-
-<p>Se vengono passati argomenti non appropriati:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex "Cento"
-ERRORE: il valore Cento non è un valore decimale
-</code></pre>
-</div>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 5.3
-ERRORE: il valore 5.3 non è un valore decimale
-</code></pre>
-</div>
-
-
-      
-    </li>
-  
-    <li>
-
         <h2><a href="/eserciziario2.0/wrapper/2017/02/25/sumargshex.html">SumArgsHex</a></h2>
         <p>Scrivi la classe <code class="highlighter-rouge">SumArgsHex</code> che stampa a terminale la somma dei due valori interi passati come argomenti da linea di comando in formato esadecimale. Nel caso che i valori passati non siano valori interi <strong>è necessario</strong> gestire l’eventuale errore in maniera appropriata. Esempio:</p>
 
@@ -412,6 +412,24 @@ Inserire secondo addendo (in esadecimale): 55AA
   
     <li>
 
+        <h2><a href="/eserciziario2.0/switch/wrapper/2017/02/25/convertitorenota.html">ConvertitoreNota</a></h2>
+        <p>Scrivi il programma Java <code class="highlighter-rouge">ConvertitoreNota</code> che converte la nota ([1.0;6.0]) passata come primo argomento, in un voto espresso tramite una lettera (A, B, C, …). La deve avvenire conversione secondo i criteri seguenti:</p>
+
+<ul>
+  <li>per note maggiori o uguali a 1 il voto è E</li>
+  <li>se la nota è maggiore o uguale a 2.5 il voto è D</li>
+  <li>se la nota è maggiore o uguale a 3.5 il voto è C</li>
+  <li>se la nota è maggiore o uguale a 4.5 il voto è B</li>
+  <li>se la nota è maggiore o uguale a 5.5 il voto è A</li>
+</ul>
+
+
+
+      
+    </li>
+  
+    <li>
+
         <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/binsum.html">BinSum</a></h2>
         <p>Scrivi il programma <code class="highlighter-rouge">BinSum</code> che chiede all’utente di inserire due valori interi espressi in notazione <strong>esadecimale</strong> e poi ne stampa la somma <strong>in base 2</strong>. I valori binari devono essere stampati <em>a 32 bit</em>.</p>
 
@@ -447,17 +465,14 @@ Inserire secondo addendo (in esadecimale): -1
   
     <li>
 
-        <h2><a href="/eserciziario2.0/switch/wrapper/2017/02/25/convertitorenota.html">ConvertitoreNota</a></h2>
-        <p>Scrivi il programma Java <code class="highlighter-rouge">ConvertitoreNota</code> che converte la nota ([1.0;6.0]) passata come primo argomento, in un voto espresso tramite una lettera (A, B, C, …). La deve avvenire conversione secondo i criteri seguenti:</p>
+        <h2><a href="/eserciziario2.0/exceptions/wrapper/2017/03/20/mediamista.html">MediaMista</a></h2>
+        <p>Scrivi la classe <code class="highlighter-rouge">MediaMista</code> che accetta delle note scolastiche e/o dei giudizi e poi ne calcola la media. Il programma deve:</p>
 
 <ul>
-  <li>per note maggiori o uguali a 1 il voto è E</li>
-  <li>se la nota è maggiore o uguale a 2.5 il voto è D</li>
-  <li>se la nota è maggiore o uguale a 3.5 il voto è C</li>
-  <li>se la nota è maggiore o uguale a 4.5 il voto è B</li>
-  <li>se la nota è maggiore o uguale a 5.5 il voto è A</li>
+  <li>accettare note scolastiche [1.0;6.0].</li>
+  <li>accettare valutazioni MI (2), I (3), S (4), B (5), MB (6).</li>
+  <li>scartare le note/valutazioni non accettabili.</li>
 </ul>
-
 
 
       
@@ -581,6 +596,56 @@ ERRORE: il valore 5.3 non è accettabile
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/wrapper/2017/02/25/dec2hex.html">
+            Dec2Hex
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
+          
+           <span class="label label-success">Livello 6</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">Dec2Hex</code> che converte in esadecimale il valore passato come argomento da linea di comando. Nel caso che il valore passato non sia un valore decimale <strong>è necessario</strong> gestire l’eventuale errore in maniera appropriata. Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 10
+a
+</code></pre>
+</div>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 255
+ff
+</code></pre>
+</div>
+
+<p>Se non vengono passati argomenti il programma termina:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex
+$
+</code></pre>
+</div>
+
+<p>Se vengono passati argomenti non appropriati:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex "Cento"
+ERRORE: il valore Cento non è un valore decimale
+</code></pre>
+</div>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 5.3
+ERRORE: il valore 5.3 non è un valore decimale
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/wrapper/2017/02/25/sumargs.html">
             SumArgs
           </a>
@@ -689,56 +754,6 @@ ERRORE: il valore 5.3 non è accettabile
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/wrapper/2017/02/25/dec2hex.html">
-            Dec2Hex
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
-          
-           <span class="label label-success">Livello 6</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi la classe <code class="highlighter-rouge">Dec2Hex</code> che converte in esadecimale il valore passato come argomento da linea di comando. Nel caso che il valore passato non sia un valore decimale <strong>è necessario</strong> gestire l’eventuale errore in maniera appropriata. Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 10
-a
-</code></pre>
-</div>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 255
-ff
-</code></pre>
-</div>
-
-<p>Se non vengono passati argomenti il programma termina:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex
-$
-</code></pre>
-</div>
-
-<p>Se vengono passati argomenti non appropriati:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex "Cento"
-ERRORE: il valore Cento non è un valore decimale
-</code></pre>
-</div>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java Dec2Hex 5.3
-ERRORE: il valore 5.3 non è un valore decimale
-</code></pre>
-</div>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/wrapper/2017/02/25/sumargshex.html">
             SumArgsHex
           </a>
@@ -834,6 +849,38 @@ Inserire secondo addendo (in esadecimale): 55AA
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/switch/wrapper/2017/02/25/convertitorenota.html">
+            ConvertitoreNota
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+          
+            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
+          
+           <span class="label label-success">Livello 8</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma Java <code class="highlighter-rouge">ConvertitoreNota</code> che converte la nota ([1.0;6.0]) passata come primo argomento, in un voto espresso tramite una lettera (A, B, C, …). La deve avvenire conversione secondo i criteri seguenti:</p>
+
+<ul>
+  <li>per note maggiori o uguali a 1 il voto è E</li>
+  <li>se la nota è maggiore o uguale a 2.5 il voto è D</li>
+  <li>se la nota è maggiore o uguale a 3.5 il voto è C</li>
+  <li>se la nota è maggiore o uguale a 4.5 il voto è B</li>
+  <li>se la nota è maggiore o uguale a 5.5 il voto è A</li>
+</ul>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/binsum.html">
             BinSum
           </a>
@@ -883,31 +930,28 @@ Inserire secondo addendo (in esadecimale): -1
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/switch/wrapper/2017/02/25/convertitorenota.html">
-            ConvertitoreNota
+          <h2><a href="/eserciziario2.0/exceptions/wrapper/2017/03/20/mediamista.html">
+            MediaMista
           </a>
           <small class="pull-right">
           
           
-            <a href="/eserciziario2.0/categories/switch"><span class="label label-warning">switch</span></a>
+            <a href="/eserciziario2.0/categories/exceptions"><span class="label label-warning">exceptions</span></a>
           
             <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
           
-           <span class="label label-success">Livello 8</span>
+           <span class="label label-success">Livello 9</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma Java <code class="highlighter-rouge">ConvertitoreNota</code> che converte la nota ([1.0;6.0]) passata come primo argomento, in un voto espresso tramite una lettera (A, B, C, …). La deve avvenire conversione secondo i criteri seguenti:</p>
+          <p>Scrivi la classe <code class="highlighter-rouge">MediaMista</code> che accetta delle note scolastiche e/o dei giudizi e poi ne calcola la media. Il programma deve:</p>
 
 <ul>
-  <li>per note maggiori o uguali a 1 il voto è E</li>
-  <li>se la nota è maggiore o uguale a 2.5 il voto è D</li>
-  <li>se la nota è maggiore o uguale a 3.5 il voto è C</li>
-  <li>se la nota è maggiore o uguale a 4.5 il voto è B</li>
-  <li>se la nota è maggiore o uguale a 5.5 il voto è A</li>
+  <li>accettare note scolastiche [1.0;6.0].</li>
+  <li>accettare valutazioni MI (2), I (3), S (4), B (5), MB (6).</li>
+  <li>scartare le note/valutazioni non accettabili.</li>
 </ul>
-
 
       </div>
       
