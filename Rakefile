@@ -42,6 +42,7 @@ task "category" do
   title = ask('Category title (i.e. Args): ')
   category = ask('Category name (i.e. args): ')
   description = ask('Category description (i.e. Esercizi sugli argomenti da linea di comando.): ')
+  level = ask('Category level (ie. 2): ')
   filename = "index.markdown"
   path = File.join(category, filename)
   path = File.join("categories", path)
@@ -54,6 +55,7 @@ layout: categories
 title: \"#{title}\"
 category: #{category}
 description: #{description}
+level: #{level}
 ---
 EOS
 end

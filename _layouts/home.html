@@ -16,7 +16,7 @@ layout: default
     {% endfor %}
 </div> -->
 
-{% assign cats = (site.pages  | where: "layout","categories"| sort: 'title' %}
+{% assign cats = (site.pages  | where: "layout","categories"| sort: 'level' %}
 		<table class="table">
 {% for cat in cats %}
 	{% if site.categories[cat.category] %}

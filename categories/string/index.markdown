@@ -3,4 +3,5 @@ layout: categories
 title: String
 category: string
 description: Esercizi all'uso della classe String.
+level: 8
 ---

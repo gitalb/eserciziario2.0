@@ -3,4 +3,5 @@ layout: categories
 title: Cicli
 category: loop
 description: Esercizi sui cicli <code>while</code>, <code>do/while</code> e <code>for</code>
+level: 5
 ---

@@ -3,6 +3,7 @@ layout: categories
 title: "Animazioni1D"
 category: anim1D
 description: Programmi che producono delle animazioni su di una riga di terminale.
+level: 7
 ---
 
 Per produrre delle semplici animazioni (su di una sola riga) si deve:
