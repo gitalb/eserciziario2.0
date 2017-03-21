@@ -1,0 +1,11 @@
+---
+layout: post
+title: "SuperCar"
+date: 2017-03-21 19:22:57 +0100
+categories: [anim1D]
+level: 13
+---
+
+Scrivi il programma `SuperCar ` che produce l'animazione seguente:
+
+![]({{ site.baseurl }}/assets/posts/supercar.gif){:width="300"}

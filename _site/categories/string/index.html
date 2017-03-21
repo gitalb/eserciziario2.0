@@ -102,6 +102,8 @@
           
         
           
+        
+          
           <a class="page-link" href="/eserciziario2.0/"></a>
           
         
@@ -139,6 +141,7 @@
 <p></p>
 
 
+  
   
   
     <div class="panel panel-info">
@@ -306,6 +309,163 @@ Tafantofo vafa lafa gafattafa afal lafardofo
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/methods/2017/03/21/cifrariodicesare.html">
+            CifrarioDiCesare
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+           <span class="label label-success">Livello 12</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Da <a href="https://it.m.wikipedia.org/wiki/Cifrario_di_Cesare">Wikipedia</a>:</p>
+
+<blockquote>
+  <p>“Il cifrario di Cesare è uno dei più antichi algoritmi crittografici di cui si abbia traccia storica. È un cifrario a sostituzione monoalfabetica in cui ogni lettera del testo in chiaro è sostituita nel testo cifrato dalla lettera che si trova un certo numero di posizioni dopo nell’alfabeto. Questi tipi di cifrari sono detti anche cifrari a sostituzione o cifrari a scorrimento a causa del loro modo di operare: la sostituzione avviene lettera per lettera, scorrendo il testo dall’inizio alla fine.” … ” In particolare, Cesare utilizzava uno spostamento di 3 posizioni (la chiave era dunque 3” …</p>
+</blockquote>
+
+<hr />
+
+<p>Ad esempio, applicando la chiave 3: <code class="highlighter-rouge">'a'</code> diventa <code class="highlighter-rouge">'d'</code>, <code class="highlighter-rouge">'b'</code> diventa <code class="highlighter-rouge">'e'</code>, <code class="highlighter-rouge">'c'</code> diventa <code class="highlighter-rouge">'f'</code> e via dicendo:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Carattere originale</th>
+      <th><code class="highlighter-rouge">'a'</code></th>
+      <th><code class="highlighter-rouge">'b'</code></th>
+      <th><code class="highlighter-rouge">'c'</code></th>
+      <th><code class="highlighter-rouge">'d'</code></th>
+      <th><code class="highlighter-rouge">'e'</code></th>
+      <th>…</th>
+      <th><code class="highlighter-rouge">'x'</code></th>
+      <th><code class="highlighter-rouge">'y'</code></th>
+      <th><code class="highlighter-rouge">'z'</code></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Codifica con chiave 3</td>
+      <td><code class="highlighter-rouge">'d'</code></td>
+      <td><code class="highlighter-rouge">'e'</code></td>
+      <td><code class="highlighter-rouge">'f'</code></td>
+      <td><code class="highlighter-rouge">'g'</code></td>
+      <td><code class="highlighter-rouge">'h'</code></td>
+      <td>…</td>
+      <td><code class="highlighter-rouge">'a'</code></td>
+      <td><code class="highlighter-rouge">'b'</code></td>
+      <td><code class="highlighter-rouge">'c'</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Applicando invece la chiave 5 <code class="highlighter-rouge">'a'</code> diventa <code class="highlighter-rouge">'f'</code>, <code class="highlighter-rouge">'b'</code> diventa <code class="highlighter-rouge">'g'</code>… eccetera:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Carattere originale</th>
+      <th><code class="highlighter-rouge">'a'</code></th>
+      <th><code class="highlighter-rouge">'b'</code></th>
+      <th><code class="highlighter-rouge">'c'</code></th>
+      <th><code class="highlighter-rouge">'d'</code></th>
+      <th><code class="highlighter-rouge">'e'</code></th>
+      <th>…</th>
+      <th><code class="highlighter-rouge">'x'</code></th>
+      <th><code class="highlighter-rouge">'y'</code></th>
+      <th><code class="highlighter-rouge">'z'</code></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Codifica con chiave 5</td>
+      <td><code class="highlighter-rouge">'f'</code></td>
+      <td><code class="highlighter-rouge">'g'</code></td>
+      <td><code class="highlighter-rouge">'h'</code></td>
+      <td><code class="highlighter-rouge">'i'</code></td>
+      <td><code class="highlighter-rouge">'j'</code></td>
+      <td>…</td>
+      <td><code class="highlighter-rouge">'c'</code></td>
+      <td><code class="highlighter-rouge">'d'</code></td>
+      <td><code class="highlighter-rouge">'e'</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Scrivi la classe Java <code class="highlighter-rouge">CifrarioDiCesare</code> che contenga due metodi utili rispettivamente per codificare e decodificare una stringa:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">public static String codifica(String testo, int chiave)</code></li>
+  <li><code class="highlighter-rouge">public static String decodifica(String codice, int chiave)</code></li>
+</ul>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/methods/loop/string/draw/2017/02/25/nameframer.html">
+            NameFramer
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">NameFramer</code> contenente il metodo:</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="n">pubic</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">frameName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="kt">char</span> <span class="n">c</span><span class="o">,</span> <span class="kt">int</span> <span class="n">width</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>che ritorna una stringa contenente la stringa <code class="highlighter-rouge">name</code> incorniciata nel carattere <code class="highlighter-rouge">c</code> utilizzato con uno spessore <code class="highlighter-rouge">width</code>.</p>
+
+<p>Ad esempio <code class="highlighter-rouge">frameName("Piero",'*',2)</code> ritorna la stringa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>*********
+*********
+**Piero**
+*********
+*********
+</code></pre>
+</div>
+
+<p>mentre <code class="highlighter-rouge">frameName("Andrea",'$',1)</code> ritorna la stringa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$$$$$$$$
+$Andrea$
+$$$$$$$$
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html">
             AdvancedStringTool
           </a>
@@ -380,14 +540,6 @@ Tafantofo vafa lafa gafattafa afal lafardofo
 
 <p>Tale metodo ritorna true se la stringa <code class="highlighter-rouge">s</code> contiene consonanti e vocali alternate (es. <code class="highlighter-rouge">isAlternative("patata")</code> ritorna <code class="highlighter-rouge">true</code>).</p>
 
-<h3 id="isanagram">isAnagram</h3>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">isAnagram</span><span class="o">(</span><span class="n">String</span> <span class="n">firstWord</span><span class="o">,</span> <span class="n">String</span> <span class="n">secondWord</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Ritorna <code class="highlighter-rouge">true</code> se <code class="highlighter-rouge">firstWord</code> è un anagramma di <code class="highlighter-rouge">secondWord</code>, altrimenti ritorna <code class="highlighter-rouge">false</code>. Esempio <code class="highlighter-rouge">isAnagram("calendario","locandiera")</code> ritorna <code class="highlighter-rouge">true</code>.</p>
-
 <h3 id="countinstring">countInString</h3>
 
 <div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">countInString</span><span class="o">(</span><span class="n">String</span> <span class="n">text</span><span class="o">,</span> <span class="kt">char</span> <span class="n">c</span><span class="o">)</span>
@@ -396,56 +548,13 @@ Tafantofo vafa lafa gafattafa afal lafardofo
 
 <p>Tale metodo conta quante volte il carattere <code class="highlighter-rouge">c</code> è presente nella stringa <code class="highlighter-rouge">text</code>.</p>
 
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/methods/loop/string/draw/2017/02/25/nameframer.html">
-            NameFramer
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
-          
-            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi la classe <code class="highlighter-rouge">NameFramer</code> contenente il metodo:</p>
+<h3 id="isanagram">isAnagram</h3>
 
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="n">pubic</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">frameName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="kt">char</span> <span class="n">c</span><span class="o">,</span> <span class="kt">int</span> <span class="n">width</span><span class="o">)</span>
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">boolean</span> <span class="nf">isAnagram</span><span class="o">(</span><span class="n">String</span> <span class="n">firstWord</span><span class="o">,</span> <span class="n">String</span> <span class="n">secondWord</span><span class="o">)</span>
 </code></pre>
 </div>
 
-<p>che ritorna una stringa contenente la stringa <code class="highlighter-rouge">name</code> incorniciata nel carattere <code class="highlighter-rouge">c</code> utilizzato con uno spessore <code class="highlighter-rouge">width</code>.</p>
-
-<p>Ad esempio <code class="highlighter-rouge">frameName("Piero",'*',2)</code> ritorna la stringa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>*********
-*********
-**Piero**
-*********
-*********
-</code></pre>
-</div>
-
-<p>mentre <code class="highlighter-rouge">frameName("Andrea",'$',1)</code> ritorna la stringa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$$$$$$$$
-$Andrea$
-$$$$$$$$
-</code></pre>
-</div>
+<p>Ritorna <code class="highlighter-rouge">true</code> se <code class="highlighter-rouge">firstWord</code> è un anagramma di <code class="highlighter-rouge">secondWord</code>, altrimenti ritorna <code class="highlighter-rouge">false</code>. Esempio <code class="highlighter-rouge">isAnagram("calendario","locandiera")</code> ritorna <code class="highlighter-rouge">true</code>.</p>
 
       </div>
       

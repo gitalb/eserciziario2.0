@@ -1,234 +1,227 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-03-21T00:03:39+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">Calcolatrice2</title><link href="http://localhost:4000/eserciziario2.0/exceptions/math/2017/03/20/calcolatrice2.html" rel="alternate" type="text/html" title="Calcolatrice2" /><published>2017-03-20T17:15:35+01:00</published><updated>2017-03-20T17:15:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/math/2017/03/20/calcolatrice2</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/math/2017/03/20/calcolatrice2.html">&lt;p&gt;Riprendi il tuo codice della classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Calcolatrice&lt;/code&gt; e modificalo secondo le specifiche seguenti:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-03-21T22:02:54+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">ScegliNumero</title><link href="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero.html" rel="alternate" type="text/html" title="ScegliNumero" /><published>2017-03-21T21:40:13+01:00</published><updated>2017-03-21T21:40:13+01:00</updated><id>http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;ScegliNumero&lt;/code&gt; che chiede all’utente di inserire un numero. Se il valore immesso è compreso tra i due interi passati come argomenti da linea di comando, il programma stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;Bravo!&lt;/code&gt; e termina. Altrimenti ripete la richiesta.&lt;/p&gt;
+
+&lt;p&gt;Ad esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java ScegliNumero 5 1
+
+Inserisci un numero: 15
+Numero non valido, riprova!
+
+Inserisci un numero: 6
+Numero non valido, riprova!
+
+Inserisci un numero: 3
+Bravo!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma ScegliNumero che chiede all’utente di inserire un numero. Se il valore immesso è compreso tra i due interi passati come argomenti da linea di comando, il programma stampa Bravo! e termina. Altrimenti ripete la richiesta.</summary></entry><entry><title type="html">Saluto</title><link href="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/saluto.html" rel="alternate" type="text/html" title="Saluto" /><published>2017-03-21T21:38:20+01:00</published><updated>2017-03-21T21:38:20+01:00</updated><id>http://localhost:4000/eserciziario2.0/interactive/2017/03/21/saluto</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/saluto.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Saluto&lt;/code&gt; che chiede all’utente di inserire il proprio nome e in seguito stampa a terminale: &lt;code class=&quot;highlighter-rouge&quot;&gt;Buongiorno &amp;lt;nome&amp;gt;, benvenuto!&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserisci il tuo nome per continuare: Luca
+
+Buongiorno Luca, benvenuto!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Saluto che chiede all’utente di inserire il proprio nome e in seguito stampa a terminale: Buongiorno &amp;lt;nome&amp;gt;, benvenuto!.</summary></entry><entry><title type="html">CifrarioDiCesare</title><link href="http://localhost:4000/eserciziario2.0/string/methods/2017/03/21/cifrariodicesare.html" rel="alternate" type="text/html" title="CifrarioDiCesare" /><published>2017-03-21T21:28:43+01:00</published><updated>2017-03-21T21:28:43+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/methods/2017/03/21/cifrariodicesare</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/methods/2017/03/21/cifrariodicesare.html">&lt;p&gt;Da &lt;a href=&quot;https://it.m.wikipedia.org/wiki/Cifrario_di_Cesare&quot;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Il cifrario di Cesare è uno dei più antichi algoritmi crittografici di cui si abbia traccia storica. È un cifrario a sostituzione monoalfabetica in cui ogni lettera del testo in chiaro è sostituita nel testo cifrato dalla lettera che si trova un certo numero di posizioni dopo nell’alfabeto. Questi tipi di cifrari sono detti anche cifrari a sostituzione o cifrari a scorrimento a causa del loro modo di operare: la sostituzione avviene lettera per lettera, scorrendo il testo dall’inizio alla fine.” … ” In particolare, Cesare utilizzava uno spostamento di 3 posizioni (la chiave era dunque 3” …&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ad esempio, applicando la chiave 3: &lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'f'&lt;/code&gt; e via dicendo:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Carattere originale&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;…&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'x'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'y'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'z'&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Codifica con chiave 3&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'f'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'g'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'h'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;…&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Applicando invece la chiave 5 &lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'f'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'g'&lt;/code&gt;… eccetera:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Carattere originale&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;…&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'x'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'y'&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'z'&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Codifica con chiave 5&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'f'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'g'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'h'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'i'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'j'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;…&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Scrivi la classe Java &lt;code class=&quot;highlighter-rouge&quot;&gt;CifrarioDiCesare&lt;/code&gt; che contenga due metodi utili rispettivamente per codificare e decodificare una stringa:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Aggiungere la gestione delle eccezioni.&lt;/li&gt;
-  &lt;li&gt;Permettere il calcolo di espressioni contenenti più operatori (es. &lt;code class=&quot;highlighter-rouge&quot;&gt;1 + 3 + 5&lt;/code&gt;).&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Riprendi il tuo codice della classe Calcolatrice e modificalo secondo le specifiche seguenti:</summary></entry><entry><title type="html">MediaMista</title><link href="http://localhost:4000/eserciziario2.0/exceptions/wrapper/2017/03/20/mediamista.html" rel="alternate" type="text/html" title="MediaMista" /><published>2017-03-20T17:13:02+01:00</published><updated>2017-03-20T17:13:02+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/wrapper/2017/03/20/mediamista</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/wrapper/2017/03/20/mediamista.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;MediaMista&lt;/code&gt; che accetta delle note scolastiche e/o dei giudizi e poi ne calcola la media. Il programma deve:&lt;/p&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String codifica(String testo, int chiave)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String decodifica(String codice, int chiave)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Da Wikipedia:</summary></entry><entry><title type="html">AlfabetoFarfallino</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/alfabetofarfallino.html" rel="alternate" type="text/html" title="AlfabetoFarfallino" /><published>2017-03-21T21:26:47+01:00</published><updated>2017-03-21T21:26:47+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/alfabetofarfallino</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/alfabetofarfallino.html">&lt;p&gt;Il codice noto come &lt;em&gt;Alfabeto farfallino&lt;/em&gt; consiste nel modificare ogni parola aggiungendo dopo ogni vocale una &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt; seguita dalla vocale stessa ripetuta. Ad esempio:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;accettare note scolastiche [1.0;6.0].&lt;/li&gt;
-  &lt;li&gt;accettare valutazioni MI (2), I (3), S (4), B (5), MB (6).&lt;/li&gt;
-  &lt;li&gt;scartare le note/valutazioni non accettabili.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrivi la classe MediaMista che accetta delle note scolastiche e/o dei giudizi e poi ne calcola la media. Il programma deve:</summary></entry><entry><title type="html">ZeroDiv</title><link href="http://localhost:4000/eserciziario2.0/exceptions/2017/03/20/zerodiv.html" rel="alternate" type="text/html" title="ZeroDiv" /><published>2017-03-20T17:10:26+01:00</published><updated>2017-03-20T17:10:26+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/2017/03/20/zerodiv</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/2017/03/20/zerodiv.html">&lt;p&gt;Scrivere un programma che, dati due argomenti da linea di comando, stampi il risultato della divisione del primo argomento per il secondo (utilizza numeri interi).&lt;/p&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;casa&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;cafasafa&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;canile&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;cafanifilefe&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;luccicante&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;lufuccificafantefe&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Scrivi due varianti dello stesso programma utilizzando rispettivamente un blocco &lt;em&gt;try catch&lt;/em&gt; e una selezione per gestire la possibile divisione per zero.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivere un programma che, dati due argomenti da linea di comando, stampi il risultato della divisione del primo argomento per il secondo (utilizza numeri interi).</summary></entry><entry><title type="html">AdvancedStringTool</title><link href="http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html" rel="alternate" type="text/html" title="AdvancedStringTool" /><published>2017-03-07T08:01:14+01:00</published><updated>2017-03-07T08:01:14+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;AdvancedStringTool&lt;/code&gt; contenente i metodi desctitti in seguito:&lt;/p&gt;
+&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;AlfabetoFarfallino&lt;/code&gt; che contenga due metodi utili rispettivamente per codificare e decodificare una stringa secondo il codice &lt;em&gt;Alfabeto Farfallino&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;isletter&quot;&gt;isLetter&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String codifica(String testo)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String decodifica(String codice)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Il codice noto come Alfabeto farfallino consiste nel modificare ogni parola aggiungendo dopo ogni vocale una f seguita dalla vocale stessa ripetuta. Ad esempio:</summary></entry><entry><title type="html">IntTool</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/inttool.html" rel="alternate" type="text/html" title="IntTool" /><published>2017-03-21T21:20:32+01:00</published><updated>2017-03-21T21:20:32+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/inttool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/inttool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;IntTool&lt;/code&gt; contenente il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;int getDigits(int n)&lt;/code&gt; che ritorna il numero digits (cifre) necessario per la rappresentazione decimale di &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;getDigits(11)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; mentre &lt;code class=&quot;highlighter-rouge&quot;&gt;getDigits(12435)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;5&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe IntTool contenente il metodo int getDigits(int n) che ritorna il numero digits (cifre) necessario per la rappresentazione decimale di n. Ad esempio getDigits(11) ritorna 2 mentre getDigits(12435) ritorna 5.</summary></entry><entry><title type="html">SumTool</title><link href="http://localhost:4000/eserciziario2.0/methods/math/2017/03/21/sumtool.html" rel="alternate" type="text/html" title="SumTool" /><published>2017-03-21T21:19:15+01:00</published><updated>2017-03-21T21:19:15+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/math/2017/03/21/sumtool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/math/2017/03/21/sumtool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;SumTool &lt;/code&gt; contenente i metodi seguenti:&lt;/p&gt;
 
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isLetter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int sommaUnivoca(int a, int b, int c)&lt;/code&gt;: Tale metodo ritorna la somma di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; ma i valori duplicati vengono tralasciati nel calcolo del totale. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;sommaUnivoca(1,2,3)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;6&lt;/code&gt; mentre &lt;code class=&quot;highlighter-rouge&quot;&gt;sommaUnivoca(1,2,1)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int sommaTonda(int a, int b, int c)&lt;/code&gt;: ritorna la somma di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; arrotondata al multiplo di 10 più vicino.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrivi la classe SumTool contenente i metodi seguenti:</summary></entry><entry><title type="html">BlackJack</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/blackjack.html" rel="alternate" type="text/html" title="BlackJack" /><published>2017-03-21T21:04:24+01:00</published><updated>2017-03-21T21:04:24+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/blackjack</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/blackjack.html">&lt;p&gt;Nel Blackjack vince il giocatore che totalizza un punteggio che:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sia superiore a 0&lt;/li&gt;
+  &lt;li&gt;sia il più vicino possibile, ma non superi, il valore 21&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Scrivi La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;BlackJack&lt;/code&gt; contenente il metodo:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;blackjackWinner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;score1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;score2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;`&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se il carattere &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è una lettera, mentre ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; In caso contrario.&lt;/p&gt;
+&lt;p&gt;che, dati due punteggi &lt;code class=&quot;highlighter-rouge&quot;&gt;score1&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;score2&lt;/code&gt;, ritorna un numero intero secondo le seguenti regole:&lt;/p&gt;
 
-&lt;h3 id=&quot;isconsonant&quot;&gt;isConsonant&lt;/h3&gt;
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isConsonant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;ul&gt;
+  &lt;li&gt;in caso di pareggio, ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;se vince &lt;code class=&quot;highlighter-rouge&quot;&gt;score1&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;se vince &lt;code class=&quot;highlighter-rouge&quot;&gt;score2&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Qualche esempio:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(16,19)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(21,17)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(22,17)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(1,0)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(0,23)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nel Blackjack vince il giocatore che totalizza un punteggio che:</summary></entry><entry><title type="html">CharTool</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/chartool.html" rel="alternate" type="text/html" title="CharTool" /><published>2017-03-21T21:03:08+01:00</published><updated>2017-03-21T21:03:08+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/chartool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/chartool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;CharTool&lt;/code&gt; contenente i metodi seguenti:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;char toLower(char c)&lt;/code&gt;: se &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è un carattere alfabetico maiuscolo, ritorna il corrispondente carattere minuscolo. Altrimenti ritorna c. Ad esempio:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;toLower('A')&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;toLower('b')&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;toLower(';')&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;';'&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String sortCharacters(char a, char b, char c)&lt;/code&gt;: ritorna una stringa contenente i caratteri &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; disposti in ordine alfabetico e separati da una virgola. Nell’ordinamento, il caso dei caratteri alfabetici deve essere ignorato (&lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;'A'&lt;/code&gt;, hanno lo stesso ordine). Qualche esempio:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sortCharacters('c','A','b')&lt;/code&gt; ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;A,b,c&quot;&lt;/code&gt;,&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sortCharacters('M','m','G')&lt;/code&gt; ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;G,M,m&quot;&lt;/code&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrivi la classe CharTool contenente i metodi seguenti:</summary></entry><entry><title type="html">Repeater</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/repeater.html" rel="alternate" type="text/html" title="Repeater" /><published>2017-03-21T20:59:28+01:00</published><updated>2017-03-21T20:59:28+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/repeater</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/repeater.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Repeater &lt;/code&gt; contenente il metodo:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String repeat(String text, int times)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Tale metodo ritorna una stringa contenente il testo &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt; ripetuto &lt;code class=&quot;highlighter-rouge&quot;&gt;times&lt;/code&gt; volte. Ad esempio l’invocazione &lt;code class=&quot;highlighter-rouge&quot;&gt;repeat(&quot;X&quot;,5)&lt;/code&gt; ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;XXXXX&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ora utilizza il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;repeat&lt;/code&gt; per produrre il disegno seguente:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;----****
+----****
+----****
+----****
+****----
+****----
+****----
+****----
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se il carattere &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è una consonante, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/p&gt;
+&lt;p&gt;Quante righe di codice hai scritto? Una dovrebbe bastare…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Repeater contenente il metodo:</summary></entry><entry><title type="html">MatriceTDLR</title><link href="http://localhost:4000/eserciziario2.0/array/2017/03/21/matricetdlr.html" rel="alternate" type="text/html" title="MatriceTDLR" /><published>2017-03-21T20:04:35+01:00</published><updated>2017-03-21T20:04:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/2017/03/21/matricetdlr</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/2017/03/21/matricetdlr.html">&lt;p&gt;Ora prova riempire una matrice &lt;em&gt;colonna per colonna&lt;/em&gt;. Scrivi un programma che:&lt;/p&gt;
 
-&lt;h3 id=&quot;isvowel&quot;&gt;isVowel&lt;/h3&gt;
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isVowel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;ol&gt;
+  &lt;li&gt;Chiede all’utente di introdurre il numero di righe e il numero di colonne di una matrice&lt;/li&gt;
+  &lt;li&gt;Crea una matrice con le dimensioni definite dall’utente&lt;/li&gt;
+  &lt;li&gt;Riempie la matrice disponendo dei valori crescenti dall’alto verso il basso, da sinistra a destra&lt;/li&gt;
+  &lt;li&gt;Stampa lo stato della matrice&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esempio, per una matrice di 5 x 5:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire numero di righe: 5
+Inserire numero di colonne: 5
+
+0	5	10	15	20	
+1	6	11	16	21	
+2	7	12	17	22	
+3	8	13	18	23	
+4	9	14	19	24	
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è una vocale, mentre ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; in tutti gli altri casi.&lt;/p&gt;
+&lt;p&gt;Il programma deve funzionare correttamente anche per matrici rettangolari. Esempio:&lt;/p&gt;
 
-&lt;h3 id=&quot;countvowels&quot;&gt;countVowels&lt;/h3&gt;
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire numero di righe: 7
+Inserire numero di colonne: 2
 
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;countVowels&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+0	7	
+1	8	
+2	9	
+3	10	
+4	11	
+5	12	
+6	13		
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ritorna il numero di vocali presenti nella stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;countVowels(&quot;NOOOOOO&quot;)&lt;/code&gt; ritorna 6.&lt;/p&gt;
-
-&lt;h3 id=&quot;countconsonants&quot;&gt;countConsonants&lt;/h3&gt;
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;countConsonants&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tale metodo ritorna il numero di consonanti presenti nella stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;countConsonants(&quot;NOOOOOO&quot;)&lt;/code&gt; ritorna 1.&lt;/p&gt;
-
-&lt;h3 id=&quot;vowelize&quot;&gt;vowelize&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;vowelize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ritorna una stringa contenente solamente le vocali della stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;vowelize(&quot;casa&quot;)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;aa&quot;&lt;/code&gt;, mentre &lt;code class=&quot;highlighter-rouge&quot;&gt;vowelize(&quot;lunotto&quot;)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;uoo&quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;isalternative&quot;&gt;isAlternative&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isAlternative&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tale metodo ritorna true se la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt; contiene consonanti e vocali alternate (es. &lt;code class=&quot;highlighter-rouge&quot;&gt;isAlternative(&quot;patata&quot;)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;).&lt;/p&gt;
-
-&lt;h3 id=&quot;isanagram&quot;&gt;isAnagram&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isAnagram&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;firstWord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondWord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;firstWord&lt;/code&gt; è un anagramma di &lt;code class=&quot;highlighter-rouge&quot;&gt;secondWord&lt;/code&gt;, altrimenti ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;. Esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;isAnagram(&quot;calendario&quot;,&quot;locandiera&quot;)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;countinstring&quot;&gt;countInString&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;countInString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tale metodo conta quante volte il carattere &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è presente nella stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe AdvancedStringTool contenente i metodi desctitti in seguito:</summary></entry><entry><title type="html">Merlo</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo.html" rel="alternate" type="text/html" title="Merlo" /><published>2017-02-25T14:31:53+01:00</published><updated>2017-02-25T14:31:53+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/merlo.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Merlo&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un &lt;em&gt;merlo&lt;/em&gt; (elemento tipico dell’architettura militare medievale) composto di asterischi (‘*’) con l’altezza pari ad &lt;em&gt;N&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico o negativo) il programma produce il messaggio “inserire solo numeri positivi”.&lt;/p&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*   *
-** **
-*****
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 4 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*     *
-**   **
-*** ***
-*******
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Merlo. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un merlo (elemento tipico dell’architettura militare medievale) composto di asterischi (‘*’) con l’altezza pari ad N.</summary></entry><entry><title type="html">Ics</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ics.html" rel="alternate" type="text/html" title="Ics" /><published>2017-02-25T14:29:18+01:00</published><updated>2017-02-25T14:29:18+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ics</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ics.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Ics&lt;/code&gt; che disegna a terminale una X composta di asterischi. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (&lt;em&gt;N&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi dispari&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico, pari o negativo) il programma produce il messaggio “inserire solo numeri positivi dispari”.&lt;/p&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* *
- *
-* * 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*   *
- * *
-  *
- * *
-*   *
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;E via dicendo..&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Ics che disegna a terminale una X composta di asterischi. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (N).</summary></entry><entry><title type="html">Ecorc</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ecorc.html" rel="alternate" type="text/html" title="Ecorc" /><published>2017-02-25T14:25:03+01:00</published><updated>2017-02-25T14:25:03+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ecorc</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/ecorc.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Ecorc&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale una croce &lt;em&gt;in negativo&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi dispari&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico, pari o negativo) il programma produce il messaggio “inserire solo numeri positivi dispari”.&lt;/p&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* *
-
-* * 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;** **
-** **
-
-** **
-** **
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 7 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*** ***
-*** ***
-*** ***
-
-*** ***
-*** ***
-*** ***
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;E via dicendo..&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Ecorc. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (N) e poi disegna a terminale una croce in negativo.</summary></entry><entry><title type="html">Croce</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/croce.html" rel="alternate" type="text/html" title="Croce" /><published>2017-02-25T14:22:07+01:00</published><updated>2017-02-25T14:22:07+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/croce</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/croce.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;Croce&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale una croce composta di asterischi (‘*’). La dimensione della croce è definita dal valore immesso.&lt;/p&gt;
-
-&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi pari&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico, dispari o negativo) il programma produce il messaggio “inserire solo numeri positivi pari”.&lt;/p&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 4 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; **
-****
-****
- **
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 10 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     **
-     **
-     **
-     **
- **********
- **********
-     **
-     **
-     **
-     **
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java Croce. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale una croce composta di asterischi (‘*’). La dimensione della croce è definita dal valore immesso.</summary></entry><entry><title type="html">TriangoloIsoscele</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangoloisoscele.html" rel="alternate" type="text/html" title="TriangoloIsoscele" /><published>2017-02-25T13:03:02+01:00</published><updated>2017-02-25T13:03:02+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangoloisoscele</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangoloisoscele.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;TriangoloIsoscele &lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo dispari (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un triangolo &lt;em&gt;vuoto&lt;/em&gt; composto di asterischi (‘*’) avente la base di lunghezza pari ad &lt;em&gt;N&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Il programma accetta esclusivamente valori &lt;strong&gt;numerici interi positivi dispari&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Se l’utente fornisce un dato non accettabile (non numerico, pari o negativo) il programma produce il messaggio “inserire solo numeri positivi dispari”.&lt;/p&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; *
-***
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  *
- * * 
-*****
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java TriangoloIsoscele . Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo dispari (N) e poi disegna a terminale un triangolo vuoto composto di asterischi (‘*’) avente la base di lunghezza pari ad N.</summary></entry><entry><title type="html">TriangoloRettangoloVuoto</title><link href="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolovuoto.html" rel="alternate" type="text/html" title="TriangoloRettangoloVuoto" /><published>2017-02-25T12:59:35+01:00</published><updated>2017-02-25T12:59:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolovuoto</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolovuoto.html">&lt;p&gt;Scrivi il programma Java &lt;code class=&quot;highlighter-rouge&quot;&gt;TriangoloRettangoloVuoto&lt;/code&gt;. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (&lt;em&gt;N&lt;/em&gt;) e poi disegna a terminale un triangolo rettangolo &lt;em&gt;vuoto&lt;/em&gt; composto di asterischi (‘*’) con il lato lungo &lt;em&gt;N&lt;/em&gt;:&lt;/p&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 3 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*
-** 
-***
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Per &lt;em&gt;N&lt;/em&gt; pari a 5 il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*
-**
-* *
-*  *
-*****
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;E via dicendo…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Java TriangoloRettangoloVuoto. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (N) e poi disegna a terminale un triangolo rettangolo vuoto composto di asterischi (‘*’) con il lato lungo N:</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Ora prova riempire una matrice colonna per colonna. Scrivi un programma che:</summary></entry></feed>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "SumTool"
+date: 2017-03-21 21:19:15 +0100
+categories: [methods,math]
+level: 10
+---
+
+
+Scrivi la classe `SumTool ` contenente i metodi seguenti:
+
+- `int sommaUnivoca(int a, int b, int c)`: Tale metodo ritorna la somma di `a`, `b` e `c` ma i valori duplicati vengono tralasciati nel calcolo del totale. Ad esempio `sommaUnivoca(1,2,3)` ritorna `6` mentre `sommaUnivoca(1,2,1)` ritorna `3`.
+- `int sommaTonda(int a, int b, int c)`: ritorna la somma di `a`, `b` e `c` arrotondata al multiplo di 10 più vicino.

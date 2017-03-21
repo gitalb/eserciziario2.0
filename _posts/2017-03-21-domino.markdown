@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Domino"
+date: 2017-03-21 19:20:26 +0100
+categories: [anim1D]
+level: 14
+---
+
+Scrivi il programma `Domino` che produce l'animazione seguente:
+
+![]({{ site.baseurl }}/assets/posts/domino.gif){:width="300"}

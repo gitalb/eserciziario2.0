@@ -1,0 +1,9 @@
+---
+layout: post
+title: "IntTool"
+date: 2017-03-21 21:20:32 +0100
+categories: [methods]
+level: 10
+---
+
+Scrivi la classe `IntTool` contenente il metodo `int getDigits(int n)` che ritorna il numero digits (cifre) necessario per la rappresentazione decimale di `n`. Ad esempio `getDigits(11)` ritorna `2` mentre `getDigits(12435)` ritorna `5`.

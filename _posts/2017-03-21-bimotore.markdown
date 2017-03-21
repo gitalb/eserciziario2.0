@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Bimotore"
+date: 2017-03-21 19:18:32 +0100
+categories: [anim1D]
+level: 13
+---
+
+Scrivi il programma `Bimotore ` che produce a terminale l'animazione di un aereoplano bimotore stilizzato:
+
+![]({{ site.baseurl }}/assets/posts/bimotore.gif){:width="300"}

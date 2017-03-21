@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Elica"
+date: 2017-03-21 19:10:49 +0100
+categories: [anim1D]
+level: 13
+---
+
+Scrivi il programma `Elica` che produce a terminale l'animazione di un elica stilizzata stampando ripetutamente la sequenza di caratteri `'|'`,`'\'`,`'-'`,`'/'`. Vedi il filmato:
+
+![]({{ site.baseurl }}/assets/posts/elica.gif){:width="300"}

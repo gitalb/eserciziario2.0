@@ -1,0 +1,32 @@
+---
+layout: post
+title: "MinMax"
+date: 2017-03-21 19:44:24 +0100
+categories: [array]
+level: 10
+---
+
+Scrivi il programma `MinMax` che:
+
+1. Crea una matrice di interi di dimensioni 10 x 10
+2. Riempie la matrice con 100 valori casuali compresi nell'intervallo [0; 100]
+3. Stampa il contenuto della matrice
+4. Trova il valore massimo contenuto nella matrice
+5. Trova il valore minimo contenuto nella matrice
+6. Stampa a terminale il massimo e minimo
+
+Esempio:
+
+~~~text
+14	29	59	88	21	27	14	26	
+19	49	54	76	43	36	76	79	
+92	71	12	63	8	85	64	43	
+18	9	53	95	68	55	7	8	
+97	11	37	8	5	43	2	96	
+43	76	63	90	94	42	76	98	
+82	91	3	81	9	48	66	32	
+56	54	62	35	7	75	12	19	
+
+Min: 2
+Max: 98
+~~~

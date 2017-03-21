@@ -1,0 +1,20 @@
+---
+layout: post
+title: "CharTool"
+date: 2017-03-21 21:03:08 +0100
+categories: [methods]
+level: 12
+---
+
+Scrivi la classe `CharTool` contenente i metodi seguenti:
+
+- `char toLower(char c)`: se `c` è un carattere alfabetico maiuscolo, ritorna il corrispondente carattere minuscolo. Altrimenti ritorna c. Ad esempio:
+	
+	- `toLower('A')` ritorna `'a'` 
+	- `toLower('b')` ritorna `'b'`
+	- `toLower(';')` ritorna `';'`
+
+- `String sortCharacters(char a, char b, char c)`: ritorna una stringa contenente i caratteri `a`, `b` e `c` disposti in ordine alfabetico e separati da una virgola. Nell'ordinamento, il caso dei caratteri alfabetici deve essere ignorato (`'a'` e `'A'`, hanno lo stesso ordine). Qualche esempio:
+
+	- `sortCharacters('c','A','b')` ritorna la stringa `"A,b,c"`,
+	- `sortCharacters('M','m','G')` ritorna la stringa `"G,M,m"`.

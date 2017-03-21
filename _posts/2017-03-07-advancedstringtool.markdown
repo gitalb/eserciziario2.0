@@ -62,14 +62,6 @@ public static boolean isAlternative(String s)
 
 Tale metodo ritorna true se la stringa `s` contiene consonanti e vocali alternate (es. `isAlternative("patata")` ritorna `true`).
 
-### isAnagram
-
-~~~java
-public static boolean isAnagram(String firstWord, String secondWord)
-~~~
-
-Ritorna `true` se `firstWord` è un anagramma di `secondWord`, altrimenti ritorna `false`. Esempio `isAnagram("calendario","locandiera")` ritorna `true`.
-
 ### countInString
 
 ~~~java
@@ -77,3 +69,12 @@ public static int countInString(String text, char c)
 ~~~
 
 Tale metodo conta quante volte il carattere `c` è presente nella stringa `text`.
+
+
+### isAnagram
+
+~~~java
+public static boolean isAnagram(String firstWord, String secondWord)
+~~~
+
+Ritorna `true` se `firstWord` è un anagramma di `secondWord`, altrimenti ritorna `false`. Esempio `isAnagram("calendario","locandiera")` ritorna `true`.

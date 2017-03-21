@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Saluto"
+date: 2017-03-21 21:38:20 +0100
+categories: [interactive]
+level: 7
+---
+
+Scrivi il programma `Saluto` che chiede all'utente di inserire il proprio nome e in seguito stampa a terminale: `Buongiorno <nome>, benvenuto!`.
+
+~~~text
+Inserisci il tuo nome per continuare: Luca
+
+Buongiorno Luca, benvenuto!
+~~~
