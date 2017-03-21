@@ -2,7 +2,7 @@
 layout: post
 title: "Bisestili"
 date: 2017-02-25 12:42:12 +0100
-categories: [loop]
+categories: [loop,math]
 level: 9
 ---
 
