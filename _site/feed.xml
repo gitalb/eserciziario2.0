@@ -1,5 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-03-22T21:29:34+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">ScegliNumero</title><link href="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero.html" rel="alternate" type="text/html" title="ScegliNumero" /><published>2017-03-21T21:40:13+01:00</published><updated>2017-03-21T21:40:13+01:00</updated><id>http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;ScegliNumero&lt;/code&gt; che chiede all’utente di inserire un numero. Se il valore immesso è compreso tra i due interi passati come argomenti da linea di comando, il programma stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;Bravo!&lt;/code&gt; e termina. Altrimenti ripete la richiesta.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-04-04T11:02:37+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">Butterflyzer</title><link href="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html" rel="alternate" type="text/html" title="Butterflyzer" /><published>2017-04-04T10:49:26+02:00</published><updated>2017-04-04T10:49:26+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html">&lt;p&gt;Scrivi il programma interattivo &lt;code class=&quot;highlighter-rouge&quot;&gt;Butterflyzer&lt;/code&gt; che permetta di codificare e decodificare messaggi in &lt;em&gt;alfabeto farfallino&lt;/em&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Inizialmente il programma propone di scegliere la funzione (&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt; per codificare, &lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt; per decodificare, &lt;code class=&quot;highlighter-rouge&quot;&gt;'q'&lt;/code&gt; per terminare),&lt;/li&gt;
+  &lt;li&gt;Se la scelta digitata non è valida ricomincia dal punto 1.&lt;/li&gt;
+  &lt;li&gt;Se la scelta è &lt;code class=&quot;highlighter-rouge&quot;&gt;'q'&lt;/code&gt; il programma termina.&lt;/li&gt;
+  &lt;li&gt;Se la scelta è &lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt;, chiede all’utente di digitare una stringa di testo da codificare e poi stampa il messaggio codificato.&lt;/li&gt;
+  &lt;li&gt;Se la scelta è &lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;, chiede all’utente di digitare il messagio da decodificare e poi stampa il testo decodificato.&lt;/li&gt;
+  &lt;li&gt;Il programma ricomincia dal punto 1.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java Butterflyzer
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: x
+Scelta non valida 'x'
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: c
+Inserire testo da codificare: Tanto va la gatta al lardo
+Messaggio codificato: Tafantofo vafa lafa gafattafa afal lafardofo
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: d
+Messaggio da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
+Testo decodificato: Le fragole sono mature
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: q
+$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma interattivo Butterflyzer che permetta di codificare e decodificare messaggi in alfabeto farfallino.</summary></entry><entry><title type="html">ScegliNumero</title><link href="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero.html" rel="alternate" type="text/html" title="ScegliNumero" /><published>2017-03-21T21:40:13+01:00</published><updated>2017-03-21T21:40:13+01:00</updated><id>http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;ScegliNumero&lt;/code&gt; che chiede all’utente di inserire un numero. Se il valore immesso è compreso tra i due interi passati come argomenti da linea di comando, il programma stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;Bravo!&lt;/code&gt; e termina. Altrimenti ripete la richiesta.&lt;/p&gt;
 
 &lt;p&gt;Ad esempio:&lt;/p&gt;
 
@@ -189,39 +233,4 @@ Buongiorno Luca, benvenuto!
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Quante righe di codice hai scritto? Una dovrebbe bastare…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Repeater contenente il metodo:</summary></entry><entry><title type="html">MatriceTDLR</title><link href="http://localhost:4000/eserciziario2.0/array/2017/03/21/matricetdlr.html" rel="alternate" type="text/html" title="MatriceTDLR" /><published>2017-03-21T20:04:35+01:00</published><updated>2017-03-21T20:04:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/2017/03/21/matricetdlr</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/2017/03/21/matricetdlr.html">&lt;p&gt;Ora prova riempire una matrice &lt;em&gt;colonna per colonna&lt;/em&gt;. Scrivi un programma che:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Chiede all’utente di introdurre il numero di righe e il numero di colonne di una matrice&lt;/li&gt;
-  &lt;li&gt;Crea una matrice con le dimensioni definite dall’utente&lt;/li&gt;
-  &lt;li&gt;Riempie la matrice disponendo dei valori crescenti dall’alto verso il basso, da sinistra a destra&lt;/li&gt;
-  &lt;li&gt;Stampa lo stato della matrice&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Esempio, per una matrice di 5 x 5:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire numero di righe: 5
-Inserire numero di colonne: 5
-
-0	5	10	15	20	
-1	6	11	16	21	
-2	7	12	17	22	
-3	8	13	18	23	
-4	9	14	19	24	
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Il programma deve funzionare correttamente anche per matrici rettangolari. Esempio:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire numero di righe: 7
-Inserire numero di colonne: 2
-
-0	7	
-1	8	
-2	9	
-3	10	
-4	11	
-5	12	
-6	13		
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Ora prova riempire una matrice colonna per colonna. Scrivi un programma che:</summary></entry></feed>
+&lt;p&gt;Quante righe di codice hai scritto? Una dovrebbe bastare…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Repeater contenente il metodo:</summary></entry></feed>

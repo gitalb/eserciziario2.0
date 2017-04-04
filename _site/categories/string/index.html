@@ -198,39 +198,7 @@ hex:	48	65	6c	6c	6f	20	77	6f	72	6c	64	21
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/02/25/defarfallinatore.html">
-            DeFarfallinatore
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
-          
-           <span class="label label-success">Livello 10</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi un decodificatore capace decifrare una stringa in <em>alfabeto farfallino</em>.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java DeFarfallinatore Lefe frafagofolefe sofonofo mafatufurefe
-Le fragole sono mature
-</code></pre>
-</div>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/02/25/farfallinatore.html">
+          <h2><a href="/eserciziario2.0/string/loop/2017/02/25/farfallinatore.html">
             Farfallinatore
           </a>
           <small class="pull-right">
@@ -239,8 +207,6 @@ Le fragole sono mature
             <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
           
             <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
           
            <span class="label label-success">Livello 10</span>
           </small>
@@ -253,6 +219,36 @@ Le fragole sono mature
 
 <div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Farfallinatore Tanto va la gatta al lardo
 Tafantofo vafa lafa gafattafa afal lafardofo
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/2017/02/25/defarfallinatore.html">
+            DeFarfallinatore
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+           <span class="label label-success">Livello 10</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi un decodificatore capace decifrare una stringa in <em>alfabeto farfallino</em>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java DeFarfallinatore Lefe frafagofolefe sofonofo mafatufurefe
+Le fragole sono mature
 </code></pre>
 </div>
 
@@ -409,6 +405,75 @@ Tafantofo vafa lafa gafattafa afal lafardofo
   <li><code class="highlighter-rouge">public static String codifica(String testo, int chiave)</code></li>
   <li><code class="highlighter-rouge">public static String decodifica(String codice, int chiave)</code></li>
 </ul>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html">
+            Butterflyzer
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma interattivo <code class="highlighter-rouge">Butterflyzer</code> che permetta di codificare e decodificare messaggi in <em>alfabeto farfallino</em>.</p>
+
+<ol>
+  <li>Inizialmente il programma propone di scegliere la funzione (<code class="highlighter-rouge">'c'</code> per codificare, <code class="highlighter-rouge">'d'</code> per decodificare, <code class="highlighter-rouge">'q'</code> per terminare),</li>
+  <li>Se la scelta digitata non è valida ricomincia dal punto 1.</li>
+  <li>Se la scelta è <code class="highlighter-rouge">'q'</code> il programma termina.</li>
+  <li>Se la scelta è <code class="highlighter-rouge">'c'</code>, chiede all’utente di digitare una stringa di testo da codificare e poi stampa il messaggio codificato.</li>
+  <li>Se la scelta è <code class="highlighter-rouge">'d'</code>, chiede all’utente di digitare il messagio da decodificare e poi stampa il testo decodificato.</li>
+  <li>Il programma ricomincia dal punto 1.</li>
+</ol>
+
+<p>Esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ java Butterflyzer
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: x
+Scelta non valida 'x'
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: c
+Inserire testo da codificare: Tanto va la gatta al lardo
+Messaggio codificato: Tafantofo vafa lafa gafattafa afal lafardofo
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: d
+Messaggio da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
+Testo decodificato: Le fragole sono mature
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: q
+$
+</code></pre>
+</div>
 
       </div>
       
