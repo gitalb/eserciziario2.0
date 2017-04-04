@@ -2,7 +2,7 @@
 layout: post
 title: "Farfallinatore"
 date: 2017-02-25 12:09:21 +0100
-categories: [string,loop,interactive]
+categories: [string,loop]
 level: 10
 ---
 
