@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "MorraCinese"
-date: 2017-04-05 11:21:17 +0100
+date: 2017-04-05  9:49:26 +0100
 categories: [string,loop,interactive]
-level: 14
+level: 13
 ---
 
 Scrivi il gioco interattivo `MorraCinese`. Il programma chiede di inserire il *punteggio massimo*, poi il gioco comincia. Vince chi raggiunge prima il *punteggio massimo*.
@@ -23,7 +23,14 @@ Scrivi il gioco interattivo `MorraCinese`. Il programma chiede di inserire il *p
 
 Esempio:
 
-<video width="320" height="240" controls>
+<video width="502" height="110" controls>
   <source src="{{ site.baseurl }}/assets/posts/MorraCineseMID.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Oppure, se la vostra console supporta Unicode:
+
+<video width="502" height="110" controls>
+  <source src="{{ site.baseurl }}/assets/posts/MorraCineseUniMID.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

@@ -210,8 +210,8 @@ Bravo!
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/binsum.html">
-            BinSum
+          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/hexsum.html">
+            HexSum
           </a>
           <small class="pull-right">
           
@@ -225,31 +225,29 @@ Bravo!
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">BinSum</code> che chiede all’utente di inserire due valori interi espressi in notazione <strong>esadecimale</strong> e poi ne stampa la somma <strong>in base 2</strong>. I valori binari devono essere stampati <em>a 32 bit</em>.</p>
+          <p>Scrivi il programma <code class="highlighter-rouge">HexSum</code> che chiede all’utente di inserire due valori interi espressi in notazione <strong>esadecimale</strong> e poi ne stampa (sempre in base 16) il risultato della somma.</p>
 
-<p>Esempio:</p>
+<p>Qualche esempio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java BinSum
-Inserire primo addendo (in esadecimale): AA
-Inserire secondo addendo (in esadecimale): 5
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HexSum
+Inserire primo addendo (in esadecimale): 9
+Inserire secondo addendo (in esadecimale): 1
 
-00000000000000000000000010101010
-00000000000000000000000000000101 +
---------------------------------
-00000000000000000000000010101111
+       9
+       1 +
+--------
+       A
 </code></pre>
 </div>
 
-<p>Oppure:</p>
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HexSum
+Inserire primo addendo (in esadecimale): AA55
+Inserire secondo addendo (in esadecimale): 55AA
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java BinSum
-Inserire primo addendo (in esadecimale): 1
-Inserire secondo addendo (in esadecimale): -1
-
-00000000000000000000000000000001
-11111111111111111111111111111111 +
---------------------------------
-00000000000000000000000000000000
+    AA55
+    55AA +
+--------
+    FFFF
 </code></pre>
 </div>
 
@@ -326,8 +324,8 @@ Il tuo IMC: 24.074076
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/hexsum.html">
-            HexSum
+          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/binsum.html">
+            BinSum
           </a>
           <small class="pull-right">
           
@@ -341,29 +339,31 @@ Il tuo IMC: 24.074076
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">HexSum</code> che chiede all’utente di inserire due valori interi espressi in notazione <strong>esadecimale</strong> e poi ne stampa (sempre in base 16) il risultato della somma.</p>
+          <p>Scrivi il programma <code class="highlighter-rouge">BinSum</code> che chiede all’utente di inserire due valori interi espressi in notazione <strong>esadecimale</strong> e poi ne stampa la somma <strong>in base 2</strong>. I valori binari devono essere stampati <em>a 32 bit</em>.</p>
 
-<p>Qualche esempio:</p>
+<p>Esempio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HexSum
-Inserire primo addendo (in esadecimale): 9
-Inserire secondo addendo (in esadecimale): 1
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java BinSum
+Inserire primo addendo (in esadecimale): AA
+Inserire secondo addendo (in esadecimale): 5
 
-       9
-       1 +
---------
-       A
+00000000000000000000000010101010
+00000000000000000000000000000101 +
+--------------------------------
+00000000000000000000000010101111
 </code></pre>
 </div>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HexSum
-Inserire primo addendo (in esadecimale): AA55
-Inserire secondo addendo (in esadecimale): 55AA
+<p>Oppure:</p>
 
-    AA55
-    55AA +
---------
-    FFFF
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java BinSum
+Inserire primo addendo (in esadecimale): 1
+Inserire secondo addendo (in esadecimale): -1
+
+00000000000000000000000000000001
+11111111111111111111111111111111 +
+--------------------------------
+00000000000000000000000000000000
 </code></pre>
 </div>
 
@@ -537,6 +537,60 @@ Scelta: q
 $
 </code></pre>
 </div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">
+            MorraCinese
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il gioco interattivo <code class="highlighter-rouge">MorraCinese</code>. Il programma chiede di inserire il <em>punteggio massimo</em>, poi il gioco comincia. Vince chi raggiunge prima il <em>punteggio massimo</em>.</p>
+
+<ol>
+  <li>Il programma chiede di inserire il <em>punteggio massimo</em>. Sono ammessi solo valori nel range [1;10].</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 1.</li>
+  <li>Chiede all’utente di inserire la sua giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 3.</li>
+  <li>Il programma estrae a sorte la propria giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
+  <li>Il programma visualizza le due giocate e, se ve ne è uno, il vincitore della mano corrente (player o CPU) e il punteggio attuale dei due giocatori.</li>
+  <li>Se nessuno ha raggiunto il <em>punteggio massimo</em> il programma prosegue dal punto 3.</li>
+  <li>Se un giocatore ha raggiunto il <em>punteggio massimo</em> il programma stampa il <em>nome</em> del vincitore (player o CPU) e prosegue dal punto 9.</li>
+  <li>Il programma chiede se si vuole giocare di nuovo (<code class="highlighter-rouge">0</code> per continuare, <code class="highlighter-rouge">1</code> per terminare).</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 9.</li>
+  <li>Se l’utente inserisce <code class="highlighter-rouge">0</code>  il programma ricomincia dal punto 1.</li>
+  <li>Se l’utente inserisce <code class="highlighter-rouge">1</code>  il programma termina.</li>
+</ol>
+
+<p>Esempio:</p>
+
+<video width="502" height="110" controls="">
+  <source src="/eserciziario2.0/assets/posts/MorraCineseMID.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p>Oppure, se la vostra console supporta Unicode:</p>
+
+<video width="502" height="110" controls="">
+  <source src="/eserciziario2.0/assets/posts/MorraCineseUniMID.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
       </div>
       

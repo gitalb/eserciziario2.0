@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-04-05T11:31:12+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">Butterflyzer</title><link href="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html" rel="alternate" type="text/html" title="Butterflyzer" /><published>2017-04-04T10:49:26+02:00</published><updated>2017-04-04T10:49:26+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html">&lt;p&gt;Scrivi il programma interattivo &lt;code class=&quot;highlighter-rouge&quot;&gt;Butterflyzer&lt;/code&gt; che permetta di codificare e decodificare messaggi in &lt;em&gt;alfabeto farfallino&lt;/em&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-04-05T13:33:15+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">MorraCinese</title><link href="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html" rel="alternate" type="text/html" title="MorraCinese" /><published>2017-04-05T10:49:26+02:00</published><updated>2017-04-05T10:49:26+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">&lt;p&gt;Scrivi il gioco interattivo &lt;code class=&quot;highlighter-rouge&quot;&gt;MorraCinese&lt;/code&gt;. Il programma chiede di inserire il &lt;em&gt;punteggio massimo&lt;/em&gt;, poi il gioco comincia. Vince chi raggiunge prima il &lt;em&gt;punteggio massimo&lt;/em&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Il programma chiede di inserire il &lt;em&gt;punteggio massimo&lt;/em&gt;. Sono ammessi solo valori nel range [1;10].&lt;/li&gt;
+  &lt;li&gt;Se l’utente inserisce un valore non valido, ricomincia dal punto 1.&lt;/li&gt;
+  &lt;li&gt;Chiede all’utente di inserire la sua giocata (&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; per carta, &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; per sasso, &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt; per forbice).&lt;/li&gt;
+  &lt;li&gt;Se l’utente inserisce un valore non valido, ricomincia dal punto 3.&lt;/li&gt;
+  &lt;li&gt;Il programma estrae a sorte la propria giocata (&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; per carta, &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; per sasso, &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt; per forbice).&lt;/li&gt;
+  &lt;li&gt;Il programma visualizza le due giocate e, se ve ne è uno, il vincitore della mano corrente (player o CPU) e il punteggio attuale dei due giocatori.&lt;/li&gt;
+  &lt;li&gt;Se nessuno ha raggiunto il &lt;em&gt;punteggio massimo&lt;/em&gt; il programma prosegue dal punto 3.&lt;/li&gt;
+  &lt;li&gt;Se un giocatore ha raggiunto il &lt;em&gt;punteggio massimo&lt;/em&gt; il programma stampa il &lt;em&gt;nome&lt;/em&gt; del vincitore (player o CPU) e prosegue dal punto 9.&lt;/li&gt;
+  &lt;li&gt;Il programma chiede se si vuole giocare di nuovo (&lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; per continuare, &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; per terminare).&lt;/li&gt;
+  &lt;li&gt;Se l’utente inserisce un valore non valido, ricomincia dal punto 9.&lt;/li&gt;
+  &lt;li&gt;Se l’utente inserisce &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;  il programma ricomincia dal punto 1.&lt;/li&gt;
+  &lt;li&gt;Se l’utente inserisce &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;  il programma termina.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esempio:&lt;/p&gt;
+
+&lt;video width=&quot;502&quot; height=&quot;110&quot; controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/eserciziario2.0/assets/posts/MorraCineseMID.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Oppure, se la vostra console supporta Unicode:&lt;/p&gt;
+
+&lt;video width=&quot;502&quot; height=&quot;110&quot; controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/eserciziario2.0/assets/posts/MorraCineseUniMID.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;</content><author><name></name></author><summary type="html">Scrivi il gioco interattivo MorraCinese. Il programma chiede di inserire il punteggio massimo, poi il gioco comincia. Vince chi raggiunge prima il punteggio massimo.</summary></entry><entry><title type="html">Butterflyzer</title><link href="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html" rel="alternate" type="text/html" title="Butterflyzer" /><published>2017-04-04T10:49:26+02:00</published><updated>2017-04-04T10:49:26+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html">&lt;p&gt;Scrivi il programma interattivo &lt;code class=&quot;highlighter-rouge&quot;&gt;Butterflyzer&lt;/code&gt; che permetta di codificare e decodificare messaggi in &lt;em&gt;alfabeto farfallino&lt;/em&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Inizialmente il programma propone di scegliere la funzione (&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt; per codificare, &lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt; per decodificare, &lt;code class=&quot;highlighter-rouge&quot;&gt;'q'&lt;/code&gt; per terminare),&lt;/li&gt;
@@ -214,23 +243,4 @@ Buongiorno Luca, benvenuto!
       &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sortCharacters('M','m','G')&lt;/code&gt; ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;G,M,m&quot;&lt;/code&gt;.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrivi la classe CharTool contenente i metodi seguenti:</summary></entry><entry><title type="html">Repeater</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/repeater.html" rel="alternate" type="text/html" title="Repeater" /><published>2017-03-21T20:59:28+01:00</published><updated>2017-03-21T20:59:28+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/repeater</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/repeater.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Repeater &lt;/code&gt; contenente il metodo:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String repeat(String text, int times)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Tale metodo ritorna una stringa contenente il testo &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt; ripetuto &lt;code class=&quot;highlighter-rouge&quot;&gt;times&lt;/code&gt; volte. Ad esempio l’invocazione &lt;code class=&quot;highlighter-rouge&quot;&gt;repeat(&quot;X&quot;,5)&lt;/code&gt; ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;XXXXX&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ora utilizza il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;repeat&lt;/code&gt; per produrre il disegno seguente:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;----****
-----****
-----****
-----****
-****----
-****----
-****----
-****----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Quante righe di codice hai scritto? Una dovrebbe bastare…&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Repeater contenente il metodo:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrivi la classe CharTool contenente i metodi seguenti:</summary></entry></feed>
