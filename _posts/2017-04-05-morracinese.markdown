@@ -2,10 +2,9 @@
 layout: post
 title: "MorraCinese"
 date: 2017-04-05 11:21:17 +0100
-categories: [interactive,loop]
+categories: [string,loop,interactive]
 level: 14
 ---
-
 
 Scrivi il gioco interattivo `MorraCinese`. Il programma chiede di inserire il *punteggio massimo*, poi il gioco comincia. Vince chi raggiunge prima il *punteggio massimo*.
 
