@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-04-05T13:33:15+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">MorraCinese</title><link href="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html" rel="alternate" type="text/html" title="MorraCinese" /><published>2017-04-05T10:49:26+02:00</published><updated>2017-04-05T10:49:26+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">&lt;p&gt;Scrivi il gioco interattivo &lt;code class=&quot;highlighter-rouge&quot;&gt;MorraCinese&lt;/code&gt;. Il programma chiede di inserire il &lt;em&gt;punteggio massimo&lt;/em&gt;, poi il gioco comincia. Vince chi raggiunge prima il &lt;em&gt;punteggio massimo&lt;/em&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-04-22T10:42:14+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">Rettangolo</title><link href="http://localhost:4000/eserciziario2.0/class/2017/04/22/rettangolo.html" rel="alternate" type="text/html" title="Rettangolo" /><published>2017-04-22T10:05:10+02:00</published><updated>2017-04-22T10:05:10+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/2017/04/22/rettangolo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/2017/04/22/rettangolo.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Rettangolo&lt;/code&gt; che rappresenta il modello astratto di rettangolo. La classe deve possedere due attributi interi &lt;em&gt;privati&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;latoA&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;latoB&lt;/code&gt; utili per descrivere ripettivamente la dimensione orizzontale e verticale del rettangolo.&lt;/p&gt;
+
+&lt;p&gt;Dovrai implementare pure i metodi &lt;em&gt;getter&lt;/em&gt; e &lt;em&gt;setter&lt;/em&gt; per entrambi gli attributi &lt;code class=&quot;highlighter-rouge&quot;&gt;latoA&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;latoB&lt;/code&gt; applicando la regola seguente:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;latoA&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;latoB&lt;/code&gt; non possono mai essere pari a 0 o negativi.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La classe deve esportare due metodi &lt;em&gt;costruttori&lt;/em&gt; e i &lt;em&gt;metodi di istanza&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;il &lt;em&gt;costruttore vuoto&lt;/em&gt; che istanzia un &lt;code class=&quot;highlighter-rouge&quot;&gt;Rettangolo&lt;/code&gt; con le &lt;em&gt;dimensioni di default&lt;/em&gt; (10 x 5)&lt;/li&gt;
+  &lt;li&gt;un &lt;em&gt;costruttore personalizzato&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;public Rettangolo(int latoA, int latoB)&lt;/code&gt; che istanzia un rettangolo con le dimensioni fornite (se valide, altrimenti applica le &lt;em&gt;dimensioni di default&lt;/em&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public int getArea()&lt;/code&gt;: ritorna l’area del rettangolo&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public int getPerimetro()&lt;/code&gt;: ritorna il perimetro del rettangolo&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public void draw()&lt;/code&gt;: disegna a terminale un rettangolo composto di asterischi, ad esempio per un rettangolo di 10 x 5 stampa:&lt;/p&gt;
+
+    &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  **********
+  *        *
+  *        *
+  *        *
+  **********
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public String toString()&lt;/code&gt;: ritorna una descrizione testuale del rettangolo, ad esempio per un rettangolo di 10 x 5 ritorna: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Rettangolo 10 x 5&quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quando hai terminato scrivi il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; in cui dovrai istanziare 3 rettangoli di dimensioni differenti e verificare su ognuno il buon funzionamento dei metodi.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Rettangolo che rappresenta il modello astratto di rettangolo. La classe deve possedere due attributi interi privati latoA e latoB utili per descrivere ripettivamente la dimensione orizzontale e verticale del rettangolo.</summary></entry><entry><title type="html">MorraCinese</title><link href="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html" rel="alternate" type="text/html" title="MorraCinese" /><published>2017-04-05T10:49:26+02:00</published><updated>2017-04-05T10:49:26+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">&lt;p&gt;Scrivi il gioco interattivo &lt;code class=&quot;highlighter-rouge&quot;&gt;MorraCinese&lt;/code&gt;. Il programma chiede di inserire il &lt;em&gt;punteggio massimo&lt;/em&gt;, poi il gioco comincia. Vince chi raggiunge prima il &lt;em&gt;punteggio massimo&lt;/em&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Il programma chiede di inserire il &lt;em&gt;punteggio massimo&lt;/em&gt;. Sono ammessi solo valori nel range [1;10].&lt;/li&gt;
@@ -223,24 +252,4 @@ Buongiorno Luca, benvenuto!
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(22,17)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(1,0)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(0,23)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nel Blackjack vince il giocatore che totalizza un punteggio che:</summary></entry><entry><title type="html">CharTool</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/chartool.html" rel="alternate" type="text/html" title="CharTool" /><published>2017-03-21T21:03:08+01:00</published><updated>2017-03-21T21:03:08+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/chartool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/chartool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;CharTool&lt;/code&gt; contenente i metodi seguenti:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;char toLower(char c)&lt;/code&gt;: se &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; è un carattere alfabetico maiuscolo, ritorna il corrispondente carattere minuscolo. Altrimenti ritorna c. Ad esempio:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;toLower('A')&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;toLower('b')&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;toLower(';')&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;';'&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String sortCharacters(char a, char b, char c)&lt;/code&gt;: ritorna una stringa contenente i caratteri &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; disposti in ordine alfabetico e separati da una virgola. Nell’ordinamento, il caso dei caratteri alfabetici deve essere ignorato (&lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;'A'&lt;/code&gt;, hanno lo stesso ordine). Qualche esempio:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sortCharacters('c','A','b')&lt;/code&gt; ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;A,b,c&quot;&lt;/code&gt;,&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sortCharacters('M','m','G')&lt;/code&gt; ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;G,M,m&quot;&lt;/code&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrivi la classe CharTool contenente i metodi seguenti:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nel Blackjack vince il giocatore che totalizza un punteggio che:</summary></entry></feed>
