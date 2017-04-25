@@ -17,7 +17,7 @@ Oppure:
 
 ~~~text
 $ java SearchLast 1 1 2 1 3 1 4 
-0
+4
 ~~~
 
 Se il valore cercato non è presente il programma stampa il messaggio `"Valore non trovato"`.
