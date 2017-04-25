@@ -10,14 +10,14 @@ Scrivi la classe `SearchLast` che applica una ricerca sequenziale per trovare l'
 
 ~~~text
 $ java SearchLast 3 1 7 5 9 67 4 7 3 7 9
-8
+7
 ~~~
 
 Oppure:
 
 ~~~text
 $ java SearchLast 1 1 2 1 3 1 4 
-4
+0
 ~~~
 
 Se il valore cercato non è presente il programma stampa il messaggio `"Valore non trovato"`.
