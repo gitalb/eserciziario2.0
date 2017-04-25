@@ -1,5 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-04-22T10:42:14+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">Rettangolo</title><link href="http://localhost:4000/eserciziario2.0/class/2017/04/22/rettangolo.html" rel="alternate" type="text/html" title="Rettangolo" /><published>2017-04-22T10:05:10+02:00</published><updated>2017-04-22T10:05:10+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/2017/04/22/rettangolo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/2017/04/22/rettangolo.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Rettangolo&lt;/code&gt; che rappresenta il modello astratto di rettangolo. La classe deve possedere due attributi interi &lt;em&gt;privati&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;latoA&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;latoB&lt;/code&gt; utili per descrivere ripettivamente la dimensione orizzontale e verticale del rettangolo.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-04-25T13:07:18+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">BinarySearch</title><link href="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/binarysearch.html" rel="alternate" type="text/html" title="BinarySearch" /><published>2017-04-25T13:01:35+02:00</published><updated>2017-04-25T13:01:35+02:00</updated><id>http://localhost:4000/eserciziario2.0/search/array/2017/04/25/binarysearch</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/binarysearch.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;BinarySearch&lt;/code&gt; che applica una ricerca binaria per trovare &lt;code class=&quot;highlighter-rouge&quot;&gt;args[0]&lt;/code&gt; nell’insieme ordinato rappresentato da &lt;code class=&quot;highlighter-rouge&quot;&gt;args[1;N]&lt;/code&gt; e ne stampa l’indice (partendo da 0). Ad esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java BinarySearch 3 1 2 3 5 7 8 10
+2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se il valore cercato non è presente il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Valore non trovato&quot;&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe BinarySearch che applica una ricerca binaria per trovare args[0] nell’insieme ordinato rappresentato da args[1;N] e ne stampa l’indice (partendo da 0). Ad esempio:</summary></entry><entry><title type="html">SearchLast</title><link href="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/searchlast.html" rel="alternate" type="text/html" title="SearchLast" /><published>2017-04-25T12:59:23+02:00</published><updated>2017-04-25T12:59:23+02:00</updated><id>http://localhost:4000/eserciziario2.0/search/array/2017/04/25/searchlast</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/searchlast.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;SearchLast&lt;/code&gt; che applica una ricerca sequenziale per trovare l’ultima ricorrenza di &lt;code class=&quot;highlighter-rouge&quot;&gt;args[0]&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;args[1;N]&lt;/code&gt; e ne stampa l’indice (partendo da 0). Ad esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java SearchLast 3 1 7 5 9 67 4 7 3 7 9
+8
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java SearchLast 1 1 2 1 3 1 4 
+4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se il valore cercato non è presente il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Valore non trovato&quot;&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe SearchLast che applica una ricerca sequenziale per trovare l’ultima ricorrenza di args[0] in args[1;N] e ne stampa l’indice (partendo da 0). Ad esempio:</summary></entry><entry><title type="html">SearchFirst</title><link href="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/searchfirst.html" rel="alternate" type="text/html" title="SearchFirst" /><published>2017-04-25T12:36:12+02:00</published><updated>2017-04-25T12:36:12+02:00</updated><id>http://localhost:4000/eserciziario2.0/search/array/2017/04/25/searchfirst</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/searchfirst.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;SearchFirst&lt;/code&gt; che applica una ricerca sequenziale per trovare la prima ricorrenza di &lt;code class=&quot;highlighter-rouge&quot;&gt;args[0]&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;args[1;N]&lt;/code&gt; e ne stampa l’indice (partendo da 0). Ad esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java SearchFirst 3 1 7 5 9 67 4 7 3 7 9
+7
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java SearchFirst 1 1 2 1 3 1 4 
+0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se il valore cercato non è presente il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Valore non trovato&quot;&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe SearchFirst che applica una ricerca sequenziale per trovare la prima ricorrenza di args[0] in args[1;N] e ne stampa l’indice (partendo da 0). Ad esempio:</summary></entry><entry><title type="html">Rettangolo</title><link href="http://localhost:4000/eserciziario2.0/class/2017/04/22/rettangolo.html" rel="alternate" type="text/html" title="Rettangolo" /><published>2017-04-22T10:05:10+02:00</published><updated>2017-04-22T10:05:10+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/2017/04/22/rettangolo</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/2017/04/22/rettangolo.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Rettangolo&lt;/code&gt; che rappresenta il modello astratto di rettangolo. La classe deve possedere due attributi interi &lt;em&gt;privati&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;latoA&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;latoB&lt;/code&gt; utili per descrivere ripettivamente la dimensione orizzontale e verticale del rettangolo.&lt;/p&gt;
 
 &lt;p&gt;Dovrai implementare pure i metodi &lt;em&gt;getter&lt;/em&gt; e &lt;em&gt;setter&lt;/em&gt; per entrambi gli attributi &lt;code class=&quot;highlighter-rouge&quot;&gt;latoA&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;latoB&lt;/code&gt; applicando la regola seguente:&lt;/p&gt;
 
@@ -218,38 +253,4 @@ Buongiorno Luca, benvenuto!
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String codifica(String testo)&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String decodifica(String codice)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Il codice noto come Alfabeto farfallino consiste nel modificare ogni parola aggiungendo dopo ogni vocale una f seguita dalla vocale stessa ripetuta. Ad esempio:</summary></entry><entry><title type="html">IntTool</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/inttool.html" rel="alternate" type="text/html" title="IntTool" /><published>2017-03-21T21:20:32+01:00</published><updated>2017-03-21T21:20:32+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/inttool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/inttool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;IntTool&lt;/code&gt; contenente il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;int getDigits(int n)&lt;/code&gt; che ritorna il numero digits (cifre) necessario per la rappresentazione decimale di &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;getDigits(11)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; mentre &lt;code class=&quot;highlighter-rouge&quot;&gt;getDigits(12435)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;5&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe IntTool contenente il metodo int getDigits(int n) che ritorna il numero digits (cifre) necessario per la rappresentazione decimale di n. Ad esempio getDigits(11) ritorna 2 mentre getDigits(12435) ritorna 5.</summary></entry><entry><title type="html">SumTool</title><link href="http://localhost:4000/eserciziario2.0/methods/math/2017/03/21/sumtool.html" rel="alternate" type="text/html" title="SumTool" /><published>2017-03-21T21:19:15+01:00</published><updated>2017-03-21T21:19:15+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/math/2017/03/21/sumtool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/math/2017/03/21/sumtool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;SumTool &lt;/code&gt; contenente i metodi seguenti:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int sommaUnivoca(int a, int b, int c)&lt;/code&gt;: Tale metodo ritorna la somma di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; ma i valori duplicati vengono tralasciati nel calcolo del totale. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;sommaUnivoca(1,2,3)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;6&lt;/code&gt; mentre &lt;code class=&quot;highlighter-rouge&quot;&gt;sommaUnivoca(1,2,1)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int sommaTonda(int a, int b, int c)&lt;/code&gt;: ritorna la somma di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; arrotondata al multiplo di 10 più vicino.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrivi la classe SumTool contenente i metodi seguenti:</summary></entry><entry><title type="html">BlackJack</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/blackjack.html" rel="alternate" type="text/html" title="BlackJack" /><published>2017-03-21T21:04:24+01:00</published><updated>2017-03-21T21:04:24+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/blackjack</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/blackjack.html">&lt;p&gt;Nel Blackjack vince il giocatore che totalizza un punteggio che:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sia superiore a 0&lt;/li&gt;
-  &lt;li&gt;sia il più vicino possibile, ma non superi, il valore 21&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Scrivi La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;BlackJack&lt;/code&gt; contenente il metodo:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;blackjackWinner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;score1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;score2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;`&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;che, dati due punteggi &lt;code class=&quot;highlighter-rouge&quot;&gt;score1&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;score2&lt;/code&gt;, ritorna un numero intero secondo le seguenti regole:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;in caso di pareggio, ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;se vince &lt;code class=&quot;highlighter-rouge&quot;&gt;score1&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;se vince &lt;code class=&quot;highlighter-rouge&quot;&gt;score2&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Qualche esempio:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(16,19)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(21,17)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(22,17)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(1,0)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;blackjackWinner(0,23)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nel Blackjack vince il giocatore che totalizza un punteggio che:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Il codice noto come Alfabeto farfallino consiste nel modificare ogni parola aggiungendo dopo ogni vocale una f seguita dalla vocale stessa ripetuta. Ad esempio:</summary></entry></feed>
