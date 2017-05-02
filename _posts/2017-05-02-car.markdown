@@ -1,0 +1,77 @@
+---
+layout: post
+title: "Car"
+date: 2017-05-02 13:12:01 +0100
+categories: [class,interactive]
+level: 13
+---
+
+Un costruttore di automobili desidera un applicativo utile per gestire la configurazione dei veicoli che produce. 
+
+### Parte 1: `Car`
+
+Devi innanzitutto creare una classe rappresenti un modello astratto di un automobile e tutti i suoi *optional*. 
+
+Le caratteristiche di un'auto sono le seguenti:
+
+- tipo di carrozzeria: può essere una decappottabile o un pick-up 
+- dimensione delle ruote: può avere ruote piccole o grandi
+- gancio di traino: può avere un gancio di traino opzionale
+
+
+Devi quindi creare la classe `Car` con gli attributi privati descritti in seguito e i relativi metodi getter e setter:
+
+- `type`: intero che definisce il tipo di carrozzeria (1: `CABRIO`, 2: `PICKUP`)
+- `wheelsSize`: intero che definisce la dimensione delle ruote (1: `SMALL_WHEELS`, 2: `BIG_WHEELS`)
+- `hook`: booleano che definisce la presenza del gancio opzionale (`true`: con gancio, `false`: senza gancio)
+
+La classe deve esportare due costruttori:
+
+- `public Car()`: instanzia una macchina con i valori di *default* (decappottabile, ruote piccole e senza gancio)
+- `public Car(int type, int wheelsSize, boolean hook)`: istanzia una macchina *personalizzata*
+
+Inoltre deve esportare il metodo `public void draw()` che stampa la rappresentazione grafica della macchina nei modo seguenti:
+
+~~~
+				  ruote		 ruote		 ruote		 ruote
+			 	 piccole	 grandi		 piccole	 grandi
+										 + traino	 + traino
+                    __   	    __   	    __   	    __   
+                 ___|_\__	 ___|_\__	 ___|_\__	 ___|_\__
+Pickup           -o----o-	 -O----O-	J-o----o-	J-O----O-
+
+                 ____\___	 ____\___	 ____\___	 ____\___
+Cabrio           -o----o-	 -O----O-	J-o----o-	J-O----O-
+
+~~~
+
+### Parte 2: `CarConfigurator`
+Ora scrivi il programma interattivo `CarConfigurator` che permette all'utente di configurare un autoveicolo da acquistare.
+
+Il programma funziona nel modo seguente:
+
+1. Chiede di scegliere il tipo di carrozzeria (`1`: Pickup, `2`: Cabriolet). Se l'utente introduce un valore non appropriato, stampa il messaggio `"Scelta non valida <valore>"` e ricomincia dal punto 1.
+2. Chiede di scegliere il tipo di ruote (`1`: piccole, `2`: grandi). Se l'utente introduce un valore non appropriato, stampa il messaggio `"Scelta non valida <valore>"` e ricomincia dal punto 2.
+3. Chiede se si desidera il gancio di traino opzionale (`1`: si, `2`: no). Se l'utente introduce un valore non appropriato, stampa il messaggio `"Scelta non valida <valore>"` e ricomincia dal punto 3.
+7. Stampa il disegno del veicolo configurato e termina.
+
+
+Esempio:
+
+~~~
+$ java CarConfigurator
+Car configurator
+Carrozzeria (1.Pickup, 2.Cabrio):  moto
+Scelta non valida moto
+Carrozzeria (1.Pickup, 2.Cabrio):  2
+Ruote  (1.Piccole, 2.Grandi):  rotonde
+Scelta non valida rotonde
+Ruote  (1.Piccole, 2.Grandi):  3
+Scelta non valida 3
+Ruote  (1.Piccole, 2.Grandi):  2
+Gancio di traino (1.Si, 2.No):  1
+         
+ ____\___
+J-O----O-
+$
+~~~

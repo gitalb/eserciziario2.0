@@ -1,5 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-04-25T13:12:12+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">BinarySearch</title><link href="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/binarysearch.html" rel="alternate" type="text/html" title="BinarySearch" /><published>2017-04-25T13:01:35+02:00</published><updated>2017-04-25T13:01:35+02:00</updated><id>http://localhost:4000/eserciziario2.0/search/array/2017/04/25/binarysearch</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/binarysearch.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;BinarySearch&lt;/code&gt; che applica una ricerca binaria per trovare &lt;code class=&quot;highlighter-rouge&quot;&gt;args[0]&lt;/code&gt; nell’insieme ordinato rappresentato da &lt;code class=&quot;highlighter-rouge&quot;&gt;args[1;N]&lt;/code&gt; e ne stampa l’indice (partendo da 0). Ad esempio:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-05-02T14:15:18+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">Car</title><link href="http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car.html" rel="alternate" type="text/html" title="Car" /><published>2017-05-02T14:12:01+02:00</published><updated>2017-05-02T14:12:01+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car.html">&lt;p&gt;Un costruttore di automobili desidera un applicativo utile per gestire la configurazione dei veicoli che produce.&lt;/p&gt;
+
+&lt;h3 id=&quot;parte-1-car&quot;&gt;Parte 1: &lt;code class=&quot;highlighter-rouge&quot;&gt;Car&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Devi innanzitutto creare una classe rappresenti un modello astratto di un automobile e tutti i suoi &lt;em&gt;optional&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le caratteristiche di un’auto sono le seguenti:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;tipo di carrozzeria: può essere una decappottabile o un pick-up&lt;/li&gt;
+  &lt;li&gt;dimensione delle ruote: può avere ruote piccole o grandi&lt;/li&gt;
+  &lt;li&gt;gancio di traino: può avere un gancio di traino opzionale&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Devi quindi creare la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Car&lt;/code&gt; con gli attributi privati descritti in seguito e i relativi metodi getter e setter:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;type&lt;/code&gt;: intero che definisce il tipo di carrozzeria (1: &lt;code class=&quot;highlighter-rouge&quot;&gt;CABRIO&lt;/code&gt;, 2: &lt;code class=&quot;highlighter-rouge&quot;&gt;PICKUP&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;wheelsSize&lt;/code&gt;: intero che definisce la dimensione delle ruote (1: &lt;code class=&quot;highlighter-rouge&quot;&gt;SMALL_WHEELS&lt;/code&gt;, 2: &lt;code class=&quot;highlighter-rouge&quot;&gt;BIG_WHEELS&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hook&lt;/code&gt;: booleano che definisce la presenza del gancio opzionale (&lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;: con gancio, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;: senza gancio)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La classe deve esportare due costruttori:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public Car()&lt;/code&gt;: instanzia una macchina con i valori di &lt;em&gt;default&lt;/em&gt; (decappottabile, ruote piccole e senza gancio)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public Car(int type, int wheelsSize, boolean hook)&lt;/code&gt;: istanzia una macchina &lt;em&gt;personalizzata&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Inoltre deve esportare il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;public void draw()&lt;/code&gt; che stampa la rappresentazione grafica della macchina nei modo seguenti:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;				  ruote		 ruote		 ruote		 ruote
+			 	 piccole	 grandi		 piccole	 grandi
+										 + traino	 + traino
+                    __   	    __   	    __   	    __   
+                 ___|_\__	 ___|_\__	 ___|_\__	 ___|_\__
+Pickup           -o----o-	 -O----O-	J-o----o-	J-O----O-
+
+                 ____\___	 ____\___	 ____\___	 ____\___
+Cabrio           -o----o-	 -O----O-	J-o----o-	J-O----O-
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;parte-2-carconfigurator&quot;&gt;Parte 2: &lt;code class=&quot;highlighter-rouge&quot;&gt;CarConfigurator&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Ora scrivi il programma interattivo &lt;code class=&quot;highlighter-rouge&quot;&gt;CarConfigurator&lt;/code&gt; che permette all’utente di configurare un autoveicolo da acquistare.&lt;/p&gt;
+
+&lt;p&gt;Il programma funziona nel modo seguente:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Chiede di scegliere il tipo di carrozzeria (&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;: Pickup, &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;: Cabriolet). Se l’utente introduce un valore non appropriato, stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Scelta non valida &amp;lt;valore&amp;gt;&quot;&lt;/code&gt; e ricomincia dal punto 1.&lt;/li&gt;
+  &lt;li&gt;Chiede di scegliere il tipo di ruote (&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;: piccole, &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;: grandi). Se l’utente introduce un valore non appropriato, stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Scelta non valida &amp;lt;valore&amp;gt;&quot;&lt;/code&gt; e ricomincia dal punto 2.&lt;/li&gt;
+  &lt;li&gt;Chiede se si desidera il gancio di traino opzionale (&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;: si, &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;: no). Se l’utente introduce un valore non appropriato, stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Scelta non valida &amp;lt;valore&amp;gt;&quot;&lt;/code&gt; e ricomincia dal punto 3.&lt;/li&gt;
+  &lt;li&gt;Stampa il disegno del veicolo configurato e termina.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java CarConfigurator
+Car configurator
+Carrozzeria (1.Pickup, 2.Cabrio):  moto
+Scelta non valida moto
+Carrozzeria (1.Pickup, 2.Cabrio):  2
+Ruote  (1.Piccole, 2.Grandi):  rotonde
+Scelta non valida rotonde
+Ruote  (1.Piccole, 2.Grandi):  3
+Scelta non valida 3
+Ruote  (1.Piccole, 2.Grandi):  2
+Gancio di traino (1.Si, 2.No):  1
+         
+ ____\___
+J-O----O-
+$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Un costruttore di automobili desidera un applicativo utile per gestire la configurazione dei veicoli che produce.</summary></entry><entry><title type="html">BinarySearch</title><link href="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/binarysearch.html" rel="alternate" type="text/html" title="BinarySearch" /><published>2017-04-25T13:01:35+02:00</published><updated>2017-04-25T13:01:35+02:00</updated><id>http://localhost:4000/eserciziario2.0/search/array/2017/04/25/binarysearch</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/binarysearch.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;BinarySearch&lt;/code&gt; che applica una ricerca binaria per trovare &lt;code class=&quot;highlighter-rouge&quot;&gt;args[0]&lt;/code&gt; nell’insieme ordinato rappresentato da &lt;code class=&quot;highlighter-rouge&quot;&gt;args[1;N]&lt;/code&gt; e ne stampa l’indice (partendo da 0). Ad esempio:&lt;/p&gt;
 
 &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java BinarySearch 3 1 2 3 5 7 8 10
 2
@@ -240,17 +314,4 @@ Buongiorno Luca, benvenuto!
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String codifica(String testo, int chiave)&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String decodifica(String codice, int chiave)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Da Wikipedia:</summary></entry><entry><title type="html">AlfabetoFarfallino</title><link href="http://localhost:4000/eserciziario2.0/methods/2017/03/21/alfabetofarfallino.html" rel="alternate" type="text/html" title="AlfabetoFarfallino" /><published>2017-03-21T21:26:47+01:00</published><updated>2017-03-21T21:26:47+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/2017/03/21/alfabetofarfallino</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/2017/03/21/alfabetofarfallino.html">&lt;p&gt;Il codice noto come &lt;em&gt;Alfabeto farfallino&lt;/em&gt; consiste nel modificare ogni parola aggiungendo dopo ogni vocale una &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt; seguita dalla vocale stessa ripetuta. Ad esempio:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;casa&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;cafasafa&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;canile&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;cafanifilefe&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;luccicante&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;lufuccificafantefe&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;AlfabetoFarfallino&lt;/code&gt; che contenga due metodi utili rispettivamente per codificare e decodificare una stringa secondo il codice &lt;em&gt;Alfabeto Farfallino&lt;/em&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String codifica(String testo)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String decodifica(String codice)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Il codice noto come Alfabeto farfallino consiste nel modificare ogni parola aggiungendo dopo ogni vocale una f seguita dalla vocale stessa ripetuta. Ad esempio:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Da Wikipedia:</summary></entry></feed>
