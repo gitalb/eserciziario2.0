@@ -10,5 +10,5 @@ Scrivi il programma `HelloWorld` che stampa a terminale la stringa "Hello World"
 
 ```text
 java HelloWorld
-Hello World!!!
+Hello World!!
 ```
