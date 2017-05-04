@@ -33,9 +33,9 @@ La classe deve esportare due costruttori:
 Inoltre deve esportare il metodo `public void draw()` che stampa la rappresentazione grafica della macchina nei modo seguenti:
 
 ~~~
-				  ruote		 ruote		 ruote		 ruote
-			 	 piccole	 grandi		 piccole	 grandi
-										 + traino	 + traino
+                 ruote		 ruote		 ruote		 ruote
+                 piccole	 grandi		 piccole	 grandi
+						 + traino	 + traino
                     __   	    __   	    __   	    __   
                  ___|_\__	 ___|_\__	 ___|_\__	 ___|_\__
 Pickup           -o----o-	 -O----O-	J-o----o-	J-O----O-
