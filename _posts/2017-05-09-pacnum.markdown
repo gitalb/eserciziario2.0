@@ -1,0 +1,47 @@
+---
+layout: post
+title: "PacNum"
+date: 2017-05-09 14:44:03 +0100
+categories: [array, methods]
+level: 13
+---
+
+Scrivere il programma `PacNum` contenente il metodo:
+
+~~~java
+void step(int[][] m)
+~~~ 
+Tale metodo, data la matrice `m` (di qualsiasi dimensione valida):
+
+1. controlla che i valori contenuti nella matrice rispettino le regole seguenti (altrimenti termina senza fare nulla):
+	- controlla che tutti gli elementi di m tranne uno (che chiameremo `X`) siano pari a `0`
+	- `X` deve avere un valore compreso nel range `[1;4]`
+2. Se la matrice rispetta le regole, ne modifica il contenuto nel modo seguente:
+	- se `X` vale 1, lo sposta in alto (in *su di una riga*), se `X` si trova nella prima riga, lo sposta nell'ultima
+	- se `X` vale 2, lo sposta in basso (in *giù di una riga*), se `X` si trova nella ultima riga, lo sposta nella prima
+	- se `X` vale 3, lo sposta a sinistra (a *sinistra di una colonna*), se `X` si trova nella prima colonna, lo sposta nell'ultima
+	- se `X` vale 4, lo sposta a destra (a *destra di una colonna*), se `X` si trova nella ultima colonna, lo sposta nella prima
+
+Esempio:
+	
+~~~
+0	0	0						0	1	0
+0	1	0 	-> diventa ->		0	0	0
+0	0	0						0	0	0
+~~~
+	
+Oppure:
+	
+~~~
+0	0	0						0	0	0
+0	0	3	-> diventa ->		0	3	0
+0	0	0						0	0	0
+~~~
+	
+Oppure:
+	
+~~~
+0	0	0						0	0	0
+3	0	0	-> diventa ->		0	0	3
+0	0	0						0	0	0
+~~~
