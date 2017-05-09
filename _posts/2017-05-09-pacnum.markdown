@@ -25,23 +25,23 @@ Tale metodo, data la matrice `m` (di qualsiasi dimensione valida):
 Esempio:
 	
 ~~~
-0	0	0						0	1	0
+0	0	0				0	1	0
 0	1	0 	-> diventa ->		0	0	0
-0	0	0						0	0	0
+0	0	0				0	0	0
 ~~~
 	
 Oppure:
 	
 ~~~
-0	0	0						0	0	0
+0	0	0				0	0	0
 0	0	3	-> diventa ->		0	3	0
-0	0	0						0	0	0
+0	0	0				0	0	0
 ~~~
 	
 Oppure:
 	
 ~~~
-0	0	0						0	0	0
+0	0	0				0	0	0
 3	0	0	-> diventa ->		0	0	3
-0	0	0						0	0	0
+0	0	0				0	0	0
 ~~~
