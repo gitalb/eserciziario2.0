@@ -1,5 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-05-02T14:15:18+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">Car</title><link href="http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car.html" rel="alternate" type="text/html" title="Car" /><published>2017-05-02T14:12:01+02:00</published><updated>2017-05-02T14:12:01+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car.html">&lt;p&gt;Un costruttore di automobili desidera un applicativo utile per gestire la configurazione dei veicoli che produce.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-05-17T15:13:06+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">PacNum</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2017/05/09/pacnum.html" rel="alternate" type="text/html" title="PacNum" /><published>2017-05-09T15:44:03+02:00</published><updated>2017-05-09T15:44:03+02:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2017/05/09/pacnum</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2017/05/09/pacnum.html">&lt;p&gt;Scrivere il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;PacNum&lt;/code&gt; contenente il metodo:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;step&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[][]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Tale metodo, data la matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;m&lt;/code&gt; (di qualsiasi dimensione valida):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;controlla che i valori contenuti nella matrice rispettino le regole seguenti (altrimenti termina senza fare nulla):
+    &lt;ul&gt;
+      &lt;li&gt;controlla che tutti gli elementi di m tranne uno (che chiameremo &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt;) siano pari a &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; deve avere un valore compreso nel range &lt;code class=&quot;highlighter-rouge&quot;&gt;[1;4]&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Se la matrice rispetta le regole, ne modifica il contenuto nel modo seguente:
+    &lt;ul&gt;
+      &lt;li&gt;se &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; vale 1, lo sposta in alto (in &lt;em&gt;su di una riga&lt;/em&gt;), se &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; si trova nella prima riga, lo sposta nell’ultima&lt;/li&gt;
+      &lt;li&gt;se &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; vale 2, lo sposta in basso (in &lt;em&gt;giù di una riga&lt;/em&gt;), se &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; si trova nella ultima riga, lo sposta nella prima&lt;/li&gt;
+      &lt;li&gt;se &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; vale 3, lo sposta a sinistra (a &lt;em&gt;sinistra di una colonna&lt;/em&gt;), se &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; si trova nella prima colonna, lo sposta nell’ultima&lt;/li&gt;
+      &lt;li&gt;se &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; vale 4, lo sposta a destra (a &lt;em&gt;destra di una colonna&lt;/em&gt;), se &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; si trova nella ultima colonna, lo sposta nella prima&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0	0	0						0	1	0
+0	1	0 	-&amp;gt; diventa -&amp;gt;		0	0	0
+0	0	0						0	0	0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0	0	0						0	0	0
+0	0	3	-&amp;gt; diventa -&amp;gt;		0	3	0
+0	0	0						0	0	0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0	0	0						0	0	0
+3	0	0	-&amp;gt; diventa -&amp;gt;		0	0	3
+0	0	0						0	0	0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivere il programma PacNum contenente il metodo:</summary></entry><entry><title type="html">Car</title><link href="http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car.html" rel="alternate" type="text/html" title="Car" /><published>2017-05-02T14:12:01+02:00</published><updated>2017-05-02T14:12:01+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car.html">&lt;p&gt;Un costruttore di automobili desidera un applicativo utile per gestire la configurazione dei veicoli che produce.&lt;/p&gt;
 
 &lt;h3 id=&quot;parte-1-car&quot;&gt;Parte 1: &lt;code class=&quot;highlighter-rouge&quot;&gt;Car&lt;/code&gt;&lt;/h3&gt;
 
@@ -30,9 +76,9 @@
 
 &lt;p&gt;Inoltre deve esportare il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;public void draw()&lt;/code&gt; che stampa la rappresentazione grafica della macchina nei modo seguenti:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;				  ruote		 ruote		 ruote		 ruote
-			 	 piccole	 grandi		 piccole	 grandi
-										 + traino	 + traino
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                 ruote		 ruote		 ruote		 ruote
+                 piccole	 grandi		 piccole	 grandi
+						 + traino	 + traino
                     __   	    __   	    __   	    __   
                  ___|_\__	 ___|_\__	 ___|_\__	 ___|_\__
 Pickup           -o----o-	 -O----O-	J-o----o-	J-O----O-
@@ -83,7 +129,7 @@ $
 &lt;p&gt;Se il valore cercato non è presente il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Valore non trovato&quot;&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe BinarySearch che applica una ricerca binaria per trovare args[0] nell’insieme ordinato rappresentato da args[1;N] e ne stampa l’indice (partendo da 0). Ad esempio:</summary></entry><entry><title type="html">SearchLast</title><link href="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/searchlast.html" rel="alternate" type="text/html" title="SearchLast" /><published>2017-04-25T12:59:23+02:00</published><updated>2017-04-25T12:59:23+02:00</updated><id>http://localhost:4000/eserciziario2.0/search/array/2017/04/25/searchlast</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/search/array/2017/04/25/searchlast.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;SearchLast&lt;/code&gt; che applica una ricerca sequenziale per trovare l’ultima ricorrenza di &lt;code class=&quot;highlighter-rouge&quot;&gt;args[0]&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;args[1;N]&lt;/code&gt; e ne stampa l’indice (partendo da 0). Ad esempio:&lt;/p&gt;
 
 &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java SearchLast 3 1 7 5 9 67 4 7 3 7 9
-8
+7
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -231,87 +277,4 @@ Bravo!
 
 Buongiorno Luca, benvenuto!
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Saluto che chiede all’utente di inserire il proprio nome e in seguito stampa a terminale: Buongiorno &amp;lt;nome&amp;gt;, benvenuto!.</summary></entry><entry><title type="html">CifrarioDiCesare</title><link href="http://localhost:4000/eserciziario2.0/string/methods/2017/03/21/cifrariodicesare.html" rel="alternate" type="text/html" title="CifrarioDiCesare" /><published>2017-03-21T21:28:43+01:00</published><updated>2017-03-21T21:28:43+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/methods/2017/03/21/cifrariodicesare</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/methods/2017/03/21/cifrariodicesare.html">&lt;p&gt;Da &lt;a href=&quot;https://it.m.wikipedia.org/wiki/Cifrario_di_Cesare&quot;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Il cifrario di Cesare è uno dei più antichi algoritmi crittografici di cui si abbia traccia storica. È un cifrario a sostituzione monoalfabetica in cui ogni lettera del testo in chiaro è sostituita nel testo cifrato dalla lettera che si trova un certo numero di posizioni dopo nell’alfabeto. Questi tipi di cifrari sono detti anche cifrari a sostituzione o cifrari a scorrimento a causa del loro modo di operare: la sostituzione avviene lettera per lettera, scorrendo il testo dall’inizio alla fine.” … ” In particolare, Cesare utilizzava uno spostamento di 3 posizioni (la chiave era dunque 3” …&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Ad esempio, applicando la chiave 3: &lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'f'&lt;/code&gt; e via dicendo:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Carattere originale&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;…&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'x'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'y'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'z'&lt;/code&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Codifica con chiave 3&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'f'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'g'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'h'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;…&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Applicando invece la chiave 5 &lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'f'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;'g'&lt;/code&gt;… eccetera:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Carattere originale&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'a'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'b'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;…&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'x'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'y'&lt;/code&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'z'&lt;/code&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Codifica con chiave 5&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'f'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'g'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'h'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'i'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'j'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;…&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'c'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'d'&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'e'&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Scrivi la classe Java &lt;code class=&quot;highlighter-rouge&quot;&gt;CifrarioDiCesare&lt;/code&gt; che contenga due metodi utili rispettivamente per codificare e decodificare una stringa:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String codifica(String testo, int chiave)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String decodifica(String codice, int chiave)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Da Wikipedia:</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Saluto che chiede all’utente di inserire il proprio nome e in seguito stampa a terminale: Buongiorno &amp;lt;nome&amp;gt;, benvenuto!.</summary></entry></feed>
