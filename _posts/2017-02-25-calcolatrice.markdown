@@ -9,7 +9,7 @@ level: 11
 Scrivi la classe `Calcolatrice` contenente il metodo:
 
 ~~~java
-public static int calcola(int a, int b, char operatore)`
+public static int calcola(int a, int b, char operatore)
 ~~~
 
 Tale metodo esegue un'operazione matematica di base sui due numeri `a` e `b`. Il valore `operatore` (`'+'`, `'-'`, `'*'`, `'/'`) definisce l'operazione da eseguire. 
