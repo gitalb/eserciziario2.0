@@ -1,0 +1,29 @@
+---
+layout: post
+title: "MathTool"
+date: 2018-03-14 10:45:47 +0100
+categories: [math,loop,methods]
+level: 10
+---
+
+Scrivi la classe `MathTool` contenente i metodi:
+
+~~~java
+public static int pow(int base, int exp)
+~~~
+
+Tale metodo calcola l'elevazione a potenza (`base` elevato `exp`).
+
+~~~java
+public static int factorial(int n)
+~~~
+
+Che ritorna il *fattoriale di* `n`. Ad esempio il *fattoriale* di 3 è 6 (`3 * 2 * 1 = 6`).
+
+
+~~~java
+public static int digitAt(long number, int index)
+~~~
+
+Che ritorna il valore della cifra alla posizione `index` dentro a `number`. Ad esempio `digitAt(123456, 0)` ritorna `1`, mentre `digitAt(123456, 3)` ritorna `4`. Per risolvere questo problema è **vietato** ricorrere alla trasformazione di `number` in una stringa.
+
