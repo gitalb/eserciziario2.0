@@ -2,7 +2,7 @@
 layout: post
 title: "Scacchiera"
 date: 2017-03-21 19:45:58 +0100
-categories: [array]
+categories: [array,interactive]
 level: 10
 ---
 
