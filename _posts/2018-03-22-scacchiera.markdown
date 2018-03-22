@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scacchiera (non interattivo)"
-date: 2018-03-22  6:23:49 +0100
+date: 2018-02-22  6:23:49 +0100
 categories: [array, loops]
 level: 10
 ---
