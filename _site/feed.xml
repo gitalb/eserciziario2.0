@@ -1,5 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2017-05-17T15:13:06+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">PacNum</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2017/05/09/pacnum.html" rel="alternate" type="text/html" title="PacNum" /><published>2017-05-09T15:44:03+02:00</published><updated>2017-05-09T15:44:03+02:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2017/05/09/pacnum</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2017/05/09/pacnum.html">&lt;p&gt;Scrivere il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;PacNum&lt;/code&gt; contenente il metodo:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2018-03-22T06:38:17+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">Scacchiera (non interattivo)</title><link href="http://localhost:4000/eserciziario2.0/array/loops/2018/03/22/scacchiera.html" rel="alternate" type="text/html" title="Scacchiera (non interattivo)" /><published>2018-03-22T06:23:49+01:00</published><updated>2018-03-22T06:23:49+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/loops/2018/03/22/scacchiera</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/loops/2018/03/22/scacchiera.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Scacchiera&lt;/code&gt; che, dati due numeri interi forniti come argomenti da linea di comando che rappresentano il numero di righe e il numero di colonne di una matrice:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Crea una matrice con le dimensioni definite dall’utente&lt;/li&gt;
+  &lt;li&gt;Riempie la matrice disponendo i valori &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; altrenati come su una scacchiera.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esempio, per una matrice 5 x 5:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Scacchiera 5 5
+0 1 0 1 0 
+1 0 1 0 1 
+0 1 0 1 0 
+1 0 1 0 1 
+0 1 0 1 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Il programma deve funzionare correttamente anche per matrici rettangolari. Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Scacchiera 6 8
+0 1 0 1 0 1 0 1 
+1 0 1 0 1 0 1 0 
+0 1 0 1 0 1 0 1 
+1 0 1 0 1 0 1 0 
+0 1 0 1 0 1 0 1 
+1 0 1 0 1 0 1 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Scacchiera che, dati due numeri interi forniti come argomenti da linea di comando che rappresentano il numero di righe e il numero di colonne di una matrice:</summary></entry><entry><title type="html">MathTool</title><link href="http://localhost:4000/eserciziario2.0/math/loop/methods/2018/03/14/mathtool.html" rel="alternate" type="text/html" title="MathTool" /><published>2018-03-14T10:45:47+01:00</published><updated>2018-03-14T10:45:47+01:00</updated><id>http://localhost:4000/eserciziario2.0/math/loop/methods/2018/03/14/mathtool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/math/loop/methods/2018/03/14/mathtool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;MathTool&lt;/code&gt; contenente i metodi:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;pow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tale metodo calcola l’elevazione a potenza (&lt;code class=&quot;highlighter-rouge&quot;&gt;base&lt;/code&gt; elevato &lt;code class=&quot;highlighter-rouge&quot;&gt;exp&lt;/code&gt;).&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;factorial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Che ritorna il &lt;em&gt;fattoriale di&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt;. Ad esempio il &lt;em&gt;fattoriale&lt;/em&gt; di 3 è 6 (&lt;code class=&quot;highlighter-rouge&quot;&gt;3 * 2 * 1 = 6&lt;/code&gt;).&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;digitAt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Che ritorna il valore della cifra alla posizione &lt;code class=&quot;highlighter-rouge&quot;&gt;index&lt;/code&gt; dentro a &lt;code class=&quot;highlighter-rouge&quot;&gt;number&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;digitAt(123456, 0)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;, mentre &lt;code class=&quot;highlighter-rouge&quot;&gt;digitAt(123456, 3)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;4&lt;/code&gt;. Per risolvere questo problema è &lt;strong&gt;vietato&lt;/strong&gt; ricorrere alla trasformazione di &lt;code class=&quot;highlighter-rouge&quot;&gt;number&lt;/code&gt; in una stringa.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe MathTool contenente i metodi:</summary></entry><entry><title type="html">PacNum</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2017/05/09/pacnum.html" rel="alternate" type="text/html" title="PacNum" /><published>2017-05-09T15:44:03+02:00</published><updated>2017-05-09T15:44:03+02:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2017/05/09/pacnum</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2017/05/09/pacnum.html">&lt;p&gt;Scrivere il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;PacNum&lt;/code&gt; contenente il metodo:&lt;/p&gt;
 
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;step&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[][]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -25,25 +71,25 @@
 
 &lt;p&gt;Esempio:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0	0	0						0	1	0
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0	0	0				0	1	0
 0	1	0 	-&amp;gt; diventa -&amp;gt;		0	0	0
-0	0	0						0	0	0
+0	0	0				0	0	0
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Oppure:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0	0	0						0	0	0
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0	0	0				0	0	0
 0	0	3	-&amp;gt; diventa -&amp;gt;		0	3	0
-0	0	0						0	0	0
+0	0	0				0	0	0
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Oppure:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0	0	0						0	0	0
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0	0	0				0	0	0
 3	0	0	-&amp;gt; diventa -&amp;gt;		0	0	3
-0	0	0						0	0	0
+0	0	0				0	0	0
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivere il programma PacNum contenente il metodo:</summary></entry><entry><title type="html">Car</title><link href="http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car.html" rel="alternate" type="text/html" title="Car" /><published>2017-05-02T14:12:01+02:00</published><updated>2017-05-02T14:12:01+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/interactive/2017/05/02/car.html">&lt;p&gt;Un costruttore di automobili desidera un applicativo utile per gestire la configurazione dei veicoli che produce.&lt;/p&gt;
 
@@ -256,25 +302,4 @@ Premi 'q' per uscire
 Scelta: q
 $
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma interattivo Butterflyzer che permetta di codificare e decodificare messaggi in alfabeto farfallino.</summary></entry><entry><title type="html">ScegliNumero</title><link href="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero.html" rel="alternate" type="text/html" title="ScegliNumero" /><published>2017-03-21T21:40:13+01:00</published><updated>2017-03-21T21:40:13+01:00</updated><id>http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/sceglinumero.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;ScegliNumero&lt;/code&gt; che chiede all’utente di inserire un numero. Se il valore immesso è compreso tra i due interi passati come argomenti da linea di comando, il programma stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;Bravo!&lt;/code&gt; e termina. Altrimenti ripete la richiesta.&lt;/p&gt;
-
-&lt;p&gt;Ad esempio:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java ScegliNumero 5 1
-
-Inserisci un numero: 15
-Numero non valido, riprova!
-
-Inserisci un numero: 6
-Numero non valido, riprova!
-
-Inserisci un numero: 3
-Bravo!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma ScegliNumero che chiede all’utente di inserire un numero. Se il valore immesso è compreso tra i due interi passati come argomenti da linea di comando, il programma stampa Bravo! e termina. Altrimenti ripete la richiesta.</summary></entry><entry><title type="html">Saluto</title><link href="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/saluto.html" rel="alternate" type="text/html" title="Saluto" /><published>2017-03-21T21:38:20+01:00</published><updated>2017-03-21T21:38:20+01:00</updated><id>http://localhost:4000/eserciziario2.0/interactive/2017/03/21/saluto</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/interactive/2017/03/21/saluto.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Saluto&lt;/code&gt; che chiede all’utente di inserire il proprio nome e in seguito stampa a terminale: &lt;code class=&quot;highlighter-rouge&quot;&gt;Buongiorno &amp;lt;nome&amp;gt;, benvenuto!&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserisci il tuo nome per continuare: Luca
-
-Buongiorno Luca, benvenuto!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Saluto che chiede all’utente di inserire il proprio nome e in seguito stampa a terminale: Buongiorno &amp;lt;nome&amp;gt;, benvenuto!.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma interattivo Butterflyzer che permetta di codificare e decodificare messaggi in alfabeto farfallino.</summary></entry></feed>
