@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scacchiera"
+title: "Scacchiera (interattivo)"
 date: 2017-03-21 19:45:58 +0100
 categories: [array,interactive]
 level: 10
