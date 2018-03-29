@@ -34,11 +34,11 @@ Ad esempio per un file html contenente:
 <table><!-- Qui inizia la tabella -->
     <tr><!-- Prima riga -->
         <td>A</td><td>B</td><td>C</td><td>D</td>
-    </tr>
-    <tr><!-- Prima riga -->
+    </tr><!-- Fine prima riga -->
+    <tr><!-- Seconda riga -->
         <td>1</td><td>1234</td><td>cane<!--- BAU!!! --->
         </td><td>gatto</td>
-    </tr>
+    </tr><!-- Fine seconda riga -->
 </table><!-- Qui termina la tabella -->
 ...
 ~~~
