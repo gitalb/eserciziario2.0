@@ -6,11 +6,11 @@ categories: [class, interactive, draw]
 level: 12
 ---
 
-#`MenuCreator`
+# `MenuCreator`
 
 Devi realizzare un'applicazione utile per redigere il menu di un ristorante. Un *menu* è costituito dall'elenco delle *pietanze* servite. Per ogni *pietanza* viene indicato il *nome* e il *prezzo*.
 
-![](/assets/posts/menu.png)\
+![]({{ site.baseurl }}/assets/posts/menu.png)
 
 Per realizzare l'applicazione devi procedere in 2 fasi.
 
