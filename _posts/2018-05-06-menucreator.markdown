@@ -10,7 +10,8 @@ level: 12
 
 Devi realizzare un'applicazione utile per redigere il menu di un ristorante. Un *menu* è costituito dall'elenco delle *pietanze* servite. Per ogni *pietanza* viene indicato il *nome* e il *prezzo*.
 
-![]({{ site.baseurl }}/assets/posts/menu.png)
+![]({{ site.baseurl }}/assets/posts/menu.png){:width="300"}
+
 
 Per realizzare l'applicazione devi procedere in 2 fasi.
 
