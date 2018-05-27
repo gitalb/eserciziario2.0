@@ -19,7 +19,7 @@ Che ordina l'array `names` fornito come parametro.
 Alla fine il programma deve stampare i nomi in ordine alfabetico, esempio:
 
 ~~~
-java NameSorter Zorro Luca Andrea Antonio
+$ java NameSorter Zorro Luca Andrea Antonio
 Andrea 
 Antonio
 Luca
