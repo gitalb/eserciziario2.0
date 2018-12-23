@@ -1,5 +1,321 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2018-05-27T12:15:06+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">NameSorter</title><link href="http://localhost:4000/eserciziario2.0/array/sort/2018/05/15/namesorter.html" rel="alternate" type="text/html" title="NameSorter" /><published>2018-05-15T16:34:47+02:00</published><updated>2018-05-15T16:34:47+02:00</updated><id>http://localhost:4000/eserciziario2.0/array/sort/2018/05/15/namesorter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/sort/2018/05/15/namesorter.html">&lt;h1 id=&quot;namesorter&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;NameSorter&lt;/code&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2018-12-23T08:52:04+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">Rotator</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator.html" rel="alternate" type="text/html" title="Rotator" /><published>2018-12-23T08:50:27+01:00</published><updated>2018-12-23T08:50:27+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Rotator&lt;/code&gt; che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.&lt;/p&gt;
+
+&lt;p&gt;La figura introdotta può avere una dimensione massima di 10 x 10 (10 righe e 10 colonne).&lt;/p&gt;
+
+&lt;p&gt;L’introduzione della figura termina con successo quando l’utente introduce una riga vuota e preme &lt;em&gt;enter&lt;/em&gt; oppure quando la dimensione verticale della figura raggiunge le 10 righe.&lt;/p&gt;
+
+&lt;p&gt;Se durante l’introduzione l’utente introduce una riga più lunga di 10 caratteri il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Linea troppo lunga, riprova:&lt;/code&gt; e l’introduzione ricomincia da capo.&lt;/p&gt;
+
+&lt;p&gt;Qualche esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire un disegno (enter per terminare): 
+abcd
+efgh
+
+Rotazione:
+
+ae
+bf
+cg
+dh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire un disegno (enter per terminare): 
+     *
+     ***
+*********
+     ***
+     *
+
+Rotazione:
+
+  *  
+  *  
+  *  
+  *  
+  *  
+*****
+ *** 
+ *** 
+  *  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure per un riga troppo lunga:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire un disegno (enter per terminare): 
+abcdefghjkklm
+Linea troppo lunga, riprova:
+12345
+6   7
+89ABC
+
+Rotazione:
+
+168
+2 9
+3 A
+4 B
+57C
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Rotator che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.</summary></entry><entry><title type="html">ActionableIsbnChecker</title><link href="http://localhost:4000/eserciziario2.0/string/math/2018/12/23/actionableisbnchecker.html" rel="alternate" type="text/html" title="ActionableIsbnChecker" /><published>2018-12-23T08:49:25+01:00</published><updated>2018-12-23T08:49:25+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/math/2018/12/23/actionableisbnchecker</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/math/2018/12/23/actionableisbnchecker.html">&lt;p&gt;L’ISBN-13 &lt;em&gt;azionabile&lt;/em&gt; è un codice composto secondo il modello:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	ISBN A 10.###.#######/###
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ad esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	ISBN A 10.978.8889637/418
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Dove la sequenza di &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; rappresenta 13 cifre (12 cifre di &lt;em&gt;codice&lt;/em&gt; + 1 &lt;em&gt;cifra di controllo&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;La &lt;em&gt;cifra di controllo&lt;/em&gt; si calcola in base al valore delle 12 cifre precedenti con il seguente algoritmo numerico:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;si moltiplica ogni cifra per un peso che assume in modo alternato i valori 1 e 3, partendo dalla prima cifra a sinistra che ha peso 1&lt;/li&gt;
+  &lt;li&gt;si sommano i risultati&lt;/li&gt;
+  &lt;li&gt;si divide la somma per 10 e si prende il resto della divisione&lt;/li&gt;
+  &lt;li&gt;si sottrae il risultato da 10: questa cifra è la &lt;em&gt;cifra di controllo&lt;/em&gt;; se quest’ultimo risultato fosse proprio 10, lo si sostituirà con 0.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ad esempio per il codice &lt;code class=&quot;highlighter-rouge&quot;&gt;ISBN A 10.978.8843025/34&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;9 * 1 + 7 * 3 + 8 * 1 + 8 * 3 + 8 * 1 + 4 * 3 + 3 * 1 + ... + 4 * 3 = 117
+
+117 diviso 10 da resto 7
+
+10 - 7 = 3 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;la cifra di controllo sarebbe &lt;strong&gt;3&lt;/strong&gt; (quindi il codice completo sarebbe &lt;code class=&quot;highlighter-rouge&quot;&gt;ISBN A 10.978.8843025/343&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;ActionableIsbnChecker&lt;/code&gt; che chiede all’utente di inserire un &lt;em&gt;codice ISBN-13 azionabile&lt;/em&gt; e ne verifica la correttezza.&lt;/p&gt;
+
+&lt;p&gt;I prefissi &lt;code class=&quot;highlighter-rouge&quot;&gt;ISBN&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt;, i punti, lo slash e gli spazi (&lt;code class=&quot;highlighter-rouge&quot;&gt;'.'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'/'&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;'' &lt;/code&gt;) sono opzionali, se vengono omessi il programma esegue comunque la verifica.&lt;/p&gt;
+
+&lt;p&gt;Il &lt;em&gt;codice&lt;/em&gt; e la &lt;em&gt;cifra di controllo&lt;/em&gt; devono essere presenti e validi, altrimenti il programma stampa un messaggio di errore.&lt;/p&gt;
+
+&lt;p&gt;Se il codice non è valido, il messaggio stampato è &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice non valido&lt;/code&gt;. Se la &lt;em&gt;cifra di controllo&lt;/em&gt; non è valida (&lt;code class=&quot;highlighter-rouge&quot;&gt;[1;10]&lt;/code&gt;) il messaggio di errore è &lt;code class=&quot;highlighter-rouge&quot;&gt;Cifra di controllo non valida&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se l’utente inserisce un &lt;em&gt;codice&lt;/em&gt; con il formato ammesso, il programma ne verifica la bontà controllando la corrispondenza tra &lt;em&gt;codice&lt;/em&gt; e &lt;em&gt;cifra di controllo&lt;/em&gt;. Se corrispondono il programma termina stampando il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice verificato!&lt;/code&gt;, altrimenti stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice errato&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">L’ISBN-13 azionabile è un codice composto secondo il modello:</summary></entry><entry><title type="html">Patternizer</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/patternizer.html" rel="alternate" type="text/html" title="Patternizer" /><published>2018-12-23T08:47:26+01:00</published><updated>2018-12-23T08:47:26+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/patternizer</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/patternizer.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Patternizer&lt;/code&gt; che chiede all’utente di inserire un &lt;em&gt;pattern&lt;/em&gt; che servirà da modello per disegnare una figura bidimensionale. L’utente introduce la sequenza di caratteri da stampare su di una sola riga utilizzando il carattere &lt;code class=&quot;highlighter-rouge&quot;&gt;'g'&lt;/code&gt; per indicare i punti in cui andare &lt;em&gt;a capo&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ad esempio la sequenza &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot; /\g/  \g|__|&quot;&lt;/code&gt; produce il disegno seguente:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; /\
+/  \
+|__|
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Il programma stampa il disegno in uno spazio cartesiano in cui devono comparire le coordinate orizzontali e verticali come mostrato negli esempi seguenti:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire pattern (g per new line):
+****g*  *g*  *g****
+ 0123
+0****
+1*  *
+2*  *
+3****
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire pattern (g per new line):
+*********g.*.....*.g..*...*..g...*.*...g....*....
+ 012345678
+0*********
+1.*.....*.
+2..*...*..
+3...*.*...
+4....*....
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;La figura contenuta nel pattern deve avere una larghezza massima di 10 caratteri. Se il pattern fornito non rispetta questa regola, il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Riga &amp;lt;riga&amp;gt; troppo lunga (max 10 char)&lt;/code&gt;, indicando il numero della riga non valida e poi ripete la richiesta iniziale. Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire pattern (g per new line):
+*.*.*.*.*.*g***g---*g
+Riga 0 troppo lunga (max 10 char)
+Inserire pattern (g per new line):
+/\/\/\g\/\/\/
+ 012345
+0/\/\/\
+1\/\/\/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Patternizer che chiede all’utente di inserire un pattern che servirà da modello per disegnare una figura bidimensionale. L’utente introduce la sequenza di caratteri da stampare su di una sola riga utilizzando il carattere 'g' per indicare i punti in cui andare a capo.</summary></entry><entry><title type="html">WordShaker</title><link href="http://localhost:4000/eserciziario2.0/string/loop/2018/12/23/wordshaker.html" rel="alternate" type="text/html" title="WordShaker" /><published>2018-12-23T08:46:21+01:00</published><updated>2018-12-23T08:46:21+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/loop/2018/12/23/wordshaker</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/loop/2018/12/23/wordshaker.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;WordShaker&lt;/code&gt; che chiede all’utente di inserire una frase e poi la stampa scambiando il primo con in secondo carattere, il terzo con il quarto, il quinto con il sesto e via dicendo. Se il numero di caratteri è dispari l’ultimo carattere viene stampato nella sua posizione originale.&lt;/p&gt;
+
+&lt;p&gt;Qualche esempio:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cane&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;acen&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gatto&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;agtto&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tanto va la gatta al lardo&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;attn oavl  aagtt alal raod&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;abcde&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;badce&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Esempio di output:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una frase: Asta la vista!
+sAatl  aivts!a
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe WordShaker che chiede all’utente di inserire una frase e poi la stampa scambiando il primo con in secondo carattere, il terzo con il quarto, il quinto con il sesto e via dicendo. Se il numero di caratteri è dispari l’ultimo carattere viene stampato nella sua posizione originale.</summary></entry><entry><title type="html">Filler</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/filler.html" rel="alternate" type="text/html" title="Filler" /><published>2018-12-23T08:44:30+01:00</published><updated>2018-12-23T08:44:30+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/filler</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/filler.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Filler&lt;/code&gt; che chiede all’utente di disegnare una figura bidimensionale chiusa composta di asterischi (&lt;code class=&quot;highlighter-rouge&quot;&gt;'*'&lt;/code&gt;). L’introduzione della figura termina quando l’utente introduce una riga vuota e preme &lt;em&gt;enter&lt;/em&gt;. Il programma stampa poi la figura riempiendone le cavità orizzontali, come mostrato negli esempi seguenti. Qualche esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Disegnare figura chiusa (enter per terminare): 
+********
+*      *
+*      *
+********
+
+Figura piena:
+
+********
+********
+********
+********
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Disegnare figura chiusa (enter per terminare): 
+      *
+  *       *
+*           *
+  *       *
+      *
+
+Figura piena:
+      *
+  *********
+*************
+  *********
+      *
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se viene immessa una riga non vuota che non contiene nemmeno un asterisco, viene stampato il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Linea non valida!&lt;/code&gt; e poi ripete la richiesta iniziale. Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Disegnare figura chiusa (enter per terminare): 
+kasdjfnkasfd
+Linea non valida! Disegnare figura chiusa (enter per terminare): 
+   *
+  * *
+ *****  
+   * 
+
+Figura piena:
+   *
+  ***
+ *****  
+   * 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Filler che chiede all’utente di disegnare una figura bidimensionale chiusa composta di asterischi ('*'). L’introduzione della figura termina quando l’utente introduce una riga vuota e preme enter. Il programma stampa poi la figura riempiendone le cavità orizzontali, come mostrato negli esempi seguenti. Qualche esempio:</summary></entry><entry><title type="html">SentenceSplitter</title><link href="http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/sentencesplitter.html" rel="alternate" type="text/html" title="SentenceSplitter" /><published>2018-12-23T08:43:35+01:00</published><updated>2018-12-23T08:43:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/sentencesplitter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/sentencesplitter.html">&lt;p&gt;Scrivi la class &lt;code class=&quot;highlighter-rouge&quot;&gt;SentenceSplitter&lt;/code&gt; che chiede all’utente di inserire una frase e poi la stampa alternandone i caratteri su due righe come mostrato negli esempi seguenti.&lt;/p&gt;
+
+&lt;p&gt;Esempio di output:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una frase: cane
+c n 
+ a e
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;oppure:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una frase: mele cotogne
+m l   o o n 
+ e e c t g e
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;o ancora:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una frase: Tanto va la gatta al lardo.
+T n o v   a g t a a   a d .
+ a t   a l   a t   l l r o 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la class SentenceSplitter che chiede all’utente di inserire una frase e poi la stampa alternandone i caratteri su due righe come mostrato negli esempi seguenti.</summary></entry><entry><title type="html">Coordinator</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/coordinator.html" rel="alternate" type="text/html" title="Coordinator" /><published>2018-12-23T08:40:49+01:00</published><updated>2018-12-23T08:40:49+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/coordinator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/coordinator.html">&lt;p&gt;Scrivi la class &lt;code class=&quot;highlighter-rouge&quot;&gt;Coordinator&lt;/code&gt; che:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chiede all’utente di inserire la &lt;em&gt;coordinata di riga&lt;/em&gt; (intero, valore minimo &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, valore massimo &lt;code class=&quot;highlighter-rouge&quot;&gt;4&lt;/code&gt;).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se il valore non è valido stampa un messaggio di errore e ricomincia dal punto 1.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chiede di inserire la &lt;em&gt;coordinata di colonna&lt;/em&gt; (intero, valore minimo &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, valore massimo &lt;code class=&quot;highlighter-rouge&quot;&gt;4&lt;/code&gt;).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se il valore non è valido stampa un messaggio di errore e ricomincia dal punto 3.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stampa a terminale un piano cartesiano (dimensione 5 x 5) con una &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; alla coordinata immessa (vedi esempi).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I messaggi di errore da stampare (ai punti 2. e 4.) sono i seguenti:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Se il valore immesso è troppo basso: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Valore troppo piccolo &amp;lt;valore&amp;gt;&quot;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Se il valore immesso è troppo alto: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Valore troppo grande &amp;lt;valore&amp;gt;&quot;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Se il valore non è un numero: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Inserire solo numeri interi&quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Esempio di output:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire coordinata riga [0;4]: 2
+Inserire coordinata colonna [0;4]: 2
+ 01234
+0     
+1     
+2  X  
+3     
+4             
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire coordinata riga [0;4]: -1
+Valore troppo piccolo -1
+Inserire coordinata riga [0;4]: 0
+Inserire coordinata colonna [0;4]: 100
+Valore troppo grande 100
+Inserire coordinata colonna [0;4]: zero
+Inserire solo numeri interi
+Inserire coordinata colonna [0;4]: 0
+ 01234
+0X    
+1     
+2     
+3     
+4 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la class Coordinator che:</summary></entry><entry><title type="html">DoubleCounter</title><link href="http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/doublecounter.html" rel="alternate" type="text/html" title="DoubleCounter" /><published>2018-12-23T08:38:25+01:00</published><updated>2018-12-23T08:38:25+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/doublecounter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/doublecounter.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;DoubleCounter&lt;/code&gt; che chiede all’utente di inserire una parola e stampa il conteggio delle coppie caratteri consecutivi uguali (&lt;em&gt;non sensibile alle maiuscole&lt;/em&gt;) contenute nella parola. Qualche esempio:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;per la parola &lt;code class=&quot;highlighter-rouge&quot;&gt;cane&lt;/code&gt; il conteggio vale &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;per &lt;code class=&quot;highlighter-rouge&quot;&gt;gatto&lt;/code&gt; vale &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;tt&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;per &lt;code class=&quot;highlighter-rouge&quot;&gt;caMmMicia&lt;/code&gt; vale &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;Mm&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;mM&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;per &lt;code class=&quot;highlighter-rouge&quot;&gt;abbacchio&lt;/code&gt; vale &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;bb&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;cc&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;per &lt;code class=&quot;highlighter-rouge&quot;&gt;Ooteca&lt;/code&gt; vale &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;Oo&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Esempio di output:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una parola: Zzzzummm
+Coppie: 5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe DoubleCounter che chiede all’utente di inserire una parola e stampa il conteggio delle coppie caratteri consecutivi uguali (non sensibile alle maiuscole) contenute nella parola. Qualche esempio:</summary></entry><entry><title type="html">NameSorter</title><link href="http://localhost:4000/eserciziario2.0/array/sort/2018/05/15/namesorter.html" rel="alternate" type="text/html" title="NameSorter" /><published>2018-05-15T16:34:47+02:00</published><updated>2018-05-15T16:34:47+02:00</updated><id>http://localhost:4000/eserciziario2.0/array/sort/2018/05/15/namesorter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/sort/2018/05/15/namesorter.html">&lt;h1 id=&quot;namesorter&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;NameSorter&lt;/code&gt;&lt;/h1&gt;
 
 &lt;p&gt;Crea la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;NameSorter&lt;/code&gt; che dato un elenco di nomi forniti come argomenti da linea di comando, li ordina alfabeticamente. A tale scopo la classe deve contenere il metodo:&lt;/p&gt;
 
@@ -47,8 +363,6 @@ Aggiunto Insalata verde, CHF 6.50
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;\pagebreak&lt;/p&gt;
-
 &lt;p&gt;Se un valore fornito dall’utente non è accettabile, il programma stampa un messaggio e ripropone la richiesta come mostrato nell’esempio seguente:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[1 Aggiungi pietanza | 2 Esci] Scelta: 1
@@ -78,354 +392,4 @@ Aggiunto Sorbetto, CHF 6.00
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Dopo aver aggiunto una pietanza all’elenco il programma stampa un messaggio di conferma (es. &lt;code class=&quot;highlighter-rouge&quot;&gt;Aggiunto Sorbetto, CHF 9.00&lt;/code&gt;) e il menu formattato correttamente. Poi propone nuovamente la possibilità di aggiungere una pietanza o di terminare il programma.&lt;/p&gt;</content><author><name></name></author><summary type="html">MenuCreator Devi realizzare un’applicazione utile per redigere il menu di un ristorante. Un menu è costituito dall’elenco delle pietanze servite. Per ogni pietanza viene indicato il nome e il prezzo.</summary></entry><entry><title type="html">RankingManager</title><link href="http://localhost:4000/eserciziario2.0/class/files/2018/04/27/rankingmanager.html" rel="alternate" type="text/html" title="RankingManager" /><published>2018-04-27T13:13:40+02:00</published><updated>2018-04-27T13:13:40+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/files/2018/04/27/rankingmanager</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/files/2018/04/27/rankingmanager.html">&lt;h1 id=&quot;record-e-rankingmanager&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Record&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;RankingManager&lt;/code&gt;&lt;/h1&gt;
-
-&lt;h2 id=&quot;record&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Record&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Record&lt;/code&gt; è  utilizzata per rappresentare i dati di un &lt;em&gt;record&lt;/em&gt; nella classifica di un videogioco. La classe è molto semplice; possiede solo i due attributi privati &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; (il nome del giocatore che ha fatto il record) e &lt;code class=&quot;highlighter-rouge&quot;&gt;points&lt;/code&gt; (i punti totalizzati). Entrambi gli attributi sono accessibili in sola lettura.&lt;/p&gt;
-
-&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Record&lt;/code&gt; esporta pure il &lt;em&gt;costruttore personalizzato&lt;/em&gt; che permette di inizializzare &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;points&lt;/code&gt; (in questo ordine).&lt;/p&gt;
-
-&lt;p&gt;Inoltre &lt;code class=&quot;highlighter-rouge&quot;&gt;Record&lt;/code&gt; esporta e il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt; che ne ritorna la rappresentazione testuale nel formato:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;name&amp;gt;: &amp;lt;points&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Esempio:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Luigi: 10000
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;rankingmanager&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;RankingManager&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Serve per caricare i record salvati in un file CSV e per trovare il giocatore con il punteggio più alto.&lt;/p&gt;
-
-&lt;p&gt;I record sono memorizzati nella &lt;em&gt;lista di Record&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;records&lt;/code&gt; (attributo privato &lt;code class=&quot;highlighter-rouge&quot;&gt;List&amp;lt;Record&amp;gt;&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;RankingManager&lt;/code&gt; esporta i seguenti metodi:&lt;/p&gt;
-
-&lt;h3 id=&quot;costruttore&quot;&gt;Costruttore&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;RankingManager&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;csvPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Il costruttore personalizzato permette di definire il percorso del file CSV.&lt;/p&gt;
-
-&lt;h3 id=&quot;loadranking&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;loadRanking&lt;/code&gt;&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;loadRanking&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Carica i dati dal file CSV. Se non è possibile accedere o leggere il file, solleva una &lt;code class=&quot;highlighter-rouge&quot;&gt;IOException&lt;/code&gt;. Le righe del file CSV che contengono dati non validi non vengono importate.&lt;/p&gt;
-
-&lt;h3 id=&quot;getrecords&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;getRecords&lt;/code&gt;&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Record&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getRecords&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ritorna la lista (&lt;code class=&quot;highlighter-rouge&quot;&gt;records&lt;/code&gt;) dei record caricati dal file CSV.&lt;/p&gt;
-
-&lt;h3 id=&quot;getwinner&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;getWinner&lt;/code&gt;&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Record&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getWinner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ritorna il &lt;code class=&quot;highlighter-rouge&quot;&gt;Record&lt;/code&gt; con il punteggio più alto in &lt;code class=&quot;highlighter-rouge&quot;&gt;records&lt;/code&gt;. Se la lista è vuota ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;null&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;formato-del-file-csv&quot;&gt;Formato del file CSV&lt;/h2&gt;
-
-&lt;p&gt;Su ogni riga del file CSV deve essere registrato un record nel formato:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;name&amp;gt;,&amp;lt;points&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Dove:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;name&amp;gt;&lt;/code&gt;: stringa &lt;em&gt;non vuota&lt;/em&gt;, deve contenere almeno un carattere diverso da ‘ ‘ (blank)&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;points&amp;gt;&lt;/code&gt;: numero intero&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tutte le righe che non rispettano questo formato sono considerate non valide e vengono ignorate dal metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;loadRanking&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ad esempio un file CSV valido potrebbe contenere i dati seguenti:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Mario,50
-Alb,-200
-Luigi,10000
-Zorro,0
-Pippo,400
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Record e RankingManager</summary></entry><entry><title type="html">EmployeeManager</title><link href="http://localhost:4000/eserciziario2.0/class/files/2018/04/27/employeemanager.html" rel="alternate" type="text/html" title="EmployeeManager" /><published>2018-04-27T12:41:36+02:00</published><updated>2018-04-27T12:41:36+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/files/2018/04/27/employeemanager</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/files/2018/04/27/employeemanager.html">&lt;h1 id=&quot;employee-e-employeemanager&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Employee&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;EmployeeManager&lt;/code&gt;&lt;/h1&gt;
-
-&lt;h2 id=&quot;employee&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Employee&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Employee&lt;/code&gt; è  utilizzata per rappresentare i dati di un impiegato aziendale e il suo stipendio. La classe è molto semplice; possiede solo i due attributi privati &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; (il nome dell’impiegato) e &lt;code class=&quot;highlighter-rouge&quot;&gt;salary&lt;/code&gt; (lo stipendio dell’impiegato [&lt;code class=&quot;highlighter-rouge&quot;&gt;double&lt;/code&gt;]). Entrambi gli attributi sono accessibili in sola lettura.&lt;/p&gt;
-
-&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Employee &lt;/code&gt; esporta pure il costruttore personalizzato che permette di inizializzare &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;salary&lt;/code&gt; (in questo ordine).&lt;/p&gt;
-
-&lt;p&gt;Inoltre &lt;code class=&quot;highlighter-rouge&quot;&gt;Employee&lt;/code&gt; esporta e il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;boolean equals(Employee e)&lt;/code&gt; che ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se i due impiegati confrontati posseggono lo stesso nome (ignora maiuscole e minuscole) e lo stesso stipendio.&lt;/p&gt;
-
-&lt;h2 id=&quot;employeemanager&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;EmployeeManager&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Serve per caricare i dati riguardanti gli impiegati da un file CSV e per trovare la media degli stipendi.&lt;/p&gt;
-
-&lt;p&gt;I dati sono memorizzati nella &lt;em&gt;lista di Employee&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;employees&lt;/code&gt; (attributo privato &lt;code class=&quot;highlighter-rouge&quot;&gt;List&amp;lt;Employee&amp;gt;&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;EmployeeManager&lt;/code&gt; esporta i seguenti metodi:&lt;/p&gt;
-
-&lt;h3 id=&quot;costruttore&quot;&gt;Costruttore&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;EmployeeManager&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;csvPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Il costruttore personalizzato permette di definire il percorso del file CSV.&lt;/p&gt;
-
-&lt;h3 id=&quot;loademployees&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;loadEmployees&lt;/code&gt;&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;loadEmployees&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Carica i dati dal file CSV. Se non è possibile accedere o leggere il file, solleva una &lt;code class=&quot;highlighter-rouge&quot;&gt;IOException&lt;/code&gt;. Le righe del file CSV che contengono dati non validi non vengono importate.&lt;/p&gt;
-
-&lt;h3 id=&quot;getemployees&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;getEmployees&lt;/code&gt;&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Employee&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getEmployees&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ritorna la lista (&lt;code class=&quot;highlighter-rouge&quot;&gt;employees &lt;/code&gt;) degli impiegati.&lt;/p&gt;
-
-&lt;h3 id=&quot;getaveragesalary&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;getAverageSalary&lt;/code&gt;&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getAverageSalary&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ritorna lo stipendio medio (tra tutti quelli contenuti in &lt;code class=&quot;highlighter-rouge&quot;&gt;employees&lt;/code&gt;). Se la lista è vuota ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;-1.0&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;formato-del-file-csv&quot;&gt;Formato del file CSV&lt;/h2&gt;
-
-&lt;p&gt;Su ogni riga del file CSV deve essere registrato un impiegato nel formato:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;salary&amp;gt;;&amp;lt;name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Dove:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;salary&amp;gt;&lt;/code&gt;: numero &lt;code class=&quot;highlighter-rouge&quot;&gt;double&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;name&amp;gt;&lt;/code&gt;: stringa &lt;em&gt;non vuota&lt;/em&gt;, deve contenere almeno un carattere diverso da &lt;code class=&quot;highlighter-rouge&quot;&gt;' '&lt;/code&gt; (blank)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tutte le righe che non rispettano questo formato sono considerate come non valide e vengono ignorate dal metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;loadEmployees&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ad esempio un file CSV valido potrebbe contenere i dati seguenti:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1250.5;Mario
-200;Alb
-1000.5;Luigi
-8230.25;Zorro
-400;Pippo
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Employee e EmployeeManager</summary></entry><entry><title type="html">TimeConverter</title><link href="http://localhost:4000/eserciziario2.0/exceptions/2018/04/10/timeconverter.html" rel="alternate" type="text/html" title="TimeConverter" /><published>2018-04-10T12:28:58+02:00</published><updated>2018-04-10T12:28:58+02:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/2018/04/10/timeconverter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/2018/04/10/timeconverter.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;TimeConverter&lt;/code&gt; che converte un tempo espresso in ore, minuti e secondi (forniti come argomenti da linea di comando) in secondi.&lt;/p&gt;
-
-&lt;h2 id=&quot;convertint&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;convertInt&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;Per convertire i 3 argomenti da &lt;code class=&quot;highlighter-rouge&quot;&gt;String&lt;/code&gt; a &lt;code class=&quot;highlighter-rouge&quot;&gt;int&lt;/code&gt; devi creare il metodo:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;convertInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NumberFormatException&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt; non può essere convertita in un numero intero, il metodo solleva una &lt;code class=&quot;highlighter-rouge&quot;&gt;NumberFormatException&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;main&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;Il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; cattura i 3 argomenti, usa il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;convertInt&lt;/code&gt; per ricavarne i valori interi e poi stampa a terminale il risultato della conversione.&lt;/p&gt;
-
-&lt;p&gt;Ad esempio - per 1 ora, 2 minuti e 3 secondi - il programma stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;3723&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java TimeConverter 1 2 3
-1:2:3 corrispondono a 3723 secondi.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se il numero di argomenti fornito non è sufficiente, il programma termina stampando:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Utilizzo: java TimeConverter &amp;lt;h&amp;gt; &amp;lt;m&amp;gt; &amp;lt;s&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se il valore fornito per le &lt;code class=&quot;highlighter-rouge&quot;&gt;ore&lt;/code&gt; non è appropriato il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ore: valore non valido &amp;lt;valore&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se il valore fornito per i &lt;code class=&quot;highlighter-rouge&quot;&gt;minuti&lt;/code&gt; non è appropriato il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;minuti: valore non valido &amp;lt;valore&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se il valore fornito per i &lt;code class=&quot;highlighter-rouge&quot;&gt;secondi&lt;/code&gt; non è appropriato il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;secondi: valore non valido &amp;lt;valore&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe TimeConverter che converte un tempo espresso in ore, minuti e secondi (forniti come argomenti da linea di comando) in secondi.</summary></entry><entry><title type="html">TextFormatter</title><link href="http://localhost:4000/eserciziario2.0/files/loops/string/2018/03/29/textformatter.html" rel="alternate" type="text/html" title="TextFormatter" /><published>2018-03-29T10:01:00+02:00</published><updated>2018-03-29T10:01:00+02:00</updated><id>http://localhost:4000/eserciziario2.0/files/loops/string/2018/03/29/textformatter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/files/loops/string/2018/03/29/textformatter.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;TextFormatter&lt;/code&gt; contenente il metodo:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reformat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tale metodo legge il contenuto di un file di testo e lo ritorna &lt;em&gt;formattandolo&lt;/em&gt; secondo le regole seguenti:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;il carattere &lt;em&gt;a capo&lt;/em&gt; non è ammesso&lt;/li&gt;
-  &lt;li&gt;non ci sono &lt;em&gt;spazi&lt;/em&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;' '&lt;/code&gt;) all’inizio e alla fine del testo&lt;/li&gt;
-  &lt;li&gt;non ci sono &lt;em&gt;spazi multipli&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;non ci sono &lt;em&gt;spazi&lt;/em&gt; prima di un carattere di punteggiatura (&lt;code class=&quot;highlighter-rouge&quot;&gt;'.'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;','&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;';'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;':'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'!'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'?'&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;dopo un carattere di punteggiatura c’è sempre uno spazio, a meno che:
-    &lt;ul&gt;
-      &lt;li&gt;sia l’ultimo carattere del testo (regola 2.)&lt;/li&gt;
-      &lt;li&gt;sia seguito da un altro carattere di punteggiatura (regola 4.)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Ad esempio per un file contenente il testo:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  John,Malkovich?John   : Malkovich!!! !
-     John     Malkovich   !? !?John;Malkovich .   .    .  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;reformat&lt;/code&gt; ritorna la stringa:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;John, Malkovich? John: Malkovich!!!! John Malkovich!?!? John; Malkovich...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe TextFormatter contenente il metodo:</summary></entry><entry><title type="html">CsvValidator</title><link href="http://localhost:4000/eserciziario2.0/files/loops/2018/03/29/csvvalidator.html" rel="alternate" type="text/html" title="CsvValidator" /><published>2018-03-29T09:58:36+02:00</published><updated>2018-03-29T09:58:36+02:00</updated><id>http://localhost:4000/eserciziario2.0/files/loops/2018/03/29/csvvalidator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/files/loops/2018/03/29/csvvalidator.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;CsvValidator&lt;/code&gt; contenente il metodo:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isValid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;csvFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tale metodo verifica che il file in formato csv &lt;code class=&quot;highlighter-rouge&quot;&gt;csvFile&lt;/code&gt; rispetti le seguenti regole:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;contiene solo numeri &lt;strong&gt;interi&lt;/strong&gt; nel range &lt;strong&gt;[1;100]&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;i valori sono disposti in una &lt;em&gt;griglia&lt;/em&gt; di dimensione N x N&lt;/li&gt;
-  &lt;li&gt;contiene lo &lt;strong&gt;stesso numero&lt;/strong&gt; (N) di righe e colonne&lt;/li&gt;
-  &lt;li&gt;su ogni riga vi sono N valori separati dal carattere &lt;code class=&quot;highlighter-rouge&quot;&gt;';'&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;non&lt;/strong&gt; contiene righe vuote&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Se tutte le regole sono rispettate il metodo ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;, in qualsiasi altro caso il metodo ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;. Se il file non è accessibile il metodo ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Esempio di file valido (3 x 3):&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1;2;3
-4;5;6
-7;8;9
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe CsvValidator contenente il metodo:</summary></entry><entry><title type="html">TableParser</title><link href="http://localhost:4000/eserciziario2.0/files/loops/2018/03/29/tableparser.html" rel="alternate" type="text/html" title="TableParser" /><published>2018-03-29T09:20:43+02:00</published><updated>2018-03-29T09:20:43+02:00</updated><id>http://localhost:4000/eserciziario2.0/files/loops/2018/03/29/tableparser</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/files/loops/2018/03/29/tableparser.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;TableParser&lt;/code&gt; contenente il metodo:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;convertTable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;htmlFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;csvFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tale metodo legge il file in formato HTML &lt;code class=&quot;highlighter-rouge&quot;&gt;htmlFile&lt;/code&gt;. Se nel file HTML è contenuta almeno una tabella, il metodo converte il contenuto della prima tabella contenuta nel file in formato CSV e lo salva nel file &lt;code class=&quot;highlighter-rouge&quot;&gt;csvFile&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;La conversione avviene secondo le regole seguenti:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;i commenti html vengono ignorati (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!---&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;---&amp;gt;&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;solo la prima tabella viene esportata&lt;/li&gt;
-  &lt;li&gt;la tabella è delimitata dai tag html &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;table&amp;gt;&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/table&amp;gt;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;ogni riga è delimitata dai tag html &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tr&amp;gt;&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;ogni colonna è delimitata dai tag html &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;td&amp;gt;&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/td&amp;gt;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;le tabelle non hanno header (non sono presenti tag &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;th&amp;gt;&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/th&amp;gt;&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;se il file HTML non è accessibile, se non contiene nessuna tabella, se la tabella non contiene righe o colonne, non viene generato nessun file csv.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ad esempio per un file html contenente:&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Tabella di test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Prova a convertire la seguente tablella:&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Questo è un commento --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;table&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Qui inizia la tabella --&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Prima riga --&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;A&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;B&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;C&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;D&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Fine prima riga --&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Seconda riga --&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;1234&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;cane&lt;span class=&quot;c&quot;&gt;&amp;lt;!--- BAU!!! ---&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;gatto&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Fine seconda riga --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Qui termina la tabella --&amp;gt;&lt;/span&gt;
-...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Verrà prodotto il seguente file CSV:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A;B;C;D;
-1;1234;cane;gatto;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe TableParser contenente il metodo:</summary></entry><entry><title type="html">MathTool</title><link href="http://localhost:4000/eserciziario2.0/math/loop/methods/2018/03/14/mathtool.html" rel="alternate" type="text/html" title="MathTool" /><published>2018-03-14T10:45:47+01:00</published><updated>2018-03-14T10:45:47+01:00</updated><id>http://localhost:4000/eserciziario2.0/math/loop/methods/2018/03/14/mathtool</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/math/loop/methods/2018/03/14/mathtool.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;MathTool&lt;/code&gt; contenente i metodi:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;pow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tale metodo calcola l’elevazione a potenza (&lt;code class=&quot;highlighter-rouge&quot;&gt;base&lt;/code&gt; elevato &lt;code class=&quot;highlighter-rouge&quot;&gt;exp&lt;/code&gt;).&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;factorial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Che ritorna il &lt;em&gt;fattoriale di&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt;. Ad esempio il &lt;em&gt;fattoriale&lt;/em&gt; di 3 è 6 (&lt;code class=&quot;highlighter-rouge&quot;&gt;3 * 2 * 1 = 6&lt;/code&gt;).&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;digitAt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Che ritorna il valore della cifra alla posizione &lt;code class=&quot;highlighter-rouge&quot;&gt;index&lt;/code&gt; dentro a &lt;code class=&quot;highlighter-rouge&quot;&gt;number&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;digitAt(123456, 0)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;, mentre &lt;code class=&quot;highlighter-rouge&quot;&gt;digitAt(123456, 3)&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;4&lt;/code&gt;. Per risolvere questo problema è &lt;strong&gt;vietato&lt;/strong&gt; ricorrere alla trasformazione di &lt;code class=&quot;highlighter-rouge&quot;&gt;number&lt;/code&gt; in una stringa.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe MathTool contenente i metodi:</summary></entry><entry><title type="html">Scacchiera (non interattivo)</title><link href="http://localhost:4000/eserciziario2.0/array/loops/2018/02/22/scacchiera.html" rel="alternate" type="text/html" title="Scacchiera (non interattivo)" /><published>2018-02-22T06:23:49+01:00</published><updated>2018-02-22T06:23:49+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/loops/2018/02/22/scacchiera</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/loops/2018/02/22/scacchiera.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Scacchiera&lt;/code&gt; che, dati due numeri interi forniti come argomenti da linea di comando che rappresentano il numero di righe e il numero di colonne di una matrice:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Crea una matrice con le dimensioni definite dall’utente&lt;/li&gt;
-  &lt;li&gt;Riempie la matrice disponendo i valori &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; altrenati come su una scacchiera.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Esempio, per una matrice 5 x 5:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Scacchiera 5 5
-0 1 0 1 0 
-1 0 1 0 1 
-0 1 0 1 0 
-1 0 1 0 1 
-0 1 0 1 0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Il programma deve funzionare correttamente anche per matrici rettangolari. Esempio:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Scacchiera 6 8
-0 1 0 1 0 1 0 1 
-1 0 1 0 1 0 1 0 
-0 1 0 1 0 1 0 1 
-1 0 1 0 1 0 1 0 
-0 1 0 1 0 1 0 1 
-1 0 1 0 1 0 1 0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Scacchiera che, dati due numeri interi forniti come argomenti da linea di comando che rappresentano il numero di righe e il numero di colonne di una matrice:</summary></entry></feed>
+&lt;p&gt;Dopo aver aggiunto una pietanza all’elenco il programma stampa un messaggio di conferma (es. &lt;code class=&quot;highlighter-rouge&quot;&gt;Aggiunto Sorbetto, CHF 9.00&lt;/code&gt;) e il menu formattato correttamente. Poi propone nuovamente la possibilità di aggiungere una pietanza o di terminare il programma.&lt;/p&gt;</content><author><name></name></author><summary type="html">MenuCreator Devi realizzare un’applicazione utile per redigere il menu di un ristorante. Un menu è costituito dall’elenco delle pietanze servite. Per ogni pietanza viene indicato il nome e il prezzo.</summary></entry></feed>

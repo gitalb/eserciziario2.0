@@ -1,0 +1,77 @@
+---
+layout: post
+title: "Rotator"
+date: 2018-12-23  8:50:27 +0100
+categories: [loop,interactive]
+level: 13
+---
+
+
+Scrivi il programma `Rotator` che chiede all'utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti. 
+
+La figura introdotta può avere una dimensione massima di 10 x 10 (10 righe e 10 colonne).
+
+L'introduzione della figura termina con successo quando l'utente introduce una riga vuota e preme *enter* oppure quando la dimensione verticale della figura raggiunge le 10 righe.
+
+Se durante l'introduzione l'utente introduce una riga più lunga di 10 caratteri il programma stampa il messaggio `Linea troppo lunga, riprova:` e l'introduzione ricomincia da capo.
+
+Qualche esempio:
+
+
+~~~
+Inserire un disegno (enter per terminare): 
+abcd
+efgh
+
+Rotazione:
+
+ae
+bf
+cg
+dh
+~~~
+
+Oppure:
+
+~~~
+Inserire un disegno (enter per terminare): 
+     *
+     ***
+*********
+     ***
+     *
+
+Rotazione:
+
+  *  
+  *  
+  *  
+  *  
+  *  
+*****
+ *** 
+ *** 
+  *  
+~~~
+
+
+Oppure per un riga troppo lunga:
+
+~~~
+Inserire un disegno (enter per terminare): 
+abcdefghjkklm
+Linea troppo lunga, riprova:
+12345
+6   7
+89ABC
+
+Rotazione:
+
+168
+2 9
+3 A
+4 B
+57C
+~~~
+
+

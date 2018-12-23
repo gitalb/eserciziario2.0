@@ -1,0 +1,62 @@
+---
+layout: post
+title: "Filler"
+date: 2018-12-23  8:44:30 +0100
+categories: [loop,interactive]
+level: 13
+---
+
+
+Scrivi il programma `Filler` che chiede all'utente di disegnare una figura bidimensionale chiusa composta di asterischi (`'*'`). L'introduzione della figura termina quando l'utente introduce una riga vuota e preme *enter*. Il programma stampa poi la figura riempiendone le cavità orizzontali, come mostrato negli esempi seguenti. Qualche esempio:
+
+~~~
+Disegnare figura chiusa (enter per terminare): 
+********
+*      *
+*      *
+********
+
+Figura piena:
+
+********
+********
+********
+********
+~~~
+
+Oppure:
+
+~~~
+Disegnare figura chiusa (enter per terminare): 
+      *
+  *       *
+*           *
+  *       *
+      *
+
+Figura piena:
+      *
+  *********
+*************
+  *********
+      *
+~~~
+
+Se viene immessa una riga non vuota che non contiene nemmeno un asterisco, viene stampato il messaggio `Linea non valida!` e poi ripete la richiesta iniziale. Esempio:
+
+~~~
+Disegnare figura chiusa (enter per terminare): 
+kasdjfnkasfd
+Linea non valida! Disegnare figura chiusa (enter per terminare): 
+   *
+  * *
+ *****  
+   * 
+
+Figura piena:
+   *
+  ***
+ *****  
+   * 
+~~~
+	

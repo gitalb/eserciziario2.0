@@ -206,6 +206,73 @@ hex:	48	65	6c	6c	6f	20	77	6f	72	6c	64	21
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/math/2018/12/23/actionableisbnchecker.html">
+            ActionableIsbnChecker
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+           <span class="label label-success">Livello 10</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>L’ISBN-13 <em>azionabile</em> è un codice composto secondo il modello:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>	ISBN A 10.###.#######/###
+</code></pre>
+</div>
+
+<p>Ad esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>	ISBN A 10.978.8889637/418
+</code></pre>
+</div>
+
+<p>Dove la sequenza di <code class="highlighter-rouge">#</code> rappresenta 13 cifre (12 cifre di <em>codice</em> + 1 <em>cifra di controllo</em>).</p>
+
+<p>La <em>cifra di controllo</em> si calcola in base al valore delle 12 cifre precedenti con il seguente algoritmo numerico:</p>
+
+<ol>
+  <li>si moltiplica ogni cifra per un peso che assume in modo alternato i valori 1 e 3, partendo dalla prima cifra a sinistra che ha peso 1</li>
+  <li>si sommano i risultati</li>
+  <li>si divide la somma per 10 e si prende il resto della divisione</li>
+  <li>si sottrae il risultato da 10: questa cifra è la <em>cifra di controllo</em>; se quest’ultimo risultato fosse proprio 10, lo si sostituirà con 0.</li>
+</ol>
+
+<p>Ad esempio per il codice <code class="highlighter-rouge">ISBN A 10.978.8843025/34</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>9 * 1 + 7 * 3 + 8 * 1 + 8 * 3 + 8 * 1 + 4 * 3 + 3 * 1 + ... + 4 * 3 = 117
+
+117 diviso 10 da resto 7
+
+10 - 7 = 3 
+</code></pre>
+</div>
+
+<p>la cifra di controllo sarebbe <strong>3</strong> (quindi il codice completo sarebbe <code class="highlighter-rouge">ISBN A 10.978.8843025/343</code>).</p>
+
+<p>Scrivi il programma <code class="highlighter-rouge">ActionableIsbnChecker</code> che chiede all’utente di inserire un <em>codice ISBN-13 azionabile</em> e ne verifica la correttezza.</p>
+
+<p>I prefissi <code class="highlighter-rouge">ISBN</code>, <code class="highlighter-rouge">A</code> e <code class="highlighter-rouge">10</code>, i punti, lo slash e gli spazi (<code class="highlighter-rouge">'.'</code>, <code class="highlighter-rouge">'/'</code> e <code class="highlighter-rouge">'' </code>) sono opzionali, se vengono omessi il programma esegue comunque la verifica.</p>
+
+<p>Il <em>codice</em> e la <em>cifra di controllo</em> devono essere presenti e validi, altrimenti il programma stampa un messaggio di errore.</p>
+
+<p>Se il codice non è valido, il messaggio stampato è <code class="highlighter-rouge">Codice non valido</code>. Se la <em>cifra di controllo</em> non è valida (<code class="highlighter-rouge">[1;10]</code>) il messaggio di errore è <code class="highlighter-rouge">Cifra di controllo non valida</code>.</p>
+
+<p>Se l’utente inserisce un <em>codice</em> con il formato ammesso, il programma ne verifica la bontà controllando la corrispondenza tra <em>codice</em> e <em>cifra di controllo</em>. Se corrispondono il programma termina stampando il messaggio <code class="highlighter-rouge">Codice verificato!</code>, altrimenti stampa <code class="highlighter-rouge">Codice errato</code>.</p>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/string/loop/2017/02/25/defarfallinatore.html">
             DeFarfallinatore
           </a>
@@ -259,6 +326,132 @@ Le fragole sono mature
 Tafantofo vafa lafa gafattafa afal lafardofo
 </code></pre>
 </div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/string/2018/12/23/doublecounter.html">
+            DoubleCounter
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+           <span class="label label-success">Livello 11</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">DoubleCounter</code> che chiede all’utente di inserire una parola e stampa il conteggio delle coppie caratteri consecutivi uguali (<em>non sensibile alle maiuscole</em>) contenute nella parola. Qualche esempio:</p>
+
+<ul>
+  <li>per la parola <code class="highlighter-rouge">cane</code> il conteggio vale <code class="highlighter-rouge">0</code></li>
+  <li>per <code class="highlighter-rouge">gatto</code> vale <code class="highlighter-rouge">1</code> (<code class="highlighter-rouge">tt</code>)</li>
+  <li>per <code class="highlighter-rouge">caMmMicia</code> vale <code class="highlighter-rouge">2</code> (<code class="highlighter-rouge">Mm</code> e <code class="highlighter-rouge">mM</code>)</li>
+  <li>per <code class="highlighter-rouge">abbacchio</code> vale <code class="highlighter-rouge">2</code> (<code class="highlighter-rouge">bb</code> e <code class="highlighter-rouge">cc</code>)</li>
+  <li>per <code class="highlighter-rouge">Ooteca</code> vale <code class="highlighter-rouge">1</code> (<code class="highlighter-rouge">Oo</code>)</li>
+</ul>
+
+<p>Esempio di output:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire una parola: Zzzzummm
+Coppie: 5
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/2018/12/23/wordshaker.html">
+            WordShaker
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+           <span class="label label-success">Livello 11</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">WordShaker</code> che chiede all’utente di inserire una frase e poi la stampa scambiando il primo con in secondo carattere, il terzo con il quarto, il quinto con il sesto e via dicendo. Se il numero di caratteri è dispari l’ultimo carattere viene stampato nella sua posizione originale.</p>
+
+<p>Qualche esempio:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">cane</code> diventa <code class="highlighter-rouge">acen</code></li>
+  <li><code class="highlighter-rouge">gatto</code> diventa <code class="highlighter-rouge">agtto</code></li>
+  <li><code class="highlighter-rouge">tanto va la gatta al lardo</code> diventa <code class="highlighter-rouge">attn oavl  aagtt alal raod</code></li>
+  <li><code class="highlighter-rouge">abcde</code> diventa <code class="highlighter-rouge">badce</code></li>
+</ul>
+
+<p>Esempio di output:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire una frase: Asta la vista!
+sAatl  aivts!a
+</code></pre>
+</div>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/string/2018/12/23/sentencesplitter.html">
+            SentenceSplitter
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+           <span class="label label-success">Livello 11</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la class <code class="highlighter-rouge">SentenceSplitter</code> che chiede all’utente di inserire una frase e poi la stampa alternandone i caratteri su due righe come mostrato negli esempi seguenti.</p>
+
+<p>Esempio di output:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire una frase: cane
+c n 
+ a e
+</code></pre>
+</div>
+
+<p>oppure:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire una frase: mele cotogne
+m l   o o n 
+ e e c t g e
+</code></pre>
+</div>
+
+<p>o ancora:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire una frase: Tanto va la gatta al lardo.
+T n o v   a g t a a   a d .
+ a t   a l   a t   l l r o 
+</code></pre>
+</div>
+
 
       </div>
       

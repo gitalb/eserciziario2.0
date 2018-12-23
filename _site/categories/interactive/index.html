@@ -229,46 +229,33 @@ Inserire secondo addendo (in esadecimale): 55AA
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/binsum.html">
-            BinSum
+          <h2><a href="/eserciziario2.0/interactive/2017/03/21/sceglinumero.html">
+            ScegliNumero
           </a>
           <small class="pull-right">
           
           
             <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
           
-            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
-          
            <span class="label label-success">Livello 8</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">BinSum</code> che chiede all’utente di inserire due valori interi espressi in notazione <strong>esadecimale</strong> e poi ne stampa la somma <strong>in base 2</strong>. I valori binari devono essere stampati <em>a 32 bit</em>.</p>
+          <p>Scrivi il programma <code class="highlighter-rouge">ScegliNumero</code> che chiede all’utente di inserire un numero. Se il valore immesso è compreso tra i due interi passati come argomenti da linea di comando, il programma stampa <code class="highlighter-rouge">Bravo!</code> e termina. Altrimenti ripete la richiesta.</p>
 
-<p>Esempio:</p>
+<p>Ad esempio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java BinSum
-Inserire primo addendo (in esadecimale): AA
-Inserire secondo addendo (in esadecimale): 5
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java ScegliNumero 5 1
 
-00000000000000000000000010101010
-00000000000000000000000000000101 +
---------------------------------
-00000000000000000000000010101111
-</code></pre>
-</div>
+Inserisci un numero: 15
+Numero non valido, riprova!
 
-<p>Oppure:</p>
+Inserisci un numero: 6
+Numero non valido, riprova!
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java BinSum
-Inserire primo addendo (in esadecimale): 1
-Inserire secondo addendo (in esadecimale): -1
-
-00000000000000000000000000000001
-11111111111111111111111111111111 +
---------------------------------
-00000000000000000000000000000000
+Inserisci un numero: 3
+Bravo!
 </code></pre>
 </div>
 
@@ -345,33 +332,46 @@ Il tuo IMC: 24.074076
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/interactive/2017/03/21/sceglinumero.html">
-            ScegliNumero
+          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/binsum.html">
+            BinSum
           </a>
           <small class="pull-right">
           
           
             <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
           
+            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
+          
            <span class="label label-success">Livello 8</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">ScegliNumero</code> che chiede all’utente di inserire un numero. Se il valore immesso è compreso tra i due interi passati come argomenti da linea di comando, il programma stampa <code class="highlighter-rouge">Bravo!</code> e termina. Altrimenti ripete la richiesta.</p>
+          <p>Scrivi il programma <code class="highlighter-rouge">BinSum</code> che chiede all’utente di inserire due valori interi espressi in notazione <strong>esadecimale</strong> e poi ne stampa la somma <strong>in base 2</strong>. I valori binari devono essere stampati <em>a 32 bit</em>.</p>
 
-<p>Ad esempio:</p>
+<p>Esempio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java ScegliNumero 5 1
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java BinSum
+Inserire primo addendo (in esadecimale): AA
+Inserire secondo addendo (in esadecimale): 5
 
-Inserisci un numero: 15
-Numero non valido, riprova!
+00000000000000000000000010101010
+00000000000000000000000000000101 +
+--------------------------------
+00000000000000000000000010101111
+</code></pre>
+</div>
 
-Inserisci un numero: 6
-Numero non valido, riprova!
+<p>Oppure:</p>
 
-Inserisci un numero: 3
-Bravo!
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java BinSum
+Inserire primo addendo (in esadecimale): 1
+Inserire secondo addendo (in esadecimale): -1
+
+00000000000000000000000000000001
+11111111111111111111111111111111 +
+--------------------------------
+00000000000000000000000000000000
 </code></pre>
 </div>
 
@@ -586,8 +586,6 @@ Aggiunto Insalata verde, CHF 6.50
 </code></pre>
 </div>
 
-<p>\pagebreak</p>
-
 <p>Se un valore fornito dall’utente non è accettabile, il programma stampa un messaggio e ripropone la richiesta come mostrato nell’esempio seguente:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>[1 Aggiungi pietanza | 2 Esci] Scelta: 1
@@ -619,6 +617,60 @@ Aggiunto Sorbetto, CHF 6.00
 
 <p>Dopo aver aggiunto una pietanza all’elenco il programma stampa un messaggio di conferma (es. <code class="highlighter-rouge">Aggiunto Sorbetto, CHF 9.00</code>) e il menu formattato correttamente. Poi propone nuovamente la possibilità di aggiungere una pietanza o di terminare il programma.</p>
 
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">
+            MorraCinese
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il gioco interattivo <code class="highlighter-rouge">MorraCinese</code>. Il programma chiede di inserire il <em>punteggio massimo</em>, poi il gioco comincia. Vince chi raggiunge prima il <em>punteggio massimo</em>.</p>
+
+<ol>
+  <li>Il programma chiede di inserire il <em>punteggio massimo</em>. Sono ammessi solo valori nel range [1;10].</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 1.</li>
+  <li>Chiede all’utente di inserire la sua giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 3.</li>
+  <li>Il programma estrae a sorte la propria giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
+  <li>Il programma visualizza le due giocate e, se ve ne è uno, il vincitore della mano corrente (player o CPU) e il punteggio attuale dei due giocatori.</li>
+  <li>Se nessuno ha raggiunto il <em>punteggio massimo</em> il programma prosegue dal punto 3.</li>
+  <li>Se un giocatore ha raggiunto il <em>punteggio massimo</em> il programma stampa il <em>nome</em> del vincitore (player o CPU) e prosegue dal punto 9.</li>
+  <li>Il programma chiede se si vuole giocare di nuovo (<code class="highlighter-rouge">0</code> per continuare, <code class="highlighter-rouge">1</code> per terminare).</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 9.</li>
+  <li>Se l’utente inserisce <code class="highlighter-rouge">0</code>  il programma ricomincia dal punto 1.</li>
+  <li>Se l’utente inserisce <code class="highlighter-rouge">1</code>  il programma termina.</li>
+</ol>
+
+<p>Esempio:</p>
+
+<video width="502" height="110" controls="">
+  <source src="/eserciziario2.0/assets/posts/MorraCineseMID.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p>Oppure, se la vostra console supporta Unicode:</p>
+
+<video width="502" height="110" controls="">
+  <source src="/eserciziario2.0/assets/posts/MorraCineseUniMID.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
       </div>
       
@@ -695,13 +747,11 @@ $
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">
-            MorraCinese
+          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/rotator.html">
+            Rotator
           </a>
           <small class="pull-right">
           
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
           
             <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
           
@@ -712,36 +762,297 @@ $
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il gioco interattivo <code class="highlighter-rouge">MorraCinese</code>. Il programma chiede di inserire il <em>punteggio massimo</em>, poi il gioco comincia. Vince chi raggiunge prima il <em>punteggio massimo</em>.</p>
+          <p>Scrivi il programma <code class="highlighter-rouge">Rotator</code> che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.</p>
+
+<p>La figura introdotta può avere una dimensione massima di 10 x 10 (10 righe e 10 colonne).</p>
+
+<p>L’introduzione della figura termina con successo quando l’utente introduce una riga vuota e preme <em>enter</em> oppure quando la dimensione verticale della figura raggiunge le 10 righe.</p>
+
+<p>Se durante l’introduzione l’utente introduce una riga più lunga di 10 caratteri il programma stampa il messaggio <code class="highlighter-rouge">Linea troppo lunga, riprova:</code> e l’introduzione ricomincia da capo.</p>
+
+<p>Qualche esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire un disegno (enter per terminare): 
+abcd
+efgh
+
+Rotazione:
+
+ae
+bf
+cg
+dh
+</code></pre>
+</div>
+
+<p>Oppure:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire un disegno (enter per terminare): 
+     *
+     ***
+*********
+     ***
+     *
+
+Rotazione:
+
+  *  
+  *  
+  *  
+  *  
+  *  
+*****
+ *** 
+ *** 
+  *  
+</code></pre>
+</div>
+
+<p>Oppure per un riga troppo lunga:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire un disegno (enter per terminare): 
+abcdefghjkklm
+Linea troppo lunga, riprova:
+12345
+6   7
+89ABC
+
+Rotazione:
+
+168
+2 9
+3 A
+4 B
+57C
+</code></pre>
+</div>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/patternizer.html">
+            Patternizer
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">Patternizer</code> che chiede all’utente di inserire un <em>pattern</em> che servirà da modello per disegnare una figura bidimensionale. L’utente introduce la sequenza di caratteri da stampare su di una sola riga utilizzando il carattere <code class="highlighter-rouge">'g'</code> per indicare i punti in cui andare <em>a capo</em>.</p>
+
+<p>Ad esempio la sequenza <code class="highlighter-rouge">" /\g/  \g|__|"</code> produce il disegno seguente:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> /\
+/  \
+|__|
+</code></pre>
+</div>
+
+<p>Il programma stampa il disegno in uno spazio cartesiano in cui devono comparire le coordinate orizzontali e verticali come mostrato negli esempi seguenti:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire pattern (g per new line):
+****g*  *g*  *g****
+ 0123
+0****
+1*  *
+2*  *
+3****
+</code></pre>
+</div>
+
+<p>Oppure:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire pattern (g per new line):
+*********g.*.....*.g..*...*..g...*.*...g....*....
+ 012345678
+0*********
+1.*.....*.
+2..*...*..
+3...*.*...
+4....*....
+</code></pre>
+</div>
+
+<p>La figura contenuta nel pattern deve avere una larghezza massima di 10 caratteri. Se il pattern fornito non rispetta questa regola, il programma stampa il messaggio <code class="highlighter-rouge">Riga &lt;riga&gt; troppo lunga (max 10 char)</code>, indicando il numero della riga non valida e poi ripete la richiesta iniziale. Esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire pattern (g per new line):
+*.*.*.*.*.*g***g---*g
+Riga 0 troppo lunga (max 10 char)
+Inserire pattern (g per new line):
+/\/\/\g\/\/\/
+ 012345
+0/\/\/\
+1\/\/\/
+</code></pre>
+</div>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/filler.html">
+            Filler
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">Filler</code> che chiede all’utente di disegnare una figura bidimensionale chiusa composta di asterischi (<code class="highlighter-rouge">'*'</code>). L’introduzione della figura termina quando l’utente introduce una riga vuota e preme <em>enter</em>. Il programma stampa poi la figura riempiendone le cavità orizzontali, come mostrato negli esempi seguenti. Qualche esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Disegnare figura chiusa (enter per terminare): 
+********
+*      *
+*      *
+********
+
+Figura piena:
+
+********
+********
+********
+********
+</code></pre>
+</div>
+
+<p>Oppure:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Disegnare figura chiusa (enter per terminare): 
+      *
+  *       *
+*           *
+  *       *
+      *
+
+Figura piena:
+      *
+  *********
+*************
+  *********
+      *
+</code></pre>
+</div>
+
+<p>Se viene immessa una riga non vuota che non contiene nemmeno un asterisco, viene stampato il messaggio <code class="highlighter-rouge">Linea non valida!</code> e poi ripete la richiesta iniziale. Esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Disegnare figura chiusa (enter per terminare): 
+kasdjfnkasfd
+Linea non valida! Disegnare figura chiusa (enter per terminare): 
+   *
+  * *
+ *****  
+   * 
+
+Figura piena:
+   *
+  ***
+ *****  
+   * 
+</code></pre>
+</div>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/coordinator.html">
+            Coordinator
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la class <code class="highlighter-rouge">Coordinator</code> che:</p>
 
 <ol>
-  <li>Il programma chiede di inserire il <em>punteggio massimo</em>. Sono ammessi solo valori nel range [1;10].</li>
-  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 1.</li>
-  <li>Chiede all’utente di inserire la sua giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
-  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 3.</li>
-  <li>Il programma estrae a sorte la propria giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
-  <li>Il programma visualizza le due giocate e, se ve ne è uno, il vincitore della mano corrente (player o CPU) e il punteggio attuale dei due giocatori.</li>
-  <li>Se nessuno ha raggiunto il <em>punteggio massimo</em> il programma prosegue dal punto 3.</li>
-  <li>Se un giocatore ha raggiunto il <em>punteggio massimo</em> il programma stampa il <em>nome</em> del vincitore (player o CPU) e prosegue dal punto 9.</li>
-  <li>Il programma chiede se si vuole giocare di nuovo (<code class="highlighter-rouge">0</code> per continuare, <code class="highlighter-rouge">1</code> per terminare).</li>
-  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 9.</li>
-  <li>Se l’utente inserisce <code class="highlighter-rouge">0</code>  il programma ricomincia dal punto 1.</li>
-  <li>Se l’utente inserisce <code class="highlighter-rouge">1</code>  il programma termina.</li>
+  <li>
+    <p>Chiede all’utente di inserire la <em>coordinata di riga</em> (intero, valore minimo <code class="highlighter-rouge">0</code>, valore massimo <code class="highlighter-rouge">4</code>).</p>
+  </li>
+  <li>
+    <p>Se il valore non è valido stampa un messaggio di errore e ricomincia dal punto 1.</p>
+  </li>
+  <li>
+    <p>Chiede di inserire la <em>coordinata di colonna</em> (intero, valore minimo <code class="highlighter-rouge">0</code>, valore massimo <code class="highlighter-rouge">4</code>).</p>
+  </li>
+  <li>
+    <p>Se il valore non è valido stampa un messaggio di errore e ricomincia dal punto 3.</p>
+  </li>
+  <li>
+    <p>Stampa a terminale un piano cartesiano (dimensione 5 x 5) con una <code class="highlighter-rouge">X</code> alla coordinata immessa (vedi esempi).</p>
+  </li>
 </ol>
 
-<p>Esempio:</p>
+<p>I messaggi di errore da stampare (ai punti 2. e 4.) sono i seguenti:</p>
 
-<video width="502" height="110" controls="">
-  <source src="/eserciziario2.0/assets/posts/MorraCineseMID.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<ul>
+  <li>Se il valore immesso è troppo basso: <code class="highlighter-rouge">"Valore troppo piccolo &lt;valore&gt;"</code></li>
+  <li>Se il valore immesso è troppo alto: <code class="highlighter-rouge">"Valore troppo grande &lt;valore&gt;"</code></li>
+  <li>Se il valore non è un numero: <code class="highlighter-rouge">"Inserire solo numeri interi"</code></li>
+</ul>
 
-<p>Oppure, se la vostra console supporta Unicode:</p>
+<p>Esempio di output:</p>
 
-<video width="502" height="110" controls="">
-  <source src="/eserciziario2.0/assets/posts/MorraCineseUniMID.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire coordinata riga [0;4]: 2
+Inserire coordinata colonna [0;4]: 2
+ 01234
+0     
+1     
+2  X  
+3     
+4             
+</code></pre>
+</div>
+
+<p>Oppure:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire coordinata riga [0;4]: -1
+Valore troppo piccolo -1
+Inserire coordinata riga [0;4]: 0
+Inserire coordinata colonna [0;4]: 100
+Valore troppo grande 100
+Inserire coordinata colonna [0;4]: zero
+Inserire solo numeri interi
+Inserire coordinata colonna [0;4]: 0
+ 01234
+0X    
+1     
+2     
+3     
+4 
+</code></pre>
+</div>
 
       </div>
       

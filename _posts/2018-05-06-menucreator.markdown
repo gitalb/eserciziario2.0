@@ -37,7 +37,6 @@ Aggiunto Insalata verde, CHF 6.50
 [1 Aggiungi pietanza | 2 Esci] Scelta:
 ~~~
 
-\pagebreak
 
 Se un valore fornito dall'utente non è accettabile, il programma stampa un messaggio e ripropone la richiesta come mostrato nell'esempio seguente:
 
