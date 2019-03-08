@@ -1,5 +1,591 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2018-12-23T08:52:04+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">Rotator</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator.html" rel="alternate" type="text/html" title="Rotator" /><published>2018-12-23T08:50:27+01:00</published><updated>2018-12-23T08:50:27+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Rotator&lt;/code&gt; che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2019-03-08T13:27:55+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">VerticalCrossword</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword.html" rel="alternate" type="text/html" title="VerticalCrossword" /><published>2019-03-08T12:59:00+01:00</published><updated>2019-03-08T12:59:00+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;VerticalCrossword&lt;/code&gt; contenente i metodi utili per trovare delle &lt;em&gt;parole nascoste&lt;/em&gt; nelle colonne di una matrice.&lt;/p&gt;
+
+&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;VerticalCrossword&lt;/code&gt; deve contenere i metodi seguenti:&lt;/p&gt;
+
+&lt;h3 id=&quot;public-static-int-getmaxwidthchar-table&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int getMaxWidth(char[][] table)&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ritorna la dimensione della &lt;em&gt;riga più larga&lt;/em&gt; (con il maggior numero di colonne) contenuta nella matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;public-static-string-getcolasstringchar-table-int-col&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String getColAsString(char[][] table, int col)&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ritorna la stringa ottenuta concatenando tutti i caratteri presenti nella colonna &lt;code class=&quot;highlighter-rouge&quot;&gt;col&lt;/code&gt; della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt;. Le righe troppo corte per possedere un carattere nella colonna specificata da &lt;code class=&quot;highlighter-rouge&quot;&gt;col&lt;/code&gt; vengono ignorate. Ad esempio, per la matrice seguente e per &lt;code class=&quot;highlighter-rouge&quot;&gt;col&lt;/code&gt; pari a &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;, il metodo ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;CaNe&quot;&lt;/code&gt;:&lt;/p&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-xldj{border-color:inherit;text-align:left;border-style:solid;border-width:1px}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top;border-style:solid;border-width:0px}
+&lt;/style&gt;
+
+&lt;table class=&quot;tg&quot;&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;C&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;C&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;a&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;N&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;b&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;e&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;public-static-int-searchincolschar-table-string-word&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int searchInCols(char[][] table, String word)&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ritorna l’indice della colonna della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; che contiene la parola &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; (non sensibile al caso dei caratteri). Se &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; è presente in più colonne, ritorna l’indice della prima ricorrenza. Se nessuna colonna di &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; contiene &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt;, ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;-1&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ad esempio per la parola &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;cane&quot;&lt;/code&gt; e la matrice seguente il metodo ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;:&lt;/p&gt;
+
+&lt;table class=&quot;tg&quot;&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;C&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;C&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;a&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;N&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;b&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;e&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Mentre per questa matrice e &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;BAU&quot;&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;:&lt;/p&gt;
+
+&lt;table class=&quot;tg&quot;&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;G&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;r&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;b&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;u&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;R&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;A&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;U&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;Z&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;r&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;u&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;main&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Contiene il codice utile a verificare e dimostrare il buon funzionamento di tutti i metodi che hai scritto.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma VerticalCrossword contenente i metodi utili per trovare delle parole nascoste nelle colonne di una matrice.</summary></entry><entry><title type="html">HorizontalCrossword</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/horizontalcrossword.html" rel="alternate" type="text/html" title="HorizontalCrossword" /><published>2019-03-08T12:46:57+01:00</published><updated>2019-03-08T12:46:57+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/horizontalcrossword</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/horizontalcrossword.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HorizontalCrossword&lt;/code&gt; contenente i metodi utili per trovare delle &lt;em&gt;parole nascoste&lt;/em&gt; nelle righe di una matrice.&lt;/p&gt;
+
+&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;HorizontalCrossword&lt;/code&gt; deve contenere i metodi seguenti:&lt;/p&gt;
+
+&lt;h3 id=&quot;public-static-string-reversestring-word&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String reverse(String word)&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; &lt;em&gt;rovesciata&lt;/em&gt;, ad esempio per &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;cane&quot;&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;enac&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;public-static-string-getrowasstringchar-table-int-row&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String getRowAsString(char[][] table, int row)&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ritorna la stringa ottenuta concatenando tutti i caratteri presenti nella riga &lt;code class=&quot;highlighter-rouge&quot;&gt;row&lt;/code&gt; della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;public-static-int-searchinrowschar-table-string-word&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int searchInRows(char[][] table, String word)&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ritorna l’indice della riga della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; che contiene la parola &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; (regolare o &lt;em&gt;rovesciata&lt;/em&gt;, non sensibile al caso dei caratteri). Se &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; è presente in più righe, ritorna l’indice della prima ricorrenza. Se nessuna riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; contiene &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt;, ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;-1&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ad esempio per la parole “cane” e la matrice seguente il metodo ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;:&lt;/p&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-xldj{border-color:inherit;text-align:left;border-style:solid;border-width:1px}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top;border-style:solid;border-width:0px}
+&lt;/style&gt;
+
+&lt;table class=&quot;tg&quot;&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;C&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;c&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;A&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;n&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;E&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;N&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;i&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;s&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;N&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;b&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;g&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Mentre per questa ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;:&lt;/p&gt;
+
+&lt;table class=&quot;tg&quot;&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;O&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;C&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;N&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;F&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;r&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;g&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;T&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;A&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;r&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;e&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;N&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;A&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;c&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;i&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;S&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;A&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;g&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;u&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;L&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;B&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;B&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;V&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;main&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Contiene il codice utile a verificare e dimostrare il buon funzionamento di tutti i metodi che hai scritto.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HorizontalCrossword contenente i metodi utili per trovare delle parole nascoste nelle righe di una matrice.</summary></entry><entry><title type="html">MatrixMerger</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/matrixmerger.html" rel="alternate" type="text/html" title="MatrixMerger" /><published>2019-03-08T12:32:22+01:00</published><updated>2019-03-08T12:32:22+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/matrixmerger</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/matrixmerger.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;MatrixMerger&lt;/code&gt; contenente i metodi utili per &lt;em&gt;combinare tra loro&lt;/em&gt; due matrici di interi.&lt;/p&gt;
+
+&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;MatrixMerger&lt;/code&gt; deve contenere i metodi seguenti:&lt;/p&gt;
+
+&lt;h3 id=&quot;public-static-int-getrowwidthint-m-int-row&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int getRowWidth(int[][] m, int row)&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ritorna la larghezza (&lt;em&gt;il numero di colonne&lt;/em&gt;) della riga &lt;code class=&quot;highlighter-rouge&quot;&gt;row&lt;/code&gt; nella matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;m&lt;/code&gt;. Se la riga specificata è vuota oppure non è valida, ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;public-static-int-getmaxwidthint-a-int-b&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int getMaxWidth(int[][] a, int[][] b)&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ritorna la &lt;em&gt;dimensione&lt;/em&gt; della riga più larga che si otterrebbe combinando ogni riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; con la rispettiva riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Ossia, calcola la somma tra la dimensione di ogni riga della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; con la rispettiva riga della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; e ritorna il valore massimo.&lt;/p&gt;
+
+&lt;h3 id=&quot;public-static-int-mergeint-a-int-b&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int[][] merge(int[][] a, int[][] b)&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ritorna una matrice rettangolare ottenuta combinando le matrici &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. La combinazione avviene concatenando ogni riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; con la rispettiva riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. La nuova matrice avrà un numero di righe pari a quello della matrice &lt;em&gt;più alta&lt;/em&gt; tra &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; ed un numero di colonne pari a quella della riga più larga prodotta dalla concatenazione (&lt;em&gt;larghezza massima&lt;/em&gt; di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;). Ad esempio:&lt;/p&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-xldj{border-color:inherit;text-align:left;border-style:solid;border-width:1px}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top;border-style:solid;border-width:0px}
+&lt;/style&gt;
+
+&lt;table class=&quot;tg&quot;&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;+&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;=&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Se presenti, le celle &lt;em&gt;in eccesso&lt;/em&gt; di ogni riga conterranno il valore &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, ad esempio:&lt;/p&gt;
+
+&lt;table class=&quot;tg&quot;&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;+&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;=&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;
+    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;main&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Contiene il codice utile a verificare e dimostrare il buon funzionamento di tutti i metodi che hai scritto.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma MatrixMerger contenente i metodi utili per combinare tra loro due matrici di interi.</summary></entry><entry><title type="html">Istogramma</title><link href="http://localhost:4000/eserciziario2.0/loop/wrapper/2019/03/05/istogramma.html" rel="alternate" type="text/html" title="Istogramma" /><published>2019-03-05T13:59:00+01:00</published><updated>2019-03-05T13:59:00+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/wrapper/2019/03/05/istogramma</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/wrapper/2019/03/05/istogramma.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Istogramma&lt;/code&gt; che stampa un &lt;em&gt;grafico a colonne&lt;/em&gt; rappresentando una colonna per ogni nota scolastica passata come argomento:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Istogramma 1.5 4 3.2 6
+
+6           *
+5.5         *
+5           *
+4.5         *
+4       *   *
+3.5     *   *
+3       * * *
+2.5     * * *
+2       * * *
+1.5   * * * * 
+1     * * * *
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Istogramma che stampa un grafico a colonne rappresentando una colonna per ogni nota scolastica passata come argomento:</summary></entry><entry><title type="html">Arrotondatore</title><link href="http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/arrotondatore.html" rel="alternate" type="text/html" title="Arrotondatore" /><published>2019-03-05T13:57:13+01:00</published><updated>2019-03-05T13:57:13+01:00</updated><id>http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/arrotondatore</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/arrotondatore.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Arrotondatore&lt;/code&gt; che calcola il valore del primo argomento arrotondato al multiplo più vicino del secondo argomento:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Arrotondatore 1.2781 0.3
+1.2	
+
+java Arrotondatore 24 5
+25.0
+
+java Arrotondatore 1.2781 0.1
+1.3
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Arrotondatore che calcola il valore del primo argomento arrotondato al multiplo più vicino del secondo argomento:</summary></entry><entry><title type="html">CalcolatoreMedia</title><link href="http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/calcolatoremedia.html" rel="alternate" type="text/html" title="CalcolatoreMedia" /><published>2019-03-05T13:54:33+01:00</published><updated>2019-03-05T13:54:33+01:00</updated><id>http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/calcolatoremedia</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/calcolatoremedia.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;CalcolatoreMedia&lt;/code&gt; che calcola la media di tutte le note valide passate come argomenti da linea di comando (scarta quelle non valide) e la stampa arrotondandola al decimo di punto più vicino.&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java CalcolatoreMedia 1.72 4.21 5 -2 cane 6
+
+Nota 1:     1.72
+Nota 2:     4.21
+Nota 3:     5.0
+Nota 4:     6.0
+----------------
+Media:      4.2   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Opzione: Stampare anche gli elementi scartati separati da virgole (&lt;code class=&quot;highlighter-rouge&quot;&gt;','&lt;/code&gt;). Esempio:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java CalcolatoreMedia 1.72 4.21 5 -2 cane 6
+
+Nota 1:     1.72
+Nota 2:     4.21
+Nota 3:     5.0
+Nota 4:     6.0
+----------------
+Media:      4.2   
+
+Argomenti scartati: -2, cane
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma CalcolatoreMedia che calcola la media di tutte le note valide passate come argomenti da linea di comando (scarta quelle non valide) e la stampa arrotondandola al decimo di punto più vicino.</summary></entry><entry><title type="html">TimeConverter2</title><link href="http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/timeconverter2.html" rel="alternate" type="text/html" title="TimeConverter2" /><published>2019-02-20T07:05:35+01:00</published><updated>2019-02-20T07:05:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/timeconverter2</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/timeconverter2.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;TimeConverter2&lt;/code&gt; che converte un tempo espresso in ore, minuti e secondi in secondi.&lt;/p&gt;
+
+&lt;h2 id=&quot;convertint&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;convertInt&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Per convertire i 3 argomenti da &lt;code class=&quot;highlighter-rouge&quot;&gt;String&lt;/code&gt; a &lt;code class=&quot;highlighter-rouge&quot;&gt;int&lt;/code&gt; devi creare il metodo:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;convertInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NumberFormatException&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt; non può essere convertita in un numero intero, il metodo solleva una &lt;code class=&quot;highlighter-rouge&quot;&gt;NumberFormatException&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;main&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; deve:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Chiedere all’utente di inserire 3 valori interi che cattura con il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;next()&lt;/code&gt; della classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Scanner&lt;/code&gt; (&lt;strong&gt;non è permesso&lt;/strong&gt; utilizzare &lt;code class=&quot;highlighter-rouge&quot;&gt;nextInt()&lt;/code&gt;).&lt;/li&gt;
+  &lt;li&gt;Usa il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;convertInt&lt;/code&gt; per ricavarne i valori interi.&lt;/li&gt;
+  &lt;li&gt;Stampa a terminale il risultato della conversione.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ad esempio - per 1 ora, 2 minuti e 3 secondi - il programma stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;3723&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1:2:3 corrispondono a 3723 secondi.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se il valore fornito per le &lt;code class=&quot;highlighter-rouge&quot;&gt;ore&lt;/code&gt; non è appropriato il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ore: valore non valido &amp;lt;valore&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se il valore fornito per i &lt;code class=&quot;highlighter-rouge&quot;&gt;minuti&lt;/code&gt; non è appropriato il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;minuti: valore non valido &amp;lt;valore&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se il valore fornito per i &lt;code class=&quot;highlighter-rouge&quot;&gt;secondi&lt;/code&gt; non è appropriato il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;secondi: valore non valido &amp;lt;valore&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe TimeConverter2 che converte un tempo espresso in ore, minuti e secondi in secondi.</summary></entry><entry><title type="html">Calcolatrice3</title><link href="http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/calcolatrice3.html" rel="alternate" type="text/html" title="Calcolatrice3" /><published>2019-02-20T06:55:37+01:00</published><updated>2019-02-20T06:55:37+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/calcolatrice3</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/calcolatrice3.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Calcolatrice3&lt;/code&gt; contenente il metodo:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calcola&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;espressione&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tale metodo valuta le stringhe contenute nell’array &lt;code class=&quot;highlighter-rouge&quot;&gt;espressione&lt;/code&gt; che rappresentano le parti di un’espressione aritmetica e ne calcola il valore.&lt;/p&gt;
+
+&lt;p&gt;Ad esempio per &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;+&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;2&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;/code&gt; il metodo ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;; mentre per &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;3&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;3&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;9&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Gli operatori ammessi sono &lt;code class=&quot;highlighter-rouge&quot;&gt;'+'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'-'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'*'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'/'&lt;/code&gt;. Gli operandi devono essere dei numeri interi.&lt;/p&gt;
+
+&lt;p&gt;Se l’espressione da valutare contiene un operatore o degli operandi non validi, il metodo ritorna 0.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Calcolatrice3 contenente il metodo:</summary></entry><entry><title type="html">Rotator</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator.html" rel="alternate" type="text/html" title="Rotator" /><published>2018-12-23T08:50:27+01:00</published><updated>2018-12-23T08:50:27+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Rotator&lt;/code&gt; che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.&lt;/p&gt;
 
 &lt;p&gt;La figura introdotta può avere una dimensione massima di 10 x 10 (10 righe e 10 colonne).&lt;/p&gt;
 
@@ -105,291 +691,4 @@ Rotazione:
 
 &lt;p&gt;Se il codice non è valido, il messaggio stampato è &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice non valido&lt;/code&gt;. Se la &lt;em&gt;cifra di controllo&lt;/em&gt; non è valida (&lt;code class=&quot;highlighter-rouge&quot;&gt;[1;10]&lt;/code&gt;) il messaggio di errore è &lt;code class=&quot;highlighter-rouge&quot;&gt;Cifra di controllo non valida&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Se l’utente inserisce un &lt;em&gt;codice&lt;/em&gt; con il formato ammesso, il programma ne verifica la bontà controllando la corrispondenza tra &lt;em&gt;codice&lt;/em&gt; e &lt;em&gt;cifra di controllo&lt;/em&gt;. Se corrispondono il programma termina stampando il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice verificato!&lt;/code&gt;, altrimenti stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice errato&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">L’ISBN-13 azionabile è un codice composto secondo il modello:</summary></entry><entry><title type="html">Patternizer</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/patternizer.html" rel="alternate" type="text/html" title="Patternizer" /><published>2018-12-23T08:47:26+01:00</published><updated>2018-12-23T08:47:26+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/patternizer</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/patternizer.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Patternizer&lt;/code&gt; che chiede all’utente di inserire un &lt;em&gt;pattern&lt;/em&gt; che servirà da modello per disegnare una figura bidimensionale. L’utente introduce la sequenza di caratteri da stampare su di una sola riga utilizzando il carattere &lt;code class=&quot;highlighter-rouge&quot;&gt;'g'&lt;/code&gt; per indicare i punti in cui andare &lt;em&gt;a capo&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ad esempio la sequenza &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot; /\g/  \g|__|&quot;&lt;/code&gt; produce il disegno seguente:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; /\
-/  \
-|__|
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Il programma stampa il disegno in uno spazio cartesiano in cui devono comparire le coordinate orizzontali e verticali come mostrato negli esempi seguenti:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire pattern (g per new line):
-****g*  *g*  *g****
- 0123
-0****
-1*  *
-2*  *
-3****
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Oppure:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire pattern (g per new line):
-*********g.*.....*.g..*...*..g...*.*...g....*....
- 012345678
-0*********
-1.*.....*.
-2..*...*..
-3...*.*...
-4....*....
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;La figura contenuta nel pattern deve avere una larghezza massima di 10 caratteri. Se il pattern fornito non rispetta questa regola, il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Riga &amp;lt;riga&amp;gt; troppo lunga (max 10 char)&lt;/code&gt;, indicando il numero della riga non valida e poi ripete la richiesta iniziale. Esempio:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire pattern (g per new line):
-*.*.*.*.*.*g***g---*g
-Riga 0 troppo lunga (max 10 char)
-Inserire pattern (g per new line):
-/\/\/\g\/\/\/
- 012345
-0/\/\/\
-1\/\/\/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Patternizer che chiede all’utente di inserire un pattern che servirà da modello per disegnare una figura bidimensionale. L’utente introduce la sequenza di caratteri da stampare su di una sola riga utilizzando il carattere 'g' per indicare i punti in cui andare a capo.</summary></entry><entry><title type="html">WordShaker</title><link href="http://localhost:4000/eserciziario2.0/string/loop/2018/12/23/wordshaker.html" rel="alternate" type="text/html" title="WordShaker" /><published>2018-12-23T08:46:21+01:00</published><updated>2018-12-23T08:46:21+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/loop/2018/12/23/wordshaker</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/loop/2018/12/23/wordshaker.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;WordShaker&lt;/code&gt; che chiede all’utente di inserire una frase e poi la stampa scambiando il primo con in secondo carattere, il terzo con il quarto, il quinto con il sesto e via dicendo. Se il numero di caratteri è dispari l’ultimo carattere viene stampato nella sua posizione originale.&lt;/p&gt;
-
-&lt;p&gt;Qualche esempio:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cane&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;acen&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gatto&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;agtto&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tanto va la gatta al lardo&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;attn oavl  aagtt alal raod&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;abcde&lt;/code&gt; diventa &lt;code class=&quot;highlighter-rouge&quot;&gt;badce&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Esempio di output:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una frase: Asta la vista!
-sAatl  aivts!a
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe WordShaker che chiede all’utente di inserire una frase e poi la stampa scambiando il primo con in secondo carattere, il terzo con il quarto, il quinto con il sesto e via dicendo. Se il numero di caratteri è dispari l’ultimo carattere viene stampato nella sua posizione originale.</summary></entry><entry><title type="html">Filler</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/filler.html" rel="alternate" type="text/html" title="Filler" /><published>2018-12-23T08:44:30+01:00</published><updated>2018-12-23T08:44:30+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/filler</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/filler.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Filler&lt;/code&gt; che chiede all’utente di disegnare una figura bidimensionale chiusa composta di asterischi (&lt;code class=&quot;highlighter-rouge&quot;&gt;'*'&lt;/code&gt;). L’introduzione della figura termina quando l’utente introduce una riga vuota e preme &lt;em&gt;enter&lt;/em&gt;. Il programma stampa poi la figura riempiendone le cavità orizzontali, come mostrato negli esempi seguenti. Qualche esempio:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Disegnare figura chiusa (enter per terminare): 
-********
-*      *
-*      *
-********
-
-Figura piena:
-
-********
-********
-********
-********
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Oppure:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Disegnare figura chiusa (enter per terminare): 
-      *
-  *       *
-*           *
-  *       *
-      *
-
-Figura piena:
-      *
-  *********
-*************
-  *********
-      *
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se viene immessa una riga non vuota che non contiene nemmeno un asterisco, viene stampato il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Linea non valida!&lt;/code&gt; e poi ripete la richiesta iniziale. Esempio:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Disegnare figura chiusa (enter per terminare): 
-kasdjfnkasfd
-Linea non valida! Disegnare figura chiusa (enter per terminare): 
-   *
-  * *
- *****  
-   * 
-
-Figura piena:
-   *
-  ***
- *****  
-   * 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Filler che chiede all’utente di disegnare una figura bidimensionale chiusa composta di asterischi ('*'). L’introduzione della figura termina quando l’utente introduce una riga vuota e preme enter. Il programma stampa poi la figura riempiendone le cavità orizzontali, come mostrato negli esempi seguenti. Qualche esempio:</summary></entry><entry><title type="html">SentenceSplitter</title><link href="http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/sentencesplitter.html" rel="alternate" type="text/html" title="SentenceSplitter" /><published>2018-12-23T08:43:35+01:00</published><updated>2018-12-23T08:43:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/sentencesplitter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/sentencesplitter.html">&lt;p&gt;Scrivi la class &lt;code class=&quot;highlighter-rouge&quot;&gt;SentenceSplitter&lt;/code&gt; che chiede all’utente di inserire una frase e poi la stampa alternandone i caratteri su due righe come mostrato negli esempi seguenti.&lt;/p&gt;
-
-&lt;p&gt;Esempio di output:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una frase: cane
-c n 
- a e
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;oppure:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una frase: mele cotogne
-m l   o o n 
- e e c t g e
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;o ancora:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una frase: Tanto va la gatta al lardo.
-T n o v   a g t a a   a d .
- a t   a l   a t   l l r o 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la class SentenceSplitter che chiede all’utente di inserire una frase e poi la stampa alternandone i caratteri su due righe come mostrato negli esempi seguenti.</summary></entry><entry><title type="html">Coordinator</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/coordinator.html" rel="alternate" type="text/html" title="Coordinator" /><published>2018-12-23T08:40:49+01:00</published><updated>2018-12-23T08:40:49+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/coordinator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/coordinator.html">&lt;p&gt;Scrivi la class &lt;code class=&quot;highlighter-rouge&quot;&gt;Coordinator&lt;/code&gt; che:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Chiede all’utente di inserire la &lt;em&gt;coordinata di riga&lt;/em&gt; (intero, valore minimo &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, valore massimo &lt;code class=&quot;highlighter-rouge&quot;&gt;4&lt;/code&gt;).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Se il valore non è valido stampa un messaggio di errore e ricomincia dal punto 1.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Chiede di inserire la &lt;em&gt;coordinata di colonna&lt;/em&gt; (intero, valore minimo &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, valore massimo &lt;code class=&quot;highlighter-rouge&quot;&gt;4&lt;/code&gt;).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Se il valore non è valido stampa un messaggio di errore e ricomincia dal punto 3.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Stampa a terminale un piano cartesiano (dimensione 5 x 5) con una &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; alla coordinata immessa (vedi esempi).&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I messaggi di errore da stampare (ai punti 2. e 4.) sono i seguenti:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Se il valore immesso è troppo basso: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Valore troppo piccolo &amp;lt;valore&amp;gt;&quot;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Se il valore immesso è troppo alto: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Valore troppo grande &amp;lt;valore&amp;gt;&quot;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Se il valore non è un numero: &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Inserire solo numeri interi&quot;&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Esempio di output:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire coordinata riga [0;4]: 2
-Inserire coordinata colonna [0;4]: 2
- 01234
-0     
-1     
-2  X  
-3     
-4             
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Oppure:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire coordinata riga [0;4]: -1
-Valore troppo piccolo -1
-Inserire coordinata riga [0;4]: 0
-Inserire coordinata colonna [0;4]: 100
-Valore troppo grande 100
-Inserire coordinata colonna [0;4]: zero
-Inserire solo numeri interi
-Inserire coordinata colonna [0;4]: 0
- 01234
-0X    
-1     
-2     
-3     
-4 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la class Coordinator che:</summary></entry><entry><title type="html">DoubleCounter</title><link href="http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/doublecounter.html" rel="alternate" type="text/html" title="DoubleCounter" /><published>2018-12-23T08:38:25+01:00</published><updated>2018-12-23T08:38:25+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/doublecounter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/string/2018/12/23/doublecounter.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;DoubleCounter&lt;/code&gt; che chiede all’utente di inserire una parola e stampa il conteggio delle coppie caratteri consecutivi uguali (&lt;em&gt;non sensibile alle maiuscole&lt;/em&gt;) contenute nella parola. Qualche esempio:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;per la parola &lt;code class=&quot;highlighter-rouge&quot;&gt;cane&lt;/code&gt; il conteggio vale &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;per &lt;code class=&quot;highlighter-rouge&quot;&gt;gatto&lt;/code&gt; vale &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;tt&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;per &lt;code class=&quot;highlighter-rouge&quot;&gt;caMmMicia&lt;/code&gt; vale &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;Mm&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;mM&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;per &lt;code class=&quot;highlighter-rouge&quot;&gt;abbacchio&lt;/code&gt; vale &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;bb&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;cc&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;per &lt;code class=&quot;highlighter-rouge&quot;&gt;Ooteca&lt;/code&gt; vale &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;Oo&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Esempio di output:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire una parola: Zzzzummm
-Coppie: 5
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe DoubleCounter che chiede all’utente di inserire una parola e stampa il conteggio delle coppie caratteri consecutivi uguali (non sensibile alle maiuscole) contenute nella parola. Qualche esempio:</summary></entry><entry><title type="html">NameSorter</title><link href="http://localhost:4000/eserciziario2.0/array/sort/2018/05/15/namesorter.html" rel="alternate" type="text/html" title="NameSorter" /><published>2018-05-15T16:34:47+02:00</published><updated>2018-05-15T16:34:47+02:00</updated><id>http://localhost:4000/eserciziario2.0/array/sort/2018/05/15/namesorter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/sort/2018/05/15/namesorter.html">&lt;h1 id=&quot;namesorter&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;NameSorter&lt;/code&gt;&lt;/h1&gt;
-
-&lt;p&gt;Crea la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;NameSorter&lt;/code&gt; che dato un elenco di nomi forniti come argomenti da linea di comando, li ordina alfabeticamente. A tale scopo la classe deve contenere il metodo:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sortNames&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;names&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Che ordina l’array &lt;code class=&quot;highlighter-rouge&quot;&gt;names&lt;/code&gt; fornito come parametro.&lt;/p&gt;
-
-&lt;p&gt;Alla fine il programma deve stampare i nomi in ordine alfabetico, esempio:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java NameSorter Zorro Luca Andrea Antonio
-Andrea 
-Antonio
-Luca
-Zorro
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">NameSorter Crea la classe NameSorter che dato un elenco di nomi forniti come argomenti da linea di comando, li ordina alfabeticamente. A tale scopo la classe deve contenere il metodo:</summary></entry><entry><title type="html">MenuCreator</title><link href="http://localhost:4000/eserciziario2.0/class/interactive/draw/2018/05/06/menucreator.html" rel="alternate" type="text/html" title="MenuCreator" /><published>2018-05-06T12:11:44+02:00</published><updated>2018-05-06T12:11:44+02:00</updated><id>http://localhost:4000/eserciziario2.0/class/interactive/draw/2018/05/06/menucreator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/interactive/draw/2018/05/06/menucreator.html">&lt;h1 id=&quot;menucreator&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;MenuCreator&lt;/code&gt;&lt;/h1&gt;
-
-&lt;p&gt;Devi realizzare un’applicazione utile per redigere il menu di un ristorante. Un &lt;em&gt;menu&lt;/em&gt; è costituito dall’elenco delle &lt;em&gt;pietanze&lt;/em&gt; servite. Per ogni &lt;em&gt;pietanza&lt;/em&gt; viene indicato il &lt;em&gt;nome&lt;/em&gt; e il &lt;em&gt;prezzo&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/eserciziario2.0/assets/posts/menu.png&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Per realizzare l’applicazione devi procedere in 2 fasi.&lt;/p&gt;
-
-&lt;h2 id=&quot;food&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Food&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;Creare la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Food&lt;/code&gt;, che rappresenta il modello di &lt;em&gt;pietanza&lt;/em&gt;. La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Food&lt;/code&gt; deve possedere due attributi privati utili per la memorizzazione del nome e del prezzo della pietanza (e i relativi metodi getter e setter). Il nome è costituito da una stringa (valore di default &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;NO NAME&quot;&lt;/code&gt;), mentre il prezzo è un numero reale a precisione doppia (valore di default &lt;code class=&quot;highlighter-rouge&quot;&gt;5.0&lt;/code&gt;). Inoltre la classe deve esportare il costruttore vuoto e un costruttore personalizzato che permetta di inizializzare entrambi gli attributi della pietanza.&lt;/p&gt;
-
-&lt;h2 id=&quot;menucreator-1&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;MenuCreator&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;Realizzare l’applicazione &lt;code class=&quot;highlighter-rouge&quot;&gt;MenuCreator&lt;/code&gt;. È una semplice applicazione che serve a generare il &lt;em&gt;menu&lt;/em&gt; (&lt;em&gt;la carta delle pietanze&lt;/em&gt;) di un ristorante. Quando viene eseguita, propone all’utente 2 possibilità: &lt;code class=&quot;highlighter-rouge&quot;&gt;Aggiungi pietanza&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Esci&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Scegliendo &lt;code class=&quot;highlighter-rouge&quot;&gt;Aggiungi pietanza&lt;/code&gt;, l’utente può aggiungere una pietanza fornendone il nome ed il prezzo. Il nome della pietanza non può essere vuoto o nullo e deve avere una lunghezza massima di 50 caratteri. Il prezzo fornito deve essere un numero positivo.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[1 Aggiungi pietanza | 2 Esci] Scelta: 1
-
-Aggiungi pietanza
------------------
-Nome pietanza: Insalata verde
-Prezzo pietanza: 6.50
-Aggiunto Insalata verde, CHF 6.50
----------------------------~~ MENU ~~---------------------------
-| Insalata verde                                     CHF  6.50 |
-----------------------------------------------------------------
-[1 Aggiungi pietanza | 2 Esci] Scelta:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se un valore fornito dall’utente non è accettabile, il programma stampa un messaggio e ripropone la richiesta come mostrato nell’esempio seguente:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[1 Aggiungi pietanza | 2 Esci] Scelta: 1
-
-Aggiungi pietanza
------------------
-Nome pietanza: Specialità della casa con il nome trooooppo lunghissimo
-Nome non valido Specialità della casa con il nome trooooppo lunghissimo
-Nome pietanza: Sorbetto
-Prezzo pietanza: -12
-Prezzo non valido -12.0
-Prezzo pietanza: 6
-Aggiunto Sorbetto, CHF 6.00
----------------------------~~ MENU ~~---------------------------
-| Insalata verde                                     CHF  5.50 |
-| Insalata mista                                     CHF  6.50 |
-| Spaghetti aglio olio e peperoncino                 CHF  9.00 |
-| Spaghetti alla carbonara                           CHF 12.50 |
-| Lasagne fatte in casa                              CHF 14.00 |
-| Bistecca di manzo con contorno                     CHF 23.25 |
-| Polenta e brasato                                  CHF 22.00 |
-| Torta della nonna                                  CHF  6.40 |
-| Gelato                                             CHF  2.40 |
-| Sorbetto                                           CHF  6.00 |
-----------------------------------------------------------------
-[1 Aggiungi pietanza | 2 Esci] Scelta: 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Dopo aver aggiunto una pietanza all’elenco il programma stampa un messaggio di conferma (es. &lt;code class=&quot;highlighter-rouge&quot;&gt;Aggiunto Sorbetto, CHF 9.00&lt;/code&gt;) e il menu formattato correttamente. Poi propone nuovamente la possibilità di aggiungere una pietanza o di terminare il programma.&lt;/p&gt;</content><author><name></name></author><summary type="html">MenuCreator Devi realizzare un’applicazione utile per redigere il menu di un ristorante. Un menu è costituito dall’elenco delle pietanze servite. Per ogni pietanza viene indicato il nome e il prezzo.</summary></entry></feed>
+&lt;p&gt;Se l’utente inserisce un &lt;em&gt;codice&lt;/em&gt; con il formato ammesso, il programma ne verifica la bontà controllando la corrispondenza tra &lt;em&gt;codice&lt;/em&gt; e &lt;em&gt;cifra di controllo&lt;/em&gt;. Se corrispondono il programma termina stampando il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice verificato!&lt;/code&gt;, altrimenti stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice errato&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">L’ISBN-13 azionabile è un codice composto secondo il modello:</summary></entry></feed>

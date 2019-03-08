@@ -292,6 +292,69 @@ ERRORE: il valore 5.3 non è accettabile
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/exceptions/2019/02/20/timeconverter2.html">
+            TimeConverter2
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/exceptions"><span class="label label-warning">exceptions</span></a>
+          
+           <span class="label label-success">Livello 12</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">TimeConverter2</code> che converte un tempo espresso in ore, minuti e secondi in secondi.</p>
+
+<h2 id="convertint"><code class="highlighter-rouge">convertInt</code></h2>
+<p>Per convertire i 3 argomenti da <code class="highlighter-rouge">String</code> a <code class="highlighter-rouge">int</code> devi creare il metodo:</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">convertInt</span><span class="o">(</span><span class="n">String</span> <span class="n">s</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">NumberFormatException</span> 
+</code></pre>
+</div>
+
+<p>Se la stringa <code class="highlighter-rouge">s</code> non può essere convertita in un numero intero, il metodo solleva una <code class="highlighter-rouge">NumberFormatException</code>.</p>
+
+<h2 id="main"><code class="highlighter-rouge">main</code></h2>
+<p>Il metodo <code class="highlighter-rouge">main</code> deve:</p>
+
+<ol>
+  <li>Chiedere all’utente di inserire 3 valori interi che cattura con il metodo <code class="highlighter-rouge">next()</code> della classe <code class="highlighter-rouge">Scanner</code> (<strong>non è permesso</strong> utilizzare <code class="highlighter-rouge">nextInt()</code>).</li>
+  <li>Usa il metodo <code class="highlighter-rouge">convertInt</code> per ricavarne i valori interi.</li>
+  <li>Stampa a terminale il risultato della conversione.</li>
+</ol>
+
+<p>Ad esempio - per 1 ora, 2 minuti e 3 secondi - il programma stampa <code class="highlighter-rouge">3723</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>1:2:3 corrispondono a 3723 secondi.
+</code></pre>
+</div>
+
+<p>Se il valore fornito per le <code class="highlighter-rouge">ore</code> non è appropriato il programma stampa:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ore: valore non valido &lt;valore&gt;
+</code></pre>
+</div>
+
+<p>Se il valore fornito per i <code class="highlighter-rouge">minuti</code> non è appropriato il programma stampa:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>minuti: valore non valido &lt;valore&gt;
+</code></pre>
+</div>
+
+<p>Se il valore fornito per i <code class="highlighter-rouge">secondi</code> non è appropriato il programma stampa:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>secondi: valore non valido &lt;valore&gt;
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/exceptions/2018/04/10/timeconverter.html">
             TimeConverter
           </a>
@@ -349,6 +412,39 @@ ERRORE: il valore 5.3 non è accettabile
 <div class="highlighter-rouge"><pre class="highlight"><code>secondi: valore non valido &lt;valore&gt;
 </code></pre>
 </div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/exceptions/2019/02/20/calcolatrice3.html">
+            Calcolatrice3
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/exceptions"><span class="label label-warning">exceptions</span></a>
+          
+           <span class="label label-success">Livello 12</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">Calcolatrice3</code> contenente il metodo:</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">calcola</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">espressione</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>Tale metodo valuta le stringhe contenute nell’array <code class="highlighter-rouge">espressione</code> che rappresentano le parti di un’espressione aritmetica e ne calcola il valore.</p>
+
+<p>Ad esempio per <code class="highlighter-rouge"><span class="p">{</span><span class="nt">"1"</span><span class="err">,</span><span class="w"> </span><span class="nt">"+"</span><span class="err">,</span><span class="w"> </span><span class="nt">"2"</span><span class="err">}</span></code> il metodo ritorna <code class="highlighter-rouge">3</code>; mentre per <code class="highlighter-rouge"><span class="p">{</span><span class="nt">"3"</span><span class="err">,</span><span class="w"> </span><span class="nt">"*"</span><span class="err">,</span><span class="w"> </span><span class="nt">"3"</span><span class="err">}</span></code> ritorna <code class="highlighter-rouge">9</code>.</p>
+
+<p>Gli operatori ammessi sono <code class="highlighter-rouge">'+'</code>, <code class="highlighter-rouge">'-'</code>, <code class="highlighter-rouge">'*'</code>, <code class="highlighter-rouge">'/'</code>. Gli operandi devono essere dei numeri interi.</p>
+
+<p>Se l’espressione da valutare contiene un operatore o degli operandi non validi, il metodo ritorna 0.</p>
 
       </div>
       
