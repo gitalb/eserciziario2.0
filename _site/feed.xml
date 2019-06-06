@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2019-03-08T13:27:55+01:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">VerticalCrossword</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword.html" rel="alternate" type="text/html" title="VerticalCrossword" /><published>2019-03-08T12:59:00+01:00</published><updated>2019-03-08T12:59:00+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;VerticalCrossword&lt;/code&gt; contenente i metodi utili per trovare delle &lt;em&gt;parole nascoste&lt;/em&gt; nelle colonne di una matrice.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2019-06-06T14:48:48+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">HyperCar</title><link href="http://localhost:4000/eserciziario2.0/anim1d/2019/06/05/hypercar.html" rel="alternate" type="text/html" title="HyperCar" /><published>2019-06-05T15:26:41+02:00</published><updated>2019-06-05T15:26:41+02:00</updated><id>http://localhost:4000/eserciziario2.0/anim1d/2019/06/05/hypercar</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/anim1d/2019/06/05/hypercar.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;HyperCar&lt;/code&gt; che produca l’animazione mostrata in seguito. La lunghezza della barra è definita dal primo argomento da linea di comando (default 10):&lt;/p&gt;
+
+&lt;video width=&quot;598&quot; height=&quot;244&quot; controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/eserciziario2.0/assets/posts/HyperCar.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;</content><author><name></name></author><summary type="html">Scrivi la classe HyperCar che produca l’animazione mostrata in seguito. La lunghezza della barra è definita dal primo argomento da linea di comando (default 10):</summary></entry><entry><title type="html">VerticalCrossword</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword.html" rel="alternate" type="text/html" title="VerticalCrossword" /><published>2019-03-08T12:59:00+01:00</published><updated>2019-03-08T12:59:00+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;VerticalCrossword&lt;/code&gt; contenente i metodi utili per trovare delle &lt;em&gt;parole nascoste&lt;/em&gt; nelle colonne di una matrice.&lt;/p&gt;
 
 &lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;VerticalCrossword&lt;/code&gt; deve contenere i metodi seguenti:&lt;/p&gt;
 
@@ -648,47 +653,4 @@ Rotazione:
 4 B
 57C
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Rotator che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.</summary></entry><entry><title type="html">ActionableIsbnChecker</title><link href="http://localhost:4000/eserciziario2.0/string/math/2018/12/23/actionableisbnchecker.html" rel="alternate" type="text/html" title="ActionableIsbnChecker" /><published>2018-12-23T08:49:25+01:00</published><updated>2018-12-23T08:49:25+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/math/2018/12/23/actionableisbnchecker</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/math/2018/12/23/actionableisbnchecker.html">&lt;p&gt;L’ISBN-13 &lt;em&gt;azionabile&lt;/em&gt; è un codice composto secondo il modello:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	ISBN A 10.###.#######/###
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ad esempio:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	ISBN A 10.978.8889637/418
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Dove la sequenza di &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; rappresenta 13 cifre (12 cifre di &lt;em&gt;codice&lt;/em&gt; + 1 &lt;em&gt;cifra di controllo&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;La &lt;em&gt;cifra di controllo&lt;/em&gt; si calcola in base al valore delle 12 cifre precedenti con il seguente algoritmo numerico:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;si moltiplica ogni cifra per un peso che assume in modo alternato i valori 1 e 3, partendo dalla prima cifra a sinistra che ha peso 1&lt;/li&gt;
-  &lt;li&gt;si sommano i risultati&lt;/li&gt;
-  &lt;li&gt;si divide la somma per 10 e si prende il resto della divisione&lt;/li&gt;
-  &lt;li&gt;si sottrae il risultato da 10: questa cifra è la &lt;em&gt;cifra di controllo&lt;/em&gt;; se quest’ultimo risultato fosse proprio 10, lo si sostituirà con 0.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Ad esempio per il codice &lt;code class=&quot;highlighter-rouge&quot;&gt;ISBN A 10.978.8843025/34&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;9 * 1 + 7 * 3 + 8 * 1 + 8 * 3 + 8 * 1 + 4 * 3 + 3 * 1 + ... + 4 * 3 = 117
-
-117 diviso 10 da resto 7
-
-10 - 7 = 3 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;la cifra di controllo sarebbe &lt;strong&gt;3&lt;/strong&gt; (quindi il codice completo sarebbe &lt;code class=&quot;highlighter-rouge&quot;&gt;ISBN A 10.978.8843025/343&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;ActionableIsbnChecker&lt;/code&gt; che chiede all’utente di inserire un &lt;em&gt;codice ISBN-13 azionabile&lt;/em&gt; e ne verifica la correttezza.&lt;/p&gt;
-
-&lt;p&gt;I prefissi &lt;code class=&quot;highlighter-rouge&quot;&gt;ISBN&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt;, i punti, lo slash e gli spazi (&lt;code class=&quot;highlighter-rouge&quot;&gt;'.'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'/'&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;'' &lt;/code&gt;) sono opzionali, se vengono omessi il programma esegue comunque la verifica.&lt;/p&gt;
-
-&lt;p&gt;Il &lt;em&gt;codice&lt;/em&gt; e la &lt;em&gt;cifra di controllo&lt;/em&gt; devono essere presenti e validi, altrimenti il programma stampa un messaggio di errore.&lt;/p&gt;
-
-&lt;p&gt;Se il codice non è valido, il messaggio stampato è &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice non valido&lt;/code&gt;. Se la &lt;em&gt;cifra di controllo&lt;/em&gt; non è valida (&lt;code class=&quot;highlighter-rouge&quot;&gt;[1;10]&lt;/code&gt;) il messaggio di errore è &lt;code class=&quot;highlighter-rouge&quot;&gt;Cifra di controllo non valida&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Se l’utente inserisce un &lt;em&gt;codice&lt;/em&gt; con il formato ammesso, il programma ne verifica la bontà controllando la corrispondenza tra &lt;em&gt;codice&lt;/em&gt; e &lt;em&gt;cifra di controllo&lt;/em&gt;. Se corrispondono il programma termina stampando il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice verificato!&lt;/code&gt;, altrimenti stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;Codice errato&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">L’ISBN-13 azionabile è un codice composto secondo il modello:</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Rotator che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.</summary></entry></feed>

@@ -6,6 +6,6 @@ categories: [anim1D]
 level: 13
 ---
 
-Scrivi il programma `SuperCar ` che produce l'animazione seguente:
+Scrivi il programma `SuperCar` che produce l'animazione seguente:
 
 ![]({{ site.baseurl }}/assets/posts/supercar.gif){:width="300"}
