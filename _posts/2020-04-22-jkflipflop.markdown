@@ -34,11 +34,11 @@ public boolean getQ()
 La logica di funzionamento del FF JK é riassunta nella seguente tabella:
 
 |J|K|C|Q||
-|:--:|:--:|:--:|:--:|:--:|
-|0|0|^|Q<sub>0</sub>|NC|
-|0|1|^|0|RESET|
-|1|0|^|1|SET|
-|1|1|^|!Q<sub>0</sub>|TOGGLE|
+|:----:|:----:|:----:|:----:|:----:|
+|0|0|&#8593;|Q<sub>0</sub>|NC|
+|0|1|&#8593;|0|RESET|
+|1|0|&#8593;|1|SET|
+|1|1|&#8593;|!Q<sub>0</sub>|TOGGLE|
 
 
 L’istanziazione dei flip-flop è possibile esclusivamente tramite il costruttore vuoto; inizialmente i flip-flop si trovano nello stato RESET (Q=0).
