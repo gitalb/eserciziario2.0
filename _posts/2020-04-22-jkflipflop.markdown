@@ -33,7 +33,7 @@ public boolean getQ()
 
 La logica di funzionamento del FF JK é riassunta nella seguente tabella:
 
-|J|K|C|Q||
+| J    | K    |C     |Q     |      |
 |:----:|:----:|:----:|:----:|:----:|
 |0|0|&#8593;|Q<sub>0</sub>|NC|
 |0|1|&#8593;|0|RESET|
