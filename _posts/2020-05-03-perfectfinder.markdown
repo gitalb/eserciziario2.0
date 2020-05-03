@@ -2,7 +2,7 @@
 layout: post
 title: "PerfectFinder"
 date: 2020-05-02  7:40:17 +0100
-categories: [collections]
+categories: [collections, math]
 level: 11
 ---
 
