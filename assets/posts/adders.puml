@@ -1,0 +1,26 @@
+
+@startuml
+hide circle
+skinparam defaultFontName Monospaced
+skinparam monochrome true
+skinparam classAttributeIconSize 0
+
+class Calculator{
+	+int add(int a, int b)
+	+int sub(int a, int b)
+}
+class HalfAdder{
+    	+getSum(boolean a, boolean b)
+    	+getCarry(boolean a, boolean b)	
+}
+
+class FullAdder{
+    	+getSum(boolean a, boolean b, boolean carryIn)
+    	+getCarry(boolean a, boolean b, boolean carryIn)	
+}
+
+
+Calculator *-- "8" FullAdder
+FullAdder *-- "2" HalfAdder
+
+@enduml

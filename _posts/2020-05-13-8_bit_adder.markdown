@@ -1,0 +1,73 @@
+---
+layout: post
+title: "8 bit adder"
+date: 2020-05-12  7:41:08 +0100
+categories: [junit]
+level: 14
+---
+
+Un *sommatore parallelo* è composto da un certo numero di *Full-Adder*, ad esempio per un sommatore a 4 bit:
+
+<a title="en:User:Cburnett / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)" href="https://commons.wikimedia.org/wiki/File:4-bit_ripple_carry_adder.svg"><img width="256" alt="4-bit ripple carry adder" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/4-bit_ripple_carry_adder.svg/256px-4-bit_ripple_carry_adder.svg.png"></a>
+
+
+Ogni *Full-Adder* è composto da 2 *Half-Adder*:
+
+<a title="The original uploader was Romanom at Italian Wikipedia. / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)" href="https://commons.wikimedia.org/wiki/File:Figura_FA.jpg"><img width="512" alt="Figura FA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Figura_FA.jpg/512px-Figura_FA.jpg"></a>
+
+Vogliamo simulare la struttura e il funzionamento di un sommatore parallelo a 8 bit, per questo dovrai creare le classi seguenti:
+
+![]({{ site.baseurl }}/assets/posts/adders.eps)
+
+## `HalfAdder`
+
+Simula il comportamento di un semi-sommatore, esegue la somma binaria dei 2 bit in ingresso (A e B) e produce in uscita la somma (S) e il *riporto* (C):
+
+| A    | B    |S     |C     |
+|:----:|:----:|:----:|:----:|
+| 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 | 
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 1 |
+
+La classe possiede il **costruttore vuoto** e i metodi:
+
+- `public boolean getSum(boolean a, boolean b)`
+- `public boolean getCarry(boolean a, boolean b)`
+
+
+
+## `FullAdder`
+
+
+Simula il comportamento di un *sommatore completo*, è composto da 2 `HalfAdder` ed esegue la somma binaria dei 2 bit in ingresso (A<sub>n</sub> e B<sub>n</sub>) e del bit di riporto della colonna precedente (C<sub>n-1</sub>)e produce in uscita la somma (S<sub>n</sub>) e il *riporto* (C<sub>n</sub>):
+
+| A<sub>n</sub>| B<sub>n</sub>|C<sub>n-1</sub>|S<sub>n</sub>|C<sub>n</sub>|
+|:----:|:----:|:----:|:----:|:----:|
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 0 |
+| 0 | 1 | 0 | 1 | 0 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+
+La classe possiede il **costruttore vuoto** e i metodi:
+
+- `public boolean getSum(boolean a, boolean b, boolean carryIn)`
+- `public boolean getCarry(boolean a, boolean b, boolean carryIn)`
+
+L’istanziazione dei flip-flop è possibile esclusivamente tramite il costruttore vuoto; inizialmente i flip-flop si trovano nello stato RESET (Q=0).
+
+## `Calculator`
+
+È un calcolatore binario a 8 bit composto da 8 `FullAdder` e implementa, oltre al costruttore vuoto, i metodi utili per sommare e sottrarre due numeri da 8 bit:
+
+- `public byte add(byte a, byte b)`
+- `public byte sub(byte a, byte b)`
+
+## Consegna
+
+- Definire i casi di test per le classi `HalfAdder`, `FullAdder` e `Calculator`
+- Implementare le 3 classi e i relativi test JUnit
