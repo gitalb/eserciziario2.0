@@ -58,7 +58,6 @@ La classe possiede il **costruttore vuoto** e i metodi:
 - `public boolean getSum(boolean a, boolean b, boolean carryIn)`
 - `public boolean getCarry(boolean a, boolean b, boolean carryIn)`
 
-L’istanziazione dei flip-flop è possibile esclusivamente tramite il costruttore vuoto; inizialmente i flip-flop si trovano nello stato RESET (Q=0).
 
 ## `Calculator`
 

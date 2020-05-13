@@ -6,8 +6,8 @@ skinparam monochrome true
 skinparam classAttributeIconSize 0
 
 class Calculator{
-	+int add(int a, int b)
-	+int sub(int a, int b)
+	+byte add(byte a, byte b)
+	+byte sub(byte a, byte b)
 }
 class HalfAdder{
     	+getSum(boolean a, boolean b)
