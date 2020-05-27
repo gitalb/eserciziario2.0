@@ -11,7 +11,7 @@ Scrivi il video gioco 1D `FlyingDaggers`. Il gioco consiste nel lancio di un pug
 Il giocatore ha a disposizione un numero limitato di pugnali (default 6) che vengono lanciati in sequenza. Il pugnale parte dalla posizione orizzontale (`-`) e procede ruotando in senso orario verso il bersaglio (`O`). 
 
 <video width="574" height="144" controls>
-  <source src="{{ site.baseurl }}/assets/posts/![]({{ site.baseurl }}/assets/posts/FlyingDaggersHit.png).mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/posts/FlyingDaggers.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
