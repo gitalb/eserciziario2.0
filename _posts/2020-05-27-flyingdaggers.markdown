@@ -3,7 +3,7 @@ layout: post
 title: "FlyingDaggers"
 date: 2020-05-26 20:40:11 +0100
 categories: [anim1D]
-level: 14
+level: 15
 ---
 
 Scrivi il video gioco 1D `FlyingDaggers`. Il gioco consiste nel lancio di un pugnale che deve colpire un bersaglio. 
