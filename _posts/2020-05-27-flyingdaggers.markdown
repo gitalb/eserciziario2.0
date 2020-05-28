@@ -15,7 +15,7 @@ Il giocatore ha a disposizione un numero limitato di pugnali (default 6) che ven
   Your browser does not support the video tag.
 </video>
 
-Se, quando colpisce il bersaglio ,il pugnale è in posizione orizzontale, il bersaglio esplode (`*`) e il giocatore guadagna un punto:
+Se, quando colpisce il bersaglio, il pugnale è in posizione orizzontale, il bersaglio esplode (`*`) e il giocatore guadagna un punto:
 
 ![]({{ site.baseurl }}/assets/posts/FlyingDaggersHit.png)
 
