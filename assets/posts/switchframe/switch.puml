@@ -1,0 +1,43 @@
+@startuml
+hide circle
+skinparam defaultFontName Monospaced
+skinparam monochrome true
+skinparam classAttributeIconSize 0
+
+interface SwitchListener <<Interface>>{
+    + void switchToggled()
+    + void mouseEntered()
+    + void mouseExited()
+}  
+
+interface java.awt.event.MouseListener <<Interface>>
+interface java.awt.event.MouseMotionListener <<Interface>>
+class javax.swing.JFrame
+
+class Switch{
+    - int x
+    - int y
+    - int width
+    - int height
+    + Switch(int x, int y, int width, int height)
+    + boolean contains(Point p)
+    + addSwitchListener(SwitchListener listener)
+    + removeSwitchListener(SwitchListener listener)
+    + paint(Graphics g)
+}
+                      
+
+class SwitchFrame{
+	+ static void main(String[] args)
+}
+
+SwitchFrame ..|> SwitchListener
+SwitchFrame ..|> java.awt.event.MouseListener
+Switch ..|> java.awt.event.MouseMotionListener
+Switch ..|> java.awt.event.MouseListener
+SwitchFrame *-- "*" Switch:switches
+Switch *-- "*" SwitchListener:listeners
+SwitchFrame --> javax.swing.JFrame
+
+@enduml
+
