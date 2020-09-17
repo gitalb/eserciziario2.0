@@ -18,7 +18,7 @@ Se il carattere `c` è presente una sola volta nell'array `a`, il metodo ritorna
 
 ## `public static boolean isPermutation(char[] a, char[] b)`
 
-Ritorna `true` solo se l'array `b` è una permutazione valida dell'array `a`, ossia se in `b` sono presenti tutti i caratteri di `a` (anche in posizioni diverse).
+Ritorna `true` solo se l’array `b` è una permutazione valida dell’array `a`, ossia se ogni carattere di `b` è presente una sola volta in `a` (anche in posizioni diverse).
 
 ## `public static int[] decode(char[] a, char[] b)`
 
