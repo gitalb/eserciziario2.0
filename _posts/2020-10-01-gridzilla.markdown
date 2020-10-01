@@ -1,0 +1,111 @@
+---
+layout: post
+title: "Gridzilla"
+date: 2020-10-01 16:11:03 +0100
+categories: [gui]
+level: 16
+---
+
+
+## Classe `MyGrid`
+
+La classe `MyGrid` rappresenta l'astrazione di una griglia composta da celle quadrate. Ogni cella della griglia può essere *accesa* (`true`) o *spenta* (`false`). 
+
+### Costanti `ROWS` e `COLS`
+
+Il *numero di righe* e *il numero di colonne* della griglia sono definite da due costanti intere `ROWS` (`12`) e `COLS` (`8`). 
+
+### Rappresentazione grafica della griglia
+
+La classe `MyGrid` adatta automaticamente la propria rappresentazione grafica (dimensioni e centratura) in base ai parametri seguenti:
+
+- `windowWidth`: la larghezza della finestra in cui è contenuta
+- `windowHeight`: l'altezza della finestra in cui è contenuta
+- `minMargin`: il margine minimo richiesto (su tutti i lati)
+
+Dati questi tre parametri, la griglia sarà sempre:
+
+- **centrata** nel rettangolo definito da `windowWidth` e `windowHeight`
+- della dimensione **massima possibile** rispettando il margine minimo definito da `minMargin`
+
+Le dimensioni della finestra e il margine sono fornite al costruttore personalizzato:
+
+~~~java
+public MyGrid(int windowWidth, int windowHeight, int minMargin)
+~~~
+
+Le dimensioni della finestra e il margine possono anche essere aggiornate tramite il metodo `center` che adatta la rappresentazione grafica della griglia:
+
+~~~java
+public void center(int windowWidth, int windowHeight, int minMargin) 
+~~~
+
+La posizione attuale e le dimensioni attuali della griglia (calcolate automaticamente) sono accessibili (*read only*) tramite i metodi seguenti:
+
+~~~java
+public int getX() 
+public int getY() 
+public int getWidth() 
+public int getHeight()
+~~~
+
+Anche la dimensione della rappresentazione di ogni cella della griglia è calcolata automaticamente in base alle dimensioni del contenitore e al margine. La dimensione attuale di una cella è accessibile tramite il metodo:
+
+~~~java
+public int getCellSize()
+~~~
+
+Il metodo `paint` serve a disegnare la griglia. Le *celle accese* sono rappresentate da un quadrato VERDE pieno, quelle *spente* da un quadrato VERDE riempito di ROSSO:
+
+~~~java
+public void paint(Graphics g)
+~~~
+
+ad esempio:
+
+![]({{ site.baseurl }}/assets/posts/gridzilla/mygrid.png)
+
+
+Inoltre la classe deve esportare i seguenti metodi utili per ricavare l'indice della riga o della colonna che contiene una coordinata fornita.
+
+~~~java
+public int getColAt(int x) 
+~~~
+
+Ritorna l'indice della colonna che contiene la coordinata orizzontale specificata da `x`. Se la coordinata si trova all'esterno della dimensione orizzontale della griglia, ritorna `-1`.
+
+~~~java
+public int getRowAt(int y)
+~~~
+
+Ritorna l'indice della riga che contiene la coordinata verticale specificata da `y`. Se la coordinata si trova all'esterno della dimensione verticale della griglia, ritorna `-1`.
+
+### Accesso allo stato delle celle
+
+È anche possibile *leggere* o *modificare* lo stato di una cella della griglia tramite i metodi:
+
+~~~java
+public boolean getValueAt(int x, int y)
+~~~
+
+Ritorna lo stato (`true`: *accesa*; `false`: *spenta*) della cella che contiene il punto specificato dai parametri `x` e `y`. Se la coordinata fornita si trova al di fuori della griglia, ritorna `false`.
+
+~~~java
+public void toggleValueAt(int x, int y)
+~~~
+
+Il metodo `toggleValueAt` inverte lo stato della cella che contiene la coordinata fornita tramite `x` e `y`. Se la coordinata è valida, lo stato della cella che contiene il punto descritto da `x` e `y` viene negato, altrimenti il metodo non fa niente.
+
+## Classe `Gridzilla`
+
+La classe `Gridzilla` utilizza un'istanza di `MyGrid` per realizzare le funzionalità descritte in seguito.
+
+`Gridzilla` ha una semplice interfaccia grafica che rappresenta una griglia (`MyGrid`) su sfondo NERO. Ovviamente la griglia si adatta automaticamente alle dimensioni della finestra. Il margine applicato è di `60px` ed è conservato in una costante della classe `Gridzilla`. 
+
+È possibile accendere e spegnere ogni cella della griglia cliccandola con il tasto destro del mouse.
+
+
+
+<video controls="controls" width="200" name="Video Name" src="{{ site.baseurl }}/assets/posts/gridzilla/gridzilla.mp4"></video>
+
+
