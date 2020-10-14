@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Robot"
+date: 2020-10-14 16:06:44 +0100
+categories: [class]
+level: 14
+---
+
+Scrivi il codice sorgente delle classi contenute nel diagramma seguente cercando di implemementare nel modo più fedele tutti i dettagli:
+
+![]({{ site.baseurl }}/assets/posts/robot/robot.png)

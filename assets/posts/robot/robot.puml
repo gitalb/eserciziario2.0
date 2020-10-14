@@ -1,0 +1,30 @@
+@startuml
+
+skinparam dpi 300
+skinparam monochrome true
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+hide circle
+
+
+class Arm
+class Head
+class Leg
+class Robot
+class Torso
+class Weapon
+class Human
+
+
+Head --* Robot:head
+Torso --* Robot:torso
+
+Arm --* Robot:leftArm 
+Arm --* Robot:rightArm
+Leg --* Robot:leftLeg
+Leg --* Robot:rightLeg
+Robot o-- Human:pilot
+Robot o-- "0..3" Weapon:weapons
+
+hide members
+@enduml
