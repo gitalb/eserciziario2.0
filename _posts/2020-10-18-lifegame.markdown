@@ -1,0 +1,64 @@
+---
+layout: post
+title: "LifeGame"
+date: 2020-10-18 12:28:17 +0100
+categories: [gui]
+level: 16
+---
+
+Devi realizzare una versione interattiva del *Gioco della vita* di John Conway.
+
+## Regole del gioco
+
+Il gioco di svolge applicando ripetutamente delle semplici regole ad una matrice di cellule. Ogni cellula può essere viva o morta e può cambiare stato secondo le regole seguenti:
+
+- Una cellula morta che possiede esattamente 3 cellule adiacenti vive, diventa viva.
+- Una cellula viva con 2 o 3 vicini vivi, rimane viva.
+- Una cellula viva con meno di 2 vicini vivi moure di solitudine.
+- Una cellula viva con più di 3 vicini vivi per sovrappopolazione.
+
+Ad ogni *passo* del gioco si calcolano i vicini vivi di ogni cellula e si applicano le regole.
+
+N.B.: Il conteggio del numero di vicini vivi deve sempre basarsi sullo stato delle cellule prima dell’applicazione delle regole. In altre parole prima bisogna contare il numero di cellule vive adiacenti per ogni cellula, poi bisogna applicare le regole per determinare lo stato successivo di ogni cellula.
+
+## GUI
+
+### Controlli
+
+![]({{ site.baseurl }}/assets/posts/lifegame/gui.png)
+
+L'interfaccia grafica deve implementare le funzionalità seguenti:
+
+
+- aggiungere o togliere una riga (tasti `+` e `-`)
+- aggiungere o togliere una colonna (tasti `+` e `-`)
+- attivare/disattivare clipping
+- attivare/disattivare smart painting
+- attivare/disattivare double buffering
+- indicare la dimensione attuale della matrice di cellule tempo di painting nella barra di stato
+- cambiare lo stato di una cellula (cliccandola)
+- applicare le regole alla matrice (fare un *passo*, tasto `STEP`)
+- resettare la matrice (cancellare tutte le cellule vive, tasto `CLEAR`)
+- impostare uno stato casuale alla matrice (ogni cellula assume uno stato casuale, tasto `RND`)
+
+
+
+### Grafica
+
+La rappresentazione grafica delle cellule deve essere sempre centrata e della dimensione massima possibile (con un margine minimo configurabile tramite una costante). 
+
+Ogni cellula viene rappresentata tramite un cerchio, all'interno del cerchio è indicato il numero di vicini vivi. Le cellule vive sono rappresentate in verde, quelle morte in rosso. 
+
+Inoltre ogni cellula ha un bordo di 2 pixel il cui colore dipende dalla stato che la cellula assumerà al prossimo passo di gioco. Le cellule destinate a morire (o a restare morte) hanno il bordo color rosso, quelle destinate a diventare vive (o a restare vive) hanno il bordo verde:
+
+|   | stato attuale | stato successivo |
+|:---:|:----:|:----:|
+|![]({{ site.baseurl }}/assets/posts/lifegame/alive.png)|viva|viva|
+|![]({{ site.baseurl }}/assets/posts/lifegame/die.png)|viva|morta|
+|![]({{ site.baseurl }}/assets/posts/lifegame/dead.png)|morta|morta|
+|![]({{ site.baseurl }}/assets/posts/lifegame/born.png)|morta|viva|
+
+## Demo
+
+<video controls="controls" width="200" name="Video Name" src="{{ site.baseurl }}/assets/posts/lifegame/demo.mp4"></video>
+
