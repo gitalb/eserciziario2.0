@@ -56,10 +56,10 @@ Inoltre ogni cellula ha un bordo di 2 pixel il cui colore dipende dalla stato ch
 
 |   | attuale | successivo |
 |:--------------:|:-----------------:|:-----------------:|
-|![]({{ site.baseurl }}/assets/posts/lifegame/alive.png)|viva|viva|
-|![]({{ site.baseurl }}/assets/posts/lifegame/die.png)|viva|morta|
-|![]({{ site.baseurl }}/assets/posts/lifegame/dead.png)|morta|morta|
-|![]({{ site.baseurl }}/assets/posts/lifegame/born.png)|morta|viva|
+|![]({{ site.baseurl }}/assets/posts/lifegame/alive.png)|cellula viva| cellula viva|
+|![]({{ site.baseurl }}/assets/posts/lifegame/die.png)| cellula viva| cellula morta|
+|![]({{ site.baseurl }}/assets/posts/lifegame/dead.png)| cellula morta| cellula morta|
+|![]({{ site.baseurl }}/assets/posts/lifegame/born.png)| cellula morta| cellula viva|
 
 ## Demo
 
