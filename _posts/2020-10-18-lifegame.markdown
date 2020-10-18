@@ -14,7 +14,7 @@ Il gioco di svolge applicando ripetutamente delle semplici regole ad una matrice
 
 - Una cellula morta che possiede esattamente 3 cellule adiacenti vive, diventa viva.
 - Una cellula viva con 2 o 3 vicini vivi, rimane viva.
-- Una cellula viva con meno di 2 vicini vivi moure di solitudine.
+- Una cellula viva con meno di 2 vicini vivi muore di solitudine.
 - Una cellula viva con più di 3 vicini vivi muore per sovrappopolazione.
 
 Ad ogni *passo* del gioco si contano i vicini vivi di ogni cellula e si applicano le regole.
@@ -36,7 +36,7 @@ L'interfaccia grafica deve implementare le funzionalità seguenti:
 - indicare la dimensione attuale della matrice di cellule tempo di painting nella barra di stato
 - cambiare lo stato di una cellula (cliccandola)
 - applicare le regole alla matrice (fare un *passo*, tasto `STEP`)
-- resettare la matrice (cancellare tutte le cellule vive, tasto `CLEAR`)
+- azzerare la matrice (cancellare tutte le cellule vive, tasto `CLEAR`)
 - impostare uno stato casuale alla matrice (ogni cellula assume uno stato casuale, tasto `RND`)
 
 
