@@ -15,17 +15,15 @@ Il gioco di svolge applicando ripetutamente delle semplici regole ad una matrice
 - Una cellula morta che possiede esattamente 3 cellule adiacenti vive, diventa viva.
 - Una cellula viva con 2 o 3 vicini vivi, rimane viva.
 - Una cellula viva con meno di 2 vicini vivi moure di solitudine.
-- Una cellula viva con più di 3 vicini vivi per sovrappopolazione.
+- Una cellula viva con più di 3 vicini vivi muore per sovrappopolazione.
 
-Ad ogni *passo* del gioco si calcolano i vicini vivi di ogni cellula e si applicano le regole.
+Ad ogni *passo* del gioco si contano i vicini vivi di ogni cellula e si applicano le regole.
 
 N.B.: Il conteggio del numero di vicini vivi deve sempre basarsi sullo stato delle cellule prima dell’applicazione delle regole. In altre parole prima bisogna contare il numero di cellule vive adiacenti per ogni cellula, poi bisogna applicare le regole per determinare lo stato successivo di ogni cellula.
 
 ## GUI
 
 ### Controlli
-
-![]({{ site.baseurl }}/assets/posts/lifegame/gui.png)
 
 L'interfaccia grafica deve implementare le funzionalità seguenti:
 
@@ -40,6 +38,11 @@ L'interfaccia grafica deve implementare le funzionalità seguenti:
 - applicare le regole alla matrice (fare un *passo*, tasto `STEP`)
 - resettare la matrice (cancellare tutte le cellule vive, tasto `CLEAR`)
 - impostare uno stato casuale alla matrice (ogni cellula assume uno stato casuale, tasto `RND`)
+
+
+![]({{ site.baseurl }}/assets/posts/lifegame/gui.png)
+
+
 
 
 
