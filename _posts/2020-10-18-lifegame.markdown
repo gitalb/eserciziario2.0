@@ -54,12 +54,12 @@ Ogni cellula viene rappresentata tramite un cerchio, all'interno del cerchio è 
 
 Inoltre ogni cellula ha un bordo di 2 pixel il cui colore dipende dalla stato che la cellula assumerà al prossimo passo di gioco. Le cellule destinate a morire (o a restare morte) hanno il bordo color rosso, quelle destinate a diventare vive (o a restare vive) hanno il bordo verde:
 
-|   | attuale | successivo |
+|   | stato attuale -> | stato successivo |
 |:--------------:|:-----------------:|:-----------------:|
-|![]({{ site.baseurl }}/assets/posts/lifegame/alive.png)|cellula viva| cellula viva|
-|![]({{ site.baseurl }}/assets/posts/lifegame/die.png)| cellula viva| cellula morta|
-|![]({{ site.baseurl }}/assets/posts/lifegame/dead.png)| cellula morta| cellula morta|
-|![]({{ site.baseurl }}/assets/posts/lifegame/born.png)| cellula morta| cellula viva|
+|![]({{ site.baseurl }}/assets/posts/lifegame/alive.png)| viva| viva|
+|![]({{ site.baseurl }}/assets/posts/lifegame/die.png)| viva| morta|
+|![]({{ site.baseurl }}/assets/posts/lifegame/dead.png)| morta| morta|
+|![]({{ site.baseurl }}/assets/posts/lifegame/born.png)| morta| viva|
 
 ## Demo
 
