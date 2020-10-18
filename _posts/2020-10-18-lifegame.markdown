@@ -28,8 +28,8 @@ N.B.: Il conteggio del numero di vicini vivi deve sempre basarsi sullo stato del
 L'interfaccia grafica deve implementare le funzionalità seguenti:
 
 
-- aggiungere o togliere una riga (tasti `+` e `-`)
-- aggiungere o togliere una colonna (tasti `+` e `-`)
+- aggiungere o togliere una riga (tasti `+` e `-` in alto)
+- aggiungere o togliere una colonna (tasti `+` e `-` a sinistra)
 - attivare/disattivare clipping
 - attivare/disattivare smart painting
 - attivare/disattivare double buffering
@@ -54,8 +54,8 @@ Ogni cellula viene rappresentata tramite un cerchio, all'interno del cerchio è 
 
 Inoltre ogni cellula ha un bordo di 2 pixel il cui colore dipende dalla stato che la cellula assumerà al prossimo passo di gioco. Le cellule destinate a morire (o a restare morte) hanno il bordo color rosso, quelle destinate a diventare vive (o a restare vive) hanno il bordo verde:
 
-|   | stato attuale | stato successivo |
-|:---:|:----:|:----:|
+|   | attuale | successivo |
+|:--------------:|:-----------------:|:-----------------:|
 |![]({{ site.baseurl }}/assets/posts/lifegame/alive.png)|viva|viva|
 |![]({{ site.baseurl }}/assets/posts/lifegame/die.png)|viva|morta|
 |![]({{ site.baseurl }}/assets/posts/lifegame/dead.png)|morta|morta|
@@ -63,5 +63,5 @@ Inoltre ogni cellula ha un bordo di 2 pixel il cui colore dipende dalla stato ch
 
 ## Demo
 
-<video controls="controls" width="200" name="Video Name" src="{{ site.baseurl }}/assets/posts/lifegame/demo.mp4"></video>
+<video controls="controls" width="400" name="Video Name" src="{{ site.baseurl }}/assets/posts/lifegame/demo.mp4"></video>
 
