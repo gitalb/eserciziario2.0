@@ -8,7 +8,7 @@ level: 8
 
 Scrivi il programma `SimpleInterest` utile per calcolare l'interesse semplice di un prestito. Il programma deve funzionare nel modo seguente:
 
-1. Chiede di inserire il capitale iniziale ($C = M_0$)
+1. Chiede di inserire il capitale iniziale (<math><mi>C</mi><mo>=</mo><msub><mi>M</mi><mn>0</mn></msub></math>)
 2. Se il valore inserito non è un numero valido stampa il messaggio:
 	
 		Valore C non valido "<valore>" 
@@ -17,12 +17,12 @@ Scrivi il programma `SimpleInterest` utile per calcolare l'interesse semplice di
 
 		C deve essere maggiore di 0 
 	e ricomincia dal punto 1.
-4. Chiede di inserire il tasso di interesse ($i$)
+4. Chiede di inserire il tasso di interesse (<math><mi>i</mi></math>)
 5. Se il valore inserito non è un numero stampa: 
 
 		Valore i non valido "<valore>" 
 	e ricomincia dal punto 4.
-6. Chiede di inserire il periodo ($n$)
+6. Chiede di inserire il periodo (<math><mi>n</mi></math>)
 7. Se il valore inserito non è un numero intero stampa:
 		
 		Valore n non valido "<valore>" 
@@ -31,7 +31,7 @@ Scrivi il programma `SimpleInterest` utile per calcolare l'interesse semplice di
 
 		Il periodo deve deve essere positivo
 	e ricomincia dal punto 6.
-9. Stampa il montante ($M_n$) del prestito
+9. Stampa il montante (<math><msub><mi>M</mi><mi>n</mi></msub></math>) del prestito
 
 Esempio 1:
 
