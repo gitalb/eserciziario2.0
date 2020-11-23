@@ -8,12 +8,12 @@ level: 8
 
 Scrivi il programma `ArithmeticProgression` utile per calcolare i termini di una progressione aritmetica. Il programma deve funzionare nel modo seguente:
 
-1. Chiede di inserire il valore del primo termine ($a_1$)
+1. Chiede di inserire il valore del primo termine (<math><msub><mi>a</mi><mn>1</mn></msub></math>)
 2. Se il valore inserito non è un numero intero stampa il messaggio:
 	
 		Valore a1 non valido "<valore>" 
 	e ricomincia dal punto 1.
-3. Chiede di inserire la *ragione* ($r$)
+3. Chiede di inserire la *ragione* (<math><mi>r</mi></math>)
 4. Se il valore inserito non è un numero intero stampa: 
 
 		Valore r non valido "<valore>" 
