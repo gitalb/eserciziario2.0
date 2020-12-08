@@ -9,7 +9,7 @@ level: 15
 
 Per un sistema di acquisti online devi implementare le classi seguenti:
 
-![]({{ site.baseurl }}/assets/posts/lifegame/items.png)
+![]({{ site.baseurl }}/assets/posts/items.png)
 
 ## Classe `Article`
 

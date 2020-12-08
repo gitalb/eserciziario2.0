@@ -9,7 +9,7 @@ level: 15
 Per un app di gestione dei prestiti personali devi implementare le classi seguenti:
 
 
-![]({{ site.baseurl }}/assets/posts/lifegame/wallet.png)
+![]({{ site.baseurl }}/assets/posts/wallet.png)
 
 
 ## Classe `Person`
