@@ -13,7 +13,7 @@ Scrivi il programma `SimpleInterest` utile per calcolare l'interesse semplice di
 	
 		Valore C non valido "<valore>" 
 	e ricomincia dal punto 1.
-3. Se il valore inserito è inferiore a 1 stampa: 
+3. Se il valore inserito è inferiore o uguale 0 stampa: 
 
 		C deve essere maggiore di 0 
 	e ricomincia dal punto 1.
