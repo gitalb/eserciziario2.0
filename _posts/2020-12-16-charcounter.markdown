@@ -15,34 +15,34 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 il programma stampa:
 
 ~~~
-'a: 29
-'b: 3
-'c: 16
-'d: 19
-'e: 38
-'f: 3
-'g: 3
-'h: 1
-'i: 42
-'j: 0
-'k: 0
-'l: 22
-'m: 17
-'n: 24
-'o: 29
-'p: 11
-'q: 5
-'r: 22
-'s: 18
-'t: 32
-'u: 29
-'v: 3
-'w: 0
-'x: 3
-'y: 0
-'z: 0
+'a': 29
+'b': 3
+'c': 16
+'d': 19
+'e': 38
+'f': 3
+'g': 3
+'h': 1
+'i': 42
+'j': 0
+'k': 0
+'l': 22
+'m': 17
+'n': 24
+'o': 29
+'p': 11
+'q': 5
+'r': 22
+'s': 18
+'t': 32
+'u': 29
+'v': 3
+'w': 0
+'x': 3
+'y': 0
+'z': 0
 
-Parse time: 5ms
+Parse time: 6ms
 ~~~
 
 Se il percorso fornito come primo argomento non è valido (non esiste, non è leggibile), il programma stampa il messaggio `"Error reading <file>"` e termina.
