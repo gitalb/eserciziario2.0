@@ -12,6 +12,6 @@ Scrivi la classe `PoTre` contenente il metodo:
 public static int pow3(int n)
 ~~~ 
 
-Il metodo riceve un valore intero `n` e ritorna il valore di 3 elevato `n`. Ad esempio `pow3(2)` ritorna `8`.
+Il metodo riceve un valore intero `n` e ritorna il valore di 3 elevato `n`. Ad esempio `pow3(2)` ritorna `9`.
 
 La classe dovrà anche contenere un metodo `main` in cui verificare se il metodo `pow3` funziona correttamente.
