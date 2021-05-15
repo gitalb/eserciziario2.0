@@ -32,7 +32,6 @@ class SwitchFrame{
 }
 
 SwitchFrame ..|> SwitchListener
-SwitchFrame ..|> java.awt.event.MouseListener
 Switch ..|> java.awt.event.MouseMotionListener
 Switch ..|> java.awt.event.MouseListener
 SwitchFrame *-- "*" Switch:switches
