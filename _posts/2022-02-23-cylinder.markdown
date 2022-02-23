@@ -24,4 +24,6 @@ Nel metodo `main` verifica il buon  funzionamento di ogni metodo.
 
 Vedi anche:
 
-<p><a href="https://commons.wikimedia.org/wiki/File:Circular_cylinder_rh.svg#/media/File:Circular_cylinder_rh.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Circular_cylinder_rh.svg/1200px-Circular_cylinder_rh.svg.png" alt="Circular cylinder rh.svg"></a><br>By &lt;a href="//commons.wikimedia.org/w/index.php?title=User:BR84&amp;amp;action=edit&amp;amp;redlink=1" class="new" title="User:BR84 (page does not exist)"&gt;BR84&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=18796293">Link</a></p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Circular_cylinder_rh.svg/1200px-Circular_cylinder_rh.svg.png" alt="Circular cylinder rh.svg" width="300">
+
+<a href="//commons.wikimedia.org/w/index.php?title=User:BR84&amp;amp;action=edit&amp;amp;redlink=1" class="new" title="User:BR84 (page does not exist)"&gt;BR84&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=18796293">Link</a></p>
