@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Cylinder"
+date: 2022-02-23 10:43:12 +0100
+categories: [methods, math]
+level: 9
+---
+
+
+Scrivi la classe `Cylinder` contenente i metodi seguenti:
+
+
+- `public static double getCircumference(double radius)`: ritorna la circonferenza di un cilindro di raggio `radius`
+
+- `public static double getBaseArea(double radius)`: ritorna l'area di base di un cilindro di raggio `radius`
+
+- `public static double getSideArea(double radius, int height)`: ritorna la superficie laterale di un cilindro di raggio `radius` e altezza `height`
+
+- `public static double getArea(double radius, int height)`: ritorna l'area totale di un cilindro di raggio `radius` e altezza `height`
+
+- `public static double getVolume(double radius, int height)`: ritorna il volume di un cilindro di raggio `radius` e altezza `height`
+
+Nel metodo `main` verifica il buon  funzionamento di ogni metodo.
+
+Vedi anche:
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Circular_cylinder_rh.svg#/media/File:Circular_cylinder_rh.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Circular_cylinder_rh.svg/1200px-Circular_cylinder_rh.svg.png" alt="Circular cylinder rh.svg"></a><br>By &lt;a href="//commons.wikimedia.org/w/index.php?title=User:BR84&amp;amp;action=edit&amp;amp;redlink=1" class="new" title="User:BR84 (page does not exist)"&gt;BR84&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=18796293">Link</a></p>
