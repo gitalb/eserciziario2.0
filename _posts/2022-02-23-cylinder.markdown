@@ -22,6 +22,8 @@ Scrivi la classe `Cylinder` contenente i metodi seguenti:
 
 Nel metodo `main` verifica il buon  funzionamento di ogni metodo.
 
+**Nota**: per ottenere il valore di pi-greco puoi utilizzare la costante `Math.PI`. 
+
 Vedi anche [wikipedia](https://en.wikipedia.org/wiki/Cylinder).
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Circular_cylinder_rh.svg/1200px-Circular_cylinder_rh.svg.png" alt="Circular cylinder rh.svg" width="300">
