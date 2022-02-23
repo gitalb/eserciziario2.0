@@ -15,24 +15,33 @@ Scrivi la classe `Trenino` che contiene i seguenti metodi:
 - `public static void stampaMerciGrande()`
 - `public static void stampaGancio()`
 
-Nel metodo `main` utilizza i metodi che hai scritto per comporre un treno. Utilizza a piacimento i vagoni creati tramite i metodi, come ad esempio (Locomotiva, PasseggeriPiccolo, MerciGrande):
+Nel metodo `main` utilizza i metodi che hai scritto per comporre un treno (non dimenticare i ganci tra le carrozze). Utilizza a piacimento i vagoni creati tramite i metodi, come ad esempio (locomotiva, passeggeriPiccolo, passeggeriGrande, merciGrande, merciPiccolo):
 
 ```
-
-   /T\
-  /|||\
-  | O |
-  LLLLL
-  LLLLL
-    |
-  PPPPP
-  P   P
-  PPPPP
-    |
-  MMMMM
-  M   M
-  M   M
-  M   M
-  MMMMM
+ /T\
+/|||\
+| O |
+LLLLL
+LLLLL
+  |  
+PPPPP
+P   P
+PPPPP
+  |  
+PPPPP
+P   P
+P   P
+P   P
+PPPPP
+  |  
+MMMMM
+M   M
+M   M
+M   M
+MMMMM
+  |  
+MMMMM
+M   M
+MMMMM
 
 ```
