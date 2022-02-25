@@ -14,11 +14,11 @@ Scrivi la classe `Cylinder` contenente i metodi seguenti:
 
 - `public static double getBaseArea(double radius)`: ritorna l'area di base di un cilindro di raggio `radius`
 
-- `public static double getSideArea(double radius, int height)`: ritorna la superficie laterale di un cilindro di raggio `radius` e altezza `height`
+- `public static double getSideArea(double radius, double height)`: ritorna la superficie laterale di un cilindro di raggio `radius` e altezza `height`
 
-- `public static double getArea(double radius, int height)`: ritorna l'area totale di un cilindro di raggio `radius` e altezza `height`
+- `public static double getArea(double radius, double height)`: ritorna l'area totale di un cilindro di raggio `radius` e altezza `height`
 
-- `public static double getVolume(double radius, int height)`: ritorna il volume di un cilindro di raggio `radius` e altezza `height`
+- `public static double getVolume(double radius, double height)`: ritorna il volume di un cilindro di raggio `radius` e altezza `height`
 
 Nel metodo `main` verifica il buon  funzionamento di ogni metodo.
 
