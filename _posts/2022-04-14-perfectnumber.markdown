@@ -17,7 +17,12 @@ Scrivi la classe `PerfectNumber` utile per individuare i *numeri perfetti*. La c
 
 - `public static long getDividersSum(int[] dividers)`: ritorna la somma dei numeri contenuti nell'array `dividers`
 
-- `public static int[] getPerfectNumbers(int min, int max)`: ritorna un array contenente l'elenco dei numeri perfetti presenti nell'intervallo [`min`, `max`]
+- `public static int[] getPerfectNumbers(int min, int max)`: ritorna un array contenente l'elenco dei numeri *perfetti* presenti nell'intervallo [`min`, `max`]
+
+- `public static int[] getDefectiveNumbers(int min, int max)`: ritorna un array contenente l'elenco dei numeri *difettivi* presenti nell'intervallo [`min`, `max`]
+
+- `public static int[] getAbundantNumbers(int min, int max)`: ritorna un array contenente l'elenco dei numeri *abbondanti* presenti nell'intervallo [`min`, `max`]
+
 
 ## Numeri perfetti
 
