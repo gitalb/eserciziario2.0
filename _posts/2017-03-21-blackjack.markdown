@@ -15,7 +15,7 @@ Nel Blackjack vince il giocatore che totalizza un punteggio che:
 Scrivi La classe `BlackJack` contenente il metodo: 
 
 ~~~java
-public static int blackjackWinner(int score1, int score2)` 
+public static int blackjackWinner(int score1, int score2)
 ~~~
 
 che, dati due punteggi `score1` e `score2`, ritorna un numero intero secondo le seguenti regole:
