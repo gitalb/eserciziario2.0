@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "DoubleFormatter"
-date: 2022-05-05 09:50:06 +0100
+date: 2022-05-04 09:50:06 +0100
 categories: [interactive format]
 level: 8
 ---
-
-
 
 Scrivi il programma `DoubleFormatter` che chiede all’utente di inserire:
 
