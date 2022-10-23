@@ -112,6 +112,12 @@
           
         
           
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/eserciziario2.0/"></a>
           
         
@@ -155,6 +161,43 @@
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/interactive/string/2019/11/11/farfallinatoreinterattivo.html">
+            FarfallinatoreInterattivo
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+           <span class="label label-success">Livello 5</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">FarfallinatoreInterattivo</code> che chiede all’utente di inserire una frase e poi la codifica in <em>alfabeto farfallino</em> (se non conosci l’<em>alfabeto farfallino</em> vedi <a href="https://it.wikipedia.org/wiki/Alfabeto_farfallino">wikipedia</a>).</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>Inserire una frase: Il mattino ha l'oro in bocca
+Ifil mafattifinofo hafa l'oforofo ifin bofoccafa
+</code></pre>
+</div>
+
+<p>Oppure:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>Inserire una frase: ciao come va
+cifiafaofo cofomefe vafa
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/interactive/2017/03/21/saluto.html">
             Saluto
           </a>
@@ -182,44 +225,178 @@ Buongiorno Luca, benvenuto!
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/hexsum.html">
-            HexSum
+          <h2><a href="/eserciziario2.0/loop/math/interactive/2020/11/23/simpleinterest.html">
+            SimpleInterest
           </a>
           <small class="pull-right">
           
           
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
           
-            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
           
            <span class="label label-success">Livello 8</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">HexSum</code> che chiede all’utente di inserire due valori interi espressi in notazione <strong>esadecimale</strong> e poi ne stampa (sempre in base 16) il risultato della somma.</p>
+          <p>Scrivi il programma <code class="highlighter-rouge">SimpleInterest</code> utile per calcolare l’interesse semplice di un prestito. Il programma deve funzionare nel modo seguente:</p>
 
-<p>Qualche esempio:</p>
+<ol>
+  <li>Chiede di inserire il capitale iniziale (<math><mi>C</mi><mo>=</mo><msub><mi>M</mi><mn>0</mn></msub></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero valido stampa il messaggio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HexSum
-Inserire primo addendo (in esadecimale): 9
-Inserire secondo addendo (in esadecimale): 1
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore C non valido "&lt;valore&gt;"   e ricomincia dal punto 1.
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Se il valore inserito è inferiore o uguale 0 stampa:</p>
 
-       9
-       1 +
---------
-       A
+    <div class="highlighter-rouge"><pre class="highlight"><code> C deve essere maggiore di 0   e ricomincia dal punto 1.
+</code></pre>
+    </div>
+  </li>
+  <li>Chiede di inserire il tasso di interesse (<math><mi>i</mi></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore i non valido "&lt;valore&gt;"   e ricomincia dal punto 4.
+</code></pre>
+    </div>
+  </li>
+  <li>Chiede di inserire il periodo (<math><mi>n</mi></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero intero stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore n non valido "&lt;valore&gt;"   e ricomincia dal punto 6.
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Se il valore inserito è inferiore a 0 stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Il periodo deve deve essere positivo  e ricomincia dal punto 6.
+</code></pre>
+    </div>
+  </li>
+  <li>Stampa il montante (<math><msub><mi>M</mi><mi>n</mi></msub></math>) del prestito</li>
+</ol>
+
+<p>Esempio 1:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire il capitale iniziale (C): 1000
+Inserire il tasso di interesse (i): 5
+Inserire il periodo (n): 2
+M2 = 1100.0
 </code></pre>
 </div>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HexSum
-Inserire primo addendo (in esadecimale): AA55
-Inserire secondo addendo (in esadecimale): 55AA
+<p>Esempio 2:</p>
 
-    AA55
-    55AA +
---------
-    FFFF
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire il capitale iniziale (C): -1
+Il capitale deve essere maggiore di 0
+Inserire il capitale iniziale (C): bau
+Valore C non valido "bau"
+Inserire il capitale iniziale (C): 1000
+Inserire il tasso di interesse (i): miao
+Valore i non valido "miao"
+Inserire il tasso di interesse (i): 7
+Inserire il periodo (n): -1
+Il periodo deve essere positivo
+Inserire il periodo (n): cucu
+Valore n non valido "cucu"
+Inserire il periodo (n): 5
+M5 = 1350.0
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/math/loop/interactive/2020/11/23/arithmeticprogression.html">
+            ArithmeticProgression
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 8</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">ArithmeticProgression</code> utile per calcolare i termini di una progressione aritmetica. Il programma deve funzionare nel modo seguente:</p>
+
+<ol>
+  <li>Chiede di inserire il valore del primo termine (<math><msub><mi>a</mi><mn>1</mn></msub></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero intero stampa il messaggio:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore a1 non valido "&lt;valore&gt;"   e ricomincia dal punto 1.
+</code></pre>
+    </div>
+  </li>
+  <li>Chiede di inserire la <em>ragione</em> (<math><mi>r</mi></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero intero stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore r non valido "&lt;valore&gt;"   e ricomincia dal punto 3.
+</code></pre>
+    </div>
+  </li>
+  <li>Chiede di inserire il numero di termini da stampare (<code class="highlighter-rouge">N</code>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero intero stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore N non valido "&lt;valore&gt;"   e ricomincia dal punto 5.
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Se il valore inserito è inferiore a 1 stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Il numero di termini deve essere maggiore di 0   e ricomincia dal punto 5.
+</code></pre>
+    </div>
+  </li>
+  <li>Stampa i primi <code class="highlighter-rouge">N</code> termini della progressione aritmetica</li>
+</ol>
+
+<p>Esempio 1:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire primo termine (a1): 1
+Inserire ragione (r): 2
+Inserire numero di termini (N): 10
+1, 3, 5, 7, 9, 11, 13, 15, 17, 19.
+</code></pre>
+</div>
+
+<p>Esempio 2:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire primo termine (a1): bau
+Valore a1 non valido "bau"
+Inserire primo termine (a1): 1
+Inserire ragione (r): miao
+Valore r non valido "miao"
+Inserire ragione (r): 2
+Inserire numero di termini (N): muhh
+Valore N non valido "muhh"
+Inserire numero di termini (N): 0
+Il numero di termini deve essere maggiore di 0
+Inserire numero di termini (N): 5
+1, 3, 5, 7, 9.
 </code></pre>
 </div>
 
@@ -305,7 +482,7 @@ Bravo!
 	</mfenced> 
 </math>
 
-<p>￼￼Il programma deve richiedere interattivamente all’utente i dati necessari per effettuare il calcolo; prima viene richiesto il nome, poi il peso espresso in kg e poi l’altezza espressa in cm.</p>
+<p>￼￼Il programma deve richiedere interattivamente all’utente i dati necessari per effettuare il calcolo; prima viene richiesto il peso espresso in kg e poi l’altezza espressa in cm.</p>
 
 <p><strong>Nota bene</strong>: La formula funziona solo per un peso compreso tra 40.0 e 130.0 kg e un’altezza compresa tra 140.0 e 200.0 cm; se vengono introdotti valori al di fuori di questi intervalli o valori di tipo non appropriato, il sistema chiede nuovamente il dato, fino a quando il valore è accettabile.</p>
 
@@ -381,8 +558,8 @@ Inserire secondo addendo (in esadecimale): -1
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/hex2float.html">
-            Hex2Float
+          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/hexsum.html">
+            HexSum
           </a>
           <small class="pull-right">
           
@@ -391,40 +568,36 @@ Inserire secondo addendo (in esadecimale): -1
           
             <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
           
-           <span class="label label-success">Livello 9</span>
+           <span class="label label-success">Livello 8</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">Hex2Float</code> che chiede all’utente di introdurre un valore esadecimale e lo converte in un numero a virgola mobile a precisione singola (<code class="highlighter-rouge">float</code>).</p>
+          <p>Scrivi il programma <code class="highlighter-rouge">HexSum</code> che chiede all’utente di inserire due valori interi espressi in notazione <strong>esadecimale</strong> e poi ne stampa (sempre in base 16) il risultato della somma.</p>
 
-<p>Il programma stampa i 32 bit del valore inserito e il corrispondente valore secondo il formato IEEE754. Qualche esempio:</p>
+<p>Qualche esempio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Hex2Float
-Introdurre un valore esadecimale (32bit): 3fc00000
-00111111110000000000000000000000 -&gt; 1,50000
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HexSum
+Inserire primo addendo (in esadecimale): 9
+Inserire secondo addendo (in esadecimale): 1
+
+       9
+       1 +
+--------
+       A
 </code></pre>
 </div>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Hex2Float
-Introdurre un valore esadecimale (32bit): -7F000001
-10000000111111111111111111111111 -&gt; -2,35099e-38
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java HexSum
+Inserire primo addendo (in esadecimale): AA55
+Inserire secondo addendo (in esadecimale): 55AA
+
+    AA55
+    55AA +
+--------
+    FFFF
 </code></pre>
 </div>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Hex2Float
-Introdurre un valore esadecimale (32bit): bf800000
-10111111100000000000000000000000 -&gt; -1,00000
-</code></pre>
-</div>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Hex2Float
-Introdurre un valore esadecimale (32bit): FFFFFFFF
-11111111111111111111111111111111 -&gt; NaN
-</code></pre>
-</div>
-
-<p>Puoi verificare la bontà dei risultati ottenuti confrontandoli con quelli prodotti da <a href="http://www.h-schmidt.net/FloatConverter/IEEE754.html">un convertitore IEEE754</a>.</p>
 
       </div>
       
@@ -476,6 +649,57 @@ hex:	48	65	6c	6c	6f	20	77	6f	72	6c	64	21
 
 </code></pre>
 </div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/interactive/wrapper/2017/02/25/hex2float.html">
+            Hex2Float
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
+          
+           <span class="label label-success">Livello 9</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">Hex2Float</code> che chiede all’utente di introdurre un valore esadecimale e lo converte in un numero a virgola mobile a precisione singola (<code class="highlighter-rouge">float</code>).</p>
+
+<p>Il programma stampa i 32 bit del valore inserito e il corrispondente valore secondo il formato IEEE754. Qualche esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Hex2Float
+Introdurre un valore esadecimale (32bit): 3fc00000
+00111111110000000000000000000000 -&gt; 1,50000
+</code></pre>
+</div>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Hex2Float
+Introdurre un valore esadecimale (32bit): -7F000001
+10000000111111111111111111111111 -&gt; -2,35099e-38
+</code></pre>
+</div>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Hex2Float
+Introdurre un valore esadecimale (32bit): bf800000
+10111111100000000000000000000000 -&gt; -1,00000
+</code></pre>
+</div>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java Hex2Float
+Introdurre un valore esadecimale (32bit): FFFFFFFF
+11111111111111111111111111111111 -&gt; NaN
+</code></pre>
+</div>
+
+<p>Puoi verificare la bontà dei risultati ottenuti confrontandoli con quelli prodotti da <a href="http://www.h-schmidt.net/FloatConverter/IEEE754.html">un convertitore IEEE754</a>.</p>
 
       </div>
       
@@ -624,129 +848,6 @@ Aggiunto Sorbetto, CHF 6.00
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">
-            MorraCinese
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi il gioco interattivo <code class="highlighter-rouge">MorraCinese</code>. Il programma chiede di inserire il <em>punteggio massimo</em>, poi il gioco comincia. Vince chi raggiunge prima il <em>punteggio massimo</em>.</p>
-
-<ol>
-  <li>Il programma chiede di inserire il <em>punteggio massimo</em>. Sono ammessi solo valori nel range [1;10].</li>
-  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 1.</li>
-  <li>Chiede all’utente di inserire la sua giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
-  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 3.</li>
-  <li>Il programma estrae a sorte la propria giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
-  <li>Il programma visualizza le due giocate e, se ve ne è uno, il vincitore della mano corrente (player o CPU) e il punteggio attuale dei due giocatori.</li>
-  <li>Se nessuno ha raggiunto il <em>punteggio massimo</em> il programma prosegue dal punto 3.</li>
-  <li>Se un giocatore ha raggiunto il <em>punteggio massimo</em> il programma stampa il <em>nome</em> del vincitore (player o CPU) e prosegue dal punto 9.</li>
-  <li>Il programma chiede se si vuole giocare di nuovo (<code class="highlighter-rouge">0</code> per continuare, <code class="highlighter-rouge">1</code> per terminare).</li>
-  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 9.</li>
-  <li>Se l’utente inserisce <code class="highlighter-rouge">0</code>  il programma ricomincia dal punto 1.</li>
-  <li>Se l’utente inserisce <code class="highlighter-rouge">1</code>  il programma termina.</li>
-</ol>
-
-<p>Esempio:</p>
-
-<video width="502" height="110" controls="">
-  <source src="/eserciziario2.0/assets/posts/MorraCineseMID.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p>Oppure, se la vostra console supporta Unicode:</p>
-
-<video width="502" height="110" controls="">
-  <source src="/eserciziario2.0/assets/posts/MorraCineseUniMID.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html">
-            Butterflyzer
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi il programma interattivo <code class="highlighter-rouge">Butterflyzer</code> che permetta di codificare e decodificare messaggi in <em>alfabeto farfallino</em>.</p>
-
-<ol>
-  <li>Inizialmente il programma propone di scegliere la funzione (<code class="highlighter-rouge">'c'</code> per codificare, <code class="highlighter-rouge">'d'</code> per decodificare, <code class="highlighter-rouge">'q'</code> per terminare),</li>
-  <li>Se la scelta digitata non è valida ricomincia dal punto 1.</li>
-  <li>Se la scelta è <code class="highlighter-rouge">'q'</code> il programma termina.</li>
-  <li>Se la scelta è <code class="highlighter-rouge">'c'</code>, chiede all’utente di digitare una stringa di testo da codificare e poi stampa il messaggio codificato.</li>
-  <li>Se la scelta è <code class="highlighter-rouge">'d'</code>, chiede all’utente di digitare il messagio da decodificare e poi stampa il testo decodificato.</li>
-  <li>Il programma ricomincia dal punto 1.</li>
-</ol>
-
-<p>Esempio:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ java Butterflyzer
-Codificatore/decodificatore alfabeto Farfallino
-Premi 'c' per codificare un messaggio
-Premi 'd' per decodificare un messaggio
-Premi 'q' per uscire
-Scelta: x
-Scelta non valida 'x'
-
-Codificatore/decodificatore alfabeto Farfallino
-Premi 'c' per codificare un messaggio
-Premi 'd' per decodificare un messaggio
-Premi 'q' per uscire
-Scelta: c
-Inserire testo da codificare: Tanto va la gatta al lardo
-Messaggio codificato: Tafantofo vafa lafa gafattafa afal lafardofo
-
-Codificatore/decodificatore alfabeto Farfallino
-Premi 'c' per codificare un messaggio
-Premi 'd' per decodificare un messaggio
-Premi 'q' per uscire
-Scelta: d
-Messaggio da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
-Testo decodificato: Le fragole sono mature
-
-Codificatore/decodificatore alfabeto Farfallino
-Premi 'c' per codificare un messaggio
-Premi 'd' per decodificare un messaggio
-Premi 'q' per uscire
-Scelta: q
-$
-</code></pre>
-</div>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/rotator.html">
             Rotator
           </a>
@@ -827,6 +928,129 @@ Rotazione:
 </code></pre>
 </div>
 
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html">
+            Butterflyzer
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma interattivo <code class="highlighter-rouge">Butterflyzer</code> che permetta di codificare e decodificare messaggi in <em>alfabeto farfallino</em>.</p>
+
+<ol>
+  <li>Inizialmente il programma propone di scegliere la funzione (<code class="highlighter-rouge">'c'</code> per codificare, <code class="highlighter-rouge">'d'</code> per decodificare, <code class="highlighter-rouge">'q'</code> per terminare),</li>
+  <li>Se la scelta digitata non è valida ricomincia dal punto 1.</li>
+  <li>Se la scelta è <code class="highlighter-rouge">'q'</code> il programma termina.</li>
+  <li>Se la scelta è <code class="highlighter-rouge">'c'</code>, chiede all’utente di digitare una stringa di testo da codificare e poi stampa il messaggio codificato.</li>
+  <li>Se la scelta è <code class="highlighter-rouge">'d'</code>, chiede all’utente di digitare il messagio da decodificare e poi stampa il testo decodificato.</li>
+  <li>Il programma ricomincia dal punto 1.</li>
+</ol>
+
+<p>Esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ java Butterflyzer
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: x
+Scelta non valida 'x'
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: c
+Inserire testo da codificare: Tanto va la gatta al lardo
+Messaggio codificato: Tafantofo vafa lafa gafattafa afal lafardofo
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: d
+Messaggio da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
+Testo decodificato: Le fragole sono mature
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: q
+$
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">
+            MorraCinese
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il gioco interattivo <code class="highlighter-rouge">MorraCinese</code>. Il programma chiede di inserire il <em>punteggio massimo</em>, poi il gioco comincia. Vince chi raggiunge prima il <em>punteggio massimo</em>.</p>
+
+<ol>
+  <li>Il programma chiede di inserire il <em>punteggio massimo</em>. Sono ammessi solo valori nel range [1;10].</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 1.</li>
+  <li>Chiede all’utente di inserire la sua giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 3.</li>
+  <li>Il programma estrae a sorte la propria giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
+  <li>Il programma visualizza le due giocate e, se ve ne è uno, il vincitore della mano corrente (player o CPU) e il punteggio attuale dei due giocatori.</li>
+  <li>Se nessuno ha raggiunto il <em>punteggio massimo</em> il programma prosegue dal punto 3.</li>
+  <li>Se un giocatore ha raggiunto il <em>punteggio massimo</em> il programma stampa il <em>nome</em> del vincitore (player o CPU) e prosegue dal punto 9.</li>
+  <li>Il programma chiede se si vuole giocare di nuovo (<code class="highlighter-rouge">0</code> per continuare, <code class="highlighter-rouge">1</code> per terminare).</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 9.</li>
+  <li>Se l’utente inserisce <code class="highlighter-rouge">0</code>  il programma ricomincia dal punto 1.</li>
+  <li>Se l’utente inserisce <code class="highlighter-rouge">1</code>  il programma termina.</li>
+</ol>
+
+<p>Esempio:</p>
+
+<video width="502" height="110" controls="">
+  <source src="/eserciziario2.0/assets/posts/MorraCineseMID.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p>Oppure, se la vostra console supporta Unicode:</p>
+
+<video width="502" height="110" controls="">
+  <source src="/eserciziario2.0/assets/posts/MorraCineseUniMID.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
       </div>
       

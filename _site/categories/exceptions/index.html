@@ -112,6 +112,12 @@
           
         
           
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/eserciziario2.0/"></a>
           
         
@@ -155,8 +161,8 @@
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/wrapper/exceptions/2017/02/25/paridispari.html">
-            PariDispari
+          <h2><a href="/eserciziario2.0/wrapper/exceptions/2020/01/23/paridispariwrapper.html">
+            PariDispariWrapper
           </a>
           <small class="pull-right">
           
@@ -170,38 +176,38 @@
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi la classe <code class="highlighter-rouge">PariDispari</code> che valuta il valore intero passato come primo argomento da linea di comando e, se il valore è pari stampa “PARI”, altrimenti stampa “DISPARI”. Nel caso che il valore passato non sia intero <strong>è necessario</strong> gestire l’eventuale errore in maniera appropriata. Qualche esempio:</p>
+          <p>Scrivi la classe <code class="highlighter-rouge">PariDispariWrapper</code> che valuta il valore intero passato come primo argomento da linea di comando e, se il valore è pari stampa “PARI”, altrimenti stampa “DISPARI”. Nel caso che il valore passato non sia intero <strong>è necessario</strong> gestire l’eventuale errore in maniera appropriata. Qualche esempio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispari 3
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispariWrapper 3
 DISPARI
 </code></pre>
 </div>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispari 6
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispariWrapper 6
 PARI
 </code></pre>
 </div>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispari 8
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispariWrapper 8
 PARI
 </code></pre>
 </div>
 
 <p>Se non vengono passati argomenti il programma termina:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispari
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispariWrapper
 $
 </code></pre>
 </div>
 
 <p>Se vengono passati argomenti non appropriati:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispari "Testo"
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispariWrapper "Testo"
 ERRORE: il valore Testo non è accettabile
 </code></pre>
 </div>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispari 5.3
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$ java PariDispariWrapper 5.3
 ERRORE: il valore 5.3 non è accettabile
 </code></pre>
 </div>
@@ -355,6 +361,39 @@ ERRORE: il valore 5.3 non è accettabile
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/exceptions/2019/02/20/calcolatrice3.html">
+            Calcolatrice3
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/exceptions"><span class="label label-warning">exceptions</span></a>
+          
+           <span class="label label-success">Livello 12</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">Calcolatrice3</code> contenente il metodo:</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">calcola</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">espressione</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>Tale metodo valuta le stringhe contenute nell’array <code class="highlighter-rouge">espressione</code> che rappresentano le parti di un’espressione aritmetica e ne calcola il valore.</p>
+
+<p>Ad esempio per <code class="highlighter-rouge"><span class="p">{</span><span class="nt">"1"</span><span class="err">,</span><span class="w"> </span><span class="nt">"+"</span><span class="err">,</span><span class="w"> </span><span class="nt">"2"</span><span class="err">}</span></code> il metodo ritorna <code class="highlighter-rouge">3</code>; mentre per <code class="highlighter-rouge"><span class="p">{</span><span class="nt">"3"</span><span class="err">,</span><span class="w"> </span><span class="nt">"*"</span><span class="err">,</span><span class="w"> </span><span class="nt">"3"</span><span class="err">}</span></code> ritorna <code class="highlighter-rouge">9</code>.</p>
+
+<p>Gli operatori ammessi sono <code class="highlighter-rouge">'+'</code>, <code class="highlighter-rouge">'-'</code>, <code class="highlighter-rouge">'*'</code>, <code class="highlighter-rouge">'/'</code>. Gli operandi devono essere dei numeri interi.</p>
+
+<p>Se l’espressione da valutare contiene un operatore o degli operandi non validi, il metodo ritorna 0.</p>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/exceptions/2018/04/10/timeconverter.html">
             TimeConverter
           </a>
@@ -412,39 +451,6 @@ ERRORE: il valore 5.3 non è accettabile
 <div class="highlighter-rouge"><pre class="highlight"><code>secondi: valore non valido &lt;valore&gt;
 </code></pre>
 </div>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/exceptions/2019/02/20/calcolatrice3.html">
-            Calcolatrice3
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/exceptions"><span class="label label-warning">exceptions</span></a>
-          
-           <span class="label label-success">Livello 12</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi la classe <code class="highlighter-rouge">Calcolatrice3</code> contenente il metodo:</p>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">calcola</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">espressione</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>Tale metodo valuta le stringhe contenute nell’array <code class="highlighter-rouge">espressione</code> che rappresentano le parti di un’espressione aritmetica e ne calcola il valore.</p>
-
-<p>Ad esempio per <code class="highlighter-rouge"><span class="p">{</span><span class="nt">"1"</span><span class="err">,</span><span class="w"> </span><span class="nt">"+"</span><span class="err">,</span><span class="w"> </span><span class="nt">"2"</span><span class="err">}</span></code> il metodo ritorna <code class="highlighter-rouge">3</code>; mentre per <code class="highlighter-rouge"><span class="p">{</span><span class="nt">"3"</span><span class="err">,</span><span class="w"> </span><span class="nt">"*"</span><span class="err">,</span><span class="w"> </span><span class="nt">"3"</span><span class="err">}</span></code> ritorna <code class="highlighter-rouge">9</code>.</p>
-
-<p>Gli operatori ammessi sono <code class="highlighter-rouge">'+'</code>, <code class="highlighter-rouge">'-'</code>, <code class="highlighter-rouge">'*'</code>, <code class="highlighter-rouge">'/'</code>. Gli operandi devono essere dei numeri interi.</p>
-
-<p>Se l’espressione da valutare contiene un operatore o degli operandi non validi, il metodo ritorna 0.</p>
 
       </div>
       

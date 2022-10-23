@@ -112,6 +112,12 @@
           
         
           
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/eserciziario2.0/"></a>
           
         
@@ -290,36 +296,92 @@ Argomenti scartati: -2, cane
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/loop/wrapper/2019/03/05/istogramma.html">
-            Istogramma
+          <h2><a href="/eserciziario2.0/loop/math/interactive/2020/11/23/simpleinterest.html">
+            SimpleInterest
           </a>
           <small class="pull-right">
           
           
             <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
           
-            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
           
-           <span class="label label-success">Livello 9</span>
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 8</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">Istogramma</code> che stampa un <em>grafico a colonne</em> rappresentando una colonna per ogni nota scolastica passata come argomento:</p>
+          <p>Scrivi il programma <code class="highlighter-rouge">SimpleInterest</code> utile per calcolare l’interesse semplice di un prestito. Il programma deve funzionare nel modo seguente:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>java Istogramma 1.5 4 3.2 6
+<ol>
+  <li>Chiede di inserire il capitale iniziale (<math><mi>C</mi><mo>=</mo><msub><mi>M</mi><mn>0</mn></msub></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero valido stampa il messaggio:</p>
 
-6           *
-5.5         *
-5           *
-4.5         *
-4       *   *
-3.5     *   *
-3       * * *
-2.5     * * *
-2       * * *
-1.5   * * * * 
-1     * * * *
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore C non valido "&lt;valore&gt;"   e ricomincia dal punto 1.
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Se il valore inserito è inferiore o uguale 0 stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> C deve essere maggiore di 0   e ricomincia dal punto 1.
+</code></pre>
+    </div>
+  </li>
+  <li>Chiede di inserire il tasso di interesse (<math><mi>i</mi></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore i non valido "&lt;valore&gt;"   e ricomincia dal punto 4.
+</code></pre>
+    </div>
+  </li>
+  <li>Chiede di inserire il periodo (<math><mi>n</mi></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero intero stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore n non valido "&lt;valore&gt;"   e ricomincia dal punto 6.
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Se il valore inserito è inferiore a 0 stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Il periodo deve deve essere positivo  e ricomincia dal punto 6.
+</code></pre>
+    </div>
+  </li>
+  <li>Stampa il montante (<math><msub><mi>M</mi><mi>n</mi></msub></math>) del prestito</li>
+</ol>
+
+<p>Esempio 1:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire il capitale iniziale (C): 1000
+Inserire il tasso di interesse (i): 5
+Inserire il periodo (n): 2
+M2 = 1100.0
+</code></pre>
+</div>
+
+<p>Esempio 2:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire il capitale iniziale (C): -1
+Il capitale deve essere maggiore di 0
+Inserire il capitale iniziale (C): bau
+Valore C non valido "bau"
+Inserire il capitale iniziale (C): 1000
+Inserire il tasso di interesse (i): miao
+Valore i non valido "miao"
+Inserire il tasso di interesse (i): 7
+Inserire il periodo (n): -1
+Il periodo deve essere positivo
+Inserire il periodo (n): cucu
+Valore n non valido "cucu"
+Inserire il periodo (n): 5
+M5 = 1350.0
 </code></pre>
 </div>
 
@@ -329,49 +391,83 @@ Argomenti scartati: -2, cane
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/loop/math/2017/02/25/fibonacci.html">
-            Fibonacci
+          <h2><a href="/eserciziario2.0/math/loop/interactive/2020/11/23/arithmeticprogression.html">
+            ArithmeticProgression
           </a>
           <small class="pull-right">
           
           
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
             <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
           
-           <span class="label label-success">Livello 9</span>
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 8</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>La classe <code class="highlighter-rouge">Fibonacci</code> deve generare i primi mille numeri della celeberrima <em>successione di Fibonacci</em> (<a href="https://it.wikipedia.org/wiki/Successione_di_Fibonacci">wiki</a>).</p>
+          <p>Scrivi il programma <code class="highlighter-rouge">ArithmeticProgression</code> utile per calcolare i termini di una progressione aritmetica. Il programma deve funzionare nel modo seguente:</p>
 
-<p>Tale successione inizia con i due valori 0 e 1 (detti <em>F0</em> e <em>F1</em>). Il valore seguente (<em>F2</em>) si ottiene sommando i due precedenti (0 + 1 = 1), il quarto valore (<em>F3</em>) si ottiene sommado tra loro il <em>F1</em> e <em>F2</em> (1 + 1 = 2) e via dicendo. I primi valori della serie sono 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 (F10),…</p>
+<ol>
+  <li>Chiede di inserire il valore del primo termine (<math><msub><mi>a</mi><mn>1</mn></msub></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero intero stampa il messaggio:</p>
 
-      </div>
-      
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore a1 non valido "&lt;valore&gt;"   e ricomincia dal punto 1.
+</code></pre>
     </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/loop/math/2017/02/25/bisestili.html">
-            Bisestili
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
-          
-           <span class="label label-success">Livello 9</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">Bisestili</code> che stampa tutti gli anni bisestili (<a href="https://it.wikipedia.org/wiki/Anno_bisestile">wiki</a>) tra il 1600 e il 3000. Esempio:</p>
+  </li>
+  <li>Chiede di inserire la <em>ragione</em> (<math><mi>r</mi></math>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero intero stampa:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>1600, 1604, 1608, 1612, 1616, 1620, ... 2976, 2980, 2984, 2988, 2992, 2996.
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore r non valido "&lt;valore&gt;"   e ricomincia dal punto 3.
+</code></pre>
+    </div>
+  </li>
+  <li>Chiede di inserire il numero di termini da stampare (<code class="highlighter-rouge">N</code>)</li>
+  <li>
+    <p>Se il valore inserito non è un numero intero stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Valore N non valido "&lt;valore&gt;"   e ricomincia dal punto 5.
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Se il valore inserito è inferiore a 1 stampa:</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code> Il numero di termini deve essere maggiore di 0   e ricomincia dal punto 5.
+</code></pre>
+    </div>
+  </li>
+  <li>Stampa i primi <code class="highlighter-rouge">N</code> termini della progressione aritmetica</li>
+</ol>
+
+<p>Esempio 1:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire primo termine (a1): 1
+Inserire ragione (r): 2
+Inserire numero di termini (N): 10
+1, 3, 5, 7, 9, 11, 13, 15, 17, 19.
+</code></pre>
+</div>
+
+<p>Esempio 2:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire primo termine (a1): bau
+Valore a1 non valido "bau"
+Inserire primo termine (a1): 1
+Inserire ragione (r): miao
+Valore r non valido "miao"
+Inserire ragione (r): 2
+Inserire numero di termini (N): muhh
+Valore N non valido "muhh"
+Inserire numero di termini (N): 0
+Il numero di termini deve essere maggiore di 0
+Inserire numero di termini (N): 5
+1, 3, 5, 7, 9.
 </code></pre>
 </div>
 
@@ -425,6 +521,97 @@ hex:	48	65	6c	6c	6f	20	77	6f	72	6c	64	21
 
 </code></pre>
 </div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/wrapper/2019/03/05/istogramma.html">
+            Istogramma
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
+          
+           <span class="label label-success">Livello 9</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">Istogramma</code> che stampa un <em>grafico a colonne</em> rappresentando una colonna per ogni nota scolastica passata come argomento:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>java Istogramma 1.5 4 3.2 6
+
+6           *
+5.5         *
+5           *
+4.5         *
+4       *   *
+3.5     *   *
+3       * * *
+2.5     * * *
+2       * * *
+1.5   * * * * 
+1     * * * *
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/math/2017/02/25/bisestili.html">
+            Bisestili
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+           <span class="label label-success">Livello 9</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">Bisestili</code> che stampa tutti gli anni bisestili (<a href="https://it.wikipedia.org/wiki/Anno_bisestile">wiki</a>) tra il 1600 e il 3000. Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>1600, 1604, 1608, 1612, 1616, 1620, ... 2976, 2980, 2984, 2988, 2992, 2996.
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/math/2017/02/25/fibonacci.html">
+            Fibonacci
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+           <span class="label label-success">Livello 9</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>La classe <code class="highlighter-rouge">Fibonacci</code> deve generare i primi mille numeri della celeberrima <em>successione di Fibonacci</em> (<a href="https://it.wikipedia.org/wiki/Successione_di_Fibonacci">wiki</a>).</p>
+
+<p>Tale successione inizia con i due valori 0 e 1 (detti <em>F0</em> e <em>F1</em>). Il valore seguente (<em>F2</em>) si ottiene sommando i due precedenti (0 + 1 = 1), il quarto valore (<em>F3</em>) si ottiene sommado tra loro il <em>F1</em> e <em>F2</em> (1 + 1 = 2) e via dicendo. I primi valori della serie sono 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 (F10),…</p>
 
       </div>
       
@@ -510,6 +697,36 @@ Char: 3e7 ==&gt; 'ϧ'
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/2017/02/25/defarfallinatore.html">
+            DeFarfallinatore
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+           <span class="label label-success">Livello 10</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi un decodificatore capace decifrare una stringa in <em>alfabeto farfallino</em>.</p>
+
+<p>Esempio:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java DeFarfallinatore Lefe frafagofolefe sofonofo mafatufurefe
+Le fragole sono mature
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/math/loop/methods/2018/03/14/mathtool.html">
             MathTool
           </a>
@@ -554,38 +771,6 @@ Char: 3e7 ==&gt; 'ϧ'
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/math/loop/wrapper/2017/02/25/elevazioneapotenza.html">
-            ElevazioneAPotenza
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
-          
-           <span class="label label-success">Livello 10</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi il programma Java <code class="highlighter-rouge">ElevazioneAPotenza</code> che calcola l’elevazione a potenza del valore intero passato come primo argomento per il secondo argomento intero.</p>
-
-<p>Esempio:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt; java ElevazioneAPotenza 2 3 
-2 ^ 3 = 8
-</code></pre>
-</div>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/string/loop/2017/02/25/farfallinatore.html">
             Farfallinatore
           </a>
@@ -616,27 +801,29 @@ Tafantofo vafa lafa gafattafa afal lafardofo
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/loop/2017/02/25/defarfallinatore.html">
-            DeFarfallinatore
+          <h2><a href="/eserciziario2.0/math/loop/wrapper/2017/02/25/elevazioneapotenza.html">
+            ElevazioneAPotenza
           </a>
           <small class="pull-right">
           
           
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
           
             <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/wrapper"><span class="label label-warning">wrapper</span></a>
           
            <span class="label label-success">Livello 10</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi un decodificatore capace decifrare una stringa in <em>alfabeto farfallino</em>.</p>
+          <p>Scrivi il programma Java <code class="highlighter-rouge">ElevazioneAPotenza</code> che calcola l’elevazione a potenza del valore intero passato come primo argomento per il secondo argomento intero.</p>
 
 <p>Esempio:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt;java DeFarfallinatore Lefe frafagofolefe sofonofo mafatufurefe
-Le fragole sono mature
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>&gt; java ElevazioneAPotenza 2 3 
+2 ^ 3 = 8
 </code></pre>
 </div>
 
@@ -695,7 +882,7 @@ T n o v   a g t a a   a d .
     <div class="panel panel-info">
         <div class="panel-heading">
           <h2><a href="/eserciziario2.0/draw/loop/2017/02/25/quadrato.html">
-            Quadrato
+            QuadratoPieno
           </a>
           <small class="pull-right">
           
@@ -709,7 +896,7 @@ T n o v   a g t a a   a d .
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma Java <code class="highlighter-rouge">Quadrato</code>. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (<em>N</em>) e poi disegna a terminale un quadrato <em>pieno</em> composto di asterischi (‘*’) con il lato lungo <em>N</em>:</p>
+          <p>Scrivi il programma Java <code class="highlighter-rouge">QuadratoPieno</code>. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo (<em>N</em>) e poi disegna a terminale un quadrato <em>pieno</em> composto di asterischi (‘*’) con il lato lungo <em>N</em>:</p>
 
 <p>Per <em>N</em> pari a 3 il programma stampa:</p>
 
@@ -729,6 +916,44 @@ T n o v   a g t a a   a d .
 </code></pre>
 </div>
 <p>E via dicendo…</p>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/string/2018/12/23/doublecounter.html">
+            DoubleCounter
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+           <span class="label label-success">Livello 11</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">DoubleCounter</code> che chiede all’utente di inserire una parola e stampa il conteggio delle coppie caratteri consecutivi uguali (<em>non sensibile alle maiuscole</em>) contenute nella parola. Qualche esempio:</p>
+
+<ul>
+  <li>per la parola <code class="highlighter-rouge">cane</code> il conteggio vale <code class="highlighter-rouge">0</code></li>
+  <li>per <code class="highlighter-rouge">gatto</code> vale <code class="highlighter-rouge">1</code> (<code class="highlighter-rouge">tt</code>)</li>
+  <li>per <code class="highlighter-rouge">caMmMicia</code> vale <code class="highlighter-rouge">2</code> (<code class="highlighter-rouge">Mm</code> e <code class="highlighter-rouge">mM</code>)</li>
+  <li>per <code class="highlighter-rouge">abbacchio</code> vale <code class="highlighter-rouge">2</code> (<code class="highlighter-rouge">bb</code> e <code class="highlighter-rouge">cc</code>)</li>
+  <li>per <code class="highlighter-rouge">Ooteca</code> vale <code class="highlighter-rouge">1</code> (<code class="highlighter-rouge">Oo</code>)</li>
+</ul>
+
+<p>Esempio di output:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire una parola: Zzzzummm
+Coppie: 5
+</code></pre>
+</div>
 
       </div>
       
@@ -769,44 +994,6 @@ sAatl  aivts!a
 </code></pre>
 </div>
 
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/loop/string/2018/12/23/doublecounter.html">
-            DoubleCounter
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
-          
-           <span class="label label-success">Livello 11</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi la classe <code class="highlighter-rouge">DoubleCounter</code> che chiede all’utente di inserire una parola e stampa il conteggio delle coppie caratteri consecutivi uguali (<em>non sensibile alle maiuscole</em>) contenute nella parola. Qualche esempio:</p>
-
-<ul>
-  <li>per la parola <code class="highlighter-rouge">cane</code> il conteggio vale <code class="highlighter-rouge">0</code></li>
-  <li>per <code class="highlighter-rouge">gatto</code> vale <code class="highlighter-rouge">1</code> (<code class="highlighter-rouge">tt</code>)</li>
-  <li>per <code class="highlighter-rouge">caMmMicia</code> vale <code class="highlighter-rouge">2</code> (<code class="highlighter-rouge">Mm</code> e <code class="highlighter-rouge">mM</code>)</li>
-  <li>per <code class="highlighter-rouge">abbacchio</code> vale <code class="highlighter-rouge">2</code> (<code class="highlighter-rouge">bb</code> e <code class="highlighter-rouge">cc</code>)</li>
-  <li>per <code class="highlighter-rouge">Ooteca</code> vale <code class="highlighter-rouge">1</code> (<code class="highlighter-rouge">Oo</code>)</li>
-</ul>
-
-<p>Esempio di output:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Inserire una parola: Zzzzummm
-Coppie: 5
-</code></pre>
-</div>
 
       </div>
       
@@ -856,42 +1043,52 @@ Coppie: 5
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/draw/loop/2017/02/25/triangoloisoscele.html">
-            TriangoloIsoscele
+          <h2><a href="/eserciziario2.0/loop/draw/2020/12/12/framename.html">
+            FrameName
           </a>
           <small class="pull-right">
           
           
-            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
-          
             <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
           
            <span class="label label-success">Livello 12</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma Java <code class="highlighter-rouge">TriangoloIsoscele </code>. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo dispari (<em>N</em>) e poi disegna a terminale un triangolo <em>vuoto</em> composto di asterischi (‘*’) avente la base di lunghezza pari ad <em>N</em>.</p>
+          <p>Scrivi la classe <code class="highlighter-rouge">FrameName</code> che chiede all’utente di inserire un testo e po lo stampa incorniciandolo utilizzando i caratteri Unicode della pagina <a href="http://www.unicode.org/charts/PDF/U2500.pdf">U2500</a>.</p>
 
-<p>Il programma accetta esclusivamente valori <strong>numerici interi positivi dispari</strong>.</p>
+<p>Qualche esempio:</p>
 
-<p>Se l’utente fornisce un dato non accettabile (non numerico, pari o negativo) il programma produce il messaggio “inserire solo numeri positivi dispari”.</p>
-
-<p>Per <em>N</em> pari a 3 il programma stampa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code> *
-***
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire testo: Alb
+┌─────┐
+│ Alb │
+└─────┘
 </code></pre>
 </div>
 
-<p>Per <em>N</em> pari a 5 il programma stampa:</p>
+<p>Oppure:</p>
 
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>  *
- * * 
-*****
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire testo: Andrea
+┌────────┐
+│ Andrea │
+└────────┘
 </code></pre>
 </div>
-<p>E via dicendo…</p>
+
+<p>O ancora:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire testo: Tanto va la gatta al lardo...
+┌───────────────────────────────┐
+│ Tanto va la gatta al lardo... │
+└───────────────────────────────┘
+</code></pre>
+</div>
+
+<p>Nota: Su alcune shell i caratteri unicode potrebbero essere rappresentati in modo errato.</p>
+
 
       </div>
       
@@ -1221,6 +1418,49 @@ Coppie: 5
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/draw/loop/2017/02/25/triangoloisoscele.html">
+            TriangoloIsoscele
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+           <span class="label label-success">Livello 12</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma Java <code class="highlighter-rouge">TriangoloIsoscele </code>. Il programma chiede all’utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero positivo dispari (<em>N</em>) e poi disegna a terminale un triangolo <em>vuoto</em> composto di asterischi (‘*’) avente la base di lunghezza pari ad <em>N</em>.</p>
+
+<p>Il programma accetta esclusivamente valori <strong>numerici interi positivi dispari</strong>.</p>
+
+<p>Se l’utente fornisce un dato non accettabile (non numerico, pari o negativo) il programma produce il messaggio “inserire solo numeri positivi dispari”.</p>
+
+<p>Per <em>N</em> pari a 3 il programma stampa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code> *
+***
+</code></pre>
+</div>
+
+<p>Per <em>N</em> pari a 5 il programma stampa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>  *
+ * * 
+*****
+</code></pre>
+</div>
+<p>E via dicendo…</p>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/draw/loop/2017/02/25/triangolorettangolovuoto.html">
             TriangoloRettangoloVuoto
           </a>
@@ -1298,6 +1538,286 @@ Coppie: 5
 </code></pre>
 </div>
 <p>E via dicendo…</p>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/rotator.html">
+            Rotator
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">Rotator</code> che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.</p>
+
+<p>La figura introdotta può avere una dimensione massima di 10 x 10 (10 righe e 10 colonne).</p>
+
+<p>L’introduzione della figura termina con successo quando l’utente introduce una riga vuota e preme <em>enter</em> oppure quando la dimensione verticale della figura raggiunge le 10 righe.</p>
+
+<p>Se durante l’introduzione l’utente introduce una riga più lunga di 10 caratteri il programma stampa il messaggio <code class="highlighter-rouge">Linea troppo lunga, riprova:</code> e l’introduzione ricomincia da capo.</p>
+
+<p>Qualche esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire un disegno (enter per terminare): 
+abcd
+efgh
+
+Rotazione:
+
+ae
+bf
+cg
+dh
+</code></pre>
+</div>
+
+<p>Oppure:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire un disegno (enter per terminare): 
+     *
+     ***
+*********
+     ***
+     *
+
+Rotazione:
+
+  *  
+  *  
+  *  
+  *  
+  *  
+*****
+ *** 
+ *** 
+  *  
+</code></pre>
+</div>
+
+<p>Oppure per un riga troppo lunga:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire un disegno (enter per terminare): 
+abcdefghjkklm
+Linea troppo lunga, riprova:
+12345
+6   7
+89ABC
+
+Rotazione:
+
+168
+2 9
+3 A
+4 B
+57C
+</code></pre>
+</div>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/draw/loop/math/2017/03/21/cerchio.html">
+            Cerchio
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">Cerchio</code> che chiede all’utente di introdurre un numero intero positivo (<em>N</em>) e poi disegna a terminale un <em>cerchio</em> di raggio pari ad <em>N</em>:</p>
+
+<p>Per <em>N</em> pari a 2 il programma stampa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>    * * *   
+  *       * 
+  *   x   * 
+  *       * 
+    * * * 
+</code></pre>
+</div>
+
+<p>Per un raggio pari a 3:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>      * * *     
+    *       *   
+  *           * 
+  *     x     * 
+  *           * 
+    *       *   
+      * * *  
+</code></pre>
+</div>
+
+<p>Per 7:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>            * * * * *           
+        * *           * *       
+      *                   *     
+    *                       *   
+    *                       *   
+  *                           * 
+  *                           * 
+  *             x             * 
+  *                           * 
+  *                           * 
+    *                       *   
+    *                       *   
+      *                   *     
+        * *           * *       
+            * * * * *   
+</code></pre>
+</div>
+<p>E via dicendo…</p>
+
+<p>Per compensare la forma rettangolare dei caratteri e conferire maggiore rotondità al cerchio, <em>raddoppiare la larghezza</em> del disegno. Ad esempio per un raggio pari a 3:</p>
+
+<p><img src="/eserciziario2.0/assets/posts/cerchio.png" alt="" width="600" /></p>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html">
+            Butterflyzer
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma interattivo <code class="highlighter-rouge">Butterflyzer</code> che permetta di codificare e decodificare messaggi in <em>alfabeto farfallino</em>.</p>
+
+<ol>
+  <li>Inizialmente il programma propone di scegliere la funzione (<code class="highlighter-rouge">'c'</code> per codificare, <code class="highlighter-rouge">'d'</code> per decodificare, <code class="highlighter-rouge">'q'</code> per terminare),</li>
+  <li>Se la scelta digitata non è valida ricomincia dal punto 1.</li>
+  <li>Se la scelta è <code class="highlighter-rouge">'q'</code> il programma termina.</li>
+  <li>Se la scelta è <code class="highlighter-rouge">'c'</code>, chiede all’utente di digitare una stringa di testo da codificare e poi stampa il messaggio codificato.</li>
+  <li>Se la scelta è <code class="highlighter-rouge">'d'</code>, chiede all’utente di digitare il messagio da decodificare e poi stampa il testo decodificato.</li>
+  <li>Il programma ricomincia dal punto 1.</li>
+</ol>
+
+<p>Esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ java Butterflyzer
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: x
+Scelta non valida 'x'
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: c
+Inserire testo da codificare: Tanto va la gatta al lardo
+Messaggio codificato: Tafantofo vafa lafa gafattafa afal lafardofo
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: d
+Messaggio da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
+Testo decodificato: Le fragole sono mature
+
+Codificatore/decodificatore alfabeto Farfallino
+Premi 'c' per codificare un messaggio
+Premi 'd' per decodificare un messaggio
+Premi 'q' per uscire
+Scelta: q
+$
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/methods/loop/string/draw/2017/02/25/nameframer.html">
+            NameFramer
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">NameFramer</code> contenente il metodo:</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="n">pubic</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">frameName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="kt">char</span> <span class="n">c</span><span class="o">,</span> <span class="kt">int</span> <span class="n">width</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>che ritorna una stringa contenente la stringa <code class="highlighter-rouge">name</code> incorniciata nel carattere <code class="highlighter-rouge">c</code> utilizzato con uno spessore <code class="highlighter-rouge">width</code>.</p>
+
+<p>Ad esempio <code class="highlighter-rouge">frameName("Piero",'*',2)</code> ritorna la stringa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>*********
+*********
+**Piero**
+*********
+*********
+</code></pre>
+</div>
+
+<p>mentre <code class="highlighter-rouge">frameName("Andrea",'$',1)</code> ritorna la stringa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>$$$$$$$$
+$Andrea$
+$$$$$$$$
+</code></pre>
+</div>
 
       </div>
       
@@ -1440,6 +1960,151 @@ Inserire coordinata colonna [0;4]: 0
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/filler.html">
+            Filler
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">Filler</code> che chiede all’utente di disegnare una figura bidimensionale chiusa composta di asterischi (<code class="highlighter-rouge">'*'</code>). L’introduzione della figura termina quando l’utente introduce una riga vuota e preme <em>enter</em>. Il programma stampa poi la figura riempiendone le cavità orizzontali, come mostrato negli esempi seguenti. Qualche esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Disegnare figura chiusa (enter per terminare): 
+********
+*      *
+*      *
+********
+
+Figura piena:
+
+********
+********
+********
+********
+</code></pre>
+</div>
+
+<p>Oppure:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Disegnare figura chiusa (enter per terminare): 
+      *
+  *       *
+*           *
+  *       *
+      *
+
+Figura piena:
+      *
+  *********
+*************
+  *********
+      *
+</code></pre>
+</div>
+
+<p>Se viene immessa una riga non vuota che non contiene nemmeno un asterisco, viene stampato il messaggio <code class="highlighter-rouge">Linea non valida!</code> e poi ripete la richiesta iniziale. Esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Disegnare figura chiusa (enter per terminare): 
+kasdjfnkasfd
+Linea non valida! Disegnare figura chiusa (enter per terminare): 
+   *
+  * *
+ *****  
+   * 
+
+Figura piena:
+   *
+  ***
+ *****  
+   * 
+</code></pre>
+</div>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/patternizer.html">
+            Patternizer
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi la classe <code class="highlighter-rouge">Patternizer</code> che chiede all’utente di inserire un <em>pattern</em> che servirà da modello per disegnare una figura bidimensionale. L’utente introduce la sequenza di caratteri da stampare su di una sola riga utilizzando il carattere <code class="highlighter-rouge">'g'</code> per indicare i punti in cui andare <em>a capo</em>.</p>
+
+<p>Ad esempio la sequenza <code class="highlighter-rouge">" /\g/  \g|__|"</code> produce il disegno seguente:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> /\
+/  \
+|__|
+</code></pre>
+</div>
+
+<p>Il programma stampa il disegno in uno spazio cartesiano in cui devono comparire le coordinate orizzontali e verticali come mostrato negli esempi seguenti:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire pattern (g per new line):
+****g*  *g*  *g****
+ 0123
+0****
+1*  *
+2*  *
+3****
+</code></pre>
+</div>
+
+<p>Oppure:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire pattern (g per new line):
+*********g.*.....*.g..*...*..g...*.*...g....*....
+ 012345678
+0*********
+1.*.....*.
+2..*...*..
+3...*.*...
+4....*....
+</code></pre>
+</div>
+
+<p>La figura contenuta nel pattern deve avere una larghezza massima di 10 caratteri. Se il pattern fornito non rispetta questa regola, il programma stampa il messaggio <code class="highlighter-rouge">Riga &lt;riga&gt; troppo lunga (max 10 char)</code>, indicando il numero della riga non valida e poi ripete la richiesta iniziale. Esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire pattern (g per new line):
+*.*.*.*.*.*g***g---*g
+Riga 0 troppo lunga (max 10 char)
+Inserire pattern (g per new line):
+/\/\/\g\/\/\/
+ 012345
+0/\/\/\
+1\/\/\/
+</code></pre>
+</div>
+
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/string/methods/switch/loop/2017/03/07/advancedstringtool.html">
             AdvancedStringTool
           </a>
@@ -1529,431 +2194,6 @@ Inserire coordinata colonna [0;4]: 0
 </div>
 
 <p>Ritorna <code class="highlighter-rouge">true</code> se <code class="highlighter-rouge">firstWord</code> è un anagramma di <code class="highlighter-rouge">secondWord</code>, altrimenti ritorna <code class="highlighter-rouge">false</code>. Esempio <code class="highlighter-rouge">isAnagram("calendario","locandiera")</code> ritorna <code class="highlighter-rouge">true</code>.</p>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/methods/loop/string/draw/2017/02/25/nameframer.html">
-            NameFramer
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/methods"><span class="label label-warning">methods</span></a>
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
-          
-            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi la classe <code class="highlighter-rouge">NameFramer</code> contenente il metodo:</p>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="n">pubic</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">frameName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="kt">char</span> <span class="n">c</span><span class="o">,</span> <span class="kt">int</span> <span class="n">width</span><span class="o">)</span>
-</code></pre>
-</div>
-
-<p>che ritorna una stringa contenente la stringa <code class="highlighter-rouge">name</code> incorniciata nel carattere <code class="highlighter-rouge">c</code> utilizzato con uno spessore <code class="highlighter-rouge">width</code>.</p>
-
-<p>Ad esempio <code class="highlighter-rouge">frameName("Piero",'*',2)</code> ritorna la stringa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>*********
-*********
-**Piero**
-*********
-*********
-</code></pre>
-</div>
-
-<p>mentre <code class="highlighter-rouge">frameName("Andrea",'$',1)</code> ritorna la stringa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>$$$$$$$$
-$Andrea$
-$$$$$$$$
-</code></pre>
-</div>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/draw/loop/math/2017/03/21/cerchio.html">
-            Cerchio
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/draw"><span class="label label-warning">draw</span></a>
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">Cerchio</code> che chiede all’utente di introdurre un numero intero positivo (<em>N</em>) e poi disegna a terminale un <em>cerchio</em> di raggio pari ad <em>N</em>:</p>
-
-<p>Per <em>N</em> pari a 2 il programma stampa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>    * * *   
-  *       * 
-  *   x   * 
-  *       * 
-    * * * 
-</code></pre>
-</div>
-
-<p>Per un raggio pari a 3:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>      * * *     
-    *       *   
-  *           * 
-  *     x     * 
-  *           * 
-    *       *   
-      * * *  
-</code></pre>
-</div>
-
-<p>Per 7:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>            * * * * *           
-        * *           * *       
-      *                   *     
-    *                       *   
-    *                       *   
-  *                           * 
-  *                           * 
-  *             x             * 
-  *                           * 
-  *                           * 
-    *                       *   
-    *                       *   
-      *                   *     
-        * *           * *       
-            * * * * *   
-</code></pre>
-</div>
-<p>E via dicendo…</p>
-
-<p>Per compensare la forma rettangolare dei caratteri e conferire maggiore rotondità al cerchio, <em>raddoppiare la larghezza</em> del disegno. Ad esempio per un raggio pari a 3:</p>
-
-<p><img src="/eserciziario2.0/assets/posts/cerchio.png" alt="" width="600" /></p>
-
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/patternizer.html">
-            Patternizer
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi la classe <code class="highlighter-rouge">Patternizer</code> che chiede all’utente di inserire un <em>pattern</em> che servirà da modello per disegnare una figura bidimensionale. L’utente introduce la sequenza di caratteri da stampare su di una sola riga utilizzando il carattere <code class="highlighter-rouge">'g'</code> per indicare i punti in cui andare <em>a capo</em>.</p>
-
-<p>Ad esempio la sequenza <code class="highlighter-rouge">" /\g/  \g|__|"</code> produce il disegno seguente:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code> /\
-/  \
-|__|
-</code></pre>
-</div>
-
-<p>Il programma stampa il disegno in uno spazio cartesiano in cui devono comparire le coordinate orizzontali e verticali come mostrato negli esempi seguenti:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Inserire pattern (g per new line):
-****g*  *g*  *g****
- 0123
-0****
-1*  *
-2*  *
-3****
-</code></pre>
-</div>
-
-<p>Oppure:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Inserire pattern (g per new line):
-*********g.*.....*.g..*...*..g...*.*...g....*....
- 012345678
-0*********
-1.*.....*.
-2..*...*..
-3...*.*...
-4....*....
-</code></pre>
-</div>
-
-<p>La figura contenuta nel pattern deve avere una larghezza massima di 10 caratteri. Se il pattern fornito non rispetta questa regola, il programma stampa il messaggio <code class="highlighter-rouge">Riga &lt;riga&gt; troppo lunga (max 10 char)</code>, indicando il numero della riga non valida e poi ripete la richiesta iniziale. Esempio:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Inserire pattern (g per new line):
-*.*.*.*.*.*g***g---*g
-Riga 0 troppo lunga (max 10 char)
-Inserire pattern (g per new line):
-/\/\/\g\/\/\/
- 012345
-0/\/\/\
-1\/\/\/
-</code></pre>
-</div>
-
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/04/butterflyzer.html">
-            Butterflyzer
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi il programma interattivo <code class="highlighter-rouge">Butterflyzer</code> che permetta di codificare e decodificare messaggi in <em>alfabeto farfallino</em>.</p>
-
-<ol>
-  <li>Inizialmente il programma propone di scegliere la funzione (<code class="highlighter-rouge">'c'</code> per codificare, <code class="highlighter-rouge">'d'</code> per decodificare, <code class="highlighter-rouge">'q'</code> per terminare),</li>
-  <li>Se la scelta digitata non è valida ricomincia dal punto 1.</li>
-  <li>Se la scelta è <code class="highlighter-rouge">'q'</code> il programma termina.</li>
-  <li>Se la scelta è <code class="highlighter-rouge">'c'</code>, chiede all’utente di digitare una stringa di testo da codificare e poi stampa il messaggio codificato.</li>
-  <li>Se la scelta è <code class="highlighter-rouge">'d'</code>, chiede all’utente di digitare il messagio da decodificare e poi stampa il testo decodificato.</li>
-  <li>Il programma ricomincia dal punto 1.</li>
-</ol>
-
-<p>Esempio:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>$ java Butterflyzer
-Codificatore/decodificatore alfabeto Farfallino
-Premi 'c' per codificare un messaggio
-Premi 'd' per decodificare un messaggio
-Premi 'q' per uscire
-Scelta: x
-Scelta non valida 'x'
-
-Codificatore/decodificatore alfabeto Farfallino
-Premi 'c' per codificare un messaggio
-Premi 'd' per decodificare un messaggio
-Premi 'q' per uscire
-Scelta: c
-Inserire testo da codificare: Tanto va la gatta al lardo
-Messaggio codificato: Tafantofo vafa lafa gafattafa afal lafardofo
-
-Codificatore/decodificatore alfabeto Farfallino
-Premi 'c' per codificare un messaggio
-Premi 'd' per decodificare un messaggio
-Premi 'q' per uscire
-Scelta: d
-Messaggio da decodificare: Lefe frafagofolefe sofonofo mafatufurefe
-Testo decodificato: Le fragole sono mature
-
-Codificatore/decodificatore alfabeto Farfallino
-Premi 'c' per codificare un messaggio
-Premi 'd' per decodificare un messaggio
-Premi 'q' per uscire
-Scelta: q
-$
-</code></pre>
-</div>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/filler.html">
-            Filler
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">Filler</code> che chiede all’utente di disegnare una figura bidimensionale chiusa composta di asterischi (<code class="highlighter-rouge">'*'</code>). L’introduzione della figura termina quando l’utente introduce una riga vuota e preme <em>enter</em>. Il programma stampa poi la figura riempiendone le cavità orizzontali, come mostrato negli esempi seguenti. Qualche esempio:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Disegnare figura chiusa (enter per terminare): 
-********
-*      *
-*      *
-********
-
-Figura piena:
-
-********
-********
-********
-********
-</code></pre>
-</div>
-
-<p>Oppure:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Disegnare figura chiusa (enter per terminare): 
-      *
-  *       *
-*           *
-  *       *
-      *
-
-Figura piena:
-      *
-  *********
-*************
-  *********
-      *
-</code></pre>
-</div>
-
-<p>Se viene immessa una riga non vuota che non contiene nemmeno un asterisco, viene stampato il messaggio <code class="highlighter-rouge">Linea non valida!</code> e poi ripete la richiesta iniziale. Esempio:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Disegnare figura chiusa (enter per terminare): 
-kasdjfnkasfd
-Linea non valida! Disegnare figura chiusa (enter per terminare): 
-   *
-  * *
- *****  
-   * 
-
-Figura piena:
-   *
-  ***
- *****  
-   * 
-</code></pre>
-</div>
-
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/loop/interactive/2018/12/23/rotator.html">
-            Rotator
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">Rotator</code> che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.</p>
-
-<p>La figura introdotta può avere una dimensione massima di 10 x 10 (10 righe e 10 colonne).</p>
-
-<p>L’introduzione della figura termina con successo quando l’utente introduce una riga vuota e preme <em>enter</em> oppure quando la dimensione verticale della figura raggiunge le 10 righe.</p>
-
-<p>Se durante l’introduzione l’utente introduce una riga più lunga di 10 caratteri il programma stampa il messaggio <code class="highlighter-rouge">Linea troppo lunga, riprova:</code> e l’introduzione ricomincia da capo.</p>
-
-<p>Qualche esempio:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Inserire un disegno (enter per terminare): 
-abcd
-efgh
-
-Rotazione:
-
-ae
-bf
-cg
-dh
-</code></pre>
-</div>
-
-<p>Oppure:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Inserire un disegno (enter per terminare): 
-     *
-     ***
-*********
-     ***
-     *
-
-Rotazione:
-
-  *  
-  *  
-  *  
-  *  
-  *  
-*****
- *** 
- *** 
-  *  
-</code></pre>
-</div>
-
-<p>Oppure per un riga troppo lunga:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Inserire un disegno (enter per terminare): 
-abcdefghjkklm
-Linea troppo lunga, riprova:
-12345
-6   7
-89ABC
-
-Rotazione:
-
-168
-2 9
-3 A
-4 B
-57C
-</code></pre>
-</div>
-
 
       </div>
       

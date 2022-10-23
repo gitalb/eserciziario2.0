@@ -1,656 +1,478 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2019-06-06T14:48:48+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">HyperCar</title><link href="http://localhost:4000/eserciziario2.0/anim1d/2019/06/05/hypercar.html" rel="alternate" type="text/html" title="HyperCar" /><published>2019-06-05T15:26:41+02:00</published><updated>2019-06-05T15:26:41+02:00</updated><id>http://localhost:4000/eserciziario2.0/anim1d/2019/06/05/hypercar</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/anim1d/2019/06/05/hypercar.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;HyperCar&lt;/code&gt; che produca l’animazione mostrata in seguito. La lunghezza della barra è definita dal primo argomento da linea di comando (default 10):&lt;/p&gt;
-
-&lt;video width=&quot;598&quot; height=&quot;244&quot; controls=&quot;&quot;&gt;
-  &lt;source src=&quot;/eserciziario2.0/assets/posts/HyperCar.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-  Your browser does not support the video tag.
-&lt;/video&gt;</content><author><name></name></author><summary type="html">Scrivi la classe HyperCar che produca l’animazione mostrata in seguito. La lunghezza della barra è definita dal primo argomento da linea di comando (default 10):</summary></entry><entry><title type="html">VerticalCrossword</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword.html" rel="alternate" type="text/html" title="VerticalCrossword" /><published>2019-03-08T12:59:00+01:00</published><updated>2019-03-08T12:59:00+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/verticalcrossword.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;VerticalCrossword&lt;/code&gt; contenente i metodi utili per trovare delle &lt;em&gt;parole nascoste&lt;/em&gt; nelle colonne di una matrice.&lt;/p&gt;
-
-&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;VerticalCrossword&lt;/code&gt; deve contenere i metodi seguenti:&lt;/p&gt;
-
-&lt;h3 id=&quot;public-static-int-getmaxwidthchar-table&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int getMaxWidth(char[][] table)&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Ritorna la dimensione della &lt;em&gt;riga più larga&lt;/em&gt; (con il maggior numero di colonne) contenuta nella matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;public-static-string-getcolasstringchar-table-int-col&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String getColAsString(char[][] table, int col)&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Ritorna la stringa ottenuta concatenando tutti i caratteri presenti nella colonna &lt;code class=&quot;highlighter-rouge&quot;&gt;col&lt;/code&gt; della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt;. Le righe troppo corte per possedere un carattere nella colonna specificata da &lt;code class=&quot;highlighter-rouge&quot;&gt;col&lt;/code&gt; vengono ignorate. Ad esempio, per la matrice seguente e per &lt;code class=&quot;highlighter-rouge&quot;&gt;col&lt;/code&gt; pari a &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;, il metodo ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;CaNe&quot;&lt;/code&gt;:&lt;/p&gt;
-
-&lt;style type=&quot;text/css&quot;&gt;
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-xldj{border-color:inherit;text-align:left;border-style:solid;border-width:1px}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top;border-style:solid;border-width:0px}
-&lt;/style&gt;
-
-&lt;table class=&quot;tg&quot;&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;C&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;C&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;a&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;N&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;b&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;e&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;public-static-int-searchincolschar-table-string-word&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int searchInCols(char[][] table, String word)&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Ritorna l’indice della colonna della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; che contiene la parola &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; (non sensibile al caso dei caratteri). Se &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; è presente in più colonne, ritorna l’indice della prima ricorrenza. Se nessuna colonna di &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; contiene &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt;, ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;-1&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ad esempio per la parola &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;cane&quot;&lt;/code&gt; e la matrice seguente il metodo ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;:&lt;/p&gt;
-
-&lt;table class=&quot;tg&quot;&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;C&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;C&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;a&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;N&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;b&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;e&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Mentre per questa matrice e &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;BAU&quot;&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;:&lt;/p&gt;
-
-&lt;table class=&quot;tg&quot;&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;G&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;r&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;b&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;u&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;R&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;A&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;U&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;Z&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;r&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;u&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;main&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Contiene il codice utile a verificare e dimostrare il buon funzionamento di tutti i metodi che hai scritto.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma VerticalCrossword contenente i metodi utili per trovare delle parole nascoste nelle colonne di una matrice.</summary></entry><entry><title type="html">HorizontalCrossword</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/horizontalcrossword.html" rel="alternate" type="text/html" title="HorizontalCrossword" /><published>2019-03-08T12:46:57+01:00</published><updated>2019-03-08T12:46:57+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/horizontalcrossword</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/horizontalcrossword.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;HorizontalCrossword&lt;/code&gt; contenente i metodi utili per trovare delle &lt;em&gt;parole nascoste&lt;/em&gt; nelle righe di una matrice.&lt;/p&gt;
-
-&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;HorizontalCrossword&lt;/code&gt; deve contenere i metodi seguenti:&lt;/p&gt;
-
-&lt;h3 id=&quot;public-static-string-reversestring-word&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String reverse(String word)&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Ritorna la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; &lt;em&gt;rovesciata&lt;/em&gt;, ad esempio per &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;cane&quot;&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;enac&quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;public-static-string-getrowasstringchar-table-int-row&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static String getRowAsString(char[][] table, int row)&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Ritorna la stringa ottenuta concatenando tutti i caratteri presenti nella riga &lt;code class=&quot;highlighter-rouge&quot;&gt;row&lt;/code&gt; della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;public-static-int-searchinrowschar-table-string-word&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int searchInRows(char[][] table, String word)&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Ritorna l’indice della riga della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; che contiene la parola &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; (regolare o &lt;em&gt;rovesciata&lt;/em&gt;, non sensibile al caso dei caratteri). Se &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; è presente in più righe, ritorna l’indice della prima ricorrenza. Se nessuna riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; contiene &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt;, ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;-1&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ad esempio per la parole “cane” e la matrice seguente il metodo ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;:&lt;/p&gt;
-
-&lt;style type=&quot;text/css&quot;&gt;
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-xldj{border-color:inherit;text-align:left;border-style:solid;border-width:1px}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top;border-style:solid;border-width:0px}
-&lt;/style&gt;
-
-&lt;table class=&quot;tg&quot;&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;C&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;c&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;c&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;A&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;n&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;E&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;N&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;i&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;s&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;N&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;b&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;g&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;E&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Mentre per questa ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;:&lt;/p&gt;
-
-&lt;table class=&quot;tg&quot;&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;t&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;O&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;p&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;C&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;N&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;F&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;r&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;g&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;T&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;a&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;n&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;A&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;r&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;e&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;N&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;A&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;c&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;i&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;S&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;A&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;g&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;u&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;L&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;B&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;B&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;o&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;V&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;e&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;main&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Contiene il codice utile a verificare e dimostrare il buon funzionamento di tutti i metodi che hai scritto.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma HorizontalCrossword contenente i metodi utili per trovare delle parole nascoste nelle righe di una matrice.</summary></entry><entry><title type="html">MatrixMerger</title><link href="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/matrixmerger.html" rel="alternate" type="text/html" title="MatrixMerger" /><published>2019-03-08T12:32:22+01:00</published><updated>2019-03-08T12:32:22+01:00</updated><id>http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/matrixmerger</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/methods/2019/03/08/matrixmerger.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;MatrixMerger&lt;/code&gt; contenente i metodi utili per &lt;em&gt;combinare tra loro&lt;/em&gt; due matrici di interi.&lt;/p&gt;
-
-&lt;p&gt;La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;MatrixMerger&lt;/code&gt; deve contenere i metodi seguenti:&lt;/p&gt;
-
-&lt;h3 id=&quot;public-static-int-getrowwidthint-m-int-row&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int getRowWidth(int[][] m, int row)&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Ritorna la larghezza (&lt;em&gt;il numero di colonne&lt;/em&gt;) della riga &lt;code class=&quot;highlighter-rouge&quot;&gt;row&lt;/code&gt; nella matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;m&lt;/code&gt;. Se la riga specificata è vuota oppure non è valida, ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;public-static-int-getmaxwidthint-a-int-b&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int getMaxWidth(int[][] a, int[][] b)&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Ritorna la &lt;em&gt;dimensione&lt;/em&gt; della riga più larga che si otterrebbe combinando ogni riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; con la rispettiva riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. Ossia, calcola la somma tra la dimensione di ogni riga della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; con la rispettiva riga della matrice &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; e ritorna il valore massimo.&lt;/p&gt;
-
-&lt;h3 id=&quot;public-static-int-mergeint-a-int-b&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int[][] merge(int[][] a, int[][] b)&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Ritorna una matrice rettangolare ottenuta combinando le matrici &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. La combinazione avviene concatenando ogni riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; con la rispettiva riga di &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;. La nuova matrice avrà un numero di righe pari a quello della matrice &lt;em&gt;più alta&lt;/em&gt; tra &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; ed un numero di colonne pari a quella della riga più larga prodotta dalla concatenazione (&lt;em&gt;larghezza massima&lt;/em&gt; di &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;). Ad esempio:&lt;/p&gt;
-
-&lt;style type=&quot;text/css&quot;&gt;
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-xldj{border-color:inherit;text-align:left;border-style:solid;border-width:1px}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top;border-style:solid;border-width:0px}
-&lt;/style&gt;
-
-&lt;table class=&quot;tg&quot;&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;+&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;=&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Se presenti, le celle &lt;em&gt;in eccesso&lt;/em&gt; di ogni riga conterranno il valore &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, ad esempio:&lt;/p&gt;
-
-&lt;table class=&quot;tg&quot;&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;5&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;+&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;=&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;2&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;6&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;3&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;7&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;4&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;
-    &lt;td class=&quot;tg-xldj&quot;&gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;main&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Contiene il codice utile a verificare e dimostrare il buon funzionamento di tutti i metodi che hai scritto.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma MatrixMerger contenente i metodi utili per combinare tra loro due matrici di interi.</summary></entry><entry><title type="html">Istogramma</title><link href="http://localhost:4000/eserciziario2.0/loop/wrapper/2019/03/05/istogramma.html" rel="alternate" type="text/html" title="Istogramma" /><published>2019-03-05T13:59:00+01:00</published><updated>2019-03-05T13:59:00+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/wrapper/2019/03/05/istogramma</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/wrapper/2019/03/05/istogramma.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Istogramma&lt;/code&gt; che stampa un &lt;em&gt;grafico a colonne&lt;/em&gt; rappresentando una colonna per ogni nota scolastica passata come argomento:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Istogramma 1.5 4 3.2 6
-
-6           *
-5.5         *
-5           *
-4.5         *
-4       *   *
-3.5     *   *
-3       * * *
-2.5     * * *
-2       * * *
-1.5   * * * * 
-1     * * * *
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Istogramma che stampa un grafico a colonne rappresentando una colonna per ogni nota scolastica passata come argomento:</summary></entry><entry><title type="html">Arrotondatore</title><link href="http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/arrotondatore.html" rel="alternate" type="text/html" title="Arrotondatore" /><published>2019-03-05T13:57:13+01:00</published><updated>2019-03-05T13:57:13+01:00</updated><id>http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/arrotondatore</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/arrotondatore.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Arrotondatore&lt;/code&gt; che calcola il valore del primo argomento arrotondato al multiplo più vicino del secondo argomento:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java Arrotondatore 1.2781 0.3
-1.2	
-
-java Arrotondatore 24 5
-25.0
-
-java Arrotondatore 1.2781 0.1
-1.3
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Arrotondatore che calcola il valore del primo argomento arrotondato al multiplo più vicino del secondo argomento:</summary></entry><entry><title type="html">CalcolatoreMedia</title><link href="http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/calcolatoremedia.html" rel="alternate" type="text/html" title="CalcolatoreMedia" /><published>2019-03-05T13:54:33+01:00</published><updated>2019-03-05T13:54:33+01:00</updated><id>http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/calcolatoremedia</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/wrapper/loop/2019/03/05/calcolatoremedia.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;CalcolatoreMedia&lt;/code&gt; che calcola la media di tutte le note valide passate come argomenti da linea di comando (scarta quelle non valide) e la stampa arrotondandola al decimo di punto più vicino.&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java CalcolatoreMedia 1.72 4.21 5 -2 cane 6
-
-Nota 1:     1.72
-Nota 2:     4.21
-Nota 3:     5.0
-Nota 4:     6.0
-----------------
-Media:      4.2   
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;Opzione: Stampare anche gli elementi scartati separati da virgole (&lt;code class=&quot;highlighter-rouge&quot;&gt;','&lt;/code&gt;). Esempio:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;java CalcolatoreMedia 1.72 4.21 5 -2 cane 6
-
-Nota 1:     1.72
-Nota 2:     4.21
-Nota 3:     5.0
-Nota 4:     6.0
-----------------
-Media:      4.2   
-
-Argomenti scartati: -2, cane
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma CalcolatoreMedia che calcola la media di tutte le note valide passate come argomenti da linea di comando (scarta quelle non valide) e la stampa arrotondandola al decimo di punto più vicino.</summary></entry><entry><title type="html">TimeConverter2</title><link href="http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/timeconverter2.html" rel="alternate" type="text/html" title="TimeConverter2" /><published>2019-02-20T07:05:35+01:00</published><updated>2019-02-20T07:05:35+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/timeconverter2</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/timeconverter2.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;TimeConverter2&lt;/code&gt; che converte un tempo espresso in ore, minuti e secondi in secondi.&lt;/p&gt;
-
-&lt;h2 id=&quot;convertint&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;convertInt&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;Per convertire i 3 argomenti da &lt;code class=&quot;highlighter-rouge&quot;&gt;String&lt;/code&gt; a &lt;code class=&quot;highlighter-rouge&quot;&gt;int&lt;/code&gt; devi creare il metodo:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;convertInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NumberFormatException&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se la stringa &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt; non può essere convertita in un numero intero, il metodo solleva una &lt;code class=&quot;highlighter-rouge&quot;&gt;NumberFormatException&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;main&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;Il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; deve:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Chiedere all’utente di inserire 3 valori interi che cattura con il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;next()&lt;/code&gt; della classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Scanner&lt;/code&gt; (&lt;strong&gt;non è permesso&lt;/strong&gt; utilizzare &lt;code class=&quot;highlighter-rouge&quot;&gt;nextInt()&lt;/code&gt;).&lt;/li&gt;
-  &lt;li&gt;Usa il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;convertInt&lt;/code&gt; per ricavarne i valori interi.&lt;/li&gt;
-  &lt;li&gt;Stampa a terminale il risultato della conversione.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Ad esempio - per 1 ora, 2 minuti e 3 secondi - il programma stampa &lt;code class=&quot;highlighter-rouge&quot;&gt;3723&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1:2:3 corrispondono a 3723 secondi.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se il valore fornito per le &lt;code class=&quot;highlighter-rouge&quot;&gt;ore&lt;/code&gt; non è appropriato il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ore: valore non valido &amp;lt;valore&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se il valore fornito per i &lt;code class=&quot;highlighter-rouge&quot;&gt;minuti&lt;/code&gt; non è appropriato il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;minuti: valore non valido &amp;lt;valore&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Se il valore fornito per i &lt;code class=&quot;highlighter-rouge&quot;&gt;secondi&lt;/code&gt; non è appropriato il programma stampa:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;secondi: valore non valido &amp;lt;valore&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi la classe TimeConverter2 che converte un tempo espresso in ore, minuti e secondi in secondi.</summary></entry><entry><title type="html">Calcolatrice3</title><link href="http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/calcolatrice3.html" rel="alternate" type="text/html" title="Calcolatrice3" /><published>2019-02-20T06:55:37+01:00</published><updated>2019-02-20T06:55:37+01:00</updated><id>http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/calcolatrice3</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/exceptions/2019/02/20/calcolatrice3.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Calcolatrice3&lt;/code&gt; contenente il metodo:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calcola&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;espressione&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tale metodo valuta le stringhe contenute nell’array &lt;code class=&quot;highlighter-rouge&quot;&gt;espressione&lt;/code&gt; che rappresentano le parti di un’espressione aritmetica e ne calcola il valore.&lt;/p&gt;
-
-&lt;p&gt;Ad esempio per &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;+&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;2&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;/code&gt; il metodo ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;; mentre per &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;3&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;3&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;/code&gt; ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;9&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Gli operatori ammessi sono &lt;code class=&quot;highlighter-rouge&quot;&gt;'+'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'-'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'*'&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;'/'&lt;/code&gt;. Gli operandi devono essere dei numeri interi.&lt;/p&gt;
-
-&lt;p&gt;Se l’espressione da valutare contiene un operatore o degli operandi non validi, il metodo ritorna 0.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Calcolatrice3 contenente il metodo:</summary></entry><entry><title type="html">Rotator</title><link href="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator.html" rel="alternate" type="text/html" title="Rotator" /><published>2018-12-23T08:50:27+01:00</published><updated>2018-12-23T08:50:27+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/interactive/2018/12/23/rotator.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Rotator&lt;/code&gt; che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.&lt;/p&gt;
-
-&lt;p&gt;La figura introdotta può avere una dimensione massima di 10 x 10 (10 righe e 10 colonne).&lt;/p&gt;
-
-&lt;p&gt;L’introduzione della figura termina con successo quando l’utente introduce una riga vuota e preme &lt;em&gt;enter&lt;/em&gt; oppure quando la dimensione verticale della figura raggiunge le 10 righe.&lt;/p&gt;
-
-&lt;p&gt;Se durante l’introduzione l’utente introduce una riga più lunga di 10 caratteri il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;Linea troppo lunga, riprova:&lt;/code&gt; e l’introduzione ricomincia da capo.&lt;/p&gt;
-
-&lt;p&gt;Qualche esempio:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire un disegno (enter per terminare): 
-abcd
-efgh
-
-Rotazione:
-
-ae
-bf
-cg
-dh
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2022-10-23T13:47:53+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">DoubleFormatter</title><link href="http://localhost:4000/eserciziario2.0/interactive%20format/2022/05/04/doubleformatter.html" rel="alternate" type="text/html" title="DoubleFormatter" /><published>2022-05-04T10:50:06+02:00</published><updated>2022-05-04T10:50:06+02:00</updated><id>http://localhost:4000/eserciziario2.0/interactive%20format/2022/05/04/doubleformatter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/interactive%20format/2022/05/04/doubleformatter.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;DoubleFormatter&lt;/code&gt; che chiede all’utente di inserire:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Un numero double (&lt;code class=&quot;highlighter-rouge&quot;&gt;double n&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Quanti caratteri riservare alla stampa (&lt;code class=&quot;highlighter-rouge&quot;&gt;int w&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Quante cifre dopo la virgola stampare (&lt;code class=&quot;highlighter-rouge&quot;&gt;int p&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Se stampare allineando a destra o a sinistra (&lt;code class=&quot;highlighter-rouge&quot;&gt;String a&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;DX&quot;&lt;/code&gt;: destra, &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;SX&quot;&lt;/code&gt;: sinistra)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dopodiché il programma stampa il numero (&lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt;) applicando la formattazione definita dai valori di &lt;code class=&quot;highlighter-rouge&quot;&gt;w&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;. Ad esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire un numero double: 1.23456789
+Inserire ampiezza: 10
+Inserire precisione: 5
+Inserire allineamento (dx/sx): dx
+'   1.23457'
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Oppure:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire un disegno (enter per terminare): 
-     *
-     ***
-*********
-     ***
-     *
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire un numero double: 1.23456789
+Inserire ampiezza: 10
+Inserire precisione: 4
+Inserire allineamento (dx/sx): sx
+'1.2346    '
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma DoubleFormatter che chiede all’utente di inserire:</summary></entry><entry><title type="html">PerfectNumber</title><link href="http://localhost:4000/eserciziario2.0/array/math/2022/04/14/perfectnumber.html" rel="alternate" type="text/html" title="PerfectNumber" /><published>2022-04-14T13:53:12+02:00</published><updated>2022-04-14T13:53:12+02:00</updated><id>http://localhost:4000/eserciziario2.0/array/math/2022/04/14/perfectnumber</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/array/math/2022/04/14/perfectnumber.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;PerfectNumber&lt;/code&gt; utile per individuare i &lt;em&gt;numeri perfetti&lt;/em&gt;. La classe deve esportare i metodi seguenti:&lt;/p&gt;
 
-Rotazione:
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static boolean isPerfect(int n)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt; è un numero perfetto, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static boolean isDefective(int n)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt; è un numero difettivo, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int[] getDividers(int n)&lt;/code&gt;: ritorna un array contenente l’elenco dei divisori propri di &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static long getDividersSum(int[] dividers)&lt;/code&gt;: ritorna la somma dei numeri contenuti nell’array &lt;code class=&quot;highlighter-rouge&quot;&gt;dividers&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int[] getPerfectNumbers(int min, int max)&lt;/code&gt;: ritorna un array contenente l’elenco dei numeri &lt;em&gt;perfetti&lt;/em&gt; presenti nell’intervallo [&lt;code class=&quot;highlighter-rouge&quot;&gt;min&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;max&lt;/code&gt;]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int[] getDefectiveNumbers(int min, int max)&lt;/code&gt;: ritorna un array contenente l’elenco dei numeri &lt;em&gt;difettivi&lt;/em&gt; presenti nell’intervallo [&lt;code class=&quot;highlighter-rouge&quot;&gt;min&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;max&lt;/code&gt;]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static int[] getAbundantNumbers(int min, int max)&lt;/code&gt;: ritorna un array contenente l’elenco dei numeri &lt;em&gt;abbondanti&lt;/em&gt; presenti nell’intervallo [&lt;code class=&quot;highlighter-rouge&quot;&gt;min&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;max&lt;/code&gt;]&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-  *  
-  *  
-  *  
-  *  
-  *  
-*****
- *** 
- *** 
-  *  
+&lt;h2 id=&quot;numeri-perfetti&quot;&gt;Numeri perfetti&lt;/h2&gt;
+
+&lt;p&gt;Un numero &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; è detto &lt;em&gt;perfetto&lt;/em&gt; se la somma dei suoi divisori propri (positivi, &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; escluso)  è pari ad &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt;. Ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;28&lt;/code&gt; è un numero perfetto perché sommando i suoi divisori propri (&lt;code class=&quot;highlighter-rouge&quot;&gt;1, 2, 4, 7 e 14&lt;/code&gt;) si ottiene &lt;code class=&quot;highlighter-rouge&quot;&gt;28&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Invece se la somma dei divisori di &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; è inferiore al suo valore, &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; è un numero &lt;em&gt;difettivo&lt;/em&gt;, mentre se le somma dei divisori è superiore, &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; è un numero &lt;em&gt;abbondante&lt;/em&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe PerfectNumber utile per individuare i numeri perfetti. La classe deve esportare i metodi seguenti:</summary></entry><entry><title type="html">Cylinder</title><link href="http://localhost:4000/eserciziario2.0/methods/math/2022/02/23/cylinder.html" rel="alternate" type="text/html" title="Cylinder" /><published>2022-02-23T10:43:12+01:00</published><updated>2022-02-23T10:43:12+01:00</updated><id>http://localhost:4000/eserciziario2.0/methods/math/2022/02/23/cylinder</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/methods/math/2022/02/23/cylinder.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Cylinder&lt;/code&gt; contenente i metodi seguenti:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static double getCircumference(double radius)&lt;/code&gt;: ritorna la circonferenza di un cilindro di raggio &lt;code class=&quot;highlighter-rouge&quot;&gt;radius&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static double getBaseArea(double radius)&lt;/code&gt;: ritorna l’area di base di un cilindro di raggio &lt;code class=&quot;highlighter-rouge&quot;&gt;radius&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static double getSideArea(double radius, double height)&lt;/code&gt;: ritorna la superficie laterale di un cilindro di raggio &lt;code class=&quot;highlighter-rouge&quot;&gt;radius&lt;/code&gt; e altezza &lt;code class=&quot;highlighter-rouge&quot;&gt;height&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static double getArea(double radius, double height)&lt;/code&gt;: ritorna l’area totale di un cilindro di raggio &lt;code class=&quot;highlighter-rouge&quot;&gt;radius&lt;/code&gt; e altezza &lt;code class=&quot;highlighter-rouge&quot;&gt;height&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public static double getVolume(double radius, double height)&lt;/code&gt;: ritorna il volume di un cilindro di raggio &lt;code class=&quot;highlighter-rouge&quot;&gt;radius&lt;/code&gt; e altezza &lt;code class=&quot;highlighter-rouge&quot;&gt;height&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nel metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; verifica il buon  funzionamento di ogni metodo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: per ottenere il valore di pi-greco puoi utilizzare la costante &lt;code class=&quot;highlighter-rouge&quot;&gt;Math.PI&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vedi anche &lt;a href=&quot;https://en.wikipedia.org/wiki/Cylinder&quot;&gt;wikipedia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Circular_cylinder_rh.svg/1200px-Circular_cylinder_rh.svg.png&quot; alt=&quot;Circular cylinder rh.svg&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0&quot; title=&quot;Creative Commons Attribution-Share Alike 3.0&quot;&gt;CC BY-SA 3.0&lt;/a&gt;, &lt;a href=&quot;https://commons.wikimedia.org/w/index.php?curid=18796293&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe Cylinder contenente i metodi seguenti:</summary></entry><entry><title type="html">CatchTheChicken</title><link href="http://localhost:4000/eserciziario2.0/wrapper/args/switch/2022/02/02/catchthechicken.html" rel="alternate" type="text/html" title="CatchTheChicken" /><published>2022-02-02T12:29:44+01:00</published><updated>2022-02-02T12:29:44+01:00</updated><id>http://localhost:4000/eserciziario2.0/wrapper/args/switch/2022/02/02/catchthechicken</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/wrapper/args/switch/2022/02/02/catchthechicken.html">&lt;p&gt;Devi aiutare il fattore John a catturare la sua gallina. Il fattore e la gallina si trovano in un campo di 3 righe e tre colonne. La cella in alto a sinistra si trova alla riga &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; e alla colonna &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;👷🍃🍃
+🍃🍃🍃
+🍃🍃🍃
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Oppure per un riga troppo lunga:&lt;/p&gt;
+&lt;p&gt;La cella in basso a sinistra si trova alla riga &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; e alla colonna &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire un disegno (enter per terminare): 
-abcdefghjkklm
-Linea troppo lunga, riprova:
-12345
-6   7
-89ABC
-
-Rotazione:
-
-168
-2 9
-3 A
-4 B
-57C
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;🍃🍃🍃
+🍃🍃🍃
+👷🍃🍃
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Rotator che chiede all’utente di disegnare una figura bidimensionale e poi la stampa ruotandola (applica un rotazione di 90° in senso orario e una simmetria speculare verticale) come mostrato negli esempi seguenti.</summary></entry></feed>
+&lt;/div&gt;
+&lt;p&gt;La cella in basso a destra si trova alla riga &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; e alla colonna &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;🍃🍃🍃
+🍃🍃🍃
+🍃🍃👷
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Il tuo programma riceve 4 numeri interi come argomenti da linea di comando, nell’ordine:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;la coordinata della riga in cui si trova il fattore&lt;/li&gt;
+  &lt;li&gt;la coordinata della colonna in cui si trova il fattore&lt;/li&gt;
+  &lt;li&gt;la coordinata della riga in cui si trova la gallina&lt;/li&gt;
+  &lt;li&gt;la coordinata della colonna in cui si trova la gallina&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il tuo programma deve stampare la direzione in cui il fattore si deve spostare per prendere la gallina:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;N&quot;&lt;/code&gt;: NORD, il fattore si sposta verso l’alto&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;S&quot;&lt;/code&gt;: SUD, il fattore si sposta verso il basso&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;W&quot;&lt;/code&gt;: WEST, il fattore si sposta verso sinistra&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;E&quot;&lt;/code&gt;: EAST, il fattore si sposta verso destra&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;esempio&quot;&gt;Esempio&lt;/h2&gt;
+
+&lt;p&gt;Se gli argomenti forniti sono &lt;code class=&quot;highlighter-rouge&quot;&gt;[1,1,0,1]&lt;/code&gt; significa che il fattore si trova al centro del campo (riga &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;, colonna &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;) e la gallina si trova nella riga in alto (&lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;) e nella colonna centrale (&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;🍃🐔🍃
+🍃👷🍃
+🍃🍃🍃
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;La gallina si trova sopra al fattore, per catturarla il fattore dovrà spostarsi verso NORD, quindi il tuo programma deve stampare &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;N&quot;&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Devi aiutare il fattore John a catturare la sua gallina. Il fattore e la gallina si trovano in un campo di 3 righe e tre colonne. La cella in alto a sinistra si trova alla riga 0 e alla colonna 0:</summary></entry><entry><title type="html">Randomizer</title><link href="http://localhost:4000/eserciziario2.0/math/methods/2021/04/14/randomizer.html" rel="alternate" type="text/html" title="Randomizer" /><published>2021-04-14T13:29:19+02:00</published><updated>2021-04-14T13:29:19+02:00</updated><id>http://localhost:4000/eserciziario2.0/math/methods/2021/04/14/randomizer</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/math/methods/2021/04/14/randomizer.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;Randomizer&lt;/code&gt; che, dati tre numeri interi passati come argomenti da linea di comando, genera una serie di numeri casuali (separata &lt;code class=&quot;highlighter-rouge&quot;&gt;','&lt;/code&gt; e terminata da &lt;code class=&quot;highlighter-rouge&quot;&gt;'.'&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;I primi due argomenti determinano il range dei valori casuali che verranno generati. Il valore più piccolo non sarà compreso nel range mentre il più grande si.&lt;/p&gt;
+
+&lt;p&gt;Il terzo argomento determina il numero di valori da generare.&lt;/p&gt;
+
+&lt;p&gt;Ad esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java Randomizer 0 4 5
+
+1, 3, 1, 2, 4.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java Randomizer 5 1 6
+
+2, 4, 5, 3, 5, 2.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se il numero di argomenti non è sufficiente il programma deve stampare un messaggio di errore e terminare:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java Randomizer 5 
+
+Argomenti insufficienti
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se gli argomenti non sono validi il programma dovrà stampare un messaggio di errore indicando il primo valore errato e terminare:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java Randomizer 1 4 b 
+
+Argomento non valido: b
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Nota&lt;/dt&gt;
+  &lt;dd&gt;è vietato utilizzare la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;java.util.Random&lt;/code&gt;.&lt;/dd&gt;
+&lt;/dl&gt;</content><author><name></name></author><summary type="html">Scrivi il programma Randomizer che, dati tre numeri interi passati come argomenti da linea di comando, genera una serie di numeri casuali (separata ',' e terminata da '.').</summary></entry><entry><title type="html">CharCounter</title><link href="http://localhost:4000/eserciziario2.0/string/files/2020/12/16/charcounter.html" rel="alternate" type="text/html" title="CharCounter" /><published>2020-12-16T10:03:58+01:00</published><updated>2020-12-16T10:03:58+01:00</updated><id>http://localhost:4000/eserciziario2.0/string/files/2020/12/16/charcounter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/files/2020/12/16/charcounter.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;CharCounter&lt;/code&gt; che calcola la frequenza dei caratteri alfabetici contenuti in un file di testo. Il percorso del file è fornito come primo argomento da linea di comando. Il programma legge il contenuto del file e stampa il conteggio dei caratteri (&lt;em&gt;case insensitive&lt;/em&gt;) e il tempo impiegato. Ad esempio, per un file contenente il testo seguente:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;'a': 29
+'b': 3
+'c': 16
+'d': 19
+'e': 38
+'f': 3
+'g': 3
+'h': 1
+'i': 42
+'j': 0
+'k': 0
+'l': 22
+'m': 17
+'n': 24
+'o': 29
+'p': 11
+'q': 5
+'r': 22
+'s': 18
+'t': 32
+'u': 29
+'v': 3
+'w': 0
+'x': 3
+'y': 0
+'z': 0
+
+Parse time: 6ms
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Se il percorso fornito come primo argomento non è valido (non esiste, non è leggibile), il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Error reading &amp;lt;file&amp;gt;&quot;&lt;/code&gt; e termina.&lt;/p&gt;
+
+&lt;p&gt;Se non vengono forniti argomenti il programma stampa il messaggio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Usage: java CharCounter &amp;lt;file&amp;gt;&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Per verificare il buon funzionamento del tuo programma puoi usare la &lt;a href=&quot;/eserciziario2.0/assets/posts/LA_DIVINA_COMMEDIA.txt&quot;&gt;Divina commedia&lt;/a&gt; e cronometrare il tempo impiegato (usa &lt;code class=&quot;highlighter-rouge&quot;&gt;System.currentTimeMillis()&lt;/code&gt; per misurare il tempo).&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi il programma CharCounter che calcola la frequenza dei caratteri alfabetici contenuti in un file di testo. Il percorso del file è fornito come primo argomento da linea di comando. Il programma legge il contenuto del file e stampa il conteggio dei caratteri (case insensitive) e il tempo impiegato. Ad esempio, per un file contenente il testo seguente:</summary></entry><entry><title type="html">FrameName</title><link href="http://localhost:4000/eserciziario2.0/loop/draw/2020/12/12/framename.html" rel="alternate" type="text/html" title="FrameName" /><published>2020-12-12T10:10:30+01:00</published><updated>2020-12-12T10:10:30+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/draw/2020/12/12/framename</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/draw/2020/12/12/framename.html">&lt;p&gt;Scrivi la classe &lt;code class=&quot;highlighter-rouge&quot;&gt;FrameName&lt;/code&gt; che chiede all’utente di inserire un testo e po lo stampa incorniciandolo utilizzando i caratteri Unicode della pagina &lt;a href=&quot;http://www.unicode.org/charts/PDF/U2500.pdf&quot;&gt;U2500&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Qualche esempio:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire testo: Alb
+┌─────┐
+│ Alb │
+└─────┘
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Oppure:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire testo: Andrea
+┌────────┐
+│ Andrea │
+└────────┘
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;O ancora:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire testo: Tanto va la gatta al lardo...
+┌───────────────────────────────┐
+│ Tanto va la gatta al lardo... │
+└───────────────────────────────┘
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Nota: Su alcune shell i caratteri unicode potrebbero essere rappresentati in modo errato.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe FrameName che chiede all’utente di inserire un testo e po lo stampa incorniciandolo utilizzando i caratteri Unicode della pagina U2500.</summary></entry><entry><title type="html">Wallet</title><link href="http://localhost:4000/eserciziario2.0/class/array/2020/12/08/wallet.html" rel="alternate" type="text/html" title="Wallet" /><published>2020-12-08T08:00:58+01:00</published><updated>2020-12-08T08:00:58+01:00</updated><id>http://localhost:4000/eserciziario2.0/class/array/2020/12/08/wallet</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/array/2020/12/08/wallet.html">&lt;p&gt;Per un app di gestione dei prestiti personali devi implementare le classi seguenti:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/eserciziario2.0/assets/posts/wallet.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;classe-person&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Person&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Rappresenta una persona (creditore o debitore). Un oggetto &lt;code class=&quot;highlighter-rouge&quot;&gt;Person&lt;/code&gt; è caratterizzato da un nome costituito da una stringa contenente una lettera maiuscola seguita almeno 2 lettere minuscole (ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Alb&quot;&lt;/code&gt;) e memorizzato nell’attributo &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; (read only). La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Person&lt;/code&gt; deve esportare:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Person(String name)&lt;/code&gt;: è il costruttore, se il nome &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; non è valido solleva una &lt;code class=&quot;highlighter-rouge&quot;&gt;IllegalArgumentException&lt;/code&gt; con il messaggio:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;Invalid name &amp;lt;name&amp;gt;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;: ritorna la rappresentazione testuale contenente il nome della persona.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;boolean equals(Person p)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se la persona corrente possiede lo stesso nome della persona &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Inoltre deve contenere il metodo &lt;em&gt;package private&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;boolean isNameValid(String name)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; è un nome di persona valido, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;classe-loan&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Rappresenta una &lt;em&gt;voce&lt;/em&gt; dell’elenco di prestiti contenuto in un &lt;code class=&quot;highlighter-rouge&quot;&gt;Wallet&lt;/code&gt;. Lo stato di un &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; è caratterizzato da una persona (&lt;code class=&quot;highlighter-rouge&quot;&gt;Person&lt;/code&gt;, read only) e dal relativo bilancio (&lt;code class=&quot;highlighter-rouge&quot;&gt;double amount&lt;/code&gt;, read-write, default &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt;). Un bilancio positivo rappresenta un credito, uno negativo un debito. Inoltre &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; deve esportare i metodi seguenti:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Loan(Person person, double amount)&lt;/code&gt;: costruttore, istanzia un &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; associato alla persona &lt;code class=&quot;highlighter-rouge&quot;&gt;person&lt;/code&gt; con una somma definita da &lt;code class=&quot;highlighter-rouge&quot;&gt;amount&lt;/code&gt;. La somma deve essere diversa da &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, in caso contrario viene applicato il valore di default.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Loan(Person person)&lt;/code&gt;: costruttore, istanzia un &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; associato alla persona &lt;code class=&quot;highlighter-rouge&quot;&gt;person&lt;/code&gt; con la somma di default.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;:  ritorna la rappresentazione testuale del &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; nel formato:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;&amp;lt;segno&amp;gt;&amp;lt;amount&amp;gt; &amp;lt;name&amp;gt;&quot;   ad esempio `&quot;+3.0 Alb&quot;`.
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;classe-wallet&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Wallet&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Rappresenta un &lt;em&gt;portafoglio dei prestiti&lt;/em&gt; e deve esportare i metodi seguenti:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Wallet()&lt;/code&gt;: costruttore, istanzia un portafoglio vuoto.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int indexOf(Person person)&lt;/code&gt;: ritorna l’indice del &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; associato alla persona &lt;code class=&quot;highlighter-rouge&quot;&gt;person&lt;/code&gt; nell’elenco &lt;code class=&quot;highlighter-rouge&quot;&gt;loans&lt;/code&gt;. Se non ne trova nessuno ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;-1&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;void addLoan(Person person, double amount) &lt;/code&gt;: se nel portafoglio non è già presente un &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; associato a &lt;code class=&quot;highlighter-rouge&quot;&gt;person&lt;/code&gt;, aggiunge al portafoglio un nuovo &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt;. In caso contrario ne aggiorna il bilancio. Se il bilancio aggiornato è pari a &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, il &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; viene rimosso dal portafogli.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;: ritorna una stringa contenente l’elenco di &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; presenti nel portafoglio secondo il formato illustrato nell’esempio seguente:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;      +2.0 Alb
+      -1.0 Mike
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Inoltre deve contenere il metodo &lt;em&gt;package private&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;void removeLoan(int index)&lt;/code&gt;: rimuove dal portafoglio il &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; all’indice &lt;code class=&quot;highlighter-rouge&quot;&gt;index&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Per un app di gestione dei prestiti personali devi implementare le classi seguenti:</summary></entry><entry><title type="html">ShoppingCart</title><link href="http://localhost:4000/eserciziario2.0/class/array/2020/12/08/shoppingcart.html" rel="alternate" type="text/html" title="ShoppingCart" /><published>2020-12-08T07:56:41+01:00</published><updated>2020-12-08T07:56:41+01:00</updated><id>http://localhost:4000/eserciziario2.0/class/array/2020/12/08/shoppingcart</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/array/2020/12/08/shoppingcart.html">&lt;p&gt;Per un sistema di acquisti online devi implementare le classi seguenti:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/eserciziario2.0/assets/posts/items.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;classe-article&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Article&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Rappresenta un articolo in vendita nel negozio. Un &lt;code class=&quot;highlighter-rouge&quot;&gt;Article&lt;/code&gt; è caratterizzato da un &lt;em&gt;codice di prodotto&lt;/em&gt; costituito da una stringa contenente una lettera maiuscola seguita da 4 cifre (ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;A1234&quot;&lt;/code&gt;) e memorizzato nell’attributo &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; (read only). La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Article&lt;/code&gt; deve esportare:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Article(String code)&lt;/code&gt;: è il costruttore, se il codice &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; non è valido solleva una &lt;code class=&quot;highlighter-rouge&quot;&gt;IllegalArgumentException&lt;/code&gt; con il messaggio:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;Invalid article code &amp;lt;code&amp;gt;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;: ritorna la rappresentazione testuale dell’articolo nel formato:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;Article code &amp;lt;code&amp;gt;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;boolean equals(Article a)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se l’articolo corrente possiede lo stesso codice dell’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Inoltre deve contenere il metodo &lt;em&gt;package private&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;boolean isCodeValid(String code)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; è un codice di articolo valido, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;classe-item&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Rappresenta una &lt;em&gt;voce&lt;/em&gt; dell’elenco contenuto in un &lt;code class=&quot;highlighter-rouge&quot;&gt;ShoppingCart&lt;/code&gt;. Lo stato di un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; è caratterizzato da un articolo (&lt;code class=&quot;highlighter-rouge&quot;&gt;Article&lt;/code&gt;, read only) e dalla relativa quantità (&lt;code class=&quot;highlighter-rouge&quot;&gt;int quantity&lt;/code&gt;, read-write, valore minimo &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;, default &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;). Inoltre deve esportare i metodi seguenti:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Item(int quantity, Article article)&lt;/code&gt;: costruttore, istanzia un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt; nella quantità definita da &lt;code class=&quot;highlighter-rouge&quot;&gt;quantity&lt;/code&gt;. La quantità deve essere superiore a &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, in caso contrario viene applicato il valore di default.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Item(Article article)&lt;/code&gt;: costruttore, istanzia un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt; nella quantità di default.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;:  ritorna la rappresentazione testuale del &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; nel formato:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;Article code &amp;lt;code&amp;gt; (&amp;lt;quantity&amp;gt;)&quot;   ad esempio `&quot;Article code A1234 (2)&quot;`.
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;classe-shoppingcart&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;ShoppingCart&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Rappresenta un &lt;em&gt;carrello degli acquisti&lt;/em&gt; e deve esportare i metodi seguenti:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ShoppingCart()&lt;/code&gt;: costruttore, istanzia un carrello vuoto.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int indexOf(Article article)&lt;/code&gt;: ritorna l’indice del &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt; nell’elenco &lt;code class=&quot;highlighter-rouge&quot;&gt;items&lt;/code&gt;. Se non ne trova nessuno ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;-1&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;void addArticle(Article article)&lt;/code&gt;: se nel carrello è già presente un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt;, ne incrementa la quantità. In caso contrario aggiunge al carrello un nuovo &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;void removeArticle(Article article)&lt;/code&gt;: se nel carrello è presente un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt;, ne decrementa la quantità. Se la quantità decrementata è pari a &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, l’&lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; viene rimosso dal carrello.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;: ritorna una stringa contenente l’elenco di &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; presenti nel carrello secondo il formato illustrato nell’esempio seguente:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;      - Article code A1234 (2)
+      - Article code B7254 (1)
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Per un sistema di acquisti online devi implementare le classi seguenti:</summary></entry><entry><title type="html">SimpleInterest</title><link href="http://localhost:4000/eserciziario2.0/loop/math/interactive/2020/11/23/simpleinterest.html" rel="alternate" type="text/html" title="SimpleInterest" /><published>2020-11-23T17:23:34+01:00</published><updated>2020-11-23T17:23:34+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/math/interactive/2020/11/23/simpleinterest</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/math/interactive/2020/11/23/simpleinterest.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;SimpleInterest&lt;/code&gt; utile per calcolare l’interesse semplice di un prestito. Il programma deve funzionare nel modo seguente:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Chiede di inserire il capitale iniziale (&lt;math&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;M&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se il valore inserito non è un numero valido stampa il messaggio:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Valore C non valido &quot;&amp;lt;valore&amp;gt;&quot;   e ricomincia dal punto 1.
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se il valore inserito è inferiore o uguale 0 stampa:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; C deve essere maggiore di 0   e ricomincia dal punto 1.
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Chiede di inserire il tasso di interesse (&lt;math&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/math&gt;)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se il valore inserito non è un numero stampa:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Valore i non valido &quot;&amp;lt;valore&amp;gt;&quot;   e ricomincia dal punto 4.
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Chiede di inserire il periodo (&lt;math&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se il valore inserito non è un numero intero stampa:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Valore n non valido &quot;&amp;lt;valore&amp;gt;&quot;   e ricomincia dal punto 6.
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se il valore inserito è inferiore a 0 stampa:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Il periodo deve deve essere positivo  e ricomincia dal punto 6.
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Stampa il montante (&lt;math&gt;&lt;msub&gt;&lt;mi&gt;M&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msub&gt;&lt;/math&gt;) del prestito&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esempio 1:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire il capitale iniziale (C): 1000
+Inserire il tasso di interesse (i): 5
+Inserire il periodo (n): 2
+M2 = 1100.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Esempio 2:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire il capitale iniziale (C): -1
+Il capitale deve essere maggiore di 0
+Inserire il capitale iniziale (C): bau
+Valore C non valido &quot;bau&quot;
+Inserire il capitale iniziale (C): 1000
+Inserire il tasso di interesse (i): miao
+Valore i non valido &quot;miao&quot;
+Inserire il tasso di interesse (i): 7
+Inserire il periodo (n): -1
+Il periodo deve essere positivo
+Inserire il periodo (n): cucu
+Valore n non valido &quot;cucu&quot;
+Inserire il periodo (n): 5
+M5 = 1350.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma SimpleInterest utile per calcolare l’interesse semplice di un prestito. Il programma deve funzionare nel modo seguente:</summary></entry></feed>
