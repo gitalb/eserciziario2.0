@@ -161,6 +161,62 @@
   
     <div class="panel panel-info">
         <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/2022/10/23/hashbuilder.html">
+            HashBuilder
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+           <span class="label label-success">Livello 3</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Un sistema di gestione del personale deve generare una sigla associata ad ogni dipendente secondo un formato standardizzato. Il formato prevede che la sigla di ogni persona sia composta da 6 caratteri:</p>
+
+<ol>
+  <li>Il primo carattere del nome in <strong>maiuscolo</strong>,</li>
+  <li>il secondo carattere del nome in <strong>minuscolo</strong>,</li>
+  <li>l’ultimo carattere del nome in <strong>minuscolo</strong>,</li>
+  <li>il primo carattere del cognome in <strong>minuscolo</strong>,</li>
+  <li>il penultimo carattere del cognome in <strong>minuscolo</strong>,</li>
+  <li>l’ultimo carattere del cognome in <strong>maiuscolo</strong>.</li>
+</ol>
+
+<p>Scrivi la classe Java <code class="highlighter-rouge">HashBuilder</code> che, dati nome e cognome memorizzati in due <strong>costanti</strong>, stampi a terminale la relativa sigla. Il formato dell’output deve rispettare rigorosamente quello proposto nel seguente esempio:</p>
+
+<p>Per un impiegato di nome “HAiEiE” e cognome “braZoRf”:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>	Cognome: braZoRf
+	Nome:    HAiEiE
+	Sigla:   HaebrF
+</code></pre>
+</div>
+
+<p>Per un impiegato di nome “Mickey” e cognome “Mouse”:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>	Cognome: Mouse
+	Nome:    Mickey
+	Sigla:   MiymsE
+</code></pre>
+</div>
+
+<p>Per un impiegato di nome “vladimir” e cognome “harkonnen”:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>	Cognome: harkonnen
+	Nome:    vladimir
+	Sigla:   VlrheN
+</code></pre>
+</div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/interactive/string/2019/11/11/farfallinatoreinterattivo.html">
             FarfallinatoreInterattivo
           </a>
@@ -249,73 +305,6 @@ hex:	48	65	6c	6c	6f	20	77	6f	72	6c	64	21
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/math/2018/12/23/actionableisbnchecker.html">
-            ActionableIsbnChecker
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
-          
-            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
-          
-           <span class="label label-success">Livello 10</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>L’ISBN-13 <em>azionabile</em> è un codice composto secondo il modello:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>	ISBN A 10.###.#######/###
-</code></pre>
-</div>
-
-<p>Ad esempio:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>	ISBN A 10.978.8889637/418
-</code></pre>
-</div>
-
-<p>Dove la sequenza di <code class="highlighter-rouge">#</code> rappresenta 13 cifre (12 cifre di <em>codice</em> + 1 <em>cifra di controllo</em>).</p>
-
-<p>La <em>cifra di controllo</em> si calcola in base al valore delle 12 cifre precedenti con il seguente algoritmo numerico:</p>
-
-<ol>
-  <li>si moltiplica ogni cifra per un peso che assume in modo alternato i valori 1 e 3, partendo dalla prima cifra a sinistra che ha peso 1</li>
-  <li>si sommano i risultati</li>
-  <li>si divide la somma per 10 e si prende il resto della divisione</li>
-  <li>si sottrae il risultato da 10: questa cifra è la <em>cifra di controllo</em>; se quest’ultimo risultato fosse proprio 10, lo si sostituirà con 0.</li>
-</ol>
-
-<p>Ad esempio per il codice <code class="highlighter-rouge">ISBN A 10.978.8843025/34</code>:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>9 * 1 + 7 * 3 + 8 * 1 + 8 * 3 + 8 * 1 + 4 * 3 + 3 * 1 + ... + 4 * 3 = 117
-
-117 diviso 10 da resto 7
-
-10 - 7 = 3 
-</code></pre>
-</div>
-
-<p>la cifra di controllo sarebbe <strong>3</strong> (quindi il codice completo sarebbe <code class="highlighter-rouge">ISBN A 10.978.8843025/343</code>).</p>
-
-<p>Scrivi il programma <code class="highlighter-rouge">ActionableIsbnChecker</code> che chiede all’utente di inserire un <em>codice ISBN-13 azionabile</em> e ne verifica la correttezza.</p>
-
-<p>I prefissi <code class="highlighter-rouge">ISBN</code>, <code class="highlighter-rouge">A</code> e <code class="highlighter-rouge">10</code>, i punti, lo slash e gli spazi (<code class="highlighter-rouge">'.'</code>, <code class="highlighter-rouge">'/'</code> e <code class="highlighter-rouge">'' </code>) sono opzionali, se vengono omessi il programma esegue comunque la verifica.</p>
-
-<p>Il <em>codice</em> e la <em>cifra di controllo</em> devono essere presenti e validi, altrimenti il programma stampa un messaggio di errore.</p>
-
-<p>Se il codice non è valido, il messaggio stampato è <code class="highlighter-rouge">Codice non valido</code>. Se la <em>cifra di controllo</em> non è valida (<code class="highlighter-rouge">[1;10]</code>) il messaggio di errore è <code class="highlighter-rouge">Cifra di controllo non valida</code>.</p>
-
-<p>Se l’utente inserisce un <em>codice</em> con il formato ammesso, il programma ne verifica la bontà controllando la corrispondenza tra <em>codice</em> e <em>cifra di controllo</em>. Se corrispondono il programma termina stampando il messaggio <code class="highlighter-rouge">Codice verificato!</code>, altrimenti stampa <code class="highlighter-rouge">Codice errato</code>.</p>
-
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
           <h2><a href="/eserciziario2.0/string/loop/2017/02/25/defarfallinatore.html">
             DeFarfallinatore
           </a>
@@ -376,38 +365,65 @@ Tafantofo vafa lafa gafattafa afal lafardofo
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/loop/2018/12/23/wordshaker.html">
-            WordShaker
+          <h2><a href="/eserciziario2.0/string/math/2018/12/23/actionableisbnchecker.html">
+            ActionableIsbnChecker
           </a>
           <small class="pull-right">
           
           
             <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
           
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+            <a href="/eserciziario2.0/categories/math"><span class="label label-warning">math</span></a>
           
-           <span class="label label-success">Livello 11</span>
+           <span class="label label-success">Livello 10</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi la classe <code class="highlighter-rouge">WordShaker</code> che chiede all’utente di inserire una frase e poi la stampa scambiando il primo con in secondo carattere, il terzo con il quarto, il quinto con il sesto e via dicendo. Se il numero di caratteri è dispari l’ultimo carattere viene stampato nella sua posizione originale.</p>
+          <p>L’ISBN-13 <em>azionabile</em> è un codice composto secondo il modello:</p>
 
-<p>Qualche esempio:</p>
-
-<ul>
-  <li><code class="highlighter-rouge">cane</code> diventa <code class="highlighter-rouge">acen</code></li>
-  <li><code class="highlighter-rouge">gatto</code> diventa <code class="highlighter-rouge">agtto</code></li>
-  <li><code class="highlighter-rouge">tanto va la gatta al lardo</code> diventa <code class="highlighter-rouge">attn oavl  aagtt alal raod</code></li>
-  <li><code class="highlighter-rouge">abcde</code> diventa <code class="highlighter-rouge">badce</code></li>
-</ul>
-
-<p>Esempio di output:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Inserire una frase: Asta la vista!
-sAatl  aivts!a
+<div class="highlighter-rouge"><pre class="highlight"><code>	ISBN A 10.###.#######/###
 </code></pre>
 </div>
+
+<p>Ad esempio:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>	ISBN A 10.978.8889637/418
+</code></pre>
+</div>
+
+<p>Dove la sequenza di <code class="highlighter-rouge">#</code> rappresenta 13 cifre (12 cifre di <em>codice</em> + 1 <em>cifra di controllo</em>).</p>
+
+<p>La <em>cifra di controllo</em> si calcola in base al valore delle 12 cifre precedenti con il seguente algoritmo numerico:</p>
+
+<ol>
+  <li>si moltiplica ogni cifra per un peso che assume in modo alternato i valori 1 e 3, partendo dalla prima cifra a sinistra che ha peso 1</li>
+  <li>si sommano i risultati</li>
+  <li>si divide la somma per 10 e si prende il resto della divisione</li>
+  <li>si sottrae il risultato da 10: questa cifra è la <em>cifra di controllo</em>; se quest’ultimo risultato fosse proprio 10, lo si sostituirà con 0.</li>
+</ol>
+
+<p>Ad esempio per il codice <code class="highlighter-rouge">ISBN A 10.978.8843025/34</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>9 * 1 + 7 * 3 + 8 * 1 + 8 * 3 + 8 * 1 + 4 * 3 + 3 * 1 + ... + 4 * 3 = 117
+
+117 diviso 10 da resto 7
+
+10 - 7 = 3 
+</code></pre>
+</div>
+
+<p>la cifra di controllo sarebbe <strong>3</strong> (quindi il codice completo sarebbe <code class="highlighter-rouge">ISBN A 10.978.8843025/343</code>).</p>
+
+<p>Scrivi il programma <code class="highlighter-rouge">ActionableIsbnChecker</code> che chiede all’utente di inserire un <em>codice ISBN-13 azionabile</em> e ne verifica la correttezza.</p>
+
+<p>I prefissi <code class="highlighter-rouge">ISBN</code>, <code class="highlighter-rouge">A</code> e <code class="highlighter-rouge">10</code>, i punti, lo slash e gli spazi (<code class="highlighter-rouge">'.'</code>, <code class="highlighter-rouge">'/'</code> e <code class="highlighter-rouge">'' </code>) sono opzionali, se vengono omessi il programma esegue comunque la verifica.</p>
+
+<p>Il <em>codice</em> e la <em>cifra di controllo</em> devono essere presenti e validi, altrimenti il programma stampa un messaggio di errore.</p>
+
+<p>Se il codice non è valido, il messaggio stampato è <code class="highlighter-rouge">Codice non valido</code>. Se la <em>cifra di controllo</em> non è valida (<code class="highlighter-rouge">[1;10]</code>) il messaggio di errore è <code class="highlighter-rouge">Cifra di controllo non valida</code>.</p>
+
+<p>Se l’utente inserisce un <em>codice</em> con il formato ammesso, il programma ne verifica la bontà controllando la corrispondenza tra <em>codice</em> e <em>cifra di controllo</em>. Se corrispondono il programma termina stampando il messaggio <code class="highlighter-rouge">Codice verificato!</code>, altrimenti stampa <code class="highlighter-rouge">Codice errato</code>.</p>
 
 
       </div>
@@ -502,54 +518,36 @@ Coppie: 5
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/files/loops/string/2018/03/29/textformatter.html">
-            TextFormatter
+          <h2><a href="/eserciziario2.0/string/loop/2018/12/23/wordshaker.html">
+            WordShaker
           </a>
           <small class="pull-right">
           
           
-            <a href="/eserciziario2.0/categories/files"><span class="label label-warning">files</span></a>
-          
-            <a href="/eserciziario2.0/categories/loops"><span class="label label-warning">loops</span></a>
-          
             <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
           
-           <span class="label label-success">Livello 12</span>
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+           <span class="label label-success">Livello 11</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi la classe <code class="highlighter-rouge">TextFormatter</code> contenente il metodo:</p>
+          <p>Scrivi la classe <code class="highlighter-rouge">WordShaker</code> che chiede all’utente di inserire una frase e poi la stampa scambiando il primo con in secondo carattere, il terzo con il quarto, il quinto con il sesto e via dicendo. Se il numero di caratteri è dispari l’ultimo carattere viene stampato nella sua posizione originale.</p>
 
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">reformat</span><span class="o">(</span><span class="n">Path</span> <span class="n">source</span><span class="o">)</span>
-</code></pre>
-</div>
+<p>Qualche esempio:</p>
 
-<p>Tale metodo legge il contenuto di un file di testo e lo ritorna <em>formattandolo</em> secondo le regole seguenti:</p>
+<ul>
+  <li><code class="highlighter-rouge">cane</code> diventa <code class="highlighter-rouge">acen</code></li>
+  <li><code class="highlighter-rouge">gatto</code> diventa <code class="highlighter-rouge">agtto</code></li>
+  <li><code class="highlighter-rouge">tanto va la gatta al lardo</code> diventa <code class="highlighter-rouge">attn oavl  aagtt alal raod</code></li>
+  <li><code class="highlighter-rouge">abcde</code> diventa <code class="highlighter-rouge">badce</code></li>
+</ul>
 
-<ol>
-  <li>il carattere <em>a capo</em> non è ammesso</li>
-  <li>non ci sono <em>spazi</em> (<code class="highlighter-rouge">' '</code>) all’inizio e alla fine del testo</li>
-  <li>non ci sono <em>spazi multipli</em></li>
-  <li>non ci sono <em>spazi</em> prima di un carattere di punteggiatura (<code class="highlighter-rouge">'.'</code>, <code class="highlighter-rouge">','</code>, <code class="highlighter-rouge">';'</code>, <code class="highlighter-rouge">':'</code>, <code class="highlighter-rouge">'!'</code>, <code class="highlighter-rouge">'?'</code>)</li>
-  <li>dopo un carattere di punteggiatura c’è sempre uno spazio, a meno che:
-    <ul>
-      <li>sia l’ultimo carattere del testo (regola 2.)</li>
-      <li>sia seguito da un altro carattere di punteggiatura (regola 4.)</li>
-    </ul>
-  </li>
-</ol>
+<p>Esempio di output:</p>
 
-<p>Ad esempio per un file contenente il testo:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>  John,Malkovich?John   : Malkovich!!! !
-     John     Malkovich   !? !?John;Malkovich .   .    .  
-</code></pre>
-</div>
-
-<p>il metodo <code class="highlighter-rouge">reformat</code> ritorna la stringa:</p>
-
-<div class="language-text highlighter-rouge"><pre class="highlight"><code>John, Malkovich? John: Malkovich!!!! John Malkovich!?!? John; Malkovich...
+<div class="highlighter-rouge"><pre class="highlight"><code>Inserire una frase: Asta la vista!
+sAatl  aivts!a
 </code></pre>
 </div>
 
@@ -714,84 +712,56 @@ Coppie: 5
   
     <div class="panel panel-info">
         <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">
-            MorraCinese
+          <h2><a href="/eserciziario2.0/files/loops/string/2018/03/29/textformatter.html">
+            TextFormatter
           </a>
           <small class="pull-right">
           
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
-          
-            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
-          
-            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
-          
-           <span class="label label-success">Livello 13</span>
-          </small>
-          </h2>
-        </div>
-      <div class="panel-body">
-          <p>Scrivi il gioco interattivo <code class="highlighter-rouge">MorraCinese</code>. Il programma chiede di inserire il <em>punteggio massimo</em>, poi il gioco comincia. Vince chi raggiunge prima il <em>punteggio massimo</em>.</p>
-
-<ol>
-  <li>Il programma chiede di inserire il <em>punteggio massimo</em>. Sono ammessi solo valori nel range [1;10].</li>
-  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 1.</li>
-  <li>Chiede all’utente di inserire la sua giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
-  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 3.</li>
-  <li>Il programma estrae a sorte la propria giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
-  <li>Il programma visualizza le due giocate e, se ve ne è uno, il vincitore della mano corrente (player o CPU) e il punteggio attuale dei due giocatori.</li>
-  <li>Se nessuno ha raggiunto il <em>punteggio massimo</em> il programma prosegue dal punto 3.</li>
-  <li>Se un giocatore ha raggiunto il <em>punteggio massimo</em> il programma stampa il <em>nome</em> del vincitore (player o CPU) e prosegue dal punto 9.</li>
-  <li>Il programma chiede se si vuole giocare di nuovo (<code class="highlighter-rouge">0</code> per continuare, <code class="highlighter-rouge">1</code> per terminare).</li>
-  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 9.</li>
-  <li>Se l’utente inserisce <code class="highlighter-rouge">0</code>  il programma ricomincia dal punto 1.</li>
-  <li>Se l’utente inserisce <code class="highlighter-rouge">1</code>  il programma termina.</li>
-</ol>
-
-<p>Esempio:</p>
-
-<video width="502" height="110" controls="">
-  <source src="/eserciziario2.0/assets/posts/MorraCineseMID.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-<p>Oppure, se la vostra console supporta Unicode:</p>
-
-<video width="502" height="110" controls="">
-  <source src="/eserciziario2.0/assets/posts/MorraCineseUniMID.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-
-      </div>
-      
-    </div>
-  
-    <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2><a href="/eserciziario2.0/string/files/2020/04/19/butterfyler.html">
-            ButterFyler
-          </a>
-          <small class="pull-right">
-          
-          
-            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
           
             <a href="/eserciziario2.0/categories/files"><span class="label label-warning">files</span></a>
           
-           <span class="label label-success">Livello 13</span>
+            <a href="/eserciziario2.0/categories/loops"><span class="label label-warning">loops</span></a>
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+           <span class="label label-success">Livello 12</span>
           </small>
           </h2>
         </div>
       <div class="panel-body">
-          <p>Scrivi il programma <code class="highlighter-rouge">ButterFyler</code> utile per codificare un file di testo (UTF-8) in <em>alfabeto farfallino</em> e salvarlo in un file di destinazione (se non conosci l’<em>alfabeto farfallino</em> vedi <a href="https://it.wikipedia.org/wiki/Alfabeto_farfallino">wikipedia</a>).</p>
+          <p>Scrivi la classe <code class="highlighter-rouge">TextFormatter</code> contenente il metodo:</p>
 
-<p>La classe deve contenere il metodo <code class="highlighter-rouge">encode</code> che codifica il file <code class="highlighter-rouge">source</code> e lo salva nel file <code class="highlighter-rouge">dest</code>:</p>
-
-<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">encode</span><span class="o">(</span><span class="n">Path</span> <span class="n">source</span><span class="o">,</span> <span class="n">Path</span> <span class="n">dest</span><span class="o">)</span>
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">reformat</span><span class="o">(</span><span class="n">Path</span> <span class="n">source</span><span class="o">)</span>
 </code></pre>
 </div>
 
-<p>Per verificare il buon funzionamento del tuo programma prova a codificare la <a href="/eserciziario2.0/assets/posts/LA_DIVINA_COMMEDIA.txt">Divina commedia</a> e a cronometrare il tempo impiegato per la codifica (usa <code class="highlighter-rouge">System.currentTimeMillis()</code> per misurare il tempo).</p>
+<p>Tale metodo legge il contenuto di un file di testo e lo ritorna <em>formattandolo</em> secondo le regole seguenti:</p>
+
+<ol>
+  <li>il carattere <em>a capo</em> non è ammesso</li>
+  <li>non ci sono <em>spazi</em> (<code class="highlighter-rouge">' '</code>) all’inizio e alla fine del testo</li>
+  <li>non ci sono <em>spazi multipli</em></li>
+  <li>non ci sono <em>spazi</em> prima di un carattere di punteggiatura (<code class="highlighter-rouge">'.'</code>, <code class="highlighter-rouge">','</code>, <code class="highlighter-rouge">';'</code>, <code class="highlighter-rouge">':'</code>, <code class="highlighter-rouge">'!'</code>, <code class="highlighter-rouge">'?'</code>)</li>
+  <li>dopo un carattere di punteggiatura c’è sempre uno spazio, a meno che:
+    <ul>
+      <li>sia l’ultimo carattere del testo (regola 2.)</li>
+      <li>sia seguito da un altro carattere di punteggiatura (regola 4.)</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Ad esempio per un file contenente il testo:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>  John,Malkovich?John   : Malkovich!!! !
+     John     Malkovich   !? !?John;Malkovich .   .    .  
+</code></pre>
+</div>
+
+<p>il metodo <code class="highlighter-rouge">reformat</code> ritorna la stringa:</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>John, Malkovich? John: Malkovich!!!! John Malkovich!?!? John; Malkovich...
+</code></pre>
+</div>
 
 
       </div>
@@ -860,6 +830,60 @@ Parse time: 6ms
 
 <p>Per verificare il buon funzionamento del tuo programma puoi usare la <a href="/eserciziario2.0/assets/posts/LA_DIVINA_COMMEDIA.txt">Divina commedia</a> e cronometrare il tempo impiegato (usa <code class="highlighter-rouge">System.currentTimeMillis()</code> per misurare il tempo).</p>
 
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/loop/interactive/2017/04/05/morracinese.html">
+            MorraCinese
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/loop"><span class="label label-warning">loop</span></a>
+          
+            <a href="/eserciziario2.0/categories/interactive"><span class="label label-warning">interactive</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il gioco interattivo <code class="highlighter-rouge">MorraCinese</code>. Il programma chiede di inserire il <em>punteggio massimo</em>, poi il gioco comincia. Vince chi raggiunge prima il <em>punteggio massimo</em>.</p>
+
+<ol>
+  <li>Il programma chiede di inserire il <em>punteggio massimo</em>. Sono ammessi solo valori nel range [1;10].</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 1.</li>
+  <li>Chiede all’utente di inserire la sua giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 3.</li>
+  <li>Il programma estrae a sorte la propria giocata (<code class="highlighter-rouge">1</code> per carta, <code class="highlighter-rouge">2</code> per sasso, <code class="highlighter-rouge">3</code> per forbice).</li>
+  <li>Il programma visualizza le due giocate e, se ve ne è uno, il vincitore della mano corrente (player o CPU) e il punteggio attuale dei due giocatori.</li>
+  <li>Se nessuno ha raggiunto il <em>punteggio massimo</em> il programma prosegue dal punto 3.</li>
+  <li>Se un giocatore ha raggiunto il <em>punteggio massimo</em> il programma stampa il <em>nome</em> del vincitore (player o CPU) e prosegue dal punto 9.</li>
+  <li>Il programma chiede se si vuole giocare di nuovo (<code class="highlighter-rouge">0</code> per continuare, <code class="highlighter-rouge">1</code> per terminare).</li>
+  <li>Se l’utente inserisce un valore non valido, ricomincia dal punto 9.</li>
+  <li>Se l’utente inserisce <code class="highlighter-rouge">0</code>  il programma ricomincia dal punto 1.</li>
+  <li>Se l’utente inserisce <code class="highlighter-rouge">1</code>  il programma termina.</li>
+</ol>
+
+<p>Esempio:</p>
+
+<video width="502" height="110" controls="">
+  <source src="/eserciziario2.0/assets/posts/MorraCineseMID.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<p>Oppure, se la vostra console supporta Unicode:</p>
+
+<video width="502" height="110" controls="">
+  <source src="/eserciziario2.0/assets/posts/MorraCineseUniMID.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
       </div>
       
@@ -1076,6 +1100,38 @@ $Andrea$
 $$$$$$$$
 </code></pre>
 </div>
+
+      </div>
+      
+    </div>
+  
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2><a href="/eserciziario2.0/string/files/2020/04/19/butterfyler.html">
+            ButterFyler
+          </a>
+          <small class="pull-right">
+          
+          
+            <a href="/eserciziario2.0/categories/string"><span class="label label-warning">string</span></a>
+          
+            <a href="/eserciziario2.0/categories/files"><span class="label label-warning">files</span></a>
+          
+           <span class="label label-success">Livello 13</span>
+          </small>
+          </h2>
+        </div>
+      <div class="panel-body">
+          <p>Scrivi il programma <code class="highlighter-rouge">ButterFyler</code> utile per codificare un file di testo (UTF-8) in <em>alfabeto farfallino</em> e salvarlo in un file di destinazione (se non conosci l’<em>alfabeto farfallino</em> vedi <a href="https://it.wikipedia.org/wiki/Alfabeto_farfallino">wikipedia</a>).</p>
+
+<p>La classe deve contenere il metodo <code class="highlighter-rouge">encode</code> che codifica il file <code class="highlighter-rouge">source</code> e lo salva nel file <code class="highlighter-rouge">dest</code>:</p>
+
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">encode</span><span class="o">(</span><span class="n">Path</span> <span class="n">source</span><span class="o">,</span> <span class="n">Path</span> <span class="n">dest</span><span class="o">)</span>
+</code></pre>
+</div>
+
+<p>Per verificare il buon funzionamento del tuo programma prova a codificare la <a href="/eserciziario2.0/assets/posts/LA_DIVINA_COMMEDIA.txt">Divina commedia</a> e a cronometrare il tempo impiegato per la codifica (usa <code class="highlighter-rouge">System.currentTimeMillis()</code> per misurare il tempo).</p>
+
 
       </div>
       

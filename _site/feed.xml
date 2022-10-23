@@ -1,5 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2022-10-23T13:50:19+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">DoubleFormatter</title><link href="http://localhost:4000/eserciziario2.0/interactive%20format/2022/05/04/doubleformatter.html" rel="alternate" type="text/html" title="DoubleFormatter" /><published>2022-05-04T10:50:06+02:00</published><updated>2022-05-04T10:50:06+02:00</updated><id>http://localhost:4000/eserciziario2.0/interactive%20format/2022/05/04/doubleformatter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/interactive%20format/2022/05/04/doubleformatter.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;DoubleFormatter&lt;/code&gt; che chiede all’utente di inserire:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2022-10-23T14:02:04+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">HashBuilder</title><link href="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashbuilder.html" rel="alternate" type="text/html" title="HashBuilder" /><published>2022-10-23T11:45:06+02:00</published><updated>2022-10-23T11:45:06+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/2022/10/23/hashbuilder</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashbuilder.html">&lt;p&gt;Un sistema di gestione del personale deve generare una sigla associata ad ogni dipendente secondo un formato standardizzato. Il formato prevede che la sigla di ogni persona sia composta da 6 caratteri:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Il primo carattere del nome in &lt;strong&gt;maiuscolo&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;il secondo carattere del nome in &lt;strong&gt;minuscolo&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;l’ultimo carattere del nome in &lt;strong&gt;minuscolo&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;il primo carattere del cognome in &lt;strong&gt;minuscolo&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;il penultimo carattere del cognome in &lt;strong&gt;minuscolo&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;l’ultimo carattere del cognome in &lt;strong&gt;maiuscolo&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Scrivi la classe Java &lt;code class=&quot;highlighter-rouge&quot;&gt;HashBuilder&lt;/code&gt; che, dati nome e cognome memorizzati in due &lt;strong&gt;costanti&lt;/strong&gt;, stampi a terminale la relativa sigla. Il formato dell’output deve rispettare rigorosamente quello proposto nel seguente esempio:&lt;/p&gt;
+
+&lt;p&gt;Per un impiegato di nome “HAiEiE” e cognome “braZoRf”:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Cognome: braZoRf
+	Nome:    HAiEiE
+	Sigla:   HaebrF
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per un impiegato di nome “Mickey” e cognome “Mouse”:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Cognome: Mouse
+	Nome:    Mickey
+	Sigla:   MiymsE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per un impiegato di nome “vladimir” e cognome “harkonnen”:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Cognome: harkonnen
+	Nome:    vladimir
+	Sigla:   VlrheN
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Un sistema di gestione del personale deve generare una sigla associata ad ogni dipendente secondo un formato standardizzato. Il formato prevede che la sigla di ogni persona sia composta da 6 caratteri:</summary></entry><entry><title type="html">DoubleFormatter</title><link href="http://localhost:4000/eserciziario2.0/interactive%20format/2022/05/04/doubleformatter.html" rel="alternate" type="text/html" title="DoubleFormatter" /><published>2022-05-04T10:50:06+02:00</published><updated>2022-05-04T10:50:06+02:00</updated><id>http://localhost:4000/eserciziario2.0/interactive%20format/2022/05/04/doubleformatter</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/interactive%20format/2022/05/04/doubleformatter.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;DoubleFormatter&lt;/code&gt; che chiede all’utente di inserire:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Un numero double (&lt;code class=&quot;highlighter-rouge&quot;&gt;double n&lt;/code&gt;)&lt;/li&gt;
@@ -405,74 +440,4 @@ Parse time: 6ms
 &lt;/code&gt;&lt;/pre&gt;
     &lt;/div&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Per un sistema di acquisti online devi implementare le classi seguenti:</summary></entry><entry><title type="html">SimpleInterest</title><link href="http://localhost:4000/eserciziario2.0/loop/math/interactive/2020/11/23/simpleinterest.html" rel="alternate" type="text/html" title="SimpleInterest" /><published>2020-11-23T17:23:34+01:00</published><updated>2020-11-23T17:23:34+01:00</updated><id>http://localhost:4000/eserciziario2.0/loop/math/interactive/2020/11/23/simpleinterest</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/loop/math/interactive/2020/11/23/simpleinterest.html">&lt;p&gt;Scrivi il programma &lt;code class=&quot;highlighter-rouge&quot;&gt;SimpleInterest&lt;/code&gt; utile per calcolare l’interesse semplice di un prestito. Il programma deve funzionare nel modo seguente:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Chiede di inserire il capitale iniziale (&lt;math&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;M&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Se il valore inserito non è un numero valido stampa il messaggio:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Valore C non valido &quot;&amp;lt;valore&amp;gt;&quot;   e ricomincia dal punto 1.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Se il valore inserito è inferiore o uguale 0 stampa:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; C deve essere maggiore di 0   e ricomincia dal punto 1.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Chiede di inserire il tasso di interesse (&lt;math&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/math&gt;)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Se il valore inserito non è un numero stampa:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Valore i non valido &quot;&amp;lt;valore&amp;gt;&quot;   e ricomincia dal punto 4.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Chiede di inserire il periodo (&lt;math&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Se il valore inserito non è un numero intero stampa:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Valore n non valido &quot;&amp;lt;valore&amp;gt;&quot;   e ricomincia dal punto 6.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Se il valore inserito è inferiore a 0 stampa:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Il periodo deve deve essere positivo  e ricomincia dal punto 6.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Stampa il montante (&lt;math&gt;&lt;msub&gt;&lt;mi&gt;M&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msub&gt;&lt;/math&gt;) del prestito&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Esempio 1:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire il capitale iniziale (C): 1000
-Inserire il tasso di interesse (i): 5
-Inserire il periodo (n): 2
-M2 = 1100.0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Esempio 2:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Inserire il capitale iniziale (C): -1
-Il capitale deve essere maggiore di 0
-Inserire il capitale iniziale (C): bau
-Valore C non valido &quot;bau&quot;
-Inserire il capitale iniziale (C): 1000
-Inserire il tasso di interesse (i): miao
-Valore i non valido &quot;miao&quot;
-Inserire il tasso di interesse (i): 7
-Inserire il periodo (n): -1
-Il periodo deve essere positivo
-Inserire il periodo (n): cucu
-Valore n non valido &quot;cucu&quot;
-Inserire il periodo (n): 5
-M5 = 1350.0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Scrivi il programma SimpleInterest utile per calcolare l’interesse semplice di un prestito. Il programma deve funzionare nel modo seguente:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Per un sistema di acquisti online devi implementare le classi seguenti:</summary></entry></feed>

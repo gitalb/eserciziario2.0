@@ -27,3 +27,19 @@ Per un impiegato di nome "HAiEiE" e cognome "braZoRf":
 	Nome:    HAiEiE
 	Sigla:   HaebrF
 ~~~
+
+Per un impiegato di nome "Mickey" e cognome "Mouse":
+
+~~~
+	Cognome: Mouse
+	Nome:    Mickey
+	Sigla:   MiymsE
+~~~
+
+Per un impiegato di nome "vladimir" e cognome "harkonnen":
+
+~~~
+	Cognome: harkonnen
+	Nome:    vladimir
+	Sigla:   VlrheN
+~~~
