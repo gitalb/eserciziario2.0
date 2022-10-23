@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HashGenerator"
-date: 2022-10-23 13:52:51 +0100
+date: 2022-10-23 10:52:51 +0100
 categories: [string]
 level: 3
 ---
@@ -14,7 +14,7 @@ Un sistema di gestione del personale deve generare una sigla associata ad ogni d
 4. l'ultimo carattere del nome in **minuscolo**,
 5. il numero totale di caratteri che compongono nome e cognome, espresso in base 10.
 
-Scrivi la classe Java `HashGenerator` che, dati nome e cognome memorizzati in due **costanti**, stampi a terminale la relativa sigla. Il formato dell'output deve rispettare rigorosamente quello proposto nel seguente esempio:
+Scrivi la classe Java `HashGenerator` che, dati nome e cognome memorizzati in due **costanti**, stampi a terminale la relativa sigla. Il formato dell'output deve rispettare rigorosamente quello proposto nei seguenti esempi:
 
 Per un impiegato di nome "HAiEiE" e cognome "bRaZorF":
 

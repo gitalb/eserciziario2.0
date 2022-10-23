@@ -18,7 +18,7 @@ Un sistema di gestione del personale deve generare una sigla associata ad ogni d
 6. l'ultimo carattere del cognome in **maiuscolo**.
 
 
-Scrivi la classe Java `HashBuilder` che, dati nome e cognome memorizzati in due **costanti**, stampi a terminale la relativa sigla. Il formato dell'output deve rispettare rigorosamente quello proposto nel seguente esempio:
+Scrivi la classe Java `HashBuilder` che, dati nome e cognome memorizzati in due **costanti**, stampi a terminale la relativa sigla. Il formato dell'output deve rispettare rigorosamente quello proposto nei seguenti esempi:
 
 Per un impiegato di nome "HAiEiE" e cognome "braZoRf":
 

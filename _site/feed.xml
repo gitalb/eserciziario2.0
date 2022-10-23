@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2022-10-23T14:02:04+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">HashBuilder</title><link href="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashbuilder.html" rel="alternate" type="text/html" title="HashBuilder" /><published>2022-10-23T11:45:06+02:00</published><updated>2022-10-23T11:45:06+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/2022/10/23/hashbuilder</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashbuilder.html">&lt;p&gt;Un sistema di gestione del personale deve generare una sigla associata ad ogni dipendente secondo un formato standardizzato. Il formato prevede che la sigla di ogni persona sia composta da 6 caratteri:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2022-10-23T14:04:46+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">HashGenerator</title><link href="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashgenerator.html" rel="alternate" type="text/html" title="HashGenerator" /><published>2022-10-23T11:52:51+02:00</published><updated>2022-10-23T11:52:51+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/2022/10/23/hashgenerator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashgenerator.html">&lt;p&gt;Un sistema di gestione del personale deve generare una sigla associata ad ogni dipendente secondo un formato standardizzato. Il formato prevede che la sigla di ogni persona sia composta da 4 caratteri e un numero intero:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Il primo carattere del cognome in &lt;strong&gt;maiuscolo&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;l’ultimo carattere del cognome in &lt;strong&gt;minuscolo&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;il primo carattere del nome in &lt;strong&gt;maiuscolo&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;l’ultimo carattere del nome in &lt;strong&gt;minuscolo&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;il numero totale di caratteri che compongono nome e cognome, espresso in base 10.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Scrivi la classe Java &lt;code class=&quot;highlighter-rouge&quot;&gt;HashGenerator&lt;/code&gt; che, dati nome e cognome memorizzati in due &lt;strong&gt;costanti&lt;/strong&gt;, stampi a terminale la relativa sigla. Il formato dell’output deve rispettare rigorosamente quello proposto nei seguenti esempi:&lt;/p&gt;
+
+&lt;p&gt;Per un impiegato di nome “HAiEiE” e cognome “bRaZorF”:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Nome:    HAiEiE
+	Cognome: bRaZorF
+	Sigla:   BfHe13
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per un impiegato di nome “Mickey” e cognome “Mouse”:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Nome:    Mickey
+	Cognome: Mouse
+	Sigla:   MeMy11
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per un impiegato di nome “vladimir” e cognome “harkonnen”:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Nome:    vladimir
+	Cognome: harkonnen
+	Sigla:   HnVr17
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Un sistema di gestione del personale deve generare una sigla associata ad ogni dipendente secondo un formato standardizzato. Il formato prevede che la sigla di ogni persona sia composta da 4 caratteri e un numero intero:</summary></entry><entry><title type="html">HashBuilder</title><link href="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashbuilder.html" rel="alternate" type="text/html" title="HashBuilder" /><published>2022-10-23T11:45:06+02:00</published><updated>2022-10-23T11:45:06+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/2022/10/23/hashbuilder</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashbuilder.html">&lt;p&gt;Un sistema di gestione del personale deve generare una sigla associata ad ogni dipendente secondo un formato standardizzato. Il formato prevede che la sigla di ogni persona sia composta da 6 caratteri:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Il primo carattere del nome in &lt;strong&gt;maiuscolo&lt;/strong&gt;,&lt;/li&gt;
@@ -10,7 +44,7 @@
   &lt;li&gt;l’ultimo carattere del cognome in &lt;strong&gt;maiuscolo&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Scrivi la classe Java &lt;code class=&quot;highlighter-rouge&quot;&gt;HashBuilder&lt;/code&gt; che, dati nome e cognome memorizzati in due &lt;strong&gt;costanti&lt;/strong&gt;, stampi a terminale la relativa sigla. Il formato dell’output deve rispettare rigorosamente quello proposto nel seguente esempio:&lt;/p&gt;
+&lt;p&gt;Scrivi la classe Java &lt;code class=&quot;highlighter-rouge&quot;&gt;HashBuilder&lt;/code&gt; che, dati nome e cognome memorizzati in due &lt;strong&gt;costanti&lt;/strong&gt;, stampi a terminale la relativa sigla. Il formato dell’output deve rispettare rigorosamente quello proposto nei seguenti esempi:&lt;/p&gt;
 
 &lt;p&gt;Per un impiegato di nome “HAiEiE” e cognome “braZoRf”:&lt;/p&gt;
 
@@ -361,83 +395,4 @@ Parse time: 6ms
 
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;void removeLoan(int index)&lt;/code&gt;: rimuove dal portafoglio il &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; all’indice &lt;code class=&quot;highlighter-rouge&quot;&gt;index&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Per un app di gestione dei prestiti personali devi implementare le classi seguenti:</summary></entry><entry><title type="html">ShoppingCart</title><link href="http://localhost:4000/eserciziario2.0/class/array/2020/12/08/shoppingcart.html" rel="alternate" type="text/html" title="ShoppingCart" /><published>2020-12-08T07:56:41+01:00</published><updated>2020-12-08T07:56:41+01:00</updated><id>http://localhost:4000/eserciziario2.0/class/array/2020/12/08/shoppingcart</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/array/2020/12/08/shoppingcart.html">&lt;p&gt;Per un sistema di acquisti online devi implementare le classi seguenti:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/eserciziario2.0/assets/posts/items.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;classe-article&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Article&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Rappresenta un articolo in vendita nel negozio. Un &lt;code class=&quot;highlighter-rouge&quot;&gt;Article&lt;/code&gt; è caratterizzato da un &lt;em&gt;codice di prodotto&lt;/em&gt; costituito da una stringa contenente una lettera maiuscola seguita da 4 cifre (ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;A1234&quot;&lt;/code&gt;) e memorizzato nell’attributo &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; (read only). La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Article&lt;/code&gt; deve esportare:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Article(String code)&lt;/code&gt;: è il costruttore, se il codice &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; non è valido solleva una &lt;code class=&quot;highlighter-rouge&quot;&gt;IllegalArgumentException&lt;/code&gt; con il messaggio:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;Invalid article code &amp;lt;code&amp;gt;&quot;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;: ritorna la rappresentazione testuale dell’articolo nel formato:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;Article code &amp;lt;code&amp;gt;&quot;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;boolean equals(Article a)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se l’articolo corrente possiede lo stesso codice dell’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Inoltre deve contenere il metodo &lt;em&gt;package private&lt;/em&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;boolean isCodeValid(String code)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; è un codice di articolo valido, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;classe-item&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Rappresenta una &lt;em&gt;voce&lt;/em&gt; dell’elenco contenuto in un &lt;code class=&quot;highlighter-rouge&quot;&gt;ShoppingCart&lt;/code&gt;. Lo stato di un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; è caratterizzato da un articolo (&lt;code class=&quot;highlighter-rouge&quot;&gt;Article&lt;/code&gt;, read only) e dalla relativa quantità (&lt;code class=&quot;highlighter-rouge&quot;&gt;int quantity&lt;/code&gt;, read-write, valore minimo &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;, default &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;). Inoltre deve esportare i metodi seguenti:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Item(int quantity, Article article)&lt;/code&gt;: costruttore, istanzia un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt; nella quantità definita da &lt;code class=&quot;highlighter-rouge&quot;&gt;quantity&lt;/code&gt;. La quantità deve essere superiore a &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, in caso contrario viene applicato il valore di default.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Item(Article article)&lt;/code&gt;: costruttore, istanzia un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt; nella quantità di default.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;:  ritorna la rappresentazione testuale del &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; nel formato:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;Article code &amp;lt;code&amp;gt; (&amp;lt;quantity&amp;gt;)&quot;   ad esempio `&quot;Article code A1234 (2)&quot;`.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;classe-shoppingcart&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;ShoppingCart&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Rappresenta un &lt;em&gt;carrello degli acquisti&lt;/em&gt; e deve esportare i metodi seguenti:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ShoppingCart()&lt;/code&gt;: costruttore, istanzia un carrello vuoto.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int indexOf(Article article)&lt;/code&gt;: ritorna l’indice del &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt; nell’elenco &lt;code class=&quot;highlighter-rouge&quot;&gt;items&lt;/code&gt;. Se non ne trova nessuno ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;-1&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;void addArticle(Article article)&lt;/code&gt;: se nel carrello è già presente un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt;, ne incrementa la quantità. In caso contrario aggiunge al carrello un nuovo &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;void removeArticle(Article article)&lt;/code&gt;: se nel carrello è presente un &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; associato all’articolo &lt;code class=&quot;highlighter-rouge&quot;&gt;article&lt;/code&gt;, ne decrementa la quantità. Se la quantità decrementata è pari a &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, l’&lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; viene rimosso dal carrello.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;: ritorna una stringa contenente l’elenco di &lt;code class=&quot;highlighter-rouge&quot;&gt;Item&lt;/code&gt; presenti nel carrello secondo il formato illustrato nell’esempio seguente:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;      - Article code A1234 (2)
-      - Article code B7254 (1)
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Per un sistema di acquisti online devi implementare le classi seguenti:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Per un app di gestione dei prestiti personali devi implementare le classi seguenti:</summary></entry></feed>
