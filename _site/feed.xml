@@ -1,5 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2022-10-23T14:04:46+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
-</subtitle><entry><title type="html">HashGenerator</title><link href="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashgenerator.html" rel="alternate" type="text/html" title="HashGenerator" /><published>2022-10-23T11:52:51+02:00</published><updated>2022-10-23T11:52:51+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/2022/10/23/hashgenerator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashgenerator.html">&lt;p&gt;Un sistema di gestione del personale deve generare una sigla associata ad ogni dipendente secondo un formato standardizzato. Il formato prevede che la sigla di ogni persona sia composta da 4 caratteri e un numero intero:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/eserciziario2.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eserciziario2.0/" rel="alternate" type="text/html" /><updated>2022-10-23T14:09:33+02:00</updated><id>http://localhost:4000/eserciziario2.0/</id><title type="html">Eserciziario</title><subtitle>Eserciziario Java.
+</subtitle><entry><title type="html">MailParser</title><link href="http://localhost:4000/eserciziario2.0/string/2022/10/23/mailparser.html" rel="alternate" type="text/html" title="MailParser" /><published>2022-10-23T12:05:36+02:00</published><updated>2022-10-23T12:05:36+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/2022/10/23/mailparser</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/2022/10/23/mailparser.html">&lt;p&gt;Il sistema di messaggistica scolastico deve ricavare il nome e il cognome dei docenti a partire dall’indirizzo email. Ogni indirizzo di posta elettronica è composto dal nome e dal cognome del docente separati da un punto e dal domino nel formato:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;nome&amp;gt;.&amp;lt;cognome&amp;gt;@edu.ti.ch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Scrivi la classe Java &lt;code class=&quot;highlighter-rouge&quot;&gt;MailParser&lt;/code&gt; che, dato l’indirizzo di posta elettronica del docente memorizzato in una &lt;strong&gt;costante&lt;/strong&gt;, stampi a terminale i relativi nome e cognome. Il formato dell’output deve rispettare rigorosamente quello proposto nei seguenti esempi:&lt;/p&gt;
+
+&lt;p&gt;Per “HAiEiE.braZoRf@edu.ti.ch” il programma stampa:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Email: HAiEiE.braZoRf@edu.ti.ch
+	Nome: Haieie
+	Cognome: Brazorf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per “Mickey.Mouse@edu.ti.ch”:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Email: Mickey.Mouse@edu.ti.ch
+	Nome: Mickey
+	Cognome: Mouse
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Per “vladimir.harkonnen@edu.ti.ch”:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	Email: vladimir.harkonnen@edu.ti.ch
+	Nome: Vladimir
+	Cognome: Harkonnen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Il sistema di messaggistica scolastico deve ricavare il nome e il cognome dei docenti a partire dall’indirizzo email. Ogni indirizzo di posta elettronica è composto dal nome e dal cognome del docente separati da un punto e dal domino nel formato:</summary></entry><entry><title type="html">HashGenerator</title><link href="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashgenerator.html" rel="alternate" type="text/html" title="HashGenerator" /><published>2022-10-23T11:52:51+02:00</published><updated>2022-10-23T11:52:51+02:00</updated><id>http://localhost:4000/eserciziario2.0/string/2022/10/23/hashgenerator</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/string/2022/10/23/hashgenerator.html">&lt;p&gt;Un sistema di gestione del personale deve generare una sigla associata ad ogni dipendente secondo un formato standardizzato. Il formato prevede che la sigla di ogni persona sia composta da 4 caratteri e un numero intero:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Il primo carattere del cognome in &lt;strong&gt;maiuscolo&lt;/strong&gt;,&lt;/li&gt;
@@ -317,82 +347,4 @@ Parse time: 6ms
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Nota: Su alcune shell i caratteri unicode potrebbero essere rappresentati in modo errato.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe FrameName che chiede all’utente di inserire un testo e po lo stampa incorniciandolo utilizzando i caratteri Unicode della pagina U2500.</summary></entry><entry><title type="html">Wallet</title><link href="http://localhost:4000/eserciziario2.0/class/array/2020/12/08/wallet.html" rel="alternate" type="text/html" title="Wallet" /><published>2020-12-08T08:00:58+01:00</published><updated>2020-12-08T08:00:58+01:00</updated><id>http://localhost:4000/eserciziario2.0/class/array/2020/12/08/wallet</id><content type="html" xml:base="http://localhost:4000/eserciziario2.0/class/array/2020/12/08/wallet.html">&lt;p&gt;Per un app di gestione dei prestiti personali devi implementare le classi seguenti:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/eserciziario2.0/assets/posts/wallet.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;classe-person&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Person&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Rappresenta una persona (creditore o debitore). Un oggetto &lt;code class=&quot;highlighter-rouge&quot;&gt;Person&lt;/code&gt; è caratterizzato da un nome costituito da una stringa contenente una lettera maiuscola seguita almeno 2 lettere minuscole (ad esempio &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Alb&quot;&lt;/code&gt;) e memorizzato nell’attributo &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; (read only). La classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Person&lt;/code&gt; deve esportare:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Person(String name)&lt;/code&gt;: è il costruttore, se il nome &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; non è valido solleva una &lt;code class=&quot;highlighter-rouge&quot;&gt;IllegalArgumentException&lt;/code&gt; con il messaggio:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;Invalid name &amp;lt;name&amp;gt;&quot;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;: ritorna la rappresentazione testuale contenente il nome della persona.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;boolean equals(Person p)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se la persona corrente possiede lo stesso nome della persona &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Inoltre deve contenere il metodo &lt;em&gt;package private&lt;/em&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;boolean isNameValid(String name)&lt;/code&gt;: ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; se &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; è un nome di persona valido, &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; altrimenti.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;classe-loan&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Rappresenta una &lt;em&gt;voce&lt;/em&gt; dell’elenco di prestiti contenuto in un &lt;code class=&quot;highlighter-rouge&quot;&gt;Wallet&lt;/code&gt;. Lo stato di un &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; è caratterizzato da una persona (&lt;code class=&quot;highlighter-rouge&quot;&gt;Person&lt;/code&gt;, read only) e dal relativo bilancio (&lt;code class=&quot;highlighter-rouge&quot;&gt;double amount&lt;/code&gt;, read-write, default &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt;). Un bilancio positivo rappresenta un credito, uno negativo un debito. Inoltre &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; deve esportare i metodi seguenti:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Loan(Person person, double amount)&lt;/code&gt;: costruttore, istanzia un &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; associato alla persona &lt;code class=&quot;highlighter-rouge&quot;&gt;person&lt;/code&gt; con una somma definita da &lt;code class=&quot;highlighter-rouge&quot;&gt;amount&lt;/code&gt;. La somma deve essere diversa da &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, in caso contrario viene applicato il valore di default.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Loan(Person person)&lt;/code&gt;: costruttore, istanzia un &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; associato alla persona &lt;code class=&quot;highlighter-rouge&quot;&gt;person&lt;/code&gt; con la somma di default.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;:  ritorna la rappresentazione testuale del &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; nel formato:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &quot;&amp;lt;segno&amp;gt;&amp;lt;amount&amp;gt; &amp;lt;name&amp;gt;&quot;   ad esempio `&quot;+3.0 Alb&quot;`.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;classe-wallet&quot;&gt;Classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Wallet&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Rappresenta un &lt;em&gt;portafoglio dei prestiti&lt;/em&gt; e deve esportare i metodi seguenti:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Wallet()&lt;/code&gt;: costruttore, istanzia un portafoglio vuoto.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int indexOf(Person person)&lt;/code&gt;: ritorna l’indice del &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; associato alla persona &lt;code class=&quot;highlighter-rouge&quot;&gt;person&lt;/code&gt; nell’elenco &lt;code class=&quot;highlighter-rouge&quot;&gt;loans&lt;/code&gt;. Se non ne trova nessuno ritorna &lt;code class=&quot;highlighter-rouge&quot;&gt;-1&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;void addLoan(Person person, double amount) &lt;/code&gt;: se nel portafoglio non è già presente un &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; associato a &lt;code class=&quot;highlighter-rouge&quot;&gt;person&lt;/code&gt;, aggiunge al portafoglio un nuovo &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt;. In caso contrario ne aggiorna il bilancio. Se il bilancio aggiornato è pari a &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;, il &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; viene rimosso dal portafogli.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String toString()&lt;/code&gt;: ritorna una stringa contenente l’elenco di &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; presenti nel portafoglio secondo il formato illustrato nell’esempio seguente:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;      +2.0 Alb
-      -1.0 Mike
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Inoltre deve contenere il metodo &lt;em&gt;package private&lt;/em&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;void removeLoan(int index)&lt;/code&gt;: rimuove dal portafoglio il &lt;code class=&quot;highlighter-rouge&quot;&gt;Loan&lt;/code&gt; all’indice &lt;code class=&quot;highlighter-rouge&quot;&gt;index&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Per un app di gestione dei prestiti personali devi implementare le classi seguenti:</summary></entry></feed>
+&lt;p&gt;Nota: Su alcune shell i caratteri unicode potrebbero essere rappresentati in modo errato.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrivi la classe FrameName che chiede all’utente di inserire un testo e po lo stampa incorniciandolo utilizzando i caratteri Unicode della pagina U2500.</summary></entry></feed>
