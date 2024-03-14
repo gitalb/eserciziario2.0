@@ -6,7 +6,7 @@ categories: [class]
 level: 13
 ---
 
-Scrivi la classe `Rettangolo` che rappresenta il modello astratto di rettangolo. La classe deve possedere due attributi interi *privati* `latoA` e `latoB` utili per descrivere ripettivamente la dimensione orizzontale e verticale del rettangolo. 
+Scrivi la classe `Rettangolo` che rappresenta il modello astratto di rettangolo. La classe deve possedere due attributi interi *privati* `latoA` e `latoB` utili per descrivere rispettivamente la dimensione orizzontale e verticale del rettangolo. 
 
 Dovrai implementare pure i metodi *getter* e *setter* per entrambi gli attributi `latoA` e `latoB` applicando la regola seguente:
 
