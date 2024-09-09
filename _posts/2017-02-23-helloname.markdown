@@ -8,12 +8,15 @@ level: 1
 
 Scrivi il programma `HelloName` che stampa a terminale "Ciao `nome`!!". Il `nome` deve essere inserito come **primo argomento da linea di comando**:
 
-Prova:
+Ad esempio per `"Michele"` il programma stampa:
 
 ```text
->java HelloName Michele
 Ciao Michele!!
+```
 
->java HelloName Pippo
+Mentre per `"Pippo"`:
+
+```text
 Ciao Pippo!!
 ```
+
