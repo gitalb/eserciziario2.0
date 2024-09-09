@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Gray2Bin"
+date: 2024-09-09 08:00:00 +0100
+categories: [operators]
+level: 3
+---
+
+Scrivere un programma utile a convertire un valore dal codice Gray a quello binario. Il programma chiede all'utente di inserire due parametri:
+
+- `size`: intero decimale, indica la dimensione (il numero di bit) in cui è espresso il codice di input
+- `value`: intero esadecimale, è il valore in codice Gray da convertire in binario
+
+
+Alcuni esempi:
+
+|`size`|`value`|`output`|
+|:----:|:----:|:----:|
+|4|`0`|`0000`|
+|4|`2`|`0011`|
+|4|`3`|`0010`|
+|4|`A`|`1111`|
