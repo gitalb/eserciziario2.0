@@ -13,7 +13,7 @@ Il sistema di messaggistica scolastico deve ricavare il nome e il cognome dei do
 		<nome>.<cognome>@edu.ti.ch
 
 
-Scrivi la classe Java `MailParser` che, dato l'indirizzo di posta elettronica del docente memorizzato in una **costante**, stampi a terminale i relativi nome e cognome. Il formato dell'output deve rispettare rigorosamente quello proposto nei seguenti esempi:
+Scrivi la classe/programma `MailParser` che, dato l'indirizzo di posta elettronica del docente memorizzato in una **costante**, stampi a terminale i relativi nome e cognome. Il formato dell'output deve rispettare rigorosamente quello proposto nei seguenti esempi:
 
 Per "HAiEiE.braZoRf@edu.ti.ch" il programma stampa:
 

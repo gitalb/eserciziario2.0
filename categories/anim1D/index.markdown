@@ -12,7 +12,7 @@ Per produrre delle semplici animazioni (su di una sola riga) si deve:
 2. **Aspettare** un certo tempo. Ad esempio per ottenere un *frame rate* di 10 FPS, ossia 10 immagini al secondo, dovremo attendere circa 1 decimo di secondo (100 millisecondi).
 3. **Cancellare** il frame corrente (nel nostro caso, ritornare all'inizio della riga) e ripetere dal punto 1.
 
-Per provocare l'attesa necessaria a produrre il *frame rate* desiderato è possibile utilizzare il metodo `sleep(int ms)` della classe `Thread` specificando il tempo di attesa espresso in millisecondi:
+Per provocare l'attesa necessaria a produrre il *frame rate* desiderato è possibile utilizzare il metodo `sleep(int ms)` della classe `Thread` specificando il tempo di attesa espresso in millisecondi. Ad esempio in Java:
 
 ~~~java
 try {
@@ -45,4 +45,4 @@ while(true){
 }
 ~~~
 
-Purtroppo la console di Netbeans non interpreta correttamente il codice *Carriage Return*, quindi per eseguire queste animazioni dovrete usare la shell...
+Purtroppo alcune console (es. Netbeans) non interpretano correttamente il codice *Carriage Return* (`\r`), quindi per eseguire queste animazioni dovrete usare una shell adeguata ...
