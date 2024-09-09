@@ -2,7 +2,7 @@
 layout: post
 title: "HelloPeople"
 date: 2024-09-09 10:26:15 +0100
-categories: [loop, switch, string, draw]
+categories: [primipassi, args, loop, switch, string, draw]
 level: 5
 ---
 
