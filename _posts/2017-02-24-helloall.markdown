@@ -13,17 +13,21 @@ Scrivi il programma `HelloAll` che si comporta nel modo seguente:
 - Se vengono inseriti 2 argomenti (&lt;nome&gt; &lt;cognome&gt;), stampa "Buongiorno &lt;cognome&gt; &lt;nome&gt;.
 
 
-Esempio:
+Ad esempio per due argomenti `"Michele Brambilla"` stampa:
 
 ```text
->java HelloAll Michele Brambilla
 Buongiorno Brambilla Michele
+```
 
+Invece per un solo argomento `"Luigi"` l'output sarà:
 
->java HelloAll Michele
-Ciao Michele!!
+```text
+Ciao Luigi!!
+```
 
+E se non vengono inseriti argomenti:
 
->java HelloAll 
+```text
 Ciao a tutti!
 ```
+
