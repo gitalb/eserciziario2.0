@@ -14,7 +14,6 @@ Scrivi il programma `Scacchiera` che, dati due numeri interi forniti come argome
 Esempio, per una matrice 5 x 5:
 
 ~~~text
-java Scacchiera 5 5
 0 1 0 1 0 
 1 0 1 0 1 
 0 1 0 1 0 
@@ -25,7 +24,6 @@ java Scacchiera 5 5
 Il programma deve funzionare correttamente anche per matrici rettangolari. Esempio:
 
 ~~~text
-java Scacchiera 6 8
 0 1 0 1 0 1 0 1 
 1 0 1 0 1 0 1 0 
 0 1 0 1 0 1 0 1 
