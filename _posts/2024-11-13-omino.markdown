@@ -1,0 +1,70 @@
+---
+layout: post
+title: "Omino"
+date: 2024-11-13 08:00:00 +0100
+categories: [draw, switch, loop]
+level: 4
+---
+
+Scrivere un programma interattivo che chiede all'utente di inserire un numero intero e poi disegna un omino stilizzato di dimensione variabile:
+
+Per dimensione pari a `1` viene stampato un omino con il busto composto da una sola pipe (`'|'`):
+
+~~~
+Insert size: 1
+\o/
+ |
+/ \
+~~~
+
+Se l'utente inserisce `2`:
+
+~~~
+Insert size: 2
+\o/
+ |
+ |
+/ \
+~~~
+
+Per `3`:
+
+~~~
+Insert size: 3
+\o/
+ |
+ |
+ |
+/ \
+~~~
+
+
+Per qualsiasi altro valore intero, il busto sarà composto a 4 segmenti:
+
+~~~
+Insert size: 100
+\o/
+ |
+ |
+ |
+ |
+/ \
+~~~
+
+Se il valore inserito non è intero, il programma stampa un messaggio di errore e ripete la richiesta:
+
+~~~
+Insert size: big
+Invalid value "big"
+Insert size: small
+Invalid value "small"
+Insert size: ciao miao bau
+Invalid value "ciao miao bau"
+Insert size: -1
+\o/
+ |
+ |
+ |
+ |
+/ \
+~~~
