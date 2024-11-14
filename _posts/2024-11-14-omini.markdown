@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Omini"
+date: 2024-11-14 08:00:00 +0100
+categories: [draw, switch, loop]
+level: 5
+---
+
+Scrivere un programma interattivo che chiede all'utente di inserire un numero intero e poi disegna un gruppo di omini stilizzati nella quntità richiesta:
+
+Per dimensione pari a `1` viene stampato un omino:
+
+~~~
+Insert group size: 1
+\o/
+ |
+/ \
+~~~
+
+Se l'utente inserisce `2` vengono stampati 2 omini:
+
+~~~
+Insert group size: 2
+\o/ \o/ 
+ |   |  
+/ \ / \ 
+~~~
+
+Per `3`:
+
+~~~
+Insert group size: 3
+\o/ \o/ \o/ 
+ |   |   |  
+/ \ / \ / \
+~~~
+
+E via dicendo. Se il valore inserito non è intero, il programma stampa un messaggio di errore e ripete la richiesta:
+
+~~~
+Insert group size: many
+Invalid value "many"
+Insert group size: too many
+Invalid value "too many"
+Insert group size: 10
+\o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ 
+ |   |   |   |   |   |   |   |   |   |  
+/ \ / \ / \ / \ / \ / \ / \ / \ / \ / \ 
+~~~
