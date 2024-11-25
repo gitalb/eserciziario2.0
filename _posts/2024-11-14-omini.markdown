@@ -6,7 +6,7 @@ categories: [draw, switch, loop]
 level: 5
 ---
 
-Scrivere un programma interattivo che chiede all'utente di inserire un numero intero e poi disegna un gruppo di omini stilizzati nella quntità richiesta:
+Scrivere un programma interattivo che chiede all'utente di inserire un numero intero e poi disegna un gruppo di omini stilizzati nella quantità richiesta:
 
 Per dimensione pari a `1` viene stampato un omino:
 
