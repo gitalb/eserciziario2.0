@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IntConverter"
-date: 2025-09-12 11:05:39 +0100
+date: 2025-09-12 09:05:39 +0100
 categories: [args, array, loop, primipassi]
 level: 2
 ---
