@@ -6,7 +6,7 @@ categories: [draw,loop]
 level: 12
 ---
 
-Scrivi la classe `Ics` che disegna a terminale una X composta di asterischi. Il programma chiede all'utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (*N*). 
+Scrivi il programma *ics* che disegna a terminale una X composta di asterischi. Il programma chiede all'utente di introdurre (come argomento da linea di comando o interattivamente) un numero intero (*N*). 
 
 Il programma accetta esclusivamente valori **numerici interi positivi dispari**.
 
